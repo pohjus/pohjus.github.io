@@ -18,23 +18,23 @@ The course is 3 credits, which means ~81 hours of work which divided following
 
 Course Duration: **Week 36 to Week 50**, Course consists of following modules:
 
-| Week | Module                                                                   | 🧪 Lab  | ✅ Knowledge Check |
-| ---- | ------------------------------------------------------------------------ | ------- | ------------------ |
-| 36   | Welcome and Overview, Module 01: Welcome to AWS Academy Cloud Developing | ❌      | ❌                 |
-| 37   | Module 02: Introduction to Developing AWS                                | ✅      | ✅                 |
-| 38   | Module 03: Developing Storage Solutions                                  | ✅      | ✅                 |
-| 39   | Module 04: Securing Access to Cloud Resources                            | ❌      | ✅                 |
-| 40   | Module 05: Developing Flexible NoSQL Solutions                           | ✅      | ✅                 |
-| 41   | Module 06: Developing REST APIs                                          | ✅      | ✅                 |
-| 42   | Module 07: Developing Event-Driven Serverless Solutions                  | ✅      | ✅                 |
-| 43   | Module 08: Containers and Container Services                             | ✅ (x2) | ✅                 |
-| 44   | Module 09: Caching Information for Scalability                           | ✅ (x2) | ✅                 |
-| 45   | Module 10: Developing with Messaging Services                            | ✅      | ✅                 |
-| 46   | Module 11: Workflows to Orchestrate Functions                            | ✅      | ✅                 |
-| 47   | Module 12: Developing Secure Applications on AWS                         | ✅      | ✅                 |
-| 48   | Module 13: CI/CD Pipelines                                               | ✅      | ✅                 |
-| 49   | Module 14: Bridging to Certification (Optional)                          | ❌      | ❌                 |
-| 50   | Exam                                                                     | ❌      | ✅                 |
+| Week | Module Number | Topic                                                          | 🧪 Lab  | ✅ Knowledge Check |
+| ---- | ------------- | -------------------------------------------------------------- | ------- | ------------------ |
+| 36   | 01            | Welcome and Overview / Welcome to AWS Academy Cloud Developing | ❌      | ❌                 |
+| 37   | 02            | Introduction to Developing AWS                                 | ✅      | ✅                 |
+| 38   | 03            | Developing Storage Solutions                                   | ✅      | ✅                 |
+| 39   | 04            | Securing Access to Cloud Resources                             | ❌      | ✅                 |
+| 40   | 05            | Developing Flexible NoSQL Solutions                            | ✅      | ✅                 |
+| 41   | 06            | Developing REST APIs                                           | ✅      | ✅                 |
+| 42   | 07            | Developing Event‑Driven Serverless Solutions                   | ✅      | ✅                 |
+| 43   | 08            | Introducing Containers and Container Services                  | ✅ (x2) | ✅                 |
+| 44   | 09            | Caching Information for Scalability                            | ✅ (x2) | ✅                 |
+| 45   | 10            | Developing with Messaging Services                             | ✅      | ✅                 |
+| 46   | 11            | Defining Workflows to Orchestrate Functions                    | ✅      | ✅                 |
+| 47   | 12            | Developing Secure Applications on AWS                          | ✅      | ✅                 |
+| 48   | 13            | Automating Deployment Using CI/CD Pipelines                    | ✅      | ✅                 |
+| 49   | 14            | Bridging to Certification (Optional)                           | ❌      | ❌                 |
+| 50   | —             | **Exam**                                                       | ❌      | ✅                 |
 
 ## How to Pass the Course
 
