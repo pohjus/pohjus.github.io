@@ -40,5 +40,5 @@ Course Duration: **Week 36 to Week 50**, Course consists of following modules:
 
 1. To earn a **minimum passing grade (1)**, you must complete **all AWS Academy modules** before week 50.
    - Avoid last-minute work, follow the weekly schedule provided to stay on track.
-2. To aim for a **higher grade (1-5)**, you must **participate in the final exam** held in **week 50**.
+2. To aim for a **higher grade (1-5)**, you must **participate in the final exam** held in **week 50**. You cannot participate on the exam if AWS Academy modules are not completed.
    - If you take the exam but do not pass, your grade will remain **1**.
