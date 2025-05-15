@@ -1,6 +1,6 @@
 # 5G00GA94-3003 Introduction to Cloud and AWS
 
-The course is done using digital lectures, demos, activities, knowledge checks, and hands-on labs **independently**.
+The course is done using digital lectures, demos, activities, knowledge checks, and hands-on labs **independently**. Each student will get invitation to AWS Academy course: `AWS Academy Cloud Developing [121611]`. Student will do all the knowledge tests and labs inside of AWS academy. Use Google Chrome in AWS academy, you might have problems with other browsers.
 
 From [aws web site](https://aws.amazon.com/training/awsacademy/#:~:text=Architect%20–%20Associate%20certification.-,This%20course%20contains%20approximately%2040%20hours%20of%20content%20delivered%20through,on%20labs%2C%20and%20project%20work.):
 
