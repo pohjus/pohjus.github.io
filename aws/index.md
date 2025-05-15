@@ -6,7 +6,7 @@ From [aws web site](https://aws.amazon.com/training/awsacademy/#:~:text=Architec
 
 > This course contains approximately _40 hours of content_ delivered through lectures and hands-on labs.
 
-The course is 3 credits, which means ~81 hours of work which divided following
+The course is 3 credits, which means ~81 hours of work which divided following:
 
 1. Instructional Hours (≈40 hours):
    - Lectures and guided hands‑on labs.
@@ -40,7 +40,7 @@ Course Duration: **Week 36 to Week 50**, Course consists of following modules:
 
 1. To earn a **minimum passing grade (1)**, you must complete **all AWS Academy modules** before week 50.
    - Avoid last-minute work, follow the weekly schedule provided to stay on track.
-2. To aim for a **higher grade (1-5)**, you must **participate in the final exam** held in **week 50**. You cannot participate on the exam if AWS Academy modules are not completed.
+2. To aim for a **higher grade (1-5)**, you must **participate in the final exam** held in **week 49** ->. You cannot participate on the exam if AWS Academy modules are not completed.
    - If you take the exam but do not pass, your grade will remain **1**.
 
 ## 📝 Exam
