@@ -21,7 +21,7 @@
 ## 🎯 Instructions for Earning Exercise Points
 
 - See [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
-- You do not need to use git, just upload your exercises to dropbox file upload.
+- You do not need to use git, just upload your exercises to [dropbox file upload](https://www.dropbox.com/request/RW115dDN5GrhhTpof4y5).
 
 ## ⚙️ Java Installation
 
