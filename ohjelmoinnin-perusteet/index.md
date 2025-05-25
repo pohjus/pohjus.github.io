@@ -23,6 +23,13 @@
 - See [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
 - You do not need to use git, just upload your exercises to [dropbox file upload](https://www.dropbox.com/request/RW115dDN5GrhhTpof4y5).
 
+## 📅 Assignments
+
+- Assignment 01
+- Assignment 02
+- Assignment 03
+- Assignment 04
+
 ## ⚙️ Java Installation
 
 ### Step 1: Go to the Adoptium Website
