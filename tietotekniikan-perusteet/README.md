@@ -23,16 +23,17 @@
 
 **Goals:**
 
-- Understand what programming is.
-- Run your first Python code.
-- Learn about variables, types, and input/output.
+- Understand how to install Python
+- Understand what is programming in general level
+- Understand what is the meaning of compiling code
+- Basic building blocks of programming
 
 **Topics:**
 
-- What is Python?
-- `print()`, `input()`, and comments
-- Variables and basic types: `int`, `str`, `float`
-- Type conversion: `int()`, `str()`, `float()`
+- What is a programming language?
+- How to compile language to machine code?
+- How to instruct computer what to do?
+- What basic commands do we have in Python?
 
 ### 🧠 Session 2: Control Flow - Conditions
 
@@ -42,6 +43,9 @@
 
 **Topics:**
 
+- `print()`, `input()`, and comments
+- Variables and basic types: `int`, `str`, `float`
+- Type conversion: `int()`, `str()`, `float()`
 - Boolean logic
 - `if`, `elif`, `else`
 - Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
