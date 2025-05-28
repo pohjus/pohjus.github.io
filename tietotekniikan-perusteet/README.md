@@ -1,4 +1,6 @@
-# 🐍 Introduction to Programming (`5K00GF25-3005` and `5K00GF25-3006`)
+# 🐍 Introduction to Programming with Python
+
+### `5K00GF25-3005` and `5K00GF25-3006`
 
 ## 🧑‍💻 Trainer
 
@@ -6,100 +8,16 @@
 
 ## 📅 Agenda
 
-| Week | 25i112B                | Class    | 25i112A                | Class | Assignments                     |
-| ---- | ---------------------- | -------- | ---------------------- | ----- | ------------------------------- |
-| 36   | 2025-09-03 12:30-15:00 | Zoom     | 2025-09-03 15:00-17:00 | Zoom  | [Assignment 01](assignments/01) |
-| 37   | 2025-09-03 12:30-15:00 | P3-06/07 | 2025-09-11 12:30-15:00 | H4-03 | [Assignment 02](assignments/02) |
-| 38   | 2025-09-15 08:15-10:45 | C4-05    | 2025-09-17 14:00-16:00 | b4-20 | [Assignment 03](assignments/03) |
-| 39   | 2025-09-24 12:30-15:00 | B3-28    | 2025-09-25 12:00-14:30 | Zoom  | [Assignment 04](assignments/04) |
-| 40   | -                      | -        | 2025-10-01 09:00-11:30 | F1-04 | [Assignment 05](assignments/05) |
-| 41   | 2025-10-08 15:00-17:00 | Zoom     | 2025-10-08 09:00-11:30 | B5-20 |                                 |
-| 42   | -                      | -        | -                      | -     |                                 |
-| 43   | 2025-10-22 15:00-17:00 | Zoom     | -                      | -     |                                 |
-
-## 📅 Curriculum (6 Sessions)
-
-### 🧠 Session 1: Getting Started with Python & Programming Logic
-
-**Goals:**
-
-- Understand how to install Python
-- Understand what is programming in general level
-- Understand what is the meaning of compiling code
-- Basic building blocks of programming
-
-**Topics:**
-
-- What is a programming language?
-- How to compile language to machine code?
-- How to instruct computer what to do?
-- What basic commands do we have in Python?
-
-### 🧠 Session 2: Control Flow - Conditions
-
-**Goals:**
-
-- Learn how to make decisions in programs.
-
-**Topics:**
-
-- `print()`, `input()`, and comments
-- Variables and basic types: `int`, `str`, `float`
-- Type conversion: `int()`, `str()`, `float()`
-- Boolean logic
-- `if`, `elif`, `else`
-- Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
-- Indentation
-
-## 🧠 Session 3: Control Flow - Loops
-
-**Goals:**
-
-- Understand repetition in code
-
-**Topics:**
-
-- `while` loop
-- `for` loop and `range()`
-- `break`, `continue`
-- Nested loops (light introduction)
-
-## 🧠 Session 4: Lists and Data Handling
-
-**Goals:**
-
-- Work with collections of data.
-
-**Topics:**
-
-- Lists: creation, indexing, appending
-- `len()`, `in`
-- Iterating lists
-- `input()` and `split()`
-
-## 🧠 Session 5: Functions
-
-**Goals:**
-
-- Structure code into reusable blocks
-
-**Topics:**
-
-- `def` and calling functions
-- Parameters and return values
-- Scope: local variables
-
-## 🧠 Session 6: Functions part 2
-
-**Goals:**
-
-- Structure code into reusable blocks
-
-**Topics:**
-
-- `def` and calling functions
-- Parameters and return values
-- Scope: local variables
+| Week | 25i112B                  | Class    | 25i112A                | Class | Assignments                     |
+| ---- | ------------------------ | -------- | ---------------------- | ----- | ------------------------------- |
+| 36   | 2025-09-01 08:00 - 10:00 | B4-26    | 2025-09-01 12:30-14:00 | H3-22 | [Assignment 01](assignments/01) |
+| 37   | 2025-09-03 12:30-15:00   | P3-06/07 | 2025-09-11 12:30-15:00 | H4-03 | [Assignment 02](assignments/02) |
+| 38   | 2025-09-15 08:15-10:45   | C4-05    | 2025-09-17 14:00-16:00 | b4-20 | [Assignment 03](assignments/03) |
+| 39   | 2025-09-24 12:30-15:00   | B3-28    | 2025-09-25 12:00-14:30 | Zoom  | [Assignment 04](assignments/04) |
+| 40   | -                        | -        | 2025-10-01 09:00-11:30 | F1-04 | [Assignment 05](assignments/05) |
+| 41   | 2025-10-08 15:00-17:00   | Zoom     | 2025-10-08 09:00-11:30 | B5-20 |                                 |
+| 42   | -                        | -        | -                      | -     |                                 |
+| 43   | 2025-10-22 15:00-17:00   | Zoom     | -                      | -     |                                 |
 
 ## 💬 Communication
 
@@ -109,6 +27,8 @@
 
 - Do minimum of 40% of given exercises and return them correctly and you will get grade 1.
   - See [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
+  - Upload exercises using [**Dropbox File Upload**](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL).
+  - Mark your exercises to Google Sheets - link in Slack.
 - If you want a better grade, participate on exam
   - You will get extra points for exam if you do more than 70% of given exercises.
 
