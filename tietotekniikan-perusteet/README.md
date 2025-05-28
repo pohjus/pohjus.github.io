@@ -21,12 +21,12 @@
 
 ## 💬 Communication
 
-- See [communication guidelines](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
+- See [**communication guidelines**](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
 
 ## 💼 How to pass the course?
 
 - Do minimum of 40% of given exercises and return them correctly and you will get grade 1.
-  - See [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
+  - See [**Exercise Point Guidelines**](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
   - Upload exercises using [**Dropbox File Upload**](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL).
   - Mark your exercises to Google Sheets - link in Slack.
 - If you want a better grade, participate on exam
