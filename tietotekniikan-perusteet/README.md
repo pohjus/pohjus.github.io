@@ -52,24 +52,27 @@
 **Extra Points System:**
 
 - Additional points are awarded based on the percentage of Assignment completed prior to the exam. These points are awarded **only if you participated physically in class.**
-  - [**70%, 80%[** of Assignment completed: **+1 point**
-  - [**80%, 90%[** of Assignment completed: **+2 points**
-  - [**90%, 100%]** of Assignment completed: **+3 points\*\*
+
+| Assignment Completion Range | Points Awarded |
+| --------------------------- | -------------- |
+| `[70%, 80%[`                | 1 point        |
+| `[80%, 90%[`                | 2 points       |
+| `[90%, 100%]`               | 3 points       |
 
 **Exam Grading Scale:**
 
 | Grade | Minimum Points Required | Percentage |
 | ----- | ----------------------- | ---------- |
-| 1     | 9.6                     | 40%        |
-| 2     | 14.4                    | 60%        |
-| 3     | 16.8                    | 70%        |
-| 4     | 19.2                    | 80%        |
-| 5     | 21.6                    | 90%        |
+| 1     | 9.6 p                   | 40%        |
+| 2     | 14.4 p                  | 60%        |
+| 3     | 16.8 p                  | 70%        |
+| 4     | 19.2 p                  | 80%        |
+| 5     | 21.6 p                  | 90%        |
 
-Exam max points is 24p.
+Max exam points is 24p.
 
-Extra points does not help you for passing the exam. You must score at least 9.6 points and then extra points are counted on top of that.
+**Extra points does not help you for passing the exam.** You must score at least 9.6 points and then extra points are counted on top of that.
+
+ℹ️ Upload your answers in exam as attachments:
 
 ![exam](https://paper-attachments.dropboxusercontent.com/s_78CBA4683D2833741B6F050A281DD15456A814F81EF3B1EA8A9E7CCC267314F8_1730544034589_image.png)
-
-ℹ️ Upload your answers in exam as attachments!
