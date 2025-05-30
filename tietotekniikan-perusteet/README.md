@@ -51,7 +51,7 @@
 
 **Extra Points System**
 
-Additional points are awarded based on the percentage of Assignment completed prior to the exam. These points are awarded **only if you participated physically in class.**
+Additional points are awarded based on the percentage of assignment completed prior to the exam. These points are awarded **only if you participated physically in class.**
 
 | Assignment Completion Range | Points Awarded |
 | --------------------------- | -------------- |
