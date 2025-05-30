@@ -32,7 +32,7 @@
 - If you want a better grade, participate on exam
   - You will get extra points for exam if you do more than 70% of given exercises.
 
-## Exam Instructions
+## 📚 Exam
 
 **Exam Details:**
 
