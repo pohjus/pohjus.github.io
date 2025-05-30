@@ -1,5 +1,7 @@
 # 🐍 Introduction to Programming with Python
 
+![](wallpaper.png)
+
 ### `5K00GF25-3005` and `5K00GF25-3006`
 
 ## 🧑‍💻 Trainer
