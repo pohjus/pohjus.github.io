@@ -49,7 +49,7 @@
   - You fail, you can retake the failed exam **two times**
   - You pass, you can try to achieve a better grade **one time**
 
-**Extra Points System:**
+**Extra Points System**
 
 Additional points are awarded based on the percentage of Assignment completed prior to the exam. These points are awarded **only if you participated physically in class.**
 
@@ -59,7 +59,7 @@ Additional points are awarded based on the percentage of Assignment completed pr
 | `[80%, 90%[`                | 2 points       |
 | `[90%, 100%]`               | 3 points       |
 
-**Exam Grading Scale:**
+**Exam Grading Scale**
 
 | Grade | Minimum Points Required | Percentage |
 | ----- | ----------------------- | ---------- |
