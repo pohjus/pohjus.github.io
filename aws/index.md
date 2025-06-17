@@ -56,3 +56,11 @@ Course Duration: **Week 36 to Week 50**, Course consists of following modules:
 - Retakes?
   - If you fail the exam, you can retake the exam twice.
   - If you pass the exam, you can retake the exam once.
+
+## ✏️ Tips
+
+- When starting a lab, it can take a **long** time.
+- If you cannot find needed stuff from aws console:
+  - Recheck the instructions
+  - Use find in browser
+  - In same rare cases the aws instructions maybe outdated, you can use AI for solving these issues.
