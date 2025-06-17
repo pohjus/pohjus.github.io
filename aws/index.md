@@ -34,7 +34,7 @@ Course Duration: **Week 36 to Week 50**, Course consists of following modules:
 | 47   | 12            | Developing Secure Applications on AWS                          | ✅      | ✅              |
 | 48   | 13            | Automating Deployment Using CI/CD Pipelines                    | ✅      | ✅              |
 | 49   | 14            | Bridging to Certification (Optional)                           | ❌      | ❌              |
-| 50   | —             | **Exam**                                                       | ❌      | ✅              |
+| 50   | -             | **Exam**                                                       | ❌      | ✅              |
 
 ## 🎯 How to Pass the Course
 
@@ -57,10 +57,19 @@ Course Duration: **Week 36 to Week 50**, Course consists of following modules:
   - If you fail the exam, you can retake the exam twice.
   - If you pass the exam, you can retake the exam once.
 
-## ✏️ Tips
+## ✏️ Tips for AWS Academy Assignments
 
-- When starting a lab, it can take a **long** time.
-- If you cannot find needed stuff from aws console:
-  - Recheck the instructions
-  - Use find in browser
-  - In same rare cases the aws instructions maybe outdated, you can use AI for solving these issues.
+- When starting a lab, **it may take 5–10 minutes** to fully initialize. Don't panic if the environment seems unresponsive at first.
+
+- If you can’t find something in the AWS Console:
+
+  - Double-check the instructions.
+  - Use your browser’s **Find** function (`Ctrl+F` or `Cmd+F`).
+  - Sometimes AWS updates its UI or services, and the lab instructions may be slightly outdated. In such cases, **use your judgment or AI tools** to find equivalent steps.
+
+- Some tasks need **a short delay** to complete in the background (e.g., provisioning, syncing, deploying). Be patient. If a command fails, wait 10–20 seconds and try again.
+
+- **Take notes** as you go:
+
+  - Write down **what each AWS service does** and **why you used it**.
+  - AWS has many acronyms and services - your future self will thank you later.
