@@ -1,16 +1,47 @@
 # 5G00GA94-3003 Introduction to Cloud and AWS
 
-This introductory course is intended for students who seek an overall understanding of cloud computing concepts, independent of specific technical roles. It provides a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support.
+🧑‍💻 Jussi Pohjolainen, `jussi.pohjolainen@tuni.fi`
 
-The course is done using digital lectures, demos, activities, knowledge checks, and hands-on labs **independently**. Each student will get invitation to AWS Academy course: `AWS Academy Cloud Developing [121611]`. Student will do all the knowledge tests and labs inside of AWS academy. Use Google Chrome in AWS academy, you might have problems with other browsers.
+---
 
-The course is 3 credits, which means ~81 hours of work which divided following:
+This **introductory course** is intended for students who seek an **overall understanding of cloud computing concepts**, independent of specific technical roles.
+It provides a detailed overview of:
 
-1. Instructional Hours
-   - Lectures and guided hands‑on labs.
-2. Self‑Study & Preparation
-   - Pre‑reading, lab review, troubleshooting.
-   - Exam prep, practice questions.
+- **Cloud concepts**
+- **AWS core services**
+- **Security**
+- **Architecture**
+- **Pricing**
+- **Support**
+
+---
+
+The course is delivered through:
+
+- _Digital lectures_
+- _Demonstrations_
+- _Knowledge checks_
+- _Hands-on labs_
+
+All components are completed **independently** by the student.
+
+---
+
+Each student will receive an invitation to the AWS Academy course:
+`AWS Academy Cloud Foundations`
+
+All **knowledge checks and labs** are completed directly inside the **AWS Academy** platform.
+
+> ⚠️ **Important:** Use **Google Chrome** when accessing AWS Academy.
+> Other browsers may cause issues with loading content or labs.
+
+The course is three (3) credits, which means ~81 hours of work which divided following:
+
+- Instructional Hours
+  - Lectures and guided hands‑on labs.
+- Self‑Study & Preparation
+  - Pre‑reading, lab review, troubleshooting.
+  - Exam prep, practice questions.
 
 ## 📅 AWS Academy Cloud Foundations - Weekly Schedule (2025)
 
