@@ -64,6 +64,7 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
 
 1. To earn a **minimum passing grade (1)**, you must complete **all AWS Academy modules** before week 47.
    - Avoid last-minute work, follow the weekly schedule provided to stay on track.
+   - ⚠️ DEADLINE is strict, if you miss the deadline, you will fail the course.
 2. To aim for a **higher grade (1-5)**, you must **participate in the final exam** held in **week 49** ->. You cannot participate on the exam if AWS Academy modules are not completed.
    - If you take the exam but do not pass, your grade will remain **1**.
 
