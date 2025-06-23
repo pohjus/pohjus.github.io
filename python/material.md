@@ -6,7 +6,7 @@ paginate: true
 
 # Introduction to Python Programming
 
-## Jussi Pohjolainen, TAMK
+## 🧑‍💻 Jussi Pohjolainen, TAMK
 
 ---
 
