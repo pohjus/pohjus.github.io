@@ -1,8 +1,3 @@
----
-marp: true
-theme: latexlike
----
-
 # Introduction to Python Programming
 
 ---
@@ -318,6 +313,19 @@ logged_in = True
 if not logged_in:
     print("Please log in.")
 ```
+
+### Python vs Java:
+
+| Python Expression    | Java Equivalent                     | Meaning                                |
+| -------------------- | ----------------------------------- | -------------------------------------- |
+| `9 <= hour <= 17`    | `hour >= 9 && hour <= 17`           | `hour` is between 9 and 17 (inclusive) |
+| `1 < x < 10`         | `x > 1 && x < 10`                   | `x` is greater than 1 and less than 10 |
+| `a == b == c`        | `a == b && b == c`                  | All three variables are equal          |
+| `x != y != z`        | `x != y && y != z`                  | `x`, `y`, and `z` are all different    |
+| `not (x == y)`       | `!(x == y)`                         | `x` is not equal to `y`                |
+| `x in [1, 2, 3]`     | `Arrays.asList(1,2,3).contains(x)`  | `x` is in the list                     |
+| `x not in [1, 2, 3]` | `!Arrays.asList(1,2,3).contains(x)` | `x` is not in the list                 |
+| `if x:`              | `if (x != 0)` or `if (x != null)`   | Truthy check                           |
 
 ---
 
