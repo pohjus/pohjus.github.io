@@ -19,6 +19,7 @@
 | 42   | -                        | -        | -                      | -     | -                                    |                                 |
 | 43   | 2025-10-22 15:00-17:00   | Zoom     | -                      | -     | Final code review. Conducting exams. |                                 |
 
+<!--
 ## 📅 Agenda for `5S00DX90-3018`
 
 | Week | Date         | Time        | Topic                                | Assignments                     |
@@ -28,6 +29,7 @@
 |   46 | `2025-11-14` | 08:15–11:00 | Collections, Functions               | [Assignment 03](assignments/03) |
 |   48 | `2025-11-28` | 08:15–11:00 | Recap                                | [Assignment 04](assignments/04) |
 |   49 | `2025-12-12` | 08:15–11:00 | Final code review. Conducting exams. |                                 |
+-->
 
 ## 💬 Communication
 
