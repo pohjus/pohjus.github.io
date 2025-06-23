@@ -1,47 +1,12 @@
-# Introduction to Python Programming
-
+---
+marp: true
+theme: latexlike
+paginate: true
 ---
 
-<!-- TOC tocDepth:2..3 chapterDepth:2..6 -->
+# Introduction to Python Programming
 
-- [Welcome!](#welcome)
-- [What is Python?](#what-is-python)
-- [Your First Python Program](#your-first-python-program)
-- [️ The `print()` Function](#️-the-print-function)
-  - [Advanced print options:](#advanced-print-options)
-- [Types](#types)
-- [Variables and `type()`](#variables-and-type)
-- [Strings in Python](#strings-in-python)
-  - [String literals:](#string-literals)
-  - [Access characters and length:](#access-characters-and-length)
-  - [Formatted strings (f-strings):](#formatted-strings-f-strings)
-- [User Input with `input()`](#user-input-with-input)
-- [Type Casting](#type-casting)
-- [Memory Address: `id()`](#memory-address-id)
-- [Control Flow: `if`, `elif`, `else`](#control-flow-if-elif-else)
-  - [Basic Structure](#basic-structure)
-  - [Simple Example](#simple-example)
-- [Comparison Operators](#comparison-operators)
-- [Multiple Conditions with Logic Operators](#multiple-conditions-with-logic-operators)
-- [Nested `if` Statements](#nested-if-statements)
-- [Summary of control structures](#summary-of-control-structures)
-- [Python Loops: `while` and `for`](#python-loops-while-and-for)
-  - [`while` Loop – Repeat While Condition is True](#while-loop-–-repeat-while-condition-is-true)
-  - [Using `continue` in `while`](#using-continue-in-while)
-  - [`for` Loop – Iterate Over Items](#for-loop-–-iterate-over-items)
-  - [Summary](#summary)
-  - [`break` and `continue`](#break-and-continue)
-- [Functions](#functions)
-  - [What is a Function?](#what-is-a-function)
-  - [Why Use Functions?](#why-use-functions)
-- [Collections Overview](#collections-overview)
-  - [Lists](#lists)
-  - [Tuples](#tuples)
-  - [Sets](#sets)
-  - [Dictionaries](#dictionaries)
-  - [Summary Table](#summary-table)
-
-<!-- /TOC -->
+## Jussi Pohjolainen, TAMK
 
 ---
 
