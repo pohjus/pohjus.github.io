@@ -1,8 +1,12 @@
----
-marp: true
-theme: latexlike
-paginate: true
----
+# ---
+
+# marp: true
+
+# theme: latexlike
+
+# paginate: true
+
+# ---
 
 # Introduction to Python Programming
 
@@ -28,8 +32,7 @@ paginate: true
   - Data science
   - AI & machine learning
   - Automation
-- Python code looks like plain English.
-- Current version: **Python 3.12**
+- Python code looks like "plain" English compared to other languages
 
 ---
 
@@ -70,19 +73,86 @@ print("Continued")
 
 ## Types
 
-| **Category**         | **Type**    | **Description**                              | **Example**                |
-| -------------------- | ----------- | -------------------------------------------- | -------------------------- |
-| **Basic Data Types** | `int`       | Integer numbers                              | `x = 42`                   |
-|                      | `float`     | Floating-point numbers                       | `x = 3.14`                 |
-|                      | `complex`   | Complex numbers                              | `x = 2 + 3j`               |
-|                      | `bool`      | Boolean values                               | `x = True`                 |
-|                      | `str`       | Text strings                                 | `x = "hello"`              |
-| **Sequence Types**   | `list`      | Mutable ordered collection                   | `x = [1, 2, 3]`            |
-|                      | `tuple`     | Immutable ordered collection                 | `x = (1, 2, 3)`            |
-|                      | `range`     | Sequence of numbers                          | `x = range(5)`             |
-| **Set Types**        | `set`       | Mutable unordered collection of unique items | `x = {1, 2, 3}`            |
-|                      | `frozenset` | Immutable version of a set                   | `x = frozenset([1, 2, 3])` |
-| **Mapping Type**     | `dict`      | Key-value mapping                            | `x = {"a": 1, "b": 2}`     |
+| **Category**         | **Type**    | **Description**                              | **Example**                | **Value or Reference** |
+| -------------------- | ----------- | -------------------------------------------- | -------------------------- | ---------------------- |
+| **Basic Data Types** | `int`       | Integer numbers                              | `x = 42`                   | Value (immutable)      |
+|                      | `float`     | Floating-point numbers                       | `x = 3.14`                 | Value (immutable)      |
+|                      | `bool`      | Boolean values                               | `x = True`                 | Value (immutable)      |
+|                      | `str`       | Text strings                                 | `x = "hello"`              | Value (immutable)      |
+| **Sequence Types**   | `list`      | Mutable ordered collection                   | `x = [1, 2, 3]`            | Reference (mutable)    |
+|                      | `tuple`     | Immutable ordered collection                 | `x = (1, 2, 3)`            | Value (immutable)      |
+|                      | `range`     | Sequence of numbers                          | `x = range(5)`             | Value (immutable)      |
+| **Set Types**        | `set`       | Mutable unordered collection of unique items | `x = {1, 2, 3}`            | Reference (mutable)    |
+|                      | `frozenset` | Immutable version of a set                   | `x = frozenset([1, 2, 3])` | Value (immutable)      |
+| **Mapping Type**     | `dict`      | Key-value mapping                            | `x = {"a": 1, "b": 2}`     | Reference (mutable)    |
+
+---
+
+## Value Types
+
+- Hold the actual **value**
+- Changing one **does not affect** the other
+- Examples: `int`, `float`, `bool`, `str`, `tuple`
+
+```python
+x = 10
+y = x      # Copy value
+x = 20
+print(y)   # ➜ 10 (unchanged)
+```
+
+---
+
+## Reference Types
+
+- Hold a reference (memory address) to the value
+- Changing one affects the other
+- Examples: list, dict, set
+
+```python
+a = [1, 2, 3]
+b = a       # Copy reference
+a.append(4)
+print(b)    # ➜ [1, 2, 3, 4] (changed)
+```
+
+---
+
+## Visual Summary
+
+```text
+# Value Type
+x = 10
+y = x
+x = 20
+
+   x     y
+   ↓     ↓
+  20    10
+
+# Reference Type
+a = [1, 2]
+b = a
+a.append(3)
+
+   a, b
+    ↓
+  [1, 2, 3]
+```
+
+---
+
+## Rule of Thumb
+
+| **Type** | **Value / Reference** | **Mutable?** |
+| -------- | --------------------- | ------------ |
+| `int`    | Value Type            | ❌           |
+| `float`  | Value Type            | ❌           |
+| `str`    | Value Type            | ❌           |
+| `tuple`  | Value Type            | ❌           |
+| `list`   | Reference Type        | ✅           |
+| `dict`   | Reference Type        | ✅           |
+| `set`    | Reference Type        | ✅           |
 
 ---
 
@@ -174,7 +244,7 @@ else:
 
 ---
 
-## Type Casting
+## Type Casting: Examples
 
 ```python
 x = "5"
@@ -192,7 +262,16 @@ c = bool("non-empty")
 
 ```python
 x = 100
-print(id(x))  # Shows memory address
+# Returns the identity of the object, which
+# corresponds to its memory address (in CPython implementation)
+
+# outputs something like 4348259584
+print(id(x))
+
+# outputs something like 0x10328ed00
+# Developers from C/C++/Java backgrounds are used to seeing
+# memory addresses in hex (0x7ffeefbff5c0), not huge base-10 integers.
+print(hex(id(x)))
 ```
 
 ---
@@ -411,7 +490,18 @@ Output:
 
 ---
 
-### `for` Loop – Iterate Over Items
+### Avoid Break and Continue?
+
+| Issue                      | Explanation                                                                                                          |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ❌ Hidden logic            | Using `break` or `continue` deep inside a loop body can hide exit/skip logic and hurt readability.                   |
+| ❌ Hard to trace           | If the loop is long or nested, jumping in/out makes debugging more difficult.                                        |
+| ❌ Overuse                 | Relying on these for all logic can lead to “spaghetti code”.                                                         |
+| ❌ Control structure abuse | Using `break`/`continue` when better structured conditions (like `if`, flags, or helper functions) would be clearer. |
+
+---
+
+### `for` Loop - Iterate Over Items
 
 #### Syntax
 
@@ -420,8 +510,10 @@ for item in iterable:
     # code block
 ```
 
-- Loops over each item in a **sequence** (like a list, tuple, string, or range).
-- You don't need an index unless you want one explicitly.
+- Loops over each iterables:
+  - `str`, `range`, `list`, `tuple` ,`dict` ,`set` ,`emumerate` and others.
+  - These all _are iterables_.
+- You don't need an index unless you want one explicitly, use `enumerate` for this. (See later in material)
 
 ---
 
@@ -473,6 +565,25 @@ Output:
 3
 4
 5
+```
+
+---
+
+#### Common Python Examples
+
+```python
+# loop over range
+for i in range(1, 6):
+    print(i)
+
+# loop over list:
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+# Loop with index:
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
 ```
 
 ---
@@ -535,115 +646,6 @@ for i in range(5):
         continue
     print(i)
 ```
-
----
-
-## Functions
-
-### What is a Function?
-
-- A **function** is a reusable block of code that performs a specific task.
-- Functions help you avoid repeating code and make your programs easier to read and maintain.
-
----
-
-### Why Use Functions?
-
-- **Reusability**: Write once, use many times.
-- **Organization**: Break large problems into smaller parts.
-- **Readability**: Code becomes easier to understand.
-- **Debugging**: Easier to test and fix issues in isolated blocks.
-
----
-
-#### Defining a Function
-
-- Use the `def` keyword followed by the function name and parentheses.
-- Example:
-
-```python
-def greet():
-    print("Hello, world!")
-```
-
----
-
-#### Calling a Function
-
-- You run (or "call") a function by using its name followed by parentheses:
-
-```python
-greet()  # Output: Hello, world!
-```
-
----
-
-#### Function with Parameters
-
-- Parameters allow you to pass information into a function:
-
-```python
-def greet(name):
-    print(f"Hello, {name}!")
-```
-
-```python
-greet("Alice")  # Output: Hello, Alice!
-```
-
----
-
-#### Function with Return Value
-
-- Functions can **return** results using the `return` keyword:
-
-```python
-def add(a, b):
-    return a + b
-```
-
-```python
-result = add(2, 3)
-print(result)  # Output: 5
-```
-
----
-
-#### Default Parameters
-
-- You can give default values to parameters:
-
-```python
-def greet(name="stranger"):
-    print(f"Hello, {name}!")
-```
-
-```python
-greet()         # Output: Hello, stranger!
-greet("Alice")  # Output: Hello, Alice!
-```
-
----
-
-#### Keyword Arguments
-
-- You can name arguments when calling the function:
-
-```python
-def subtract(a, b):
-    return a - b
-
-print(subtract(b=5, a=10))  # Output: 5
-```
-
----
-
-#### Summary
-
-- Functions = named blocks of code.
-- Use `def` to define, `()` to call.
-- Can have parameters and return values.
-- Help make your code DRY (Don't Repeat Yourself).
 
 ---
 
@@ -772,5 +774,114 @@ print(person.values())       # dict_values(['Bob', 'Paris', 45])
 | Tuple      | ✅      | ❌      | ✅         | `()`            | `("x", "y")`        |
 | Set        | ❌      | ✅      | ❌         | `{}` or `set()` | `{1, 2, 3}`         |
 | Dictionary | ❌      | ✅      | Keys: ❌   | `{key: value}`  | `{"name": "Alice"}` |
+
+---
+
+## Functions
+
+### What is a Function?
+
+- A **function** is a reusable block of code that performs a specific task.
+- Functions help you avoid repeating code and make your programs easier to read and maintain.
+
+---
+
+### Why Use Functions?
+
+- **Reusability**: Write once, use many times.
+- **Organization**: Break large problems into smaller parts.
+- **Readability**: Code becomes easier to understand.
+- **Debugging**: Easier to test and fix issues in isolated blocks.
+
+---
+
+#### Defining a Function
+
+- Use the `def` keyword followed by the function name and parentheses.
+- Example:
+
+```python
+def greet():
+    print("Hello, world!")
+```
+
+---
+
+#### Calling a Function
+
+- You run (or "call") a function by using its name followed by parentheses:
+
+```python
+greet()  # Output: Hello, world!
+```
+
+---
+
+#### Function with Parameters
+
+- Parameters allow you to pass information into a function:
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+```
+
+```python
+greet("Alice")  # Output: Hello, Alice!
+```
+
+---
+
+#### Function with Return Value
+
+- Functions can **return** results using the `return` keyword:
+
+```python
+def add(a, b):
+    return a + b
+```
+
+```python
+result = add(2, 3)
+print(result)  # Output: 5
+```
+
+---
+
+#### Default Parameters
+
+- You can give default values to parameters:
+
+```python
+def greet(name="stranger"):
+    print(f"Hello, {name}!")
+```
+
+```python
+greet()         # Output: Hello, stranger!
+greet("Alice")  # Output: Hello, Alice!
+```
+
+---
+
+#### Keyword Arguments
+
+- You can name arguments when calling the function:
+
+```python
+def subtract(a, b):
+    return a - b
+
+print(subtract(b=5, a=10))  # Output: 5
+```
+
+---
+
+#### Summary
+
+- Functions = named blocks of code.
+- Use `def` to define, `()` to call.
+- Can have parameters and return values.
+- Help make your code DRY (Don't Repeat Yourself).
 
 ---
