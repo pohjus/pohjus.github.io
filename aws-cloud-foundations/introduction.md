@@ -1,5 +1,68 @@
 # Module 1: Introduction
 
+# What is AWS?
+
+**AWS (Amazon Web Services)** is a cloud computing platform by Amazon that provides **on-demand access** to IT resources via the internet, with **pay-as-you-go** pricing.
+
+---
+
+## Key Concepts
+
+- **Cloud computing** means you don’t need to own physical hardware.
+- With AWS, you **rent computing power, storage, databases**, and other services.
+- You can access resources from **anywhere** and **scale up/down** as needed.
+
+---
+
+## What Can You Do with AWS?
+
+- Host websites and mobile apps
+- Store and back up large amounts of data
+- Run virtual servers
+- Train and deploy AI/ML models
+- Stream video and audio content
+- Monitor and secure your infrastructure
+
+---
+
+## Examples of AWS Services
+
+| Service        | Description                           |
+| -------------- | ------------------------------------- |
+| **EC2**        | Virtual machines (servers)            |
+| **S3**         | Scalable object storage               |
+| **RDS**        | Managed relational databases          |
+| **Lambda**     | Run code without managing servers     |
+| **CloudFront** | Global content delivery network (CDN) |
+| **IAM**        | Identity and Access Management        |
+
+---
+
+## Benefits of AWS
+
+- **Scalability** – Automatically adjust resources to match demand
+- **Flexibility** – Wide range of services and tools
+- **Global Reach** – Data centers in multiple regions worldwide
+- **Cost Efficiency** – Pay only for what you use, no upfront cost
+
+---
+
+## 🧠 Summary
+
+AWS gives individuals, startups, and enterprises the ability to run infrastructure, store data, and build software globally — **without owning servers** or large upfront investments.
+
+---
+
+**Q1:** What are the most commonly used services in AWS for beginners?
+
+**Q2:** How does AWS compare to competitors like Microsoft Azure or Google Cloud?
+
+**Q3:** What are real-world use cases of AWS in startups vs enterprises?
+
+**F1:** Do you want the response in .txt?
+
+**F2:** Do you want the response in .md?
+
 ## Survey
 
 Just an information about you to AWS (optional).
@@ -93,3 +156,8 @@ Just an information about you to AWS (optional).
 
 - Tutorial how to do the lab exercises
 - ⚠️ Please use Google Chrome for the labs! 🧑‍💻
+
+## Course support
+
+- Use Discussion for contacting or Inbox
+- ✏️ Post a test reply under general discussion

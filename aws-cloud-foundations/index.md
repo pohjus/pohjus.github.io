@@ -62,13 +62,78 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
 
 ## 🎯 How to Pass the Course
 
-1. To earn a **minimum passing grade (1)**, you must complete **all AWS Academy modules** before week 47.
-   - Avoid last-minute work, follow the weekly schedule provided to stay on track.
-   - ⚠️ DEADLINE is strict, if you miss the deadline, you will fail the course.
-2. To aim for a **higher grade (1-5)**, you must **participate in the final exam** held in **week 49** ->. You cannot participate on the exam if AWS Academy modules are not completed.
-   - If you take the exam but do not pass, your grade will remain **1**.
+### Minimum Requirements to Pass the Course (Grade 1)
 
-## 📝 Exam
+To earn a **minimum passing grade (1)**, you must **complete all AWS Academy modules** before **week 47**.
+
+#### Stay on Track
+
+- Avoid last-minute work — follow the **weekly schedule** provided.
+- You may complete the course at a faster pace if you prefer, as long as it's done before week 47.
+- ⚠️ **Strict deadline**: If you miss week 47 deadline, **you will fail the course**. No exceptions.
+
+#### Handwritten Notes for Each Video
+
+You must create **handwritten notes** for every video in all modules. Your notes must include:
+
+1. **The most important topics** from the video.
+2. **Answers to the following questions:**
+   - a) _What did you learn?_
+   - b) _What was unclear?_
+
+#### Submitting Your Notes
+
+- Upload your notes as **PDFs** via following [form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEQ0OVZPVTBENThUTERSUzBOMUFVVFQySy4u).
+- The PDF must contain **images of your handwritten notes**.
+- File name format (case-sensitive):
+  - `moduleXX-lastname-firstname-notes.pdf`
+  - **Examples:**
+    - `module01-video01-virtanen-matti-notes.pdf`
+    - `module05-video05-smith-john-notes.pdf`
+
+> ⚠️ If the file name is incorrect, your submission will be **automatically rejected**. You must resubmit using the correct naming convention.
+
+#### 😠 I hate to write handwritten notes, why do we have to do this?
+
+##### 1. **Deeper Processing**
+
+- Handwriting forces **summarization**, improving understanding.
+- Typing leads to **verbatim transcription**, less cognitive effort.
+- 📚 _Mueller & Oppenheimer (2014)_
+  [Link](https://doi.org/10.1177/0956797614524581)
+
+##### 2. **Better Memory & Recall**
+
+- Handwriting activates **more brain regions** (motor, visual, memory).
+- Leads to **stronger encoding** and long-term retention.
+- 📚 _Van der Meer & Van der Weel (2017)_
+  [Link](https://doi.org/10.3389/fpsyg.2017.00706)
+
+##### 3. **Less Distraction**
+
+- Laptops increase **multitasking** and reduce focus.
+- 📚 _Sana et al. (2013)_
+  [Link](https://doi.org/10.1016/j.compedu.2012.10.003)
+
+##### ✅ Summary
+
+| Benefit            | Handwriting | Typing |
+| ------------------ | ----------- | ------ |
+| Deep processing    | ✅          | ❌     |
+| Memory retention   | ✅          | ❌     |
+| Fewer distractions | ✅          | ❌     |
+
+#### Language
+
+You may write your notes in **Finnish or English**.
+
+### Grades 1 - 5
+
+To aim for a **higher grade (1-5)**, you must **participate in the final exam**. You can take the exam when you have completed the course (notes, all knowledge tests and labs) - you cannot participate on the exam if AWS Academy modules are not completed.
+
+If you take the exam but do not pass, your grade will remain **1**.
+
+### Exam
 
 - Exam is done in [`exam.tuni.fi`](https://sites.tuni.fi/exam/).
 - Contains multiple choice questions.
@@ -82,7 +147,7 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
   - If you fail the exam, you can retake the exam twice.
   - If you pass the exam, you can retake the exam once.
 
-## ✏️ Tips for AWS Academy Assignments
+## Tips for AWS Academy Assignments
 
 - When starting a lab, **it may take 5-10 minutes** to fully initialize. Don't panic if the environment seems unresponsive at first.
 
@@ -93,8 +158,3 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
   - Sometimes AWS updates its UI or services, and the lab instructions may be slightly outdated. In such cases, **use your judgment or AI tools** to find equivalent steps.
 
 - Some tasks need **a short delay** to complete in the background (e.g., provisioning, syncing, deploying). Be patient. If a command fails, wait 10–20 seconds and try again.
-
-- **Take notes** as you go:
-
-  - Write down **what each AWS service does** and **why you used it**.
-  - AWS has many acronyms and services - your future self will thank you later.
