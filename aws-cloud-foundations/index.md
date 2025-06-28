@@ -1,5 +1,16 @@
 # 5G00GA94-3003 Introduction to Cloud and AWS
 
+<!-- TOC tocDepth:2..3 chapterDepth:2..6 -->
+
+- [📅 AWS Academy Cloud Foundations - Weekly Schedule (2025)](#📅-aws-academy-cloud-foundations---weekly-schedule-2025)
+- [🎯 How to Pass the Course](#🎯-how-to-pass-the-course)
+  - [Minimum Requirements to Pass the Course (Grade 1)](#minimum-requirements-to-pass-the-course-grade-1)
+  - [Aiming for higher Grades, from 1 - 5](#aiming-for-higher-grades-from-1---5)
+  - [Exam](#exam)
+- [💡 Tips for AWS Academy Assignments](#💡-tips-for-aws-academy-assignments)
+
+<!-- /TOC -->
+
 🧑‍💻 Jussi Pohjolainen, `jussi.pohjolainen@tuni.fi`
 
 ---
@@ -74,7 +85,12 @@ To earn a **minimum passing grade (1)**, you must **complete all AWS Academy mod
 
 #### Handwritten Notes for Each Video
 
-You must create **handwritten notes** for every video in all modules. Your notes must include:
+You must create **handwritten notes** for every video in all modules.
+
+> Handwriting improves understanding, memory, and focus by promoting
+> deeper processing, better brain activation, and reducing distractions — see [Mueller & Oppenheimer (2014)](https://doi.org/10.1177/0956797614524581), [Van der Meer & Van der Weel (2017)](https://doi.org/10.3389/fpsyg.2017.00706), [Sana et al. (2013)](https://doi.org/10.1016/j.compedu.2012.10.003).
+
+Your notes must include:
 
 1. **The most important topics** from the video.
 2. **Answers to the following questions:**
@@ -86,52 +102,30 @@ You must create **handwritten notes** for every video in all modules. Your notes
 - Upload your notes as **PDFs** via following [form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEQ0OVZPVTBENThUTERSUzBOMUFVVFQySy4u).
 - The PDF must contain **images of your handwritten notes**.
 - File name format (case-sensitive):
-  - `moduleXX-lastname-firstname-notes.pdf`
+  - `moduleXX-videoYY-lastname-firstname-notes.pdf`
   - **Examples:**
     - `module01-video01-virtanen-matti-notes.pdf`
     - `module05-video05-smith-john-notes.pdf`
 
 > ⚠️ If the file name is incorrect, your submission will be **automatically rejected**. You must resubmit using the correct naming convention.
 
-#### 😠 I hate to write handwritten notes, why do we have to do this?
-
-##### 1. **Deeper Processing**
-
-- Handwriting forces **summarization**, improving understanding.
-- Typing leads to **verbatim transcription**, less cognitive effort.
-- 📚 _Mueller & Oppenheimer (2014)_
-  [Link](https://doi.org/10.1177/0956797614524581)
-
-##### 2. **Better Memory & Recall**
-
-- Handwriting activates **more brain regions** (motor, visual, memory).
-- Leads to **stronger encoding** and long-term retention.
-- 📚 _Van der Meer & Van der Weel (2017)_
-  [Link](https://doi.org/10.3389/fpsyg.2017.00706)
-
-##### 3. **Less Distraction**
-
-- Laptops increase **multitasking** and reduce focus.
-- 📚 _Sana et al. (2013)_
-  [Link](https://doi.org/10.1016/j.compedu.2012.10.003)
-
-##### ✅ Summary
-
-| Benefit            | Handwriting | Typing |
-| ------------------ | ----------- | ------ |
-| Deep processing    | ✅          | ❌     |
-| Memory retention   | ✅          | ❌     |
-| Fewer distractions | ✅          | ❌     |
-
 #### Language
 
 You may write your notes in **Finnish or English**.
 
-### Grades 1 - 5
+### Higher Grades, from 2 - 5
 
-To aim for a **higher grade (1-5)**, you must **participate in the final exam**. You can take the exam when you have completed the course (notes, all knowledge tests and labs) - you cannot participate on the exam if AWS Academy modules are not completed.
+To aim for a **higher grade (2–5)**, you must first meet the requirements for a passing grade (**1**), and then **participate in the final exam**.
 
-If you take the exam but do not pass, your grade will remain **1**.
+You are eligible to take the exam only after completing:
+
+- all **video notes**
+- all **knowledge tests**
+- all **labs**
+
+👉 You **cannot take the exam** if the AWS Academy modules are incomplete or video notes are missing.
+
+If you take the exam but do not pass, your final grade will remain **1**.
 
 ### Exam
 
@@ -141,13 +135,13 @@ If you take the exam but do not pass, your grade will remain **1**.
 - Each module has five (`5`) questions
   - `10 modules × 5 questions = 50 questions`
 - Questions are chosen randomly so **each student will get a unique exam**.
-- Exam will be open in week 43 and link is provided to students.
-- You cannot have any extra material with you in the exam.
+- Exam will be open in week 47 or earlier for students who have done all notes, passed all knowledge tests and labs in AWS Academy. Link for the exam is provided to students.
+- You cannot have any extra material with you in the exam. Recap your notes before taking the exam.
 - Retakes?
   - If you fail the exam, you can retake the exam twice.
   - If you pass the exam, you can retake the exam once.
 
-## Tips for AWS Academy Assignments
+## 💡 Tips for AWS Academy Assignments
 
 - When starting a lab, **it may take 5-10 minutes** to fully initialize. Don't panic if the environment seems unresponsive at first.
 
