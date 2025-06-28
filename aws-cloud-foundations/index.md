@@ -16,12 +16,7 @@ It provides a detailed overview of:
 - **Pricing**
 - **Support**
 
-The course is delivered through:
-
-- _Digital lectures_
-- _Demonstrations_
-- _Knowledge checks_
-- _Hands-on labs_
+The course is delivered through _Digital lectures_, _Demonstrations_, _Knowledge checks_ and _Hands-on labs_.
 
 All components are completed **independently** by the student.
 
