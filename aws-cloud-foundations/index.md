@@ -52,6 +52,7 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
   - Lectures and guided hands‑on labs.
 - Self‑Study & Preparation
   - Pre‑reading, lab review, troubleshooting.
+  - Writing notes.
   - Exam prep, practice questions.
 
 ## 📅 AWS Academy Cloud Foundations - Weekly Schedule (2025)
