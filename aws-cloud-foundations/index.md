@@ -103,7 +103,7 @@ For each video, notes must include:
 
 #### Language
 
-You may write your notes in **Finnish or English**.
+You may write your notes in **Finnish or in English**.
 
 ### Higher Grades, from 2 - 5
 
