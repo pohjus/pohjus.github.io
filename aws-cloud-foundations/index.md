@@ -82,7 +82,7 @@ You must create **handwritten notes** for every video in all modules.
 > Handwriting improves understanding, memory, and focus by promoting
 > deeper processing, better brain activation, and reducing distractions — see [Mueller & Oppenheimer (2014)](https://doi.org/10.1177/0956797614524581), [Van der Meer & Van der Weel (2017)](https://doi.org/10.3389/fpsyg.2017.00706), [Sana et al. (2013)](https://doi.org/10.1016/j.compedu.2012.10.003).
 
-Your notes must include:
+For each video, notes must include:
 
 1. **The most important topics** from the video.
 2. **Answers to the following questions:**
