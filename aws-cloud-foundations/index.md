@@ -77,7 +77,7 @@ To earn a **minimum passing grade (1)**, you must **complete all AWS Academy mod
 
 #### Handwritten Notes for Each Video
 
-You must create **handwritten notes** for every video in all modules.
+You must create **handwritten notes** for every video in all modules. So you will need ✏️ pen and 📄 paper for this.
 
 > Handwriting improves understanding, memory, and focus by promoting
 > deeper processing, better brain activation, and reducing distractions — see [Mueller & Oppenheimer (2014)](https://doi.org/10.1177/0956797614524581), [Van der Meer & Van der Weel (2017)](https://doi.org/10.3389/fpsyg.2017.00706), [Sana et al. (2013)](https://doi.org/10.1016/j.compedu.2012.10.003).
