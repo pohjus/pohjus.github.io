@@ -4,6 +4,8 @@
 
 ---
 
+## 📋 Overview
+
 This **introductory course** is intended for students who seek an **overall understanding of cloud computing concepts**, independent of specific technical roles.
 It provides a detailed overview of:
 
@@ -14,8 +16,6 @@ It provides a detailed overview of:
 - **Pricing**
 - **Support**
 
----
-
 The course is delivered through:
 
 - _Digital lectures_
@@ -25,7 +25,7 @@ The course is delivered through:
 
 All components are completed **independently** by the student.
 
----
+## 📚 Learning Environment
 
 Each student will receive an invitation to the AWS Academy course:
 `AWS Academy Cloud Foundations`
@@ -34,6 +34,8 @@ All **knowledge checks and labs** are completed directly inside the **AWS Academ
 
 > ⚠️ **Important:** Use **Google Chrome** when accessing AWS Academy.
 > Other browsers may cause issues with loading content or labs.
+
+## 🏅 Credits
 
 The course is three (3) credits, which means ~81 hours of work which divided following:
 
@@ -61,7 +63,7 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
 | 46   | Module 10 | Auto Scaling and Monitoring        |
 | 47   |           | Exams →                            |
 
-## 🎯 How to Pass the Course
+## 🎯 How to Pass the Course?
 
 ### Minimum Requirements to Pass the Course (Grade 1)
 
