@@ -1,16 +1,5 @@
 # 5G00GA94-3003 Introduction to Cloud and AWS
 
-<!-- TOC tocDepth:2..3 chapterDepth:2..6 -->
-
-- [📅 AWS Academy Cloud Foundations - Weekly Schedule (2025)](#📅-aws-academy-cloud-foundations---weekly-schedule-2025)
-- [🎯 How to Pass the Course](#🎯-how-to-pass-the-course)
-  - [Minimum Requirements to Pass the Course (Grade 1)](#minimum-requirements-to-pass-the-course-grade-1)
-  - [Aiming for higher Grades, from 1 - 5](#aiming-for-higher-grades-from-1---5)
-  - [Exam](#exam)
-- [💡 Tips for AWS Academy Assignments](#💡-tips-for-aws-academy-assignments)
-
-<!-- /TOC -->
-
 🧑‍💻 Jussi Pohjolainen, `jussi.pohjolainen@tuni.fi`
 
 ---
