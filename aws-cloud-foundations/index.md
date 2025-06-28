@@ -45,16 +45,16 @@ The course is three (3) credits, which means ~81 hours of work which divided fol
 
 | Week | Module    | Topic                              |
 | ---- | --------- | ---------------------------------- |
-| 36   | Module 1  | Cloud Concepts Overview            |
-| 37   | Module 2  | Cloud Economics and Billing        |
-| 38   | Module 3  | AWS Global Infrastructure Overview |
-| 39   | Module 4  | AWS Cloud Security                 |
-| 40   | Module 5  | Networking and Content Delivery    |
-| 41   | Module 6  | Compute                            |
+| 36   | Module 01 | Cloud Concepts Overview            |
+| 37   | Module 02 | Cloud Economics and Billing        |
+| 38   | Module 03 | AWS Global Infrastructure Overview |
+| 39   | Module 04 | AWS Cloud Security                 |
+| 40   | Module 05 | Networking and Content Delivery    |
+| 41   | Module 06 | Compute                            |
 | 42   |           | _Independent study_                |
-| 43   | Module 7  | Storage                            |
-| 44   | Module 8  | Databases                          |
-| 45   | Module 9  | Cloud Architecture                 |
+| 43   | Module 07 | Storage                            |
+| 44   | Module 08 | Databases                          |
+| 45   | Module 09 | Cloud Architecture                 |
 | 46   | Module 10 | Auto Scaling and Monitoring        |
 | 47   |           | Exams →                            |
 
@@ -66,8 +66,8 @@ To earn a **minimum passing grade (1)**, you must **complete all AWS Academy mod
 
 #### Stay on Track
 
-- Avoid last-minute work — follow the **weekly schedule** provided.
-- You may complete the course at a faster pace if you prefer, as long as it's done before week 47.
+- Avoid last-minute work — follow the **weekly schedule** provided if that helps you.
+- You can do the modules at your own schedule as long as everything is completed before week 47.
 - ⚠️ **Strict deadline**: If you miss week 47 deadline, **you will fail the course**. No exceptions.
 
 #### Handwritten Notes for Each Video
