@@ -6,6 +6,32 @@
 
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
 
+## 💬 Communication
+
+- Course communication is done in **Slack**.
+- See [communication guidelines](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
+
+Slack is used because it's more representative of what you'll encounter in the software industry.
+
+- Slack is heavily used in software companies, startups, and open-source projects.
+- Many modern dev teams use Slack integrated with GitHub, Jira, and CI/CD pipelines - tools we also use in development workflows.
+
+⚠️ Privacy Notice – Use of Slack in This Course
+
+Slack is not an official university tool. It is provided by an external service, and any information you share is processed outside the university's systems.
+
+Never share
+
+- Your student ID or other personal identifiers
+- Contact details (email, phone, address)
+- Login credentials or passwords
+- Any confidential project, company, or research data
+- Sensitive personal information about yourself or others
+
+By using Slack, you agree that you are responsible for the information you provide.
+
+After the course, Slack group is going to be destroyed.
+
 ## 📅 Agenda for `5K00GF25-3005`, `5K00GF25-3006`
 
 | Week | 25i112B                  | Class    | 25i112A                | Class | Topic                                | Assignments                     |
@@ -31,25 +57,21 @@
 |   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                 |
 -->
 
-## 💬 Communication
-
-- See [**communication guidelines**](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
-
 ## 💼 How to pass the course?
 
+_If implementation plan is not align with rules described in here, this page overrides implementation plan._
+
 - Do minimum of 40% of given exercises and return them correctly and you will get grade 1.
-  - See [**Exercise Point Guidelines**](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
-  - Upload exercises using [**Dropbox File Upload**](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL).
-  - Mark your exercises to Google Sheets - link in Slack.
+  - Return them correctly? See [**Exercise Point Guidelines**](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
+  - Upload exercises using [**File Upload**](https://forms.office.com/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEhOU1o1UTFETzY5VTc0SDJaS1paVUM2Ry4u).
+  - Mark your exercises to Google Sheets (link in Slack).
 - If you want a better grade, participate on exam
-  - You will get extra points for exam if you do more than 70% of given exercises.
 
 ## 📚 Material
 
 See
 
 - [Material](material.md) (markdown)
-- [Material](material.pdf) (pdf)
 
 ## 📚 Exam
 
@@ -68,30 +90,72 @@ See
   - You fail, you can retake the failed exam **two times**
   - You pass, you can try to achieve a better grade **one time**
 
-**Extra Points System**
+### Bonus-Point System
 
-Additional points are awarded based on the percentage of assignment completed prior to the exam. These points are awarded **only if you participated physically in class.**
+Bonus points are awarded based on the percentage of exercises completed **before** the exam. They apply **only** if you attend in-person teaching.
 
-| Assignment Completion Range | Points Awarded |
-| --------------------------- | -------------- |
-| `[70%, 80%[`                | 1 point        |
-| `[80%, 90%[`                | 2 points       |
-| `[90%, 100%]`               | 3 points       |
+| Exercise completion | Bonus points |
+| ------------------- | ------------ |
+| **70 % – < 80 %**   | +1 pt        |
+| **80 % – < 90 %**   | +2 pts       |
+| **90 % – 100 %**    | +3 pts       |
 
-**Exam Grading Scale**
+#### Exam Scoring
 
-| Grade | Minimum Points Required | Percentage |
-| ----- | ----------------------- | ---------- |
-| 1     | 9.6 p                   | 40%        |
-| 2     | 14.4 p                  | 60%        |
-| 3     | 16.8 p                  | 70%        |
-| 4     | 19.2 p                  | 80%        |
-| 5     | 21.6 p                  | 90%        |
+| Grade | Minimum raw score | % of max (24 pts) |
+| ----- | ----------------- | ----------------- |
+| **1** | 9.6 pts           | 40 %              |
+| **2** | 14.4 pts          | 60 %              |
+| **3** | 16.8 pts          | 70 %              |
+| **4** | 19.2 pts          | 80 %              |
+| **5** | 21.6 pts          | 90 %              |
 
-Max exam points is 24p.
+The **maximum raw score** is **24 points**.
 
-**Extra points does not help you for passing the exam.** You must score at least 9.6 points and then extra points are counted on top of that.
+> ⚠️ Bonus points do **not** affect exam pass/fail status.
+> You must first achieve at least **9.6 raw points** to pass; bonus points are added **after** this threshold is met.
 
 ℹ️ Upload your answers in exam as attachments:
 
 ![exam](https://paper-attachments.dropboxusercontent.com/s_78CBA4683D2833741B6F050A281DD15456A814F81EF3B1EA8A9E7CCC267314F8_1730544034589_image.png)
+
+# 🧠 AI Use Policy
+
+✅ Allowed:
+
+- Asking AI to explain a concept (e.g., "What is a loop?")
+- Asking AI to give you a simple example to study and learn from
+- Using AI to clarify theory or terminology
+
+❌ Not allowed:
+
+- Asking AI to solve your assignment tasks for you
+- Copy-pasting AI-generated code into your submission
+
+Why?
+
+If you skip the building phase now, you'll be unable to:
+
+- Understand the code you work with in later courses
+- Spot mistakes in AI-generated code when you are expected to review it
+- Develop the problem-solving skills that make you a real programmer
+
+In the future, the developer's role may be more about validating AI-generated code than writing it from scratch. But effective validation requires deep expertise, expertise you can only gain by building software manually yourself!
+
+If you use AI, use [**Programming Learning Coach**](https://chatgpt.com/share/68988de7-1bf8-8008-9b02-1c1b8ee4482a), it should be instructed to NOT give you code directly (although this is not guaranteed, use it wisely!):
+
+> This is an interactive programming tutor that teaches by asking questions, giving hints, and explaining concepts - never giving full code. Helps students think through problems, not just copy solutions.
+
+⚠️ Privacy Notice - Use of ChatGPT in This Course
+
+ChatGPT is not an official university tool. It is provided by an external service (OpenAI), and any information you share is processed outside the university’s systems.
+
+Never share
+
+- Your student ID or other personal identifiers
+- Contact details (email, phone, address)
+- Login credentials or passwords
+- Any confidential project, company, or research data
+- Sensitive personal information about yourself or others
+
+By using ChatGPT, you agree that you are responsible for the information you provide.
