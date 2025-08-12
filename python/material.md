@@ -256,6 +256,19 @@ b = str(42)
 c = bool("non-empty")
 ```
 
+And proper usage with exception handling:
+
+```python
+try:
+    x = int(input("give integer: "))
+    y = int(input("give integer: "))
+    print(x / y)
+except ValueError:
+    print("error: give integers")
+except ZeroDivisionError:
+    print("error: Do not divide with zero.")
+```
+
 ---
 
 ## Memory Address: `id()`
