@@ -5,8 +5,9 @@
 ## 🧑‍💻 Trainer
 
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
+  - Please use Slack for communication
 
-## 📅 Agenda for `5K00GF25-3005`, `5K00GF25-3006`
+## 📅 Agenda for `5K00GF25-3005` and `5K00GF25-3006`
 
 | Week | 25i112B                  | Class    | 25i112A                | Class | Topic                                | Assignments                     |
 | ---- | ------------------------ | -------- | ---------------------- | ----- | ------------------------------------ | ------------------------------- |
@@ -59,7 +60,7 @@ After the course, Slack group is going to be destroyed.
 
 ## 💼 How to pass the course?
 
-_If implementation plan is not align with rules described in here, this page overrides implementation plan._
+> If implementation plan is not align with rules described in here, this page overrides implementation plan.
 
 - Do minimum of 40% of given exercises and return them correctly and you will get grade 1.
   - Return them correctly? See [**Exercise Point Guidelines**](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
@@ -148,7 +149,7 @@ If you use AI, use [**Programming Learning Coach**](https://chatgpt.com/share/68
 
 ⚠️ Privacy Notice - Use of ChatGPT in This Course
 
-ChatGPT is not an official university tool. It is provided by an external service (OpenAI), and any information you share is processed outside the university’s systems.
+ChatGPT is not an official university tool. It is provided by an external service (OpenAI), and any information you share is processed outside the university's systems.
 
 Never share
 
