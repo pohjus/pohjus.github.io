@@ -17,7 +17,7 @@
 ## Welcome!
 
 - No previous coding experience needed!
-- Today you’ll learn:
+- Today you'll learn:
   - What Python is
   - How to write simple programs
   - Key concepts: variables, data types, control flow, functions, input/output, and collections

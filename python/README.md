@@ -6,6 +6,31 @@
 
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
 
+## 📅 Agenda for `5K00GF25-3005`, `5K00GF25-3006`
+
+| Week | 25i112B                  | Class    | 25i112A                | Class | Topic                                | Assignments                     |
+| ---- | ------------------------ | -------- | ---------------------- | ----- | ------------------------------------ | ------------------------------- |
+| 36   | 2025-09-01 08:00 - 10:00 | B4-26    | 2025-09-01 12:30-14:00 | H3-22 | Basics                               | [Assignment 01](assignments/01) |
+| 37   | 2025-09-03 12:30-15:00   | P3-06/07 | 2025-09-11 12:30-15:00 | H4-03 | Control Flow & Loops                 | [Assignment 02](assignments/xx) |
+| 38   | 2025-09-15 08:15-10:45   | C4-05    | 2025-09-17 14:00-16:00 | B4-20 | Collections                          | [Assignment 03](assignments/xx) |
+| 39   | 2025-09-24 12:30-15:00   | B3-28    | 2025-09-25 12:00-14:30 | Zoom  | Functions                            | [Assignment 04](assignments/xx) |
+| 40   | -                        | -        | 2025-10-01 09:00-11:30 | F1-04 | Recap                                | [Assignment 05](assignments/xx) |
+| 41   | 2025-10-08 15:00-17:00   | Zoom     | 2025-10-08 09:00-11:30 | B5-20 | Final code review. Conducting exams. |                                 |
+| 42   | -                        | -        | -                      | -     | -                                    |                                 |
+| 43   | 2025-10-22 15:00-17:00   | Zoom     | -                      | -     | Final code review. Conducting exams. |                                 |
+
+<!--
+## 📅 Agenda for `5S00DX90-3018`
+
+| Week | Date         | Time        | Topic                                | Assignments                     |
+| ---: | ------------ | ----------- | ------------------------------------ | ------------------------------- |
+|   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/02) |
+|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02](assignments/03) |
+|   46 | `2025-11-14` | 08:15-11:00 | Collections, Functions               | [Assignment 03](assignments/03) |
+|   48 | `2025-11-28` | 08:15-11:00 | Recap                                | [Assignment 04](assignments/04) |
+|   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                 |
+-->
+
 ## 💬 Communication
 
 - Course communication is done in **Slack**.
@@ -31,31 +56,6 @@ Never share
 By using Slack, you agree that you are responsible for the information you provide.
 
 After the course, Slack group is going to be destroyed.
-
-## 📅 Agenda for `5K00GF25-3005`, `5K00GF25-3006`
-
-| Week | 25i112B                  | Class    | 25i112A                | Class | Topic                                | Assignments                     |
-| ---- | ------------------------ | -------- | ---------------------- | ----- | ------------------------------------ | ------------------------------- |
-| 36   | 2025-09-01 08:00 - 10:00 | B4-26    | 2025-09-01 12:30-14:00 | H3-22 | Basics                               | [Assignment 01](assignments/01) |
-| 37   | 2025-09-03 12:30-15:00   | P3-06/07 | 2025-09-11 12:30-15:00 | H4-03 | Control Flow & Loops                 | [Assignment 02](assignments/02) |
-| 38   | 2025-09-15 08:15-10:45   | C4-05    | 2025-09-17 14:00-16:00 | B4-20 | Collections                          | [Assignment 03](assignments/03) |
-| 39   | 2025-09-24 12:30-15:00   | B3-28    | 2025-09-25 12:00-14:30 | Zoom  | Functions                            | [Assignment 04](assignments/04) |
-| 40   | -                        | -        | 2025-10-01 09:00-11:30 | F1-04 | Recap                                | [Assignment 05](assignments/05) |
-| 41   | 2025-10-08 15:00-17:00   | Zoom     | 2025-10-08 09:00-11:30 | B5-20 | Final code review. Conducting exams. |                                 |
-| 42   | -                        | -        | -                      | -     | -                                    |                                 |
-| 43   | 2025-10-22 15:00-17:00   | Zoom     | -                      | -     | Final code review. Conducting exams. |                                 |
-
-<!--
-## 📅 Agenda for `5S00DX90-3018`
-
-| Week | Date         | Time        | Topic                                | Assignments                     |
-| ---: | ------------ | ----------- | ------------------------------------ | ------------------------------- |
-|   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/02) |
-|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02](assignments/03) |
-|   46 | `2025-11-14` | 08:15-11:00 | Collections, Functions               | [Assignment 03](assignments/03) |
-|   48 | `2025-11-28` | 08:15-11:00 | Recap                                | [Assignment 04](assignments/04) |
-|   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                 |
--->
 
 ## 💼 How to pass the course?
 
