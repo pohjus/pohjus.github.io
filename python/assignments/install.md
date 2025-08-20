@@ -1,15 +1,5 @@
 # Install Python
 
-## License
-
-> This work is licensed under the
-> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**
->
-> ⚠️ **Additional Restriction:**
-> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system).**
-
-🔗 [Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 ### Install Python
 
 🎦 See how to install **Python on Windows**:
@@ -92,3 +82,17 @@ python3 -V
 ```
 
 ![macOS terminal with python3](images/terminal2.png)
+
+---
+
+## License
+
+> This work is licensed under the
+> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**
+>
+> ⚠️ **Additional Restriction:**
+> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system).**
+
+🔗 [Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+---
