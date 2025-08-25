@@ -5,7 +5,6 @@
 ## 🧑‍💻 Trainer
 
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
-  - Please use Slack for communication
 
 ## 📅 Agenda for `5K00GF25-3005` and `5K00GF25-3006`
 
@@ -32,32 +31,6 @@
 |   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                 |
 -->
 
-## 💬 Communication
-
-- Course communication is done in **Slack**.
-- See [communication guidelines](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
-
-Slack is used because it's more representative of what you'll encounter in the software industry.
-
-- Slack is heavily used in software companies, startups, and open-source projects.
-- Many modern dev teams use Slack integrated with GitHub, Jira, and CI/CD pipelines - tools we also use in development workflows.
-
-⚠️ Privacy Notice – Use of Slack in This Course
-
-Slack is not an official university tool. It is provided by an external service, and any information you share is processed outside the university's systems.
-
-Never share
-
-- Your student ID or other personal identifiers
-- Contact details (email, phone, address)
-- Login credentials or passwords
-- Any confidential project, company, or research data
-- Sensitive personal information about yourself or others
-
-By using Slack, you agree that you are responsible for the information you provide.
-
-After the course, Slack group is going to be destroyed.
-
 ## 💼 How to pass the course?
 
 > If implementation plan is not align with rules described in here, this page overrides implementation plan.
@@ -65,14 +38,14 @@ After the course, Slack group is going to be destroyed.
 - Do minimum of 40% of given exercises and return them correctly and you will get grade 1.
   - Return them correctly? See [**Exercise Point Guidelines**](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
   - Upload exercises using [**File Upload**](https://forms.office.com/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEhOU1o1UTFETzY5VTc0SDJaS1paVUM2Ry4u).
-  - Mark your exercises to Google Sheets (link in Slack).
+  - Mark your exercises to Google Sheets
 - If you want a better grade, participate on exam
 
 ## 📚 Material
 
 See
 
-- [Material](material.md) (markdown)
+- [Material](material.md) and [Python book](python.pdf) (PDF)
 
 ## 📚 Exam
 
