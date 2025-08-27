@@ -75,12 +75,12 @@ See
 
 **Exam Details:**
 
-- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester.
+- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester. You can choose your own date between dates `2025-10-8` to `2025-11-11`.
 - **Resources:** You will have full access to the [Python book](python.pdf) (PDF)
 - **Tools:**
   - Visual Studio Code (VS Code)
   - Python transpiler
-- **Internet Access:** No internet connection will be available during the exam.
+- **Internet Access:** No internet connection owill be available during the exam.
 - **Time**:
   - **2 h 55 min** OR if having health condition, then **3h 55 min.**
   - You must do the exam between time period of week 43 - 47
@@ -119,6 +119,8 @@ The **maximum raw score** is **24 points**.
 
 # 🧠 AI Use Policy
 
+According to the Arene's [AI traffic light model](https://arene.fi/wp-content/uploads/PDF/2024/Tekoälysuositukset/ARENE_AI_liikennevalomalli%20.pdf?_t=1730467050), we follow the yellow rule: _"The use of AI is allowed, but it must be disclosed.”_ - with the following restrictions:
+
 ✅ Allowed:
 
 - Asking AI to explain a concept (e.g., "What is a loop?")
@@ -130,7 +132,11 @@ The **maximum raw score** is **24 points**.
 - Asking AI to solve your assignment tasks for you
 - Copy-pasting AI-generated code into your submission
 
-Why?
+Notice also that all of the assignments have a license:
+
+> The material may not be used, in whole or in part, to train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system).
+
+## Why the restrictions?
 
 If you skip the building phase now, you'll be unable to:
 
