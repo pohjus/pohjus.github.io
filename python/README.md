@@ -35,11 +35,35 @@
 
 > If implementation plan is not align with rules described in here, this page overrides implementation plan.
 
-- Do minimum of 40% of given exercises and return them correctly and you will get grade 1.
-  - Return them correctly? See [**Exercise Point Guidelines**](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md).
-  - Upload exercises using [**File Upload**](https://forms.office.com/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEhOU1o1UTFETzY5VTc0SDJaS1paVUM2Ry4u).
-  - Mark your exercises to Google Sheets
-- If you want a better grade, participate on exam
+### Grading Options
+
+#### Option A: **Grade 1 - Exercises only (attendance required)**
+
+- Complete at least **40%** of the given exercises and return them correctly → you will receive **Grade 1**.
+  - [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md)
+  - Upload via [File Upload Form](https://forms.office.com/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEhOU1o1UTFETzY5VTc0SDJaS1paVUM2Ry4u)
+  - Mark your progress in Google Sheets
+
+#### Option B: **Grades 1-5 - Exercises + Exam (attendance required)**
+
+- Complete at least **40%** of the exercises (see above).
+- Participate in the exam.
+- Your final grade (1-5) is based on the exam.
+- If you fail the exam but have completed the required exercises, you will still receive **Grade 1**.
+
+#### Option C: **Grades 0-5 - Exam only (no attendance required)**
+
+- Participate in the exam.
+- Grade depends solely on exam performance (0–5).
+- Failing the exam = failing the course.
+
+#### Comparison Table
+
+| Option                  | Attendance | Exercises Required | Exam Required | Possible Grades | Notes                                                             |
+| ----------------------- | ---------- | ------------------ | ------------- | --------------- | ----------------------------------------------------------------- |
+| **A. Exercises only**   | Yes        | ≥ 40%              | No            | **1**           | Correctly returned exercises guarantee grade 1                    |
+| **B. Exercises + Exam** | Yes        | ≥ 40%              | Yes           | **1–5**         | Exam determines grade; failing exam → Grade 1 (if exercises done) |
+| **C. Exam only**        | No         | No                 | Yes           | **0–5**         | Failing exam = fail course                                        |
 
 ## 📚 Material
 
