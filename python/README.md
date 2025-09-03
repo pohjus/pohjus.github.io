@@ -41,7 +41,7 @@
 
 - Complete at least **40%** of the given exercises and return them correctly → you will receive **Grade 1**.
   - [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md)
-  - Upload via [File Upload Form](https://forms.office.com/Pages/ResponsePage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUNEhOU1o1UTFETzY5VTc0SDJaS1paVUM2Ry4u)
+  - Upload via [File Upload Form](https://docs.google.com/forms/d/e/1FAIpQLScY4rGwSs_Rwe4GkkyJA7p1rWCO3U-ybHVbjP3FZsJTACinEA/viewform?usp=header)
   - Mark your progress in Google Sheets
 
 #### Option B: **Grades 1-5 - Exercises + Exam (attendance required)**
@@ -112,10 +112,6 @@ The **maximum raw score** is **24 points**.
 
 > ⚠️ Bonus points do **not** affect exam pass/fail status.
 > You must first achieve at least **9.6 raw points** to pass; bonus points are added **after** this threshold is met.
-
-ℹ️ Upload your answers in exam as attachments:
-
-![exam](https://paper-attachments.dropboxusercontent.com/s_78CBA4683D2833741B6F050A281DD15456A814F81EF3B1EA8A9E7CCC267314F8_1730544034589_image.png)
 
 # 🧠 AI Use Policy
 
