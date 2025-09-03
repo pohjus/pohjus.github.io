@@ -41,7 +41,7 @@
 
 - Complete at least **40%** of the given exercises and return them correctly → you will receive **Grade 1**.
   - [Exercise Point Guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md)
-  - Upload via [File Upload Form](https://docs.google.com/forms/d/e/1FAIpQLScY4rGwSs_Rwe4GkkyJA7p1rWCO3U-ybHVbjP3FZsJTACinEA/viewform?usp=header)
+  - Upload via [File Upload Form](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL)
   - Mark your progress in Google Sheets
 
 #### Option B: **Grades 1-5 - Exercises + Exam (attendance required)**
