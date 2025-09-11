@@ -11,10 +11,10 @@
 | Week | 25i112B                  | Class    | 25i112A                | Class | Topic                                | Assignments                     |
 | ---- | ------------------------ | -------- | ---------------------- | ----- | ------------------------------------ | ------------------------------- |
 | 36   | 2025-09-01 07:45 - 10:00 | B4-26    | 2025-09-01 12:15-14:00 | H3-22 | Basics                               | [Assignment 01](assignments/01) |
-| 37   | 2025-09-10 12:15-15:00   | P3-06/07 | 2025-09-11 12:15-15:00 | H4-03 | Control Flow & Loops                 | [Assignment 02](assignments/xx) |
-| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20 | Collections                          | [Assignment 03](assignments/xx) |
-| 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | Zoom  | Functions                            | [Assignment 04](assignments/xx) |
-| 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04 | Recap                                | [Assignment 05](assignments/xx) |
+| 37   | 2025-09-10 12:15-15:00   | P3-06/07 | 2025-09-11 12:15-15:00 | H4-03 | Control Flow & Loops                 | [Assignment 02](assignments/02) |
+| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20 | Collections                          | Assignment 03                   |
+| 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | Zoom  | Functions                            | Assignment 04                   |
+| 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04 | Recap                                | Assignment 05                   |
 | 41   | 2025-10-08 14:45-17:00   | Zoom     | 2025-10-08 08:45-11:30 | B5-20 | Final code review. Conducting exams. |                                 |
 | 42   | -                        | -        | -                      | -     | -                                    |                                 |
 | 43   | 2025-10-22 14:45-17:00   | Zoom     | -                      | -     | Final code review. Conducting exams. |                                 |
