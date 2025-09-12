@@ -67,6 +67,8 @@
 
 ## 📚 Material
 
+### Slides (under construction)
+
 <iframe class="speakerdeck-iframe"
         src="https://speakerdeck.com/player/92ca9040671745958ebfde06f2002fe4"
         allowfullscreen="true"
@@ -74,7 +76,9 @@
         title="Introduction to Python (under construction)">
 </iframe>
 
-Also a [Python book](python.pdf) (PDF)
+### Book
+
+See [Python book](python.pdf) (PDF)
 
 ## 📚 Exam
 
