@@ -130,7 +130,7 @@ According to the Arene's [AI traffic light model](https://arene.fi/wp-content/up
 
 Notice also that all of the assignments have a license:
 
-> The material may not be used, in whole or in part, to train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system).
+> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system**, expect for the author.
 
 ## Why the restrictions?
 
