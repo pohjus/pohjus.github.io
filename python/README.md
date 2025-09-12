@@ -67,7 +67,12 @@
 
 ## 📚 Material
 
-<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/pohjus/introduction-to-python-under-construction" allowfullscreen="true" style="border:0; width:560px; height:315px;" title="Speaker Deck"></iframe>
+<iframe class="speakerdeck-iframe"
+        src="https://speakerdeck.com/player/92ca9040671745958ebfde06f2002fe4"
+        allowfullscreen="true"
+        style="border:0; width:100%; height:500px;"
+        title="Introduction to Python (under construction)">
+</iframe>
 
 Also a [Python book](python.pdf) (PDF)
 
