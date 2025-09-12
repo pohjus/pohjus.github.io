@@ -70,7 +70,7 @@
 <iframe class="speakerdeck-iframe"
         src="https://speakerdeck.com/player/92ca9040671745958ebfde06f2002fe4"
         allowfullscreen="true"
-        style="border:0; width:100%; height:500px;"
+        style="border:0; width:100%; aspect-ratio:710/501;"
         title="Introduction to Python (under construction)">
 </iframe>
 
