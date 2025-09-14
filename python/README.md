@@ -15,7 +15,7 @@
 | 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20 | Collections                          | Assignment 03                                          |
 | 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | Zoom  | Functions                            | Assignment 04                                          |
 | 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04 | Recap                                | Assignment 05                                          |
-| 41   | 2025-10-08 14:45-17:00   | Zoom     | 2025-10-08 08:45-11:30 | B5-20 | Final code review. Conducting exams. |                                                        |
+| 41   | 2025-10-08 14:45-15:40   | Zoom     | 2025-10-08 10:15-11:30 | B5-20 | Final code review. Conducting exams. |                                                        |
 | 42   | -                        | -        | -                      | -     | -                                    |                                                        |
 | 43   | 2025-10-22 14:45-17:00   | Zoom     | -                      | -     | Final code review. Conducting exams. |                                                        |
 
