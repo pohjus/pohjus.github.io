@@ -162,17 +162,14 @@ print(line)
 h = int(input("Enter height:\n"))
 
 # build one line with a while loop (no "X" * h)
-line = ""
-i = 0
-while i < h:
-    line = line + "X"
-    i = i + 1
-
-# print that line h times
 row = 0
 while row < h:
-    print(line)
+´   col = 0
+    while col < h:
+        print("X", end="")
+        col = col + 1
     row = row + 1
+
 
 # or
 
