@@ -66,17 +66,20 @@ for x in range(5, 16):
 for x in range(10, -1, -1):
     print(x)
 
-# 10 → 0 using only range(min, max)
-for x in range(0, 11):       # produces 0..10
-    print(10 - x)            # transform to 10..0
+# 10 -> 0
+for i in range(0, 11):
+    print(10 - i)   # 10, 9, 8, ... 0
+
+
+
+
 
 # every second number from 10 → 0
 for x in range(10, -1, -2):
     print(x)
 
-# every second number from 10 → 0 using only range(min, max)
-for x in range(0, 6):        # produces 0..5
-    print(10 - 2 * x)        # transform to 10,8,6,4,2,0
+for x in range(0, 6):
+    print(10 - 2 * x)   # 10, 8, 6, 4, 2, 0
 
 # -----------------------------
 # Assignment 06: Multiplication Using Sum (no '*')
@@ -139,6 +142,9 @@ elif s >= 45 and s <= 52:
 elif s >= 53 and s <= 60:
     print("laudatur")
 
+
+# assignment 09
+
 while True:
     n = int(input("give number: "))
     if n >= 1 and n <= 7:
@@ -197,7 +203,7 @@ hour = int(input("Hour (0-23):\n"))
 minute = int(input("Minute (0-59):\n"))
 money = float(input("Money in euros:\n"))
 
-isMoneyOk = money >= 5
+isMoneyOk = money >= 5  # True vai False
 
 # time between 00:00 and 03:29
 isNight = ((hour >= 0 and hour <= 2) or (hour == 3 and minute <= 29))
