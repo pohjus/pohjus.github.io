@@ -85,7 +85,7 @@ See [Python book](python.pdf) (PDF)
 
 **Exam Details:**
 
-- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester. You can choose your own date between dates `2025-10-8` to `2025-11-11`.
+- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester. You can choose your own date between dates `2025-10-08` to `2025-11-11`.
 - **Resources:** You will have full access to the [Python book](python.pdf) (PDF)
 - **Tools:**
   - Visual Studio Code (VS Code)
