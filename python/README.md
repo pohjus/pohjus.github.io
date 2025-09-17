@@ -5,6 +5,7 @@
 ## 🧑‍💻 Trainer
 
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
+- ⚠️ See [communication guidelines](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
 
 ## 📅 Agenda for `5K00GF25-3005` and `5K00GF25-3006`
 

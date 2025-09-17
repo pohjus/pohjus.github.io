@@ -221,7 +221,6 @@ if isMoneyOk and isTimeOk:
 
 import random
 
-valid = {"rock", "paper", "scissors"}
 p_wins = 0
 c_wins = 0
 
