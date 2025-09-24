@@ -9,18 +9,16 @@
 
 ## 📅 Agenda for `5K00GF25-3005` and `5K00GF25-3006`
 
-⚠️ NOT up to date, will fix as soon as possible. See your calendar for proper dates.
-
-| Week | 25i112B                  | Class    | 25i112A                | Class  | Topic                    | Assignments                                            |
-| ---- | ------------------------ | -------- | ---------------------- | ------ | ------------------------ | ------------------------------------------------------ |
-| 36   | 2025-09-01 07:45 - 10:00 | B4-26    | 2025-09-01 12:15-14:00 | H3-22  | Basics                   | [Assignment 01](assignments/01) - solutions in moodle! |
-| 37   | 2025-09-10 12:15-15:00   | P3-06/07 | 2025-09-11 12:15-15:00 | H4-03  | Control Flow & Loops     | [Assignment 02](assignments/02) - solutions in moodle! |
-| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20  | Collections              | [Assignment 03](assignments/03)                        |
-| 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | G00-10 | Functions                | Assignment 04                                          |
-| 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04  | Recap                    | Assignment 05                                          |
-| 41   | 2025-10-10 08:45-11:00   | B4-25    | 2025-10-08 10:15-11:30 | B5-20  | Recap. Final code review |                                                        |
-| 42   | -                        | -        | -                      | -      | -                        |                                                        |
-| 43   | 2025-10-24 12:00-14:00   | H4-22    | -                      | -      | Final code review.       |                                                        |
+| Week | 25i112B                  | Class    | 25i112A                | Class  | Topic                                        | Assignments                                            |
+| ---- | ------------------------ | -------- | ---------------------- | ------ | -------------------------------------------- | ------------------------------------------------------ |
+| 36   | 2025-09-01 07:45 - 10:00 | B4-26    | 2025-09-01 12:15-14:00 | H3-22  | Basics                                       | [Assignment 01](assignments/01) - solutions in moodle! |
+| 37   | 2025-09-10 12:15-15:00   | P3-06/07 | 2025-09-11 12:15-15:00 | H4-03  | Control Flow & Loops                         | [Assignment 02](assignments/02) - solutions in moodle! |
+| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20  | Collections                                  | [Assignment 03](assignments/03)                        |
+| 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | G00-10 | Functions                                    | Assignment 04                                          |
+| 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04  | Recap                                        | Assignment 05                                          |
+| 41   | 2025-10-10 08:45-11:00   | B4-25    | 2025-10-08 10:15-11:30 | B5-20  | Recap (25i112B). Final code review (25i112A) |                                                        |
+| 42   | -                        | -        | -                      | -      | -                                            |                                                        |
+| 43   | 2025-10-24 12:00-14:00   | H4-22    | -                      | -      | Final code review.                           |                                                        |
 
 <!--
 ## 📅 Agenda for `5S00DX90-3018`
