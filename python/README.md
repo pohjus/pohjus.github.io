@@ -9,6 +9,8 @@
 
 ## 📅 Agenda for `5K00GF25-3005` and `5K00GF25-3006`
 
+⚠️ NOT up to date, will fix as soon as possible. See your calendar for proper dates.
+
 | Week | 25i112B                  | Class    | 25i112A                | Class  | Topic                    | Assignments                                            |
 | ---- | ------------------------ | -------- | ---------------------- | ------ | ------------------------ | ------------------------------------------------------ |
 | 36   | 2025-09-01 07:45 - 10:00 | B4-26    | 2025-09-01 12:15-14:00 | H3-22  | Basics                   | [Assignment 01](assignments/01) - solutions in moodle! |
