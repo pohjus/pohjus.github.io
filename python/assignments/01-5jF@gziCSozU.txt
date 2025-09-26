@@ -523,7 +523,289 @@ else:
 
 
 
+# =========================
+# Assingment 03
+# =========================
 
+print("\n--- Assignment 01: Add Item to List ---")
+fruits = ["apple", "banana", "orange"]
+new_fruit = input("Enter a fruit to add: ")
+fruits.append(new_fruit)
+print(fruits)
+
+print("\n--- Assignment 02: Shopping List ---")
+shopping = []
+i = 1
+while i <= 5:
+    item = input("Enter item " + str(i) + ": ")
+    shopping.append(item)
+    i = i + 1
+print(shopping)
+
+print("\n--- Assignment 03: Remove Item from List ---")
+to_remove = input("Enter an item to remove: ")
+if to_remove in shopping:
+    shopping.remove(to_remove)
+    print(shopping)
+else:
+    print("Not in list")
+
+print("\n--- Assignment 04: Sort and Print List ---")
+nums = []
+j = 1
+while j <= 5:
+    n = input("Enter number " + str(j) + ": ")
+    nums.append(int(n))
+    j = j + 1
+nums.sort()
+print(nums)
+
+print("\n--- Assignment 05: Check Palindrome with List ---")
+word = input("Give string: ")
+letters = list(word)
+
+reversed_letters = ""   # start as empty string
+for i in range(len(letters)):
+    reversed_letters = reversed_letters + letters[len(letters) - i - 1]
+
+if word == reversed_letters:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
+
+
+print("\n--- Assignment 06: List Average ---")
+nums2 = []
+
+for m in range(1, 6):
+    v = int(input("Enter number " + str(m) + ": "))
+    nums2.append(v)
+
+sum_val = 0
+for n in nums2:
+    sum_val = sum_val + n
+
+# notice! int / int => int, float / int => float
+# float is decimal number
+avg = float(sum_val) / len(nums2)
+print("Average:", avg)
+
+# =========================
+# Tuples
+# =========================
+
+print("\n--- Assignment 07: Tuple Packing ---")
+person = ("Anna", 25, "Finland")
+print("Name:", person[0])
+print("Age:", person[1])
+print("Country:", person[2])
+
+print("\n--- Assignment 08: Tuple with Mixed Data Types ---")
+mixed = ("Alice", 30, [10, 20, 30], True)
+print("Tuple:", mixed)
+print("List inside tuple:", mixed[2])
+mixed[2].append(40)
+print("Updated tuple:", mixed)
+
+print("\n--- Assignment 09: Tuple Slicing ---")
+tup = (1,2,3,4,5,6,7,8,9,10)
+print("First three:", tup[0:3])
+print("Last three:", tup[-3:])
+# middle four elements: positions 3,4,5,6 -> indices 3:7
+print("Middle four:", tup[3:7])
+
+print("\n--- Assignment 10: Nested Tuples ---")
+students = (("Alice", 21, "CS"), ("Bob", 22, "Math"))
+
+for s in students:
+    print("Name:", s[0] + ", Age:", str(s[1]) + ", Major:", s[2])
+
+# =========================
+# Sets
+# =========================
+
+print("\n--- Assignment 11: Set Creation ---")
+words_set = set()
+
+for _ in range(5):
+    w = input("Enter word: ")
+    words_set.add(w)  # removes duplicates
+
+print(words_set)
+
+print("\n--- Assignment 12: Set Membership Test ---")
+allowed = {"Alice", "Bob", "Charlie"}
+name_in = input("Enter name: ")
+if name_in in allowed:
+    print("Name is allowed")
+else:
+    print("Name not allowed")
+
+print("\n--- Assignment 13: Set Operations ---")
+s1 = input("Enter first set (comma-separated numbers): ")
+s2 = input("Enter second set (comma-separated numbers): ")
+lst1 = s1.split(",")
+lst2 = s2.split(",")
+
+for i1 in range(len(lst1)):
+    lst1[i1] = int(lst1[i1])
+
+for i2 in range(len(lst2)):
+    lst2[i2] = int(lst2[i2])
+
+set1 = set(lst1)
+set2 = set(lst2)
+print("Union:", set1.union(set2))
+print("Intersection:", set1.intersection(set2))
+
+# =========================
+# Dictionaries
+# =========================
+
+print("\n--- Assignment 14: Dictionary Lookup ---")
+ages = {"John": 25, "Mary": 30, "Alex": 22}
+lookup = input("Enter name: ")
+if lookup in ages:
+    print(ages[lookup])
+else:
+    print("Name not found")
+
+print("\n--- Assignment 15: Update Dictionary ---")
+new_name = input("Enter name: ")
+new_age_txt = input("Enter age: ")
+new_age = int(new_age_txt)
+ages[new_name] = new_age
+print(ages)
+
+print("\n--- Assignment 16: Dictionary from Input ---")
+print("\n--- Assignment 16: Dictionary from Input ---")
+scores = {}
+
+for r in range(1, 4):
+    name = input("Enter name: ")
+    sc_txt = input("Enter score: ")
+    scores[name] =  int(sc_txt)
+
+print(scores)
+
+pairs_dict = {}
+
+for _ in range(3):
+    pair = input('Enter "key:value" pair: ')
+    parts = pair.split(":")
+    key = parts[0]
+    value = parts[1]
+    pairs_dict[key] = value
+
+print(pairs_dict)
+
+print("\n--- Assignment 18: List of Dictionaries ---")
+print("\n--- Assignment 18: List of Dictionaries ---")
+products = [
+    {"name": "milk", "price": 1.5},
+    {"name": "bread", "price": 2.0}
+]
+
+for item in products:
+    print(item["name"], "costs", item["price"])
+
+
+print("\n--- Assignment 19: Count Occurrences ---")
+words_in = input("Enter words (comma separated): ")
+
+# ["cow", "dog", "dog", "milk"]
+parts = words_in.split(",")
+
+counts = {}
+for word in parts:
+    if word in counts: # if already found
+        counts[word] = counts[w] + 1  # counts["dog"] = counts["dog"] + 1 => counts["dog"] = 1 + 1
+    else:
+        counts[word] = 1  # first one, example counts["dog"] = 1
+
+print(counts)
+
+# =========================
+# Extra Assignment 20: Nested Dictionary
+# =========================
+
+print("\n--- Extra Assignment 20: Nested Dictionary ---")
+students_dict = {
+    "Alice": {"age": 21, "major": "CS"},
+    "Bob": {"age": 22, "major": "Math"}
+}
+while True:
+    print("Students:")
+    print(students_dict)
+    print("[1] Add new student")
+    print("[2] Exit")
+    choice = input()
+    if choice == "1":
+        sname = input("Give name: ")
+        sage_txt = input("Give age: ")
+        smajor = input("Give major: ")
+        students_dict[sname] = {"age": int(sage_txt), "major": smajor}
+    elif choice == "2":
+        print("Bye!")
+        break
+    else:
+        print("Unknown option")
+
+# =========================
+# Extra Assignment 21: Lotto App (5 p)
+# =========================
+
+print("\n--- Extra Assignment 21: Lotto App ---")
+import random
+
+user_line = input("Enter your 7 unique lotto numbers (1-40), space-separated: ")
+parts = user_line.split()
+
+# convert to integers and validate
+user_nums = set()
+ok = True
+for n_txt in parts:
+    n_val = int(n_txt)  # assume input is digits
+    if n_val < 1 or n_val > 40:
+        print("Invalid input. Numbers must be between 1 and 40.")
+        ok = False
+        break
+    user_nums.add(n_val)
+
+# must have exactly 7 unique numbers
+if len(user_nums) != 7:
+    print("Invalid input. Must give exactly 7 unique numbers.")
+    ok = False
+
+if ok:
+    # convert to sorted list for comparison
+    user_nums = sorted(user_nums)
+
+    # Simulation loop
+    week = 0
+    while True:
+        week += 1
+        draw = set()
+
+        while len(draw) < 7:
+            draw.add(random.randint(1, 40))
+
+        draw = sorted(draw)
+
+        # Print weekly draw with leading zeros (manual, no join)
+        line = ""
+        for d in draw:
+            if d < 10:
+                line = line + "0" + str(d) + " "
+            else:
+                line = line + str(d) + " "
+        print("Week " + str(week) + ": " + line)
+
+        # Compare
+        if draw == user_nums:
+            years = week / 52.0
+            print("Jackpot after " + str(week) + " weeks (~" + str(round(years, 2)) + " years)!")
+            break
 
 
 
