@@ -13,7 +13,7 @@
 | ---- | ------------------------ | -------- | ---------------------- | ------ | -------------------------------------------- | ------------------------------------------------------ |
 | 36   | 2025-09-01 07:45 - 10:00 | B4-26    | 2025-09-01 12:15-14:00 | H3-22  | Basics                                       | [Assignment 01](assignments/01) - solutions in moodle! |
 | 37   | 2025-09-10 12:15-15:00   | P3-06/07 | 2025-09-11 12:15-15:00 | H4-03  | Control Flow & Loops                         | [Assignment 02](assignments/02) - solutions in moodle! |
-| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20  | Collections                                  | [Assignment 03](assignments/03)                        |
+| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20  | Collections                                  | [Assignment 03](assignments/03) - solutions in moodle! |
 | 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | G00-10 | Functions                                    | [Assignment 04](assignments/04)                        |
 | 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04  | Recap                                        | Assignment 05                                          |
 | 41   | 2025-10-10 08:45-11:00   | B4-25    | 2025-10-08 10:15-11:30 | B5-20  | Recap (25i112B). Final code review (25i112A) |                                                        |
@@ -152,7 +152,8 @@ If you skip the building phase now, you'll be unable to:
 
 In the future, the developer's role may be more about validating AI-generated code than writing it from scratch. But effective validation requires deep expertise, expertise you can only gain by building software manually yourself!
 
-If you use AI, use [**Programming Learning Coach**](https://chatgpt.com/share/68988de7-1bf8-8008-9b02-1c1b8ee4482a), it should be instructed to NOT give you code directly (although this is not guaranteed, use it wisely!):
+If you use AI, use [**Programming Learning Coach**](https://chatgpt.com/share/68988de7-1bf8-8008-9b02-1c1b8ee4482a), it should be instructed to NOT give you code directly. It seems
+that some students get this to work and some not. You can also use [chatGPT study mode](https://openai.com/index/chatgpt-study-mode/).
 
 > This is an interactive programming tutor that teaches by asking questions, giving hints, and explaining concepts - never giving full code. Helps students think through problems, not just copy solutions.
 
