@@ -7,30 +7,15 @@
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
 - ⚠️ See [communication guidelines](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
 
-## 📅 Agenda for `5K00GF25-3005` and `5K00GF25-3006`
-
-| Week | 25i112B                  | Class    | 25i112A                | Class  | Topic                       | Assignments                                            |
-| ---- | ------------------------ | -------- | ---------------------- | ------ | --------------------------- | ------------------------------------------------------ |
-| 36   | 2025-09-01 07:45 - 10:00 | B4-26    | 2025-09-01 12:15-14:00 | H3-22  | Basics                      | [Assignment 01](assignments/01) - solutions in moodle! |
-| 37   | 2025-09-10 12:15-15:00   | P3-06/07 | 2025-09-11 12:15-15:00 | H4-03  | Control Flow & Loops        | [Assignment 02](assignments/02) - solutions in moodle! |
-| 38   | 2025-09-15 08:00-10:45   | C4-05    | 2025-09-17 13:45-16:00 | B4-20  | Collections                 | [Assignment 03](assignments/03) - solutions in moodle! |
-| 39   | 2025-09-24 12:15-15:00   | B3-28    | 2025-09-25 11:45-14:30 | G00-10 | Functions                   | [Assignment 04](assignments/04)                        |
-| 40   | -                        | -        | 2025-10-01 08:45-11:30 | F1-04  | Recap                       | [Assignment 05](assignments/05)                        |
-| 41   | -                        | -        | 2025-10-08 10:15-11:30 | B5-20  | Final code review (25i112A) |                                                        |
-| 42   | -                        | -        | -                      | -      | -                           |                                                        |
-| 43   | 2025-10-22 13:00-14:30   | H4-22    | -                      | -      | Final code review.(25i112B) |                                                        |
-
-<!--
 ## 📅 Agenda for `5S00DX90-3018`
 
 | Week | Date         | Time        | Topic                                | Assignments                     |
 | ---: | ------------ | ----------- | ------------------------------------ | ------------------------------- |
-|   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/02) |
-|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02](assignments/03) |
-|   46 | `2025-11-14` | 08:15-11:00 | Collections, Functions               | [Assignment 03](assignments/03) |
-|   48 | `2025-11-28` | 08:15-11:00 | Recap                                | [Assignment 04](assignments/04) |
+|   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/01) |
+|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02]                 |
+|   46 | `2025-11-14` | 08:15-11:00 | Collections, Functions               | [Assignment 03]                 |
+|   48 | `2025-11-28` | 08:15-11:00 | Recap                                | [Assignment 04]                 |
 |   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                 |
--->
 
 ## 💼 How to pass the course?
 
@@ -68,7 +53,7 @@
 
 ## 📚 Material
 
-### Slides (under construction)
+### Slides
 
 <iframe class="speakerdeck-iframe"
         src="https://speakerdeck.com/player/92ca9040671745958ebfde06f2002fe4"
@@ -85,7 +70,7 @@ See [Python book](python.pdf) (PDF)
 
 **Exam Details:**
 
-- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester. You can choose your own date between dates `2025-10-08` to `2025-11-11`.
+- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester. You can choose your own date between dates `2025-12-12` to `2026-02-01`.
 - **Resources:** You will have full access to the [Python book](python.pdf) (PDF)
 - **Tools:**
   - Visual Studio Code (VS Code)
@@ -93,7 +78,6 @@ See [Python book](python.pdf) (PDF)
 - **Internet Access:** No internet connection owill be available during the exam.
 - **Time**:
   - **2 h 55 min** OR if having health condition, then **3h 55 min.**
-  - You must do the exam between time period of week 43 - 47
 - Retake exam
   - You fail, you can retake the failed exam **two times**
   - You pass, you can try to achieve a better grade **one time**
@@ -152,8 +136,7 @@ If you skip the building phase now, you'll be unable to:
 
 In the future, the developer's role may be more about validating AI-generated code than writing it from scratch. But effective validation requires deep expertise, expertise you can only gain by building software manually yourself!
 
-If you use AI, use [**Programming Learning Coach**](https://chatgpt.com/share/68988de7-1bf8-8008-9b02-1c1b8ee4482a), it should be instructed to NOT give you code directly. It seems
-that some students get this to work and some not. You can also use [chatGPT study mode](https://openai.com/index/chatgpt-study-mode/).
+If you use AI, use [chatGPT study mode](https://openai.com/index/chatgpt-study-mode/).
 
 > This is an interactive programming tutor that teaches by asking questions, giving hints, and explaining concepts - never giving full code. Helps students think through problems, not just copy solutions.
 
