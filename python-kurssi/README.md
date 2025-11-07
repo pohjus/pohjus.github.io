@@ -10,7 +10,7 @@
 | Week | Date         | Time        | Topic                                | Assignments                     |
 | ---: | ------------ | ----------- | ------------------------------------ | ------------------------------- |
 |   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/01) |
-|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | Assignment 02                   |
+|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02](assignments/02) |
 |   46 | `2025-11-14` | 08:15-11:00 | Functions                            | Assignment 03                   |
 |   48 | `2025-11-28` | 08:15-11:00 | Collection                           | Assignment 04                   |
 |   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                 |
