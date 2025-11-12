@@ -1,0 +1,254 @@
+# 🧪 Assignment 04
+
+## License
+
+> This work is licensed under the
+> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**
+>
+> ⚠️ **Additional Restriction:**
+> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system**, expect for the author.
+
+🔗 [Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+---
+
+## 📁 Directory Structure
+
+Create each exercise in its own folder:
+
+```
+lastname-firstname-assignment03/e01.py
+lastname-firstname-assignment03/e02.py
+...
+lastname-firstname-assignment03/e23.py
+```
+
+So your directory structure could be (_change the name from `opiskelija-olli` to your name_):
+
+```
+opiskelija-olli-assignment04
+├── e01.py
+├── e02.py
+├── e03.py
+...
+├── e23.py
+```
+
+⚠️ Use the concepts we've covered in class in your exercises - **don't use advanced features**, even if you already know them.
+
+## 🚀 Submitting Your Work
+
+1. Zip your `lastname-firstname-assignment03` directory to `lastname-firstname-assignment03.zip`. If you do not know how to zip, see [instructions](https://support.microsoft.com/en-us/windows/.zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+2. To submit your exercises to the teacher use [dropbox file upload](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL).
+3. Mark your exercises in Google Sheets (link in Moodle)
+4. Be prepared to participate on code review where you may have to explain your solutions in the class.
+5. Be on time on lectures, **latecomers do not get points**.
+6. See general [guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md) for the exercises.
+
+## 🧩 Exercises
+
+> See tutorial [Python functions](https://www.w3schools.com/python/python_functions.asp)
+
+---
+
+### Assignment 01: Simple Function
+
+Write a function called `greet()` that prints `"Hello, world!"`.
+Call the function.
+
+Output of your app:
+
+    Hello, world!
+
+---
+
+### Assignment 02: Function with Parameters
+
+Write a function `greet(name)` that prints `"Hello, <name>!"`.
+Ask the user for their name and call the function.
+
+Example flow of your app
+
+    Give name: Jack
+    Hello, Jack!
+
+Or
+
+    Give name: Iiro
+    Hello, Iiro!
+
+---
+
+### Assignment 03: Return Value
+
+Write a function `add(a, b)` that returns the sum of two numbers.
+Ask the user for two numbers, call the function, and print the result.
+
+Example flow of your app
+
+    Give number 1: 5
+    Give number 2: 10
+    Sum: 15
+
+---
+
+### Assignment 04: Even or Odd
+
+Write a function `is_even(n)` that returns `True` if `n` is even, otherwise `False`.
+Ask the user for a number and print the result. See [tutorial for even / odd](https://www.programiz.com/python-programming/examples/odd-even).
+
+Example flow:
+
+    Give number: 4
+    Number 4 is even.
+
+Or
+
+    Give number: 3
+    Number 3 is odd.
+
+---
+
+### Assignment 05: Maximum of Three
+
+Write a function `maximum(a, b, c)` that returns the largest of the three numbers.
+Ask the user for three numbers and use the function to find and print the max. Implement the functionality of max using `if`.
+
+Example
+
+    Give number 1: 5
+    Give number 2: 10
+    Give number 3: 2
+    Largest number is 10.
+
+---
+
+### Assignment 06: Multiplication Table
+
+Write a function `print_table(n)` that prints the multiplication table of number `n` from 1 to 10. Ask `n` from user.
+
+Example
+
+    Give number: 5
+    1 x 5 = 5
+    2 x 5 = 10
+    3 x 5 = 15
+    ..
+    ..
+    10 x 5 = 50
+
+---
+
+### Assignment 07: Count Vowels
+
+Write a function `count_vowels(text)` that counts and returns the number of vowels in a string.
+Ask the user for a string and print the result. You can get one character from string using indexes:
+
+```python
+name = "jack"
+print(name[0])
+```
+
+Example:
+
+    Give name: Hannah
+    Number of vowels: 2
+
+---
+
+### Assignment 09: Temperature Converter
+
+Write a function `celsius_to_fahrenheit(c)` that converts Celsius to Fahrenheit.
+Ask the user for a Celsius value and print the Fahrenheit equivalent.
+
+---
+
+### Assignment 10: Calculator
+
+Write functions for `add(a, b)`, `subtract(a, b)`, `multiply(a, b)`, and `divide(a, b)`.
+Ask the user for two numbers and an operation, then print the result.
+
+Example:
+
+    Number 1: 5
+    Number 2: 5
+    Operator: +
+    Result is: 5 + 5 = 10
+
+---
+
+### Assignment 11: Word Counter
+
+Write a function `count_words(sentence)` that returns the number of words in a sentence. Ask the user for input and print the word count. You can except that word can be calculated using spaces.
+
+    Give string: Hello Hannah, what's up?
+    Number of Words: 4
+
+---
+
+### Assignment 12: Argument Defaults
+
+Write a function `say_hello(name="friend")` that prints `"Hello, <name>"`. Call it with and without an argument. Call it with argument.
+
+---
+
+### Assignment 13: Print Function
+
+Create a function `print(character, amount)` that outputs the given character
+amount of times. So if
+
+```python
+print("x", 5)
+```
+
+It will output
+
+```bash
+xxxxx
+```
+
+Use while or for loop for the iteration in the function.
+
+---
+
+### Assignment 14: ASCII Square
+
+Implement an app that asks from the user a height of an ascii square:
+
+```bash
+give height:
+5
+```
+
+Then the app outputs a square that is the size of then given height:
+
+```
+XXXX
+XXXX
+XXXX
+XXXX
+```
+
+Use the previous function `print` in your solution.
+
+---
+
+### Assignment 15: ASCII Square 2
+
+Implement an app that asks from the user a height of an ascii square:
+
+```bash
+give height:
+5
+```
+
+Then the app outputs a square that is the size of then given height, but this time the square looks like:
+
+```
+XXXX
+X  X
+X  X
+XXXX
+```
+
+Use the previous function `print` in your solution.
