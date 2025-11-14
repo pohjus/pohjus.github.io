@@ -224,10 +224,6 @@ import random
 p_wins = 0
 c_wins = 0
 
-nimi = "jaska"
-print("nimi on hieno")  # nimi on hieno
-print(nimi, "on hieno") # jaska on hieno
-
 while p_wins < 2 and c_wins < 2:
     user = input("rock, paper or scissors?\n")
 
