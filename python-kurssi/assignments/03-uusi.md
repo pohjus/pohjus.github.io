@@ -190,6 +190,8 @@ Write a function `count_words(sentence)` that returns the number of words in a s
 
 Write a function `say_hello(name="friend")` that prints `"Hello, <name>"`. Call it with and without an argument. Call it with argument.
 
+See [default arguments](https://www.w3schools.com/python/python_arguments.asp).
+
 ---
 
 ### Assignment 13: Print Function
