@@ -195,26 +195,18 @@ while row < h:
     row = row + 1
 
 # -----------------------------
-# Extra 12: Go to the Pub
-#  - Time between 12:00 and 03:29 next day
-#  - Money >= 5€
+# Extra 12: Go to the Cafe
 # -----------------------------
 hour = int(input("Hour (0-23):\n"))
 minute = int(input("Minute (0-59):\n"))
 money = float(input("Money in euros:\n"))
 
-isMoneyOk = money >= 5  # True vai False
+isMoneyOk = money >= 3
 
-# time between 00:00 and 03:29
-isNight = ((hour >= 0 and hour <= 2) or (hour == 3 and minute <= 29))
-
-# time between 12:00 and 23:59
-isDay = (hour >= 12 and hour <= 23)
-
-isTimeOk = (isNight or isDay)
+isTimeOk = ((hour >= 0 and hour <= 20) or (hour == 21 and minute <= 59))
 
 if isMoneyOk and isTimeOk:
-    print("Ale pup is open from 12 to 03:29. Beer costs 5€. Go to the pub.")
+    print("The café is open from 08:00 to 21:59. A coffee costs 3€. Go to the café.")
 
 # -----------------------------
 # Extra 13: Rock-Paper-Scissors, best of 3 (first to 2)
