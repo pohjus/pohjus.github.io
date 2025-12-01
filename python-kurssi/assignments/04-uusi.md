@@ -12,7 +12,7 @@
 
 ---
 
-## ⚠️ For each online lecture with ✏️ emoji, write **handwritten** notes.
+## ⚠️ For online lectures write and upload **handwritten** notes.
 
 You can use your phone to capture photos from the notes and upload those as pdf.
 
