@@ -22,7 +22,6 @@ Upload your notes:
 lastname-firstname-lecture01.pdf
 lastname-firstname-lecture02.pdf
 lastname-firstname-lecture03.pdf
-lastname-firstname-lecture04.pdf
 ```
 
 Submit your notes to the teacher use [dropbox file upload](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL).
@@ -78,10 +77,8 @@ opiskelija-olli-assignment04
   - `lastname-firstname-lecture01.pdf`
 - [Lists](https://www.youtube.com/watch?v=NFaSaPtzLCY&feature=youtu.be)
   - `lastname-firstname-lecture02.pdf`
-- [Lists](https://www.youtube.com/watch?v=NFaSaPtzLCY&feature=youtu.be)
-  - `lastname-firstname-lecture03.pdf`
 - [Tuple and Set](https://www.youtube.com/watch?v=RKb5DBNMTcI)
-  - `lastname-firstname-lecture04.pdf`
+  - `lastname-firstname-lecture03.pdf`
 - [Recap: Lotto App](https://www.youtube.com/watch?v=6kA3l514jXY)
   - No need for notes.
 
