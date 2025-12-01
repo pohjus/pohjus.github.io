@@ -12,7 +12,34 @@
 
 ---
 
-## 📁 Directory Structure
+## ⚠️ For each online lecture with ✏️ emoji, write **handwritten** notes.
+
+You can use your phone to capture photos from the notes and upload those as pdf.
+
+Upload your notes:
+
+```
+lastname-firstname-lecture01.pdf
+lastname-firstname-lecture02.pdf
+lastname-firstname-lecture03.pdf
+lastname-firstname-lecture04.pdf
+```
+
+Submit your notes to the teacher use [dropbox file upload](https://www.dropbox.com/request/WenoWd5sGzH4f8Fv0hIL).
+
+**macOS**
+
+- In Finder, select all the PNGs you want (hold ⌘ while clicking or drag to select).
+- Right-click and choose Open With → Preview.
+- In Preview’s sidebar (enable via View → Thumbnails if needed), drag the images to correct the order.
+- Go to File → Print (or ⌘ + P), then in the Print dialog choose Save as PDF. That will produce one PDF containing all the images.
+
+**Windows**
+
+- Open the folder with your PNG images, select all you want (Ctrl + click or Ctrl + A).
+- Right-click and choose Print. In the Print dialog, set the printer to Microsoft Print to PDF. This converts the selected images into a single PDF (one page per image).
+
+## 📁 Directory Structure for Exercises
 
 Create each exercise in its own folder:
 
@@ -44,6 +71,19 @@ opiskelija-olli-assignment04
 4. Be prepared to participate on code review where you may have to explain your solutions in the class.
 5. Be on time on lectures, **latecomers do not get points**.
 6. See general [guidelines](https://github.com/pohjus/common-course-assets/blob/main/exercise-points-guidelines.md) for the exercises.
+
+## ✏️ Lectures
+
+- [Overview of Collections](https://www.youtube.com/watch?v=0bpJqL1G70g&feature=youtu.be)
+  - `lastname-firstname-lecture01.pdf`
+- [Lists](https://www.youtube.com/watch?v=NFaSaPtzLCY&feature=youtu.be)
+  - `lastname-firstname-lecture02.pdf`
+- [Lists](https://www.youtube.com/watch?v=NFaSaPtzLCY&feature=youtu.be)
+  - `lastname-firstname-lecture02.pdf`
+- [Tuple and Set](https://www.youtube.com/watch?v=RKb5DBNMTcI)
+  - `lastname-firstname-lecture03.pdf`
+- [Recap: Lotto App](https://www.youtube.com/watch?v=6kA3l514jXY)
+  - No need for notes.
 
 ## 🧩 Exercises
 
