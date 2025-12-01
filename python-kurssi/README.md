@@ -7,13 +7,13 @@
 
 ## 📅 Agenda for `5S00DX90-3018`
 
-| Week | Date         | Time        | Topic                                | Assignments                             |
-| ---: | ------------ | ----------- | ------------------------------------ | --------------------------------------- |
-|   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/01)         |
-|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02](assignments/02)         |
-|   46 | `2025-11-14` | 08:15-11:00 | Functions                            | [Assignment 03](assignments/03-uusi.md) |
-|   48 | `2025-11-28` | 08:15-11:00 | Collection                           | [Assignment 04](assignments/04-uusi.md) |
-|   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. |                                         |
+| Week | Date         | Time        | Topic                                | Assignments                                           |
+| ---: | ------------ | ----------- | ------------------------------------ | ----------------------------------------------------- |
+|   43 | `2025-10-24` | 08:15-11:00 | Basics                               | [Assignment 01](assignments/01.md)                    |
+|   45 | `2025-11-07` | 08:15-11:00 | Control Flow & Loops                 | [Assignment 02](assignments/02.md)                    |
+|   46 | `2025-11-14` | 08:15-11:00 | Functions                            | [Assignment 03](assignments/03-uusi.md)               |
+|   48 | `2025-11-28` | 08:15-11:00 | Collection                           | [Assignment 04](assignments/04-uusi.md)               |
+|   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. | [Assignment 05](assignments/05.md) (recap, voluntary) |
 
 ## 💼 How to pass the course?
 
