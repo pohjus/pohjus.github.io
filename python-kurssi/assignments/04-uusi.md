@@ -79,9 +79,9 @@ opiskelija-olli-assignment04
 - [Lists](https://www.youtube.com/watch?v=NFaSaPtzLCY&feature=youtu.be)
   - `lastname-firstname-lecture02.pdf`
 - [Lists](https://www.youtube.com/watch?v=NFaSaPtzLCY&feature=youtu.be)
-  - `lastname-firstname-lecture02.pdf`
-- [Tuple and Set](https://www.youtube.com/watch?v=RKb5DBNMTcI)
   - `lastname-firstname-lecture03.pdf`
+- [Tuple and Set](https://www.youtube.com/watch?v=RKb5DBNMTcI)
+  - `lastname-firstname-lecture04.pdf`
 - [Recap: Lotto App](https://www.youtube.com/watch?v=6kA3l514jXY)
   - No need for notes.
 
