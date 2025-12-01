@@ -80,7 +80,7 @@ opiskelija-olli-assignment04
   - `lastname-firstname-lecture02.pdf`
 - [Tuple and Set](https://www.youtube.com/watch?v=RKb5DBNMTcI)
   - `lastname-firstname-lecture03.pdf`
-- [Dictionary](https://youtu.be/U4UrWj2jaAI)
+- [Dictionary](https://www.youtube.com/watch?v=U4UrWj2jaAI)
   - `lastname-firstname-lecture04.pdf`
 - [Recap: Lotto App](https://www.youtube.com/watch?v=6kA3l514jXY)
   - No need for notes.
