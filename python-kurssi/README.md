@@ -5,6 +5,11 @@
 - Jussi Pohjolainen, [`jussi.pohjolainen@tuni.fi`](mailto:jussi.pohjolainen@tuni.fi)
 - ⚠️ See [communication guidelines](https://github.com/pohjus/common-course-assets/blob/main/communication-guidelines.md).
 
+## News
+
+- 🆕 [Register for the exam](https://exam.tuni.fi/enrolments/484017?code=5S00DX90-3018)!
+  - Time frame: `2025-12-10` to `2026-02-01`
+
 ## 📅 Agenda for `5S00DX90-3018`
 
 | Week | Date         | Time        | Topic                                | Assignments                                           |
@@ -68,7 +73,7 @@ See [Python book](python.pdf) (PDF)
 
 **Exam Details:**
 
-- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi) during the autumn semester. You can choose your own date between dates `2025-12-12` to `2026-02-01`.
+- **Platform:** The exam will be conducted on [exam.tuni.fi](https://exam.tuni.fi). You can choose your own date between dates `2025-12-10` to `2026-02-01`.
 - **Resources:** You will have full access to the [Python book](python.pdf) (PDF)
 - **Tools:**
   - Visual Studio Code (VS Code)
@@ -79,6 +84,14 @@ See [Python book](python.pdf) (PDF)
 - Retake exam
   - You fail, you can retake the failed exam **two times**
   - You pass, you can try to achieve a better grade **one time**
+
+**Example of Exam in exam.tuni.fi**
+
+![Exam](images/exam.png)
+
+**Example of Exam Question**
+
+![Exam](images/exam-question.png)
 
 ### Bonus-Point System
 
