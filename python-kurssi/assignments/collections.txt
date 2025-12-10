@@ -153,7 +153,6 @@ ages[new_name] = new_age
 print(ages)
 
 print("\n--- Assignment 16: Dictionary from Input ---")
-print("\n--- Assignment 16: Dictionary from Input ---")
 scores = {}
 
 for r in range(1, 4):
@@ -175,7 +174,6 @@ for _ in range(3):
 print(pairs_dict)
 
 print("\n--- Assignment 18: List of Dictionaries ---")
-print("\n--- Assignment 18: List of Dictionaries ---")
 products = [
     {"name": "milk", "price": 1.5},
     {"name": "bread", "price": 2.0}
@@ -188,15 +186,14 @@ for item in products:
 print("\n--- Assignment 19: Count Occurrences ---")
 words_in = input("Enter words (comma separated): ")
 
-# ["cow", "dog", "dog", "milk"]
 parts = words_in.split(",")
 
 counts = {}
 for word in parts:
-    if word in counts: # if already found
-        counts[word] = counts[w] + 1  # counts["dog"] = counts["dog"] + 1 => counts["dog"] = 1 + 1
+    if word in counts:
+        counts[word] = counts[word] + 1  # counts["dog"] = counts["dog"] + 1 => counts["dog"] = 1 + 1
     else:
-        counts[word] = 1  # first one, example counts["dog"] = 1
+        counts[word] = 1
 
 print(counts)
 
