@@ -1,10 +1,9 @@
-# 🎯 Instructions for Earning Exercise Points
+# Instructions for Earning Exercise Points
 
-## **1. Attendance and Punctuality**
+## **Attendance and Punctuality**
 
 - Arrive **on time** for lectures.
-- Usually in your calendar lecture is marked to start at 9.00 or 12.30. Our
-  lectures start at 8.45 and 12.15 (15 minutes earlier) despite of the calendar.
+- Training sessions starts 15 minutes earlier than in calendar. For example if reservation is in calendar `09:00`, session starts at `08:45`.
 - **Within the first 15 minutes** of the lecture (for example 8.45-9.00):
   - Mark your physical presence in the provided **Google Sheet**.
   - **Important:** Only mark yourself present if you are physically in class.
@@ -15,18 +14,18 @@
 
 ---
 
-## **2. Presentation of Solutions**
+## **Presentation of Solutions**
 
 - Be **prepared** to present and explain your solutions to the class.
 - The teacher may **randomly select** students to discuss their solutions.
 - If you **haven't marked your attendance on time**, you **won't** be eligible for:
   - Random selection for solution presentation.
   - Earning exercise points.
-- **Failure to explain your assignment** will result in **no points awarded**.
+- **Failure to explain your assignment** will result in **no points awarded**. It may be also considered as fraudulent behaviour.
 
 ---
 
-## **3. Authenticity of Work**
+## **Authenticity of Work**
 
 - **All assignments must be your own original work.**
 - You may **seek assistance** from other students or AI, but **copying and pasting** are strictly prohibited.
@@ -37,7 +36,7 @@
 
 ---
 
-## **4. Absences**
+## **Absences**
 
 - If you have a **valid reason** (e.g., doctor’s appointment) for missing a lecture,
   **notify the teacher** **before the lecture begins**. If the course has Slack, please prefer that, otherwise use e-mail.
@@ -47,7 +46,7 @@
 
 ---
 
-## **Use of AI (e.g., ChatGPT)**
+## **Use of AI**
 
 TAMK requires students to use **AI-based applications responsibly and ethically** in their studies.
 
@@ -56,9 +55,3 @@ TAMK requires students to use **AI-based applications responsibly and ethically*
 - It is **fraudulent** to present **AI-generated** text, images,or other output as **your own work**.
 
 Cases of **fraud** will be handled according to **TAMK's general guidelines**.
-
----
-
-## **Final Note**
-
-By following these **guidelines**, you ensure a **fair** and **smooth** assessment process for all students.
