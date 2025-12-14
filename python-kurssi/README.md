@@ -20,6 +20,8 @@
 |   48 | `2025-11-28` | 08:15-11:00 | Collection                           | [Assignment 04](assignments/04-uusi.md)               |
 |   49 | `2025-12-12` | 08:15-11:00 | Final code review. Conducting exams. | [Assignment 05](assignments/05.md) (recap, voluntary) |
 
+See [solutions](assignments/01-5jF@gziCSozU.txt)
+
 ## 💼 How to pass the course?
 
 > If implementation plan is not align with rules described in here, this page overrides implementation plan.
