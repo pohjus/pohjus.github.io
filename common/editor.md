@@ -1,91 +1,45 @@
 # Zed vs VS Code — Getting Started (Student Version)
 
-## Table of Contents
+## VS Code vs Zed (High-Level Comparison)
 
-1. [VS Code vs Zed (High-Level Comparison)](#1-vs-code-vs-zed-high-level-comparison)
-2. [Why Zed Is Better for Learning](#2-why-zed-is-better-for-learning)
-3. [Popularity vs Similarity](#3-popularity-vs-similarity)
-4. [What Is Intentionally Disabled](#4-what-is-intentionally-disabled)
-5. [Installing Zed](#5-installing-zed)
-6. [Using Zed in This Course](#6-using-zed-in-this-course)
-7. [Later Transition](#7-later-transition)
-8. [Changing Zed Settings (Course Configuration)](#8-changing-zed-settings-course-configuration)
+[**Zed**](https://zed.dev)
 
----
+- Starts as a **plain text editor** and can gradually be configured into an IDE.
+- **For learning, starting from a text editor and adding tools gradually matches** how programming skills develop.
+- Starting from an IDE exposes students to automation before they understand what it replaces.
+- Very fast!
 
-## 1. VS Code vs Zed (High-Level Comparison)
+**Zed is not better than VS Code in general**; it is better suited for learning purposes and is therefore recommended for these courses.
 
-### Zed
+[**VS Code**](https://code.visualstudio.com)
 
-Website: https://zed.dev
+- The most popular code editor.
+- Extremely powerful and extensible, and it is built around automation and extensions.
+- By default, VS Code suggests code while typing, highlights errors immediately, and strongly encourages the use of automated tooling such as formatting and code assistance.
+- Is a Web application, much slower than Zed.
 
-Zed is:
+In the end, the choice of editor does not matter. For learning purposes, it is wise to start with a clean editor that minimizes automation.
 
-- Modern and fast
-- Minimal by design
-- Less extension-driven
+## Installing Zed
 
-With the course configuration, Zed:
+Official download page: https://zed.dev/download
 
-- Behaves like a plain text editor
-- Does not suggest code
-- Does not auto-format
-- Does not fix mistakes
-
-Zed is not better than VS Code in general — it is better for learning and it is highly recommend for these courses.
+| Step | macOS                              | Windows                        |
+| ---- | ---------------------------------- | ------------------------------ |
+| 1    | Open your browser                  | Open your browser              |
+| 2    | Go to https://zed.dev              | Go to https://zed.dev          |
+| 3    | Download the macOS version         | Download the Windows installer |
+| 4    | Open the `.dmg` file               | Run the installer              |
+| 5    | Drag **Zed** into **Applications** | Accept default options         |
 
 ---
 
-### Visual Studio Code (VS Code)
+## Changing Zed Settings (Course Configuration)
 
-Website: https://code.visualstudio.com
+With these configurations, Zed does not provide:
 
-VS Code is:
-
-- The most popular code editor
-- Extremely powerful and extensible
-- Built around automation and extensions
-
-By default, VS Code:
-
-- Suggests code while typing
-- Formats code automatically
-- Highlights errors immediately
-- Encourages reliance on tooling
-
-This is excellent for professionals, but not ideal for learning fundamentals.
-
----
-
-## 2. Why Zed Is Better for Learning
-
-When learning programming, the goal is to:
-
-- Remember syntax
-- Understand structure
-- Notice mistakes
-- Build discipline
-
-VS Code removes friction.
-
-Zed (in this course) keeps friction intentionally.
-
-This helps you:
-
-- See every character you type
-- Understand indentation and spacing
-- Learn from mistakes instead of hiding them
-
----
-
-## 4. What Is Intentionally Disabled
-
-In this course configuration, Zed does not provide:
-
-- AI or code suggestions  
-  (for example GitHub Copilot: https://github.com/features/copilot)
-- Automatic formatting  
-  (for example Prettier: https://prettier.io)
+- AI or code suggestions
+- Automatic formatting
 - Code completion
 - Automatic error fixing
 
@@ -93,39 +47,7 @@ This is by design, not a limitation.
 
 ---
 
-## 5. Installing Zed
-
-Official download page: https://zed.dev/download
-
-### macOS
-
-1. Open your browser
-2. Go to https://zed.dev
-3. Download the macOS version
-4. Open the `.dmg` file
-5. Drag **Zed** into **Applications**
-
----
-
-### Windows
-
-1. Open your browser
-2. Go to https://zed.dev
-3. Download the Windows installer
-4. Run the installer
-5. Accept default options
-
----
-
-## 8. Changing Zed Settings (Course Configuration)
-
-Zed documentation: https://zed.dev/docs
-
-Zed uses a JSON configuration file.
-
----
-
-### 8.1 Open the Settings File
+### Open the Settings File
 
 1. Open Zed
 2. Open the Command Palette
@@ -138,7 +60,7 @@ A file named `settings.json` will open.
 
 ---
 
-### 8.2 Replace the Settings
+### Replace the Settings
 
 1. Select all content in `settings.json`
 2. Delete it completely
@@ -149,7 +71,7 @@ Changes apply immediately.
 
 ---
 
-### 8.3 Course `settings.json`
+### Course `settings.json`
 
 Copy **everything** below:
 
@@ -194,4 +116,100 @@ Copy **everything** below:
     "liga": false
   }
 }
+```
+
+### Optional Features
+
+**Displaying All Whitespace Characters**
+
+Whitespace characters include:
+
+- spaces
+- tabs
+- line breaks
+
+Displaying them helps you:
+
+- see indentation clearly
+- distinguish tabs from spaces
+- avoid hidden formatting mistakes
+
+This is useful for learning and for writing clean, consistent code.
+
+---
+
+**Showing Whitespace in Zed**
+
+In Zed, whitespace display is controlled by the `show_whitespaces` setting.
+
+To display **all** whitespace characters, add or modify this setting in `settings.json`:
+
+```json
+"show_whitespaces": "all"
+```
+
+---
+
+**Indent Guides**
+
+Indent guides are **vertical lines** shown in the editor that visualize code indentation levels.
+
+They help you:
+
+- see code structure
+- understand nesting (blocks, loops, conditionals)
+- spot incorrect indentation quickly
+
+Indent guides do **not** change the code; they are purely visual.
+
+You can add following to `settings.json`:
+
+```json
+"indent_guides": {
+  "enabled": true,
+  "coloring": "indent_aware"
+}
+```
+
+---
+
+**Font Ligatures**
+
+Font ligatures are a visual feature where multiple characters are displayed as a single symbol.
+
+Examples:
+
+- `!=` may appear as `≠`
+- `=>` may appear as `⇒`
+
+Ligatures do not change the code itself, only how it is displayed.
+
+For learning, ligatures are usually disabled so students can see every character exactly as typed, which makes understanding syntax clearer.
+
+---
+
+**Ligatures in Zed**
+
+Ligatures in Zed are controlled through font feature settings:
+
+```json
+"buffer_font_features": {
+  "calt": false,
+  "liga": false
+}
+```
+
+Enabling ligatures:
+
+```json
+"buffer_font_features": {
+  "calt": true,
+  "liga": true
+}
+```
+
+You must also use a font that supports ligatures, for example:
+
+```json
+"buffer_font_family": "JetBrains Mono"
 ```
