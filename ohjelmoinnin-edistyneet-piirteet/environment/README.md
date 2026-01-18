@@ -1,6 +1,6 @@
 # C++ Beginner Environment (Docker)
 
-## Why not Clion?
+## IDE vs Docker + Clang
 
 You have started to learn the concepts using professional IDE like Clion. That approach is widely used and completely valid, especially when the goal is to help students become productive quickly.
 
@@ -11,7 +11,7 @@ Our focus is on **making the fundamentals visible first**, before relying on adv
 This approach can be more complicated but we do at a reason
 
 - Understanding what happens running an program
-- Everyone has the same environment: linux and clang
+- Everyone has the same environment: Linux and Clang
 - Learning the terminal is a core skill, expecially Linux
 - By writing everything manually instead of AI and auto completion you will gain a deeper understanding
 
@@ -30,26 +30,16 @@ Optional
 
 ## Quick start
 
-### Windows
-
-1. Open a terminal in this folder.
-2. Run the script for your system:
-
-Windows:
-
-```
-run.bat
-```
-
-macOS/Linux:
-
-```
-./run.sh
-```
+- [Install Docker Desktop](https://www.docker.com/products/docker-desktop/) and start the Docker
+- Download [`Dockerfile`](./Dockerfile) and [`run.bat`](./run.bat) or [run.sh](./run.sh) file
+  - `.bat` → win, `.sh` → macOS or linux
+- Place the `Dockerfile` and `run.sh|.bat` file to some directory
+- Open terminal within that directory
+- Run the script either: `./run.sh` or `run.bat`
 
 The script will build the Docker image and open a shell inside the container. Basically it will create a linux environment with clang compiler and nano text editor.
 
-[**Why this instead of clion?**]
+Once ready you will be inside of Linux operating system and you will have a C++ compiler (clang) and Nano - text editor.
 
 ## Inside the container
 
@@ -68,7 +58,15 @@ clang++ -std=c++20 -Wall -Wextra mycode.cpp -o mycode
 ./application
 ```
 
-or (if you have the [`compile.sh`](./compile.sh) file) you can do it easier (basically gives the same command):
+What?
+
+- `-std=c++20`: Use the C++20 language standard.
+- `-Wall`: Enable a broad set of useful warnings.
+- `-Wextra`: Enable additional warnings beyond `-Wall`.
+- `-o mycode`: Set the output file name (the compiled program).
+
+Since this is a rather long command you can do it a bit easier.
+Download a [`compile.sh`](./compile.sh) file which will give the same command:
 
 ```bash
 compile.sh mycode.cpp application
@@ -80,7 +78,7 @@ compile.sh mycode.cpp application
 exit
 ```
 
-See [`COMPILING.md`](./COMPILING.md) for a longer explanation and a scripting exercise.
+## Gif - animations
 
 ### Windows
 
