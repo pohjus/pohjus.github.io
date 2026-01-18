@@ -22,7 +22,7 @@ RUN printf "\
 set tabsize 4\n\
 set tabstospaces\n\
 set softwrap\n\
-set whitespace \"·→\"\n\
+set whitespace \".>\"\n\
 include \"/usr/share/nano/*.nanorc\"\n\
 " > /etc/nanorc
 
