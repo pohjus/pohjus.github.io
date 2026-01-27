@@ -25,16 +25,16 @@ docker build -t "$IMAGE_NAME" "$SCRIPT_DIR"
 # BEGIN SYNC
 # This block is the source for run.bat output. Run scripts/sync_run_bat.py after edits.
 echo
-echo "🚀 Starting C++ development environment"
-echo "📁 Workspace:"
+echo "Starting C++ development environment"
+echo "Workspace:"
 echo "     $(pwd)"
-echo "🛠 Compile:"
+echo "Compile:"
 echo "     clang++ -std=c++20 -Wall -Wextra mycode.cpp -o mycode"
-echo "▶️ Run:"
+echo "Run:"
 echo "     ./mycode"
-echo "✏️ Edit files (inside the container):"
+echo "Edit files (inside the container):"
 echo "     nano mycode.cpp"
-echo "ℹ️ Exit:"
+echo "Exit:"
 echo "     exit"
 # END SYNC
 
