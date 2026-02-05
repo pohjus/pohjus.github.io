@@ -1,16 +1,18 @@
-## Kyberturvallisuus sote-arkeen: miksi hanke on tärkeä
+## Kyberturvallisuutta sote-arkeen
 
 ![KyberSoTe projekti](https://www.jamk.fi/sites/default/files/styles/hero_max_1184px/public/2025-10/Projekti%20paakuva.jpg.webp?itok=Bv0Rxdyl)
 
-- **Kybervarautuminen arkeen:** KyberSoTe vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
-- **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen.
-- **Laaja käyttöönotto:** Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla.
+Sosiaali- ja terveydenhuollossa arki pyörii yhä vahvemmin digitaalisten palveluiden varassa. Kun järjestelmät tai tiedonkulku häiriintyvät, vaikutus näkyy nopeasti palveluiden jatkuvuudessa ja voi heijastua myös potilasturvallisuuteen. Tähän tarpeeseen [KyberSoTe-projekti](https://www.jamk.fi/fi/tutkimus-ja-kehitys/tki-projektit/kybersote-kyberturvallisuutta-sote-arkeen) keskittyy. Sen tavoitteena on vahvistaa sote-organisaatioiden kybervarautumista ja tehdä kyberturvallisista toimintatavoista osa normaalia sote-arkea.
 
-Sosiaali- ja terveydenhuollossa arki pyörii yhä vahvemmin digitaalisten palveluiden varassa. Kun järjestelmät tai tiedonkulku häiriintyvät, vaikutus näkyy nopeasti palveluiden jatkuvuudessa ja voi heijastua myös potilasturvallisuuteen. Tähän tarpeeseen KyberSoTe-projekti keskittyy: sen tavoitteena on vahvistaa sote-organisaatioiden kybervarautumista ja tehdä kyberturvallisista toimintatavoista osa normaalia sote-arkea.
+Hankkeen ydin tiivistyy kolmeen tavoitteeseen:
+
+- **Potilasturvallisuus ja jatkuvuus:** [KyberSoTe](https://www.jamk.fi/fi/projekti/kybersote) vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
+- **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen ([projektin tiedot](https://www.jamk.fi/fi/projekti/kybersote/kybersote-tietoa-projektista)).
+- **Laaja käyttöönotto:** Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla ([työkalupakki](https://www.jamk.fi/fi/projekti/kybersote/kyberturvallisuuden-tyokalupakki)).
 
 ### Mitä KyberSoTe tekee käytännössä
 
-KyberSoTe rakentaa sote-organisaatioille käyttöön otettavia työkaluja ja toimintamalleja. Ajatus on selkeä: kyberturva ei toteudu vain teknisin ratkaisuin, vaan myös osaamisena, arjen rutiineina ja toimivana yhteistyönä soten ja tietohallinnon välillä.
+KyberSoTe rakentaa sote-organisaatioille käyttöön otettavia työkaluja ja toimintamalleja. Ajatus on selkeä: kyberturva ei toteudu vain teknisin ratkaisuin, vaan myös osaamisena, arjen rutiineina ja toimivana yhteistyönä soten ja tietohallinnon välillä. Esimerkiksi osaamiskartoitus ja havainnekuvat tukevat yhteistä ymmärrystä ja käytäntöjen yhtenäistämistä.
 
 Projektissa tavoitellaan kahta asiaa yhtä aikaa:
 
@@ -32,7 +34,7 @@ KyberSoTe on tärkeä kolmesta näkökulmasta, jotka sote-ympäristössä kietou
 
 ### Kuka toteuttaa ja milloin
 
-KyberSoTen päätoteuttaja on Jyväskylän ammattikorkeakoulu, ja osatoteuttajina ovat Laurea-ammattikorkeakoulu, Turun ammattikorkeakoulu sekä Tampereen ammattikorkeakoulu. Rahoitus tulee Huoltovarmuuskeskuksen Digitaalinen turvallisuus 2030 -ohjelmasta. Kehittämiskumppanina on Keski-Suomen hyvinvointialue, ja tuotoksia on tarkoitus tuoda myös muiden hyvinvointialueiden saataville.
+KyberSoTen päätoteuttaja on [Jyväskylän ammattikorkeakoulu](https://www.jamk.fi/fi), ja osatoteuttajina ovat [Laurea-ammattikorkeakoulu](https://www.laurea.fi/), [Turun ammattikorkeakoulu](https://www.turkuamk.fi/turun-amk/) sekä [Tampereen ammattikorkeakoulu](https://www.tuni.fi/fi/tutustu-meihin/tamk). Rahoitus tulee Huoltovarmuuskeskuksen Digitaalinen turvallisuus 2030 -ohjelmasta.
 
 Projektin toteutusaika on 12.2.2024-31.12.2026.
 
@@ -46,12 +48,4 @@ KyberSoTen arvo näkyy siinä, että se muuttaa kyberturvan sanoista teoiksi:
 
 ### Lopuksi
 
-Lopuksi KyberSoTe muistuttaa, että kyberturvallisuus on sote-organisaatiossa ennen kaikkea yhteistä tekemistä, ei erillinen tekninen projekti. Kun osaamista vahvistetaan suunnitelmallisesti ja soten sekä tietohallinnon yhteistyötä parannetaan, organisaatio pystyy reagoimaan häiriöihin paremmin ja pitämään palvelut toiminnassa myös poikkeustilanteissa. Samalla arjen työ helpottuu, kun toimintatavat ovat selkeitä ja yhteisesti sovittuja. KyberSoTen tavoitteena onkin jättää pysyvä jälki, jossa kyberturvallinen toimintakulttuuri tukee sekä ammattilaisia että asiakkaita joka päivä.
-
-### Lähteet
-
-- https://www.jamk.fi/fi/projekti/kybersote/kybersote-tietoa-projektista
-- https://www.jamk.fi/fi/tutkimus-ja-kehitys/tki-projektit/kybersote-kyberturvallisuutta-sote-arkeen
-- https://www.jamk.fi/fi/projekti/kybersote
-- https://www.jamk.fi/fi/projekti/kybersote/kyberturvallisuuden-tyokalupakki
-- https://www.jamk.fi/fi/projektihaku
+Lopuksi KyberSoTe muistuttaa, että kyberturvallisuus on sote-organisaatiossa ennen kaikkea yhteistä tekemistä, ei erillinen tekninen projekti. Kun osaamista vahvistetaan suunnitelmallisesti ja soten sekä tietohallinnon yhteistyötä parannetaan, organisaatio pystyy reagoimaan häiriöihin paremmin ja pitämään palvelut toiminnassa myös poikkeustilanteissa. Samalla arjen työ helpottuu, kun toimintatavat ovat selkeitä ja yhteisesti sovittuja. KyberSoTen tavoitteena onkin jättää pysyvä jälki. Siinä kyberturvallinen toimintakulttuuri tukee sekä ammattilaisia että asiakkaita joka päivä.
