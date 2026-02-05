@@ -3,9 +3,9 @@
 ![KyberSoTe projekti](/sites/default/files/styles/hero_max_1184px/public/2025-10/Projekti%20paakuva.jpg.webp?itok=Bv0Rxdyl)
 
 **TL;DR**
-- KyberSoTe vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
-- Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen.
-- Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla.
+- **Kybervarautuminen arkeen:** KyberSoTe vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
+- **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen.
+- **Laaja käyttöönotto:** Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla.
 
 Sosiaali- ja terveydenhuollossa arki pyörii yhä vahvemmin digitaalisten palveluiden varassa. Kun järjestelmät tai tiedonkulku häiriintyvät, vaikutus näkyy nopeasti palveluiden jatkuvuudessa ja voi heijastua myös potilasturvallisuuteen. Tähän tarpeeseen KyberSoTe-projekti keskittyy: sen tavoitteena on vahvistaa sote-organisaatioiden kybervarautumista ja tehdä kyberturvallisista toimintatavoista osa normaalia sote-arkea.
 
@@ -22,13 +22,13 @@ Projektissa tavoitellaan kahta asiaa yhtä aikaa:
 
 KyberSoTe on tärkeä kolmesta näkökulmasta, jotka sote-ympäristössä kietoutuvat toisiinsa:
 
-1. Potilasturvallisuus ja palveluiden jatkuvuus  
+1. **Potilasturvallisuus ja palveluiden jatkuvuus**  
    Kun digitaalinen toimintakyky horjuu, työ kuormittuu, viiveet kasvavat ja riskit lisääntyvät. Projektin ydin onkin varautumisessa ja jatkuvuuden tukemisessa nimenomaan sote-arkea vahvistamalla.
 
-2. Arjen osaaminen ratkaisee  
+2. **Arjen osaaminen ratkaisee**  
    Moni tietoturvariski syntyy tavallisissa tilanteissa: kiireessä, epäselvissä ohjeissa tai epäyhtenäisissä käytännöissä. KyberSoTe tuottaa esimerkiksi osaamiskartoituksia ja havainnollistavia materiaaleja, joilla osaamista voidaan kehittää kohdennetusti.
 
-3. Yhteistyö soten ja IT:n välillä  
+3. **Yhteistyö soten ja IT:n välillä**  
    Sote ja tietohallinto katsovat samaa ilmiötä eri kulmista. Projekti nostaa vuorovaikutuksen yhdeksi keskeiseksi kehityskohteeksi ja tuo siihen konkreettisia keskustelua fasilitoivia työkaluja.
 
 ### Kuka toteuttaa ja milloin
@@ -41,9 +41,9 @@ Projektin toteutusaika on 12.2.2024-31.12.2026.
 
 KyberSoTen arvo näkyy siinä, että se muuttaa kyberturvan sanoista teoiksi:
 
-- tunnistetaan osaamisen ja toimintamallien kehityskohteet (esimerkiksi osaamiskartoituksen avulla)
-- käynnistetään keskustelu ja yhteinen ymmärrys soten ja tietohallinnon välille (esimerkiksi havainnekuvien avulla)
-- levitetään toimiviksi todetut työkalut laajempaan käyttöön
+- **Tunnistetaan kehityskohteet** osaamisen ja toimintamallien tasolla (esimerkiksi osaamiskartoituksen avulla)
+- **Käynnistetään yhteinen ymmärrys** soten ja tietohallinnon välille (esimerkiksi havainnekuvien avulla)
+- **Levitetään toimiviksi todetut työkalut** laajempaan käyttöön
 
 ### Lopuksi
 
