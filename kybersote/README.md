@@ -1,4 +1,4 @@
-## Kyberturvallisuus sote-arkeen: miksi KyberSoTe on tärkeä
+## Kyberturvallisuus sote-arkeen: miksi hanke on tärkeä
 
 ![KyberSoTe projekti](/sites/default/files/styles/hero_max_1184px/public/2025-10/Projekti%20paakuva.jpg.webp?itok=Bv0Rxdyl)
 
