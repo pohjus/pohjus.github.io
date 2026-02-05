@@ -1,8 +1,7 @@
 ## Kyberturvallisuus sote-arkeen: miksi hanke on tärkeä
 
-![KyberSoTe projekti](/sites/default/files/styles/hero_max_1184px/public/2025-10/Projekti%20paakuva.jpg.webp?itok=Bv0Rxdyl)
+![KyberSoTe projekti](https://www.jamk.fi/sites/default/files/styles/hero_max_1184px/public/2025-10/Projekti%20paakuva.jpg.webp?itok=Bv0Rxdyl)
 
-**TL;DR**
 - **Kybervarautuminen arkeen:** KyberSoTe vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
 - **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen.
 - **Laaja käyttöönotto:** Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla.
@@ -50,6 +49,7 @@ KyberSoTen arvo näkyy siinä, että se muuttaa kyberturvan sanoista teoiksi:
 Lopuksi KyberSoTe muistuttaa, että kyberturvallisuus on sote-organisaatiossa ennen kaikkea yhteistä tekemistä, ei erillinen tekninen projekti. Kun osaamista vahvistetaan suunnitelmallisesti ja soten sekä tietohallinnon yhteistyötä parannetaan, organisaatio pystyy reagoimaan häiriöihin paremmin ja pitämään palvelut toiminnassa myös poikkeustilanteissa. Samalla arjen työ helpottuu, kun toimintatavat ovat selkeitä ja yhteisesti sovittuja. KyberSoTen tavoitteena onkin jättää pysyvä jälki, jossa kyberturvallinen toimintakulttuuri tukee sekä ammattilaisia että asiakkaita joka päivä.
 
 ### Lähteet
+
 - https://www.jamk.fi/fi/projekti/kybersote/kybersote-tietoa-projektista
 - https://www.jamk.fi/fi/tutkimus-ja-kehitys/tki-projektit/kybersote-kyberturvallisuutta-sote-arkeen
 - https://www.jamk.fi/fi/projekti/kybersote
