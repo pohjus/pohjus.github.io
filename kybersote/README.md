@@ -7,12 +7,12 @@ Sosiaali- ja terveydenhuollossa arki pyörii yhä vahvemmin digitaalisten palvel
 Hankkeen ydin tiivistyy kolmeen tavoitteeseen:
 
 - **Potilasturvallisuus ja jatkuvuus:** [KyberSoTe](https://www.jamk.fi/fi/projekti/kybersote) vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
-- **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen ([projektin tiedot](https://www.jamk.fi/fi/projekti/kybersote/kybersote-tietoa-projektista)).
-- **Laaja käyttöönotto:** Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla ([työkalupakki](https://www.jamk.fi/fi/projekti/kybersote/kyberturvallisuuden-tyokalupakki)).
+- **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen
+- **Laaja käyttöönotto:** Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla.
 
 ### Mitä KyberSoTe tekee käytännössä
 
-KyberSoTe rakentaa sote-organisaatioille käyttöön otettavia työkaluja ja toimintamalleja. Ajatus on selkeä: kyberturva ei toteudu vain teknisin ratkaisuin, vaan myös osaamisena, arjen rutiineina ja toimivana yhteistyönä soten ja tietohallinnon välillä. Esimerkiksi osaamiskartoitus ja havainnekuvat tukevat yhteistä ymmärrystä ja käytäntöjen yhtenäistämistä.
+KyberSoTe rakentaa sote-organisaatioille käyttöön otettavia työkaluja ja toimintamalleja. Kyberturva ei toteudu vain teknisin ratkaisuin, vaan myös osaamisena, arjen rutiineina ja toimivana yhteistyönä soten ja tietohallinnon välillä.
 
 Projektissa tavoitellaan kahta asiaa yhtä aikaa:
 
@@ -24,13 +24,13 @@ Projektissa tavoitellaan kahta asiaa yhtä aikaa:
 KyberSoTe on tärkeä kolmesta näkökulmasta, jotka sote-ympäristössä kietoutuvat toisiinsa:
 
 1. **Potilasturvallisuus ja palveluiden jatkuvuus**  
-   Kun digitaalinen toimintakyky horjuu, työ kuormittuu, viiveet kasvavat ja riskit lisääntyvät. Projektin ydin onkin varautumisessa ja jatkuvuuden tukemisessa nimenomaan sote-arkea vahvistamalla.
+   Kun digitaalinen toimintakyky horjuu, työ kuormittuu, viiveet kasvavat ja riskit lisääntyvät. Hankkeen ytimessä onkin varautumisessa ja jatkuvuuden tukemisessa nimenomaan sote-arkea vahvistamalla.
 
 2. **Arjen osaaminen ratkaisee**  
-   Moni tietoturvariski syntyy tavallisissa tilanteissa: kiireessä, epäselvissä ohjeissa tai epäyhtenäisissä käytännöissä. KyberSoTe tuottaa esimerkiksi osaamiskartoituksia ja havainnollistavia materiaaleja, joilla osaamista voidaan kehittää kohdennetusti.
+   Moni tietoturvariski syntyy tavallisissa tilanteissa: kiireessä, epäselvissä ohjeissa tai epäyhtenäisissä käytännöissä. KyberSoTe tuottaa esimerkiksi osaamiskartoituksia ja oppimateriaaleja, joilla osaamista voidaan kehittää kohdennetusti.
 
 3. **Yhteistyö soten ja IT:n välillä**  
-   Sote ja tietohallinto katsovat samaa ilmiötä eri kulmista. Projekti nostaa vuorovaikutuksen yhdeksi keskeiseksi kehityskohteeksi ja tuo siihen konkreettisia keskustelua fasilitoivia työkaluja.
+   Sote ja tietohallinto katsovat samaa ilmiötä eri kulmista. Projekti nostaa vuorovaikutuksen yhdeksi keskeiseksi kehityskohteeksi.
 
 ### Kuka toteuttaa ja milloin
 
@@ -48,4 +48,4 @@ KyberSoTen arvo näkyy siinä, että se muuttaa kyberturvan sanoista teoiksi:
 
 ### Lopuksi
 
-Lopuksi KyberSoTe muistuttaa, että kyberturvallisuus on sote-organisaatiossa ennen kaikkea yhteistä tekemistä, ei erillinen tekninen projekti. Kun osaamista vahvistetaan suunnitelmallisesti ja soten sekä tietohallinnon yhteistyötä parannetaan, organisaatio pystyy reagoimaan häiriöihin paremmin ja pitämään palvelut toiminnassa myös poikkeustilanteissa. Samalla arjen työ helpottuu, kun toimintatavat ovat selkeitä ja yhteisesti sovittuja. KyberSoTen tavoitteena onkin jättää pysyvä jälki. Siinä kyberturvallinen toimintakulttuuri tukee sekä ammattilaisia että asiakkaita joka päivä.
+Kyberturvallisuus on sote-organisaatiossa ennen kaikkea yhteistä tekemistä, ei erillinen tekninen projekti. Kun osaamista vahvistetaan suunnitelmallisesti ja soten sekä tietohallinnon yhteistyötä parannetaan, organisaatio pystyy reagoimaan häiriöihin paremmin ja pitämään palvelut toiminnassa myös poikkeustilanteissa. Samalla arjen työ helpottuu, kun toimintatavat ovat selkeitä ja yhteisesti sovittuja.
