@@ -1,6 +1,8 @@
 ## Kyberturvallisuus sote-arkeen: miksi KyberSoTe on tärkeä
 
-TL;DR
+![KyberSoTe projekti](/sites/default/files/styles/hero_max_1184px/public/2025-10/Projekti%20paakuva.jpg.webp?itok=Bv0Rxdyl)
+
+**TL;DR**
 - KyberSoTe vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
 - Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen.
 - Projektin tuotoksia on tarkoitus ottaa käyttöön laajasti hyvinvointialueilla.
