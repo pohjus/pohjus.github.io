@@ -73,7 +73,7 @@ Submit `01/Point.cpp`, `01/Point.h`, `01/Line.cpp`, `01/Line.h`, `01/main.cpp`.
 
 ### Test
 
-Test your app:
+See [test.cpp](01/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 01/test.cpp 01/Point.cpp 01/Line.cpp -o 01/test && 01/test
@@ -148,7 +148,7 @@ Submit `02/Human.cpp`, `02/Human.h`, `02/Heart.cpp`, `02/Heart.h`, `02/Car.cpp`,
 
 ### Test
 
-Test your app:
+See [test.cpp](02/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 02/test.cpp 02/Human.cpp 02/Heart.cpp 02/Car.cpp -o 02/test && 02/test
@@ -221,7 +221,7 @@ Submit `03/Phone.cpp`, `03/Phone.h`, `03/Battery.cpp`, `03/Battery.h`, `03/main.
 
 ### Test
 
-Test your app:
+See [test.cpp](03/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 03/test.cpp 03/Phone.cpp 03/Battery.cpp -o 03/test && 03/test
@@ -292,7 +292,7 @@ Submit `04/Name.cpp`, `04/Name.h`, `04/Instrument.cpp`, `04/Instrument.h`, `04/S
 
 ### Test
 
-Test your app:
+See [test.cpp](04/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 04/test.cpp 04/Name.cpp 04/Instrument.cpp 04/Studio.cpp 04/Musician.cpp -o 04/test && 04/test

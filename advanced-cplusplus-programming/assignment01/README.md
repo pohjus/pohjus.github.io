@@ -54,7 +54,7 @@ Take a screenshot of your programming environment (docker + editor) and return a
 
 ### Test
 
-Test your app:
+See [test.sh](01/test.sh). Test your app:
 
 ```bash
 ./test.sh
@@ -114,7 +114,7 @@ Submit `02/main.cpp`, `02/Point.h`, and `02/Point.cpp`. Also short answers to Q1
 
 ### Test
 
-Test your app:
+See [test.cpp](02/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 02/test.cpp 02/Point.cpp -o 02/test && 02/test
@@ -157,7 +157,7 @@ Submit `03/Point.cpp`, `03/Point.h`, `03/main.cpp`
 
 ### Test
 
-Test your app:
+See [test.cpp](03/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 03/test.cpp 03/Point.cpp -o 03/test && 03/test
@@ -212,7 +212,7 @@ Submit `04/Point.cpp`, `04/Point.h`, `04/main.cpp`, and a short note in `04.txt`
 
 ### Test
 
-Test your app:
+See [test.cpp](04/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 04/test.cpp 04/Point.cpp -o 04/test && 04/test
@@ -244,7 +244,7 @@ Submit `05/Point.cpp`, `05/Point.h`, `05/main.cpp`.
 
 ### Test
 
-Test your app:
+See [test.cpp](05/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 05/test.cpp 05/Point.cpp -o 05/test && 05/test
@@ -282,7 +282,7 @@ Submit `06/Point.cpp`, `06/Point.h`, `06/main.cpp`.
 
 ### Test
 
-Test your app:
+See [test.cpp](06/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 06/test.cpp 06/Point.cpp -o 06/test && 06/test
@@ -319,7 +319,7 @@ Submit `07/Point.cpp`, `07/Point.h`, `07/main.cpp`.
 
 ### Test
 
-Test your app:
+See [test.cpp](07/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 07/test.cpp 07/Point.cpp -o 07/test && 07/test
@@ -413,7 +413,7 @@ Submit `08/BankAccount.cpp`, `08/BankAccount.h`, `08/main.cpp`.
 
 ### Test
 
-Test your app:
+See [test.cpp](08/test.cpp). Test your app:
 
 ```bash
 clang++ -std=c++20 08/test.cpp 08/BankAccount.cpp -o 08/test && 08/test
