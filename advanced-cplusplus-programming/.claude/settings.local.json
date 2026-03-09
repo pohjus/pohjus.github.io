@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/pohjus/Documents/cplusplus/advanced-cplusplus-programming add assignment01/README.md)",
+      "Bash(git -C:*)",
+      "Bash(git -C /Users/pohjus/Documents/cplusplus/advanced-cplusplus-programming push)",
+      "Bash(git add:*)"
+    ]
+  }
+}
