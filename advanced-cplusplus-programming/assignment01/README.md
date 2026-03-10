@@ -16,7 +16,7 @@ How to return assignments? See instructions in the main [README.md](../README.md
 
 | Exercise                           | Points |
 | ---------------------------------- | ------ |
-| 01: Compiling and Running Apps     | 2      |
+| 01: Compiling and Running Apps     | 1      |
 | 02: Stack vs Heap Point            | 7      |
 | 03: Encapsulation                  | 5      |
 | 04: Using `const` in Encapsulation | 4      |
@@ -24,7 +24,7 @@ How to return assignments? See instructions in the main [README.md](../README.md
 | 06: Constructors                   | 4      |
 | 07: Operators and toString         | 4      |
 | 08: BankAccount (integration)      | 13     |
-| **Total**                          | **44** |
+| **Total**                          | **43** |
 
 ## 01: Compiling and Running Apps
 
@@ -38,11 +38,10 @@ How to return assignments? See instructions in the main [README.md](../README.md
 
 ---
 
-| Test                                   | Points |
-| -------------------------------------- | ------ |
-| App compiles and outputs "hello world" | 1      |
-| `screenshot.png` exists                | 1      |
-| **Total**                              | **2**  |
+| Test                                                        | Points |
+| ----------------------------------------------------------- | ------ |
+| App compiles, outputs "hello world", and `screenshot.png` exists | 1      |
+| **Total**                                                   | **1**  |
 
 Compile an app that outputs _"hello world"_ to console (use name `main.cpp`). [Use Docker, Nano and Clang for this.](../env/README.md)
 
