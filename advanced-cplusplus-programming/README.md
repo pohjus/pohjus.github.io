@@ -9,12 +9,12 @@
 
 ## Preliminary Agenda and Assignments
 
-| Topics                                                                           | Assignment                              |
-| -------------------------------------------------------------------------------- | --------------------------------------- |
-| Classes, encapsulation, const correctness, operators                             | [Assignment 01](assignment01/README.md) |
-| Composition vs aggregation, ownership, Rule of Three/Five, and basic collections | [Assignment 02](assignment02/README.md) |
-| Inheritance, access control, virtual functions, polymorphism                     |                                         |
-| Abstract base classes, exception handling                                        |                                         |
+| Topics                                                       | Assignment                              |
+| ------------------------------------------------------------ | --------------------------------------- |
+| Classes, encapsulation, const correctness, operators         | [Assignment 01](assignment01/README.md) |
+| Composition vs aggregation, ownership, Rule of Three         | [Assignment 02](assignment02/README.md) |
+| Inheritance, access control, virtual functions, polymorphism |                                         |
+| Abstract base classes, exception handling                    |                                         |
 
 ## Course Requirements
 
