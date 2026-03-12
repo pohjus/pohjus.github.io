@@ -32,16 +32,16 @@ How to return assignments? See instructions in the main [README.md](../README.md
 
 ---
 
-- 📺 Lecture: About Tooling]
-- 📺 Lecture: Intro to OO and Circle Class] ✏️
+- 📺 Lecture: About Tooling
+- 📺 Lecture: Intro to OO and Circle Class ✏️
   - `studentnumber-assignment01-lecture01.pdf`
 
 ---
 
-| Test                                                        | Points |
-| ----------------------------------------------------------- | ------ |
+| Test                                                             | Points |
+| ---------------------------------------------------------------- | ------ |
 | App compiles, outputs "hello world", and `screenshot.png` exists | 1      |
-| **Total**                                                   | **1**  |
+| **Total**                                                        | **1**  |
 
 Compile an app that outputs _"hello world"_ to console (use name `main.cpp`). [Use Docker, Nano and Clang for this.](../env/README.md)
 

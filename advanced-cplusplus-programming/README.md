@@ -1,6 +1,6 @@
 # Advanced C++ Programming
 
-## 📺 2026-03-03 Lecture (all lecture notes in Moodle because of privacy issues)
+- 📺 2026-03-03 Lecture - _all lecture notes in Moodle because of privacy issues._
 
 ## Communication
 
