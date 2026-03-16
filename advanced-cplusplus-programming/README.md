@@ -13,7 +13,7 @@
 | ------------------------------------------------------------ | --------------------------------------- |
 | Classes, encapsulation, const correctness, operators         | [Assignment 01](assignment01/README.md) |
 | Composition vs aggregation, ownership, Rule of Three         | [Assignment 02](assignment02/README.md) |
-| Inheritance, access control, virtual functions, polymorphism |                                         |
+| Inheritance, access control, virtual functions, polymorphism | [Assignment 03](assignment03/README.md) |
 | Abstract base classes, exception handling                    |                                         |
 
 ## Course Requirements
