@@ -2,8 +2,6 @@
 
 How to return assignments? See instructions in the main [README.md](../README.md)!
 
-## ⚠️ Under construction
-
 ## Upload the following Lecture Notes
 
 - `studentnumber-assignment03-lecture01.pdf`
