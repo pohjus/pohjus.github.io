@@ -47,7 +47,7 @@ Submit `01/Person.cpp`, `01/Person.h`, `01/Student.cpp`, `01/Student.h`, `01/mai
 
 ### Test
 
-Test your app:
+Test your app, see [test.cpp](01/test.cpp):
 
 ```bash
 clang++ -std=c++20 01/test.cpp 01/Person.cpp 01/Student.cpp -o 01/test && 01/test
@@ -85,7 +85,7 @@ Submit `02/Person.cpp`, `02/Person.h`, `02/Student.cpp`, `02/Student.h`, `02/mai
 
 ### Test
 
-Test your app:
+Test your app, see [test.cpp](02/test.cpp):
 
 ```bash
 clang++ -std=c++20 02/test.cpp 02/Person.cpp 02/Student.cpp -o 02/test && 02/test
@@ -187,7 +187,7 @@ Submit `03/Person.cpp`, `03/Person.h`, `03/Student.cpp`, `03/Student.h`, `03/Tea
 
 ### Test
 
-Test your app:
+Test your app, see [test.cpp](03/test.cpp):
 
 ```bash
 clang++ -std=c++20 03/test.cpp 03/Person.cpp 03/Student.cpp 03/Teacher.cpp -o 03/test && 03/test
@@ -238,7 +238,7 @@ Submit `04/Person.cpp`, `04/Person.h`, `04/Student.cpp`, `04/Student.h`, `04/Tea
 
 ### Test
 
-Test your app:
+Test your app, see [test.cpp](04/test.cpp):
 
 ```bash
 clang++ -std=c++20 04/test.cpp 04/Person.cpp 04/Student.cpp 04/Teacher.cpp -o 04/test && 04/test
@@ -273,7 +273,7 @@ Submit `05/Person.cpp`, `05/Person.h`, `05/Student.cpp`, `05/Student.h`, `05/Tea
 
 ### Test
 
-Test your app:
+Test your app, see [test.cpp](05/test.cpp):
 
 ```bash
 clang++ -std=c++20 05/test.cpp 05/Person.cpp 05/Student.cpp 05/Teacher.cpp -o 05/test && 05/test
@@ -306,7 +306,7 @@ Submit `06/Mammal.cpp`, `06/Mammal.h`, `06/Dog.cpp`, `06/Dog.h`, `06/Cat.cpp`, `
 
 ### Test
 
-Test your app:
+Test your app, see [test.cpp](06/test.cpp):
 
 ```bash
 clang++ -std=c++20 06/test.cpp 06/Mammal.cpp 06/Dog.cpp 06/Cat.cpp -o 06/test && 06/test
