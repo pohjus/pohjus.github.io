@@ -1,0 +1,5 @@
+kissa
+koira
+talo
+auto
+pallo
