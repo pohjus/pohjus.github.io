@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:pohjus.github.io)",
+      "Bash(java:*)",
+      "WebSearch",
+      "Bash(for r:*)",
+      "Bash(do java:*)",
+      "Bash(done)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Skill(update-config)",
+      "Bash(git push:*)"
+    ]
+  }
+}

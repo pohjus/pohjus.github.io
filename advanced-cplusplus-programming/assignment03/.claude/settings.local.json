@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(clang++:*)",
+      "Bash(01/demo/main:*)",
+      "Bash(clang++ -std=c++20 01/test.cpp 01/Person.cpp 01/Student.cpp -o /tmp/test01 && /tmp/test01)",
+      "Bash(clang++ -std=c++20 02/test.cpp 02/Person.cpp 02/Student.cpp -o /tmp/test02 && /tmp/test02)",
+      "Bash(clang++ -std=c++20 03/test.cpp 03/Person.cpp 03/Student.cpp 03/Teacher.cpp -o /tmp/test03 && /tmp/test03)",
+      "Bash(clang++ -std=c++20 04/test.cpp 04/Person.cpp 04/Student.cpp 04/Teacher.cpp -o /tmp/test04 && /tmp/test04)",
+      "Bash(clang++ -std=c++20 05/test.cpp 05/Person.cpp 05/Student.cpp 05/Teacher.cpp -o /tmp/test05 && /tmp/test05)",
+      "Bash(clang++ -std=c++20 06/test.cpp 06/Mammal.cpp 06/Dog.cpp 06/Cat.cpp -o /tmp/test06 && /tmp/test06)"
+    ]
+  }
+}
