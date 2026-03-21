@@ -1,5 +1,24 @@
 # Assignment 04
 
+## Points Overview
+
+| Exercise | Description | Points |
+|----------|-------------|--------|
+| 01 | Array Basics | 2 |
+| 02 | Reverse Array Output | 2 |
+| 03 | Every Other Name | 2 |
+| 04 | Ten Integers and Sum | 4 |
+| 05 | Longest Name | 4 |
+| 06 | Random Integer and Rock-Paper-Scissors | 3 |
+| 07 | Command-Line Calculator | 7 |
+| 08 | Linear Search | 4 |
+| 09 | Count Occurrences | 5 |
+| 10 | Reverse Array | 5 |
+| 11 | Sum Until Negative | 6 |
+| 12 | Multi-File ASCII Bars | 6 |
+| 13 | Exception Handling | 5 |
+| **Total** | | **55** |
+
 ## Directory Structure
 
 Create each exercise in its own folder:
@@ -19,11 +38,52 @@ installation instructions.
 
 ## Testing
 
-This assignment does not currently include `Test.java` files in the
-repository.
+Each exercise has a `Test.java` file that automatically checks your
+solution.
+The test file runs your `Main.java` as a separate process and verifies
+its output.
 
-Test your programs manually by compiling and running them from the
-correct exercise folder.
+### Step-by-step
+
+1. Write your solution in `Main.java` and place it in the correct
+   exercise folder (e.g., `assignment04/01/Main.java`).
+2. Download the `Test.java` file from the repository and place it in the
+   **same folder** as your `Main.java`.
+3. Open a terminal and navigate to the exercise folder:
+
+**Windows (Command Prompt):**
+
+```bash
+cd C:\Users\YourName\path\to\assignment04\01
+```
+
+**macOS / Linux (Terminal):**
+
+```bash
+cd /Users/YourName/path/to/assignment04/01
+```
+
+4. Verify that both files are in the folder:
+
+**Windows:**
+
+```bash
+dir
+```
+
+**macOS / Linux:**
+
+```bash
+ls
+```
+
+You should see both `Main.java` and `Test.java` listed.
+
+5. Run the test:
+
+```bash
+java Test.java
+```
 
 ---
 
@@ -88,7 +148,7 @@ an array.
 
 ### 2. Reverse Array Output
 
-Implement an application that prints all values in the array from
+Implement a program that prints all values in the array from
 exercise 1 in reverse order using a `for` loop.
 
 Print one value per line.
@@ -105,26 +165,13 @@ Print one value per line.
 
 ### 3. Every Other Name
 
-Implement an application that contains a `String` array with `n` names.
-You can decide the value of `n` yourself, and you do not need to ask it
-from the user.
+Implement a program that contains a `String` array with the
+following names: `"Matti"`, `"Liisa"`, `"Pekka"`, `"Anna"`.
 
-Add some names to the array. Print every other name using a `for` loop.
-Start from index `0`, so print names at indexes `0`, `2`, `4`, and so
-on.
+Print every other name using a `for` loop. Start from index `0`, so
+print names at indexes `0`, `2`, `4`, and so on.
 
-#### Example
-
-If the array contains:
-
-```text
-Matti
-Liisa
-Pekka
-Anna
-```
-
-the output is:
+#### Example output
 
 ```text
 Matti
@@ -162,9 +209,9 @@ Sum of entered numbers: 10
 
 ### 5. Longest Name
 
-Modify exercise 3 so that the value `n` is asked from the user. Also ask
-the names from the user and store them in an array. The program prints
-the longest name, meaning the one with the most characters.
+Implement a program that asks the user how many names to enter, then
+asks for each name and stores them in an array. The program prints the
+longest name, meaning the one with the most characters.
 
 If there are multiple longest names with the same length, print the
 first one that was entered.
@@ -217,9 +264,11 @@ paper
 
 ---
 
-### 7. Command-Line Calculator
+## Command-Line Arguments
 
-Study the following program:
+When you run a Java program, you can pass extra values after the
+filename. These are called **command-line arguments** and are stored in a
+`String` array called `args`.
 
 ```java
 void main(String[] args) {
@@ -228,9 +277,7 @@ void main(String[] args) {
 }
 ```
 
-Run from the exercise folder.
-
-With Java 25 simple programs, you can run:
+Run from the exercise folder:
 
 ```bash
 java Main.java taikaviitta roopeankka
@@ -245,30 +292,33 @@ args[0] = "taikaviitta";
 args[1] = "roopeankka";
 ```
 
-Now implement an application that accepts basic arithmetic operations,
-for example:
+You can convert a string to an integer like this:
+
+```java
+int number = Integer.parseInt("1");
+```
+
+---
+
+## Command-Line Argument Exercises
+
+### 7. Command-Line Calculator
+
+Implement a program that accepts basic arithmetic operations via
+command-line arguments, for example:
 
 ```bash
-java Calculator.java 1 + 2
+java Main.java 1 + 2
 ```
 
 ```text
 result = 3
 ```
 
-Use command-line arguments.
-The arguments are written after the file name in the command.
-
 Support operations: `-`, `+`, `/`, and `x` for multiplication.
 
 If the user gives the wrong number of arguments, print a short error
 message.
-
-You can convert a string to an integer like this:
-
-```java
-int number = Integer.parseInt("1");
-```
 
 If you use `*` as user input, it may fail because of shell behavior.
 You can use:
@@ -276,28 +326,28 @@ You can use:
 **macOS:**
 
 ```bash
-java Calculator.java 3 \* 3
-java Calculator.java 3 '*' 3
-java Calculator.java 3 "*" 3
+java Main.java 3 \* 3
+java Main.java 3 '*' 3
+java Main.java 3 "*" 3
 ```
 
 **CMD:**
 
 ```cmd
-java Calculator.java 3 "*" 3
+java Main.java 3 "*" 3
 ```
 
 **PowerShell (not tested):**
 
 ```powershell
-java Calculator.java 3 --% * 3
+java Main.java 3 --% * 3
 ```
 
 ---
 
 ### 8. Linear Search
 
-Implement a Java application that contains an array of 10 random
+Implement a program that contains an array of 10 random
 integers between `1` and `100`. Use `Math.random()` to generate the
 numbers.
 
@@ -307,7 +357,7 @@ user. Accept the number as a command-line argument.
 #### Example
 
 ```bash
-java App.java 50
+java Main.java 50
 ```
 
 ```text
@@ -327,13 +377,13 @@ Use
 
 ### 9. Count Occurrences
 
-Implement an application that counts how many times a value appears in
+Implement a program that counts how many times a value appears in
 an array.
 
 #### Example
 
 ```bash
-java CountOccurrences.java 2 1 2 3 2 2
+java Main.java 2 1 2 3 2 2
 ```
 
 The first argument (`2`) is the number to search for in the array
@@ -354,10 +404,10 @@ parsing exceptions.
 
 ### 10. Reverse Array
 
-Implement an application that reverses an array and then outputs it.
+Implement a program that reverses an array and then outputs it.
 
 ```bash
-java ReverseArray.java 1 2 3
+java Main.java 1 2 3
 ```
 
 ```text
@@ -372,11 +422,11 @@ parsing exceptions.
 
 ### 11. Sum Until Negative
 
-Implement an application that adds numbers until a negative value is
+Implement a program that adds numbers until a negative value is
 found in the command-line arguments.
 
 ```bash
-java SumUntilNegative.java 3 4 5 -1 10
+java Main.java 3 4 5 -1 10
 ```
 
 ```text
@@ -388,7 +438,7 @@ If there is no negative number, sum all given values.
 #### Another example
 
 ```bash
-java SumUntilNegative.java 3 4 5
+java Main.java 3 4 5
 ```
 
 ```text
@@ -397,14 +447,38 @@ java SumUntilNegative.java 3 4 5
 
 ---
 
+## File I/O
+
+You can read a text file into an array using `Files.readAllLines`:
+
+```java
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+
+void main(String[] args) throws IOException {
+    List<String> list = Files.readAllLines(Path.of("textfile.txt"));
+    String[] allLines = list.toArray(new String[0]);
+}
+```
+
+`Files.readAllLines` returns a `List<String>`. You can convert it to a
+`String[]` array using `toArray`. The `throws IOException` tells Java
+that this program may fail if the file is missing or unreadable.
+
+---
+
+## File I/O Exercise
+
 ### 12. Multi-File ASCII Bars
 
-Create a Java program that:
+Implement a program that:
 
 - Receives one or more filenames via command-line arguments.
 - Each file contains integers, one number per line.
-- For each number, prints a line of ASCII characters (`*`) whose length
-  matches the number.
+- For each number, prints a line of `*` characters whose length matches
+  the number.
 - After printing one file, prints an empty line and continues with the
   next file.
 - Treats negative numbers as `0`.
@@ -437,7 +511,7 @@ The output for each file should start with:
 When starting the app:
 
 ```bash
-java MultiAsciiBars.java numbers1.txt numbers2.txt
+java Main.java numbers1.txt numbers2.txt
 ```
 
 The output is:
@@ -456,32 +530,12 @@ The output is:
 ******* (7)
 ```
 
-To read a text file into an array:
-
-```java
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.List;
-
-void main(String[] args) throws IOException {
-    List<String> list = Files.readAllLines(Path.of("textfile.txt"));
-    String[] allLines = list.toArray(new String[0]);
-}
-```
-
 Use arrays in your solution (`allLines` and `args`).
 Convert the file contents to a `String[]` before processing them.
 
 ---
 
-### 13. Exception Handling for Previous Exercise
-
-Continue from exercise 12.
-
-#### Background
-
-What is `try` / `catch`?
+## Exception Handling
 
 Sometimes code can fail while running, for example because:
 
@@ -489,8 +543,8 @@ Sometimes code can fail while running, for example because:
 - the user gave wrong input
 - a number is not valid
 
-If the program fails, it throws an exception. `try` / `catch` lets you
-handle that problem instead of crashing.
+If the program fails, it throws an **exception**. `try` / `catch` lets
+you handle that problem instead of crashing.
 
 Basic idea:
 
@@ -549,6 +603,14 @@ try {
 | Program continues | The application does not crash immediately |
 | Message to user | You can give a clear hint about what went wrong |
 
+---
+
+## Exception Handling Exercise
+
+### 13. Exception Handling for Previous Exercise
+
+Continue from exercise 12.
+
 In the previous exercise, many things can go wrong:
 
 | Area | Exception |
@@ -561,11 +623,12 @@ In the previous exercise, many things can go wrong:
 | String to int | `NumberFormatException` |
 | Huge file | `OutOfMemoryError` |
 
-Now remove `throws IOException` from your app:
+Remove `throws IOException` from your program:
 
 ```java
-import java.nio.file.*;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 
 void main(String[] args) {
@@ -574,9 +637,7 @@ void main(String[] args) {
 }
 ```
 
-#### Task
-
-In this exercise, handle at least these cases:
+Handle at least these cases:
 
 - missing filename in `args`
 - file does not exist
@@ -593,14 +654,14 @@ Then:
 #### Example
 
 ```bash
-java MultiAsciiBars.java missing.txt
+java Main.java missing.txt
 ```
 
 ```text
 File not found: missing.txt
 ```
 
-Example:
+You can stop the program after catching an error with `return`:
 
 ```java
 try {
@@ -614,231 +675,3 @@ try {
 `IO.println` is enough for this course. In more advanced Java programs,
 you will also see `System.out.println` for normal output and
 `System.err.println` for error messages.
-
----
-
-## Methods
-
-See:
-
-- [Java Methods Tutorial 1 (YouTube)](https://www.youtube.com/watch?v=cCgOESMQe44)
-- [Java Methods Tutorial 2 (YouTube)](https://www.youtube.com/watch?v=L1htVG3xP5Y)
-- [Java Methods (W3Schools)](https://www.w3schools.com/java/java_methods.asp)
-- [Methods (MOOC.fi)](https://ohjelmointi-20.mooc.fi/osa-2/4-metodit)
-
-Examples of different kinds of methods:
-
-```java
-void main() {
-    doIt1();
-    doIt2(2);
-    IO.println(doIt3());
-    IO.println(doIt4(5));
-    IO.println(doIt5(2, 3));
-}
-
-void doIt1() {
-    IO.println(1);
-}
-
-void doIt2(int x) {
-    IO.println(x);
-}
-
-int doIt3() {
-    return 3;
-}
-
-int doIt4(int x) {
-    x--;
-    return x;
-}
-
-int doIt5(int a, int b) {
-    return a + b;
-}
-```
-
-`IO.println` prints a line and moves to the next line.
-`IO.print` prints without adding a newline.
-
----
-
-## Method Exercises
-
-### 14. Print Your Name
-
-Use the following as a base:
-
-```java
-void main() {
-
-}
-
-void printName() {
-
-}
-```
-
-Modify the `printName` method so that it prints your own name. Call the
-method from `main`.
-
-#### Example output
-
-```text
-Matti
-```
-
----
-
-### 15. Print Greeting and Name
-
-Use the following as a base:
-
-```java
-void main() {
-
-}
-
-void printGreeting() {
-
-}
-
-void printName() {
-
-}
-```
-
-Modify the code so that `printName` prints your name and
-`printGreeting` prints the text `"Hello "`. Call both methods from
-`main`. The output should be for example `"Hello Matti"`.
-
-Use `IO.print` in `printGreeting` and `IO.println` in `printName` so the
-text appears on one line.
-
-#### Example output
-
-```text
-Hello Matti
-```
-
----
-
-### 16. Print Given Name
-
-Use the following as a base:
-
-```java
-void main() {
-
-}
-
-void printGivenName(String x) {
-
-}
-```
-
-Ask the user for a name in `main`. Pass the entered name to
-`printGivenName`, which then prints it.
-
-#### Example
-
-```text
-Enter name:
-Jeppe
-Jeppe
-```
-
----
-
-### 17. Return Date
-
-Use the following as a base:
-
-```java
-void main() {
-
-}
-
-String returnDate() {
-
-}
-```
-
-Modify the `returnDate` method so that it returns the string
-`"14.9.2025"`. Print the returned text in `main`.
-
-#### Example output
-
-```text
-14.9.2025
-```
-
----
-
-### 18. Calculator Method
-
-Implement a calculator program that adds two numbers together.
-
-You can ask the numbers from the user in `main`. The program includes a
-method `calculate` that performs the addition. The method receives two
-integers as parameters and returns their sum. Print the result in
-`main`.
-
-Use the following as a base:
-
-```java
-void main() {
-
-}
-
-int calculate(int a, int b) {
-
-}
-```
-
-#### Example
-
-```text
-Enter first number: 4
-Enter second number: 6
-10
-```
-
----
-
-### 19. Print Character Many Times
-
-Implement a method that receives a character (`char`) and an amount
-(`int`) as parameters. The method prints the character the specified
-number of times.
-
-If you call the method with `'X'` and `3`, it should print `XXX`.
-
-Test it. Use a `for` loop in your solution.
-Print the characters on one line, followed by a newline at the end.
-
-#### Example output
-
-```text
-XXX
-```
-
----
-
-### 20. Return Character Many Times
-
-Implement the same idea as in exercise 19, but this time the method
-returns a `String` that contains the character repeated the specified
-number of times.
-
-Test it. Use a `for` loop in your solution.
-
-For example, if the arguments are `'X'` and `3`, the method returns
-`"XXX"`.
-
-#### Example output
-
-```text
-XXX
-```

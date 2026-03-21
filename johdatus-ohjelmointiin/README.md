@@ -1,13 +1,15 @@
 # Introduction to Java
 
-## Preliminary Agenda and Assignments
+## Agenda and Assignments
 
 | Topics | Assignment | Points |
 |--------|------------|--------|
 | Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) | 36 |
 | Boolean algebra, control structures, ASCII graphics | [Assignment 02](assignment02/) | 63 |
 | Strings, palindromes, file I/O, randomness, hangman | [Assignment 03](assignment03/) | 59 |
-| **Total** | | **158** |
+| Arrays, command-line arguments, file I/O, exceptions | [Assignment 04](assignment04/) | 55 |
+| Methods | [Assignment 05](assignment05/) | 15 |
+| **Total** | | **228** |
 
 ## Course Requirements
 
@@ -66,12 +68,6 @@ Install **Eclipse Temurin 25** from the [Adoptium website](https://adoptium.net/
 2. Download the **Windows x64** `.msi` installer for **Temurin 25**.
 3. Run the installer. During installation, make sure the option **"Add to PATH"** is enabled.
 4. Open **Command Prompt**: press `Win + R`, type `cmd`, and press Enter.
-5. Verify the installation by running:
-
-```bash
-java --version
-javac --version
-```
 
 #### macOS
 
@@ -79,19 +75,16 @@ javac --version
 2. Download the **macOS** installer (`.pkg`) for **Temurin 25**. Choose **aarch64** if you have an Apple Silicon Mac (M1/M2/M3/M4), or **x64** for an older Intel Mac.
 3. Run the installer.
 4. Open **Terminal**: press `Cmd + Space`, type `Terminal`, and press Enter.
-5. Verify the installation by running:
-
-```bash
-java --version
-javac --version
-```
 
 #### Linux
 
 1. Go to [https://adoptium.net/](https://adoptium.net/).
 2. Download the **Linux x64** `.tar.gz` archive for **Temurin 25**.
 3. Extract and add to your PATH, or use your distribution's package manager. See the [Adoptium installation guide](https://adoptium.net/installation/linux/) for details.
-4. Verify the installation by running:
+
+#### Verify Installation
+
+Open a terminal and run:
 
 ```bash
 java --version
