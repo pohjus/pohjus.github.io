@@ -14,12 +14,12 @@ void main() throws Exception {
     }
 
     total++;
-    output = run("10\n4\n");
-    if (output.contains("2.5")) {
-        IO.println("  PASS: inputs 10 and 4 produce output 2.5");
+    output = run("7\n2\n");
+    if (output.contains("3.5")) {
+        IO.println("  PASS: inputs 7 and 2 produce output 3.5");
         passed++;
     } else {
-        IO.println("  FAIL: expected '2.5' for inputs 10 and 4, got: " + output.trim());
+        IO.println("  FAIL: expected '3.5' for inputs 7 and 2, got: " + output.trim());
     }
 
     IO.println("Exercise 06: " + passed + "/" + total + " passed");

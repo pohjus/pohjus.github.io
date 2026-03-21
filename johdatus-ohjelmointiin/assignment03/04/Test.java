@@ -1,4 +1,5 @@
 import java.util.concurrent.TimeUnit;
+import java.util.List;
 
 void main() throws Exception {
     int passed = 0;
@@ -6,37 +7,28 @@ void main() throws Exception {
 
     total++;
     var output = run("Otto\n");
-    var lines = output.lines()
+    var singleChars = output.lines()
         .map(String::trim)
-        .filter(line -> !line.isEmpty())
+        .filter(line -> line.length() == 1)
         .toList();
-    boolean hasUpperO = false;
-    int singleCharLines = 0;
-    for (var line : lines) {
-        if (line.length() == 1) { singleCharLines++; }
-        if (line.equals("O")) { hasUpperO = true; }
-    }
-    if (singleCharLines >= 3 && hasUpperO && lines.get(lines.size() - 1).equals("O")) {
-        IO.println("  PASS: 'Otto' reversed prints characters ending with O");
+    if (singleChars.equals(List.of("o", "t", "t", "O"))) {
+        IO.println("  PASS: 'Otto' reversed prints o, t, t, O");
         passed++;
     } else {
-        IO.println("  FAIL: expected reversed characters ending with O, got: " + lines);
+        IO.println("  FAIL: expected [o, t, t, O], got: " + singleChars);
     }
 
     total++;
     output = run("ABC\n");
-    lines = output.lines()
+    singleChars = output.lines()
         .map(String::trim)
-        .filter(line -> !line.isEmpty())
+        .filter(line -> line.length() == 1)
         .toList();
-    if (lines.size() >= 3
-            && lines.stream().anyMatch(line -> line.equals("C") || line.endsWith("C"))
-            && lines.stream().anyMatch(line -> line.equals("B"))
-            && lines.stream().anyMatch(line -> line.equals("A"))) {
+    if (singleChars.equals(List.of("C", "B", "A"))) {
         IO.println("  PASS: 'ABC' reversed prints C, B, A");
         passed++;
     } else {
-        IO.println("  FAIL: expected C, B, A, got: " + lines);
+        IO.println("  FAIL: expected [C, B, A], got: " + singleChars);
     }
 
     IO.println("Exercise 04: " + passed + "/" + total + " passed");

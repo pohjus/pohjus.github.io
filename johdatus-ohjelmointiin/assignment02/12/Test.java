@@ -14,12 +14,39 @@ void main() throws Exception {
     }
 
     total++;
+    output = run("3\n");
+    if (output.contains("Wednesday")) {
+        IO.println("  PASS: input 3 prints 'Wednesday'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'Wednesday' for input 3, got: " + output.trim());
+    }
+
+    total++;
     output = run("5\n");
     if (output.contains("Friday")) {
         IO.println("  PASS: input 5 prints 'Friday'");
         passed++;
     } else {
         IO.println("  FAIL: expected 'Friday' for input 5, got: " + output.trim());
+    }
+
+    total++;
+    output = run("6\n");
+    if (output.contains("Saturday")) {
+        IO.println("  PASS: input 6 prints 'Saturday'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'Saturday' for input 6, got: " + output.trim());
+    }
+
+    total++;
+    output = run("7\n");
+    if (output.contains("Sunday")) {
+        IO.println("  PASS: input 7 prints 'Sunday'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'Sunday' for input 7, got: " + output.trim());
     }
 
     IO.println("Exercise 12: " + passed + "/" + total + " passed");

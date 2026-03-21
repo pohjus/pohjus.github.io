@@ -6,29 +6,32 @@ void main() throws Exception {
 
     total++;
     var output = run("saippuakauppias\n");
-    if (output.contains("alindrome")) {
+    var lower = output.toLowerCase();
+    if (lower.contains("palindrome") && !lower.contains("not a palindrome")) {
         IO.println("  PASS: 'saippuakauppias' is a palindrome");
         passed++;
     } else {
-        IO.println("  FAIL: expected palindrome result, got: " + output.trim());
+        IO.println("  FAIL: expected palindrome (without 'not'), got: " + output.trim());
     }
 
     total++;
     output = run("hello\n");
-    if (output.contains("ot a palindrome") || output.contains("ot a Palindrome")) {
+    lower = output.toLowerCase();
+    if (lower.contains("not a palindrome")) {
         IO.println("  PASS: 'hello' is not a palindrome");
         passed++;
     } else {
-        IO.println("  FAIL: expected not a palindrome, got: " + output.trim());
+        IO.println("  FAIL: expected 'not a palindrome', got: " + output.trim());
     }
 
     total++;
     output = run("abba\n");
-    if (output.contains("alindrome")) {
+    lower = output.toLowerCase();
+    if (lower.contains("palindrome") && !lower.contains("not a palindrome")) {
         IO.println("  PASS: 'abba' is a palindrome");
         passed++;
     } else {
-        IO.println("  FAIL: expected palindrome result, got: " + output.trim());
+        IO.println("  FAIL: expected palindrome (without 'not'), got: " + output.trim());
     }
 
     IO.println("Exercise 08: " + passed + "/" + total + " passed");

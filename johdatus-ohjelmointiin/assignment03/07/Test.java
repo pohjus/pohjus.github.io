@@ -6,16 +6,22 @@ void main() throws Exception {
 
     total++;
     var output = run("Tiina\nHeli\nlopeta\n");
-    if (output.contains("Tiina") && output.contains("TiinaHeli")) {
-        IO.println("  PASS: accumulates names correctly");
+    var lines = output.lines()
+        .map(String::trim)
+        .filter(line -> !line.isEmpty())
+        .toList();
+    boolean hasTiinaAlone = lines.stream().anyMatch(line -> line.equals("Tiina"));
+    boolean hasTiinaHeli = lines.stream().anyMatch(line -> line.equals("TiinaHeli"));
+    if (hasTiinaAlone && hasTiinaHeli) {
+        IO.println("  PASS: accumulates names correctly (Tiina alone, then TiinaHeli)");
         passed++;
     } else {
-        IO.println("  FAIL: expected accumulated names, got: " + output.trim());
+        IO.println("  FAIL: expected 'Tiina' as own line and 'TiinaHeli' as own line, got: " + lines);
     }
 
     total++;
     output = run("lopeta\n");
-    var lines = output.lines()
+    lines = output.lines()
         .map(String::trim)
         .filter(line -> !line.isEmpty())
         .filter(line -> !line.contains("Enter") && !line.contains("name"))
@@ -25,6 +31,20 @@ void main() throws Exception {
         passed++;
     } else {
         IO.println("  FAIL: expected no names, got: " + lines);
+    }
+
+    total++;
+    output = run("Tiina\nHeli\nKalle\nlopeta\n");
+    lines = output.lines()
+        .map(String::trim)
+        .filter(line -> !line.isEmpty())
+        .toList();
+    boolean hasTiinaHeliKalle = lines.stream().anyMatch(line -> line.equals("TiinaHeliKalle"));
+    if (hasTiinaHeliKalle) {
+        IO.println("  PASS: accumulates 3 names correctly (TiinaHeliKalle)");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'TiinaHeliKalle' as own line, got: " + lines);
     }
 
     IO.println("Exercise 07: " + passed + "/" + total + " passed");

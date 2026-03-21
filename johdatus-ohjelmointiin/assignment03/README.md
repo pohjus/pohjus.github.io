@@ -4,25 +4,25 @@
 
 | Exercise | Description | Points |
 |----------|-------------|--------|
-| 01 | Name Check | 2 |
+| 01 | Name Check | 3 |
 | 02 | String Methods | 1 |
 | 03 | Character Printing | 2 |
 | 04 | Reverse Order | 2 |
-| 05 | Reverse Order and Every Other Char | 2 |
+| 05 | Reverse Order and Every Other Char | 3 |
 | 06 | Appending Strings | 1 |
-| 07 | Appending Strings - Part 2 | 2 |
+| 07 | Appending Strings - Part 2 | 3 |
 | 08 | Palindrome | 3 |
 | 09 | Palindrome - Part 2 | 3 |
 | 10 | Loop | 3 |
-| 11 | Calculator | 3 |
-| 12 | Random Values | 2 |
-| 13 | Random Integers | 2 |
-| 14 | Password Check | 4 |
-| 15 | Diagram | 3 |
-| 16 | Shuffle | 2 |
-| 17 | Hangman | 3 |
-| 18 | Hangman: Text File | 2 |
-| **Total** | | **42** |
+| 11 | Calculator | 4 |
+| 12 | Random Values | 3 |
+| 13 | Random Integers | 3 |
+| 14 | Password Check | 6 |
+| 15 | Diagram | 6 |
+| 16 | Shuffle | 4 |
+| 17 | Hangman | 5 |
+| 18 | Hangman: Text File | 4 |
+| **Total** | | **59** |
 
 ## Directory Structure
 
@@ -79,7 +79,8 @@ Enter your name: Ville
 |---|------|--------|
 | 1 | Prints "Hello Matti!" for input "Matti" | 1 |
 | 2 | Prints nothing for input "Ville" | 1 |
-| | **Total** | **2** |
+| 3 | Prints nothing for input "matti" (case sensitive) | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -126,8 +127,8 @@ o
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | "Otto" prints O, t, t, o on separate lines | 1 |
-| 2 | "AB" prints A, B on separate lines | 1 |
+| 1 | "Otto" single-char lines are exactly [O, t, t, o] in order | 1 |
+| 2 | "AB" single-char lines are exactly [A, B] in order | 1 |
 | | **Total** | **2** |
 
 ---
@@ -152,8 +153,8 @@ O
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | "Otto" reversed prints o, t, t, O | 1 |
-| 2 | "ABC" reversed prints C, B, A | 1 |
+| 1 | "Otto" single-char lines are exactly [o, t, t, O] in order | 1 |
+| 2 | "ABC" single-char lines are exactly [C, B, A] in order | 1 |
 | | **Total** | **2** |
 
 ---
@@ -176,9 +177,10 @@ t
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | "Otto" reversed every other prints o, t | 1 |
-| 2 | "ABCDE" reversed every other prints E, C, A | 1 |
-| | **Total** | **2** |
+| 1 | "Otto" single-char lines are exactly [o, t] in order | 1 |
+| 2 | "ABCDE" single-char lines are exactly [E, C, A] in order | 1 |
+| 3 | "ABCDE" produces exactly 3 character lines | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -238,9 +240,10 @@ lopeta
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | Accumulates names correctly (Tiina, Heli) | 1 |
+| 1 | "Tiina" appears as own line and "TiinaHeli" as own line | 1 |
 | 2 | No names printed when "lopeta" entered immediately | 1 |
-| | **Total** | **2** |
+| 3 | Accumulates 3 names correctly (TiinaHeliKalle) | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -266,9 +269,9 @@ Not a palindrome
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | "saippuakauppias" is a palindrome | 1 |
-| 2 | "hello" is not a palindrome | 1 |
-| 3 | "abba" is a palindrome | 1 |
+| 1 | "saippuakauppias" contains "palindrome" but not "not a palindrome" | 1 |
+| 2 | "hello" contains "not a palindrome" | 1 |
+| 3 | "abba" contains "palindrome" but not "not a palindrome" | 1 |
 | | **Total** | **3** |
 
 ---
@@ -343,9 +346,9 @@ Enter number 2: -3
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | Inputs 5 and 10 print all numbers from 5 to 10 | 1 |
-| 2 | Inputs 2 and -3 print all numbers from -3 to 2 | 1 |
-| 3 | Equal inputs print the number | 1 |
+| 1 | Inputs 5 and 10 produce exactly [5, 6, 7, 8, 9, 10] | 1 |
+| 2 | Inputs 2 and -3 produce exactly [-3, -2, -1, 0, 1, 2] | 1 |
+| 3 | Inputs 3 and 3 produce exactly [3] | 1 |
 | | **Total** | **3** |
 
 ---
@@ -385,7 +388,8 @@ Enter number 2:
 | 1 | Inputs 5 / 2 produce output 2.5 | 1 |
 | 2 | Inputs 10 + 2 produce output 12 | 1 |
 | 3 | Inputs 7 * 3 produce output 21 | 1 |
-| | **Total** | **3** |
+| 4 | Inputs 10 - 3 produce output 7 | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -417,7 +421,8 @@ Implement a Java application that prints 5 random numbers between `[0, 1[`.
 |---|------|--------|
 | 1 | Prints exactly 5 lines | 1 |
 | 2 | All values are doubles in [0, 1[ | 1 |
-| | **Total** | **2** |
+| 3 | Two runs produce different output (not hardcoded) | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -453,7 +458,8 @@ Use `Math.random()` and type casting.
 |---|------|--------|
 | 1 | Prints exactly 5 lines | 1 |
 | 2 | All values are integers between 0 and 4 | 1 |
-| | **Total** | **2** |
+| 3 | Two runs produce different output (not hardcoded) | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -495,7 +501,9 @@ Password must be at least 8 characters long
 | 2 | "short" is rejected (too short) | 1 |
 | 3 | "abcdefgh" is rejected (no uppercase or digit) | 1 |
 | 4 | "ABCDEFG1" is rejected (no lowercase) | 1 |
-| | **Total** | **4** |
+| 5 | "Abcdefgh" is rejected (no digit) | 1 |
+| 6 | "12345678A" is rejected (no lowercase) | 1 |
+| | **Total** | **6** |
 
 ---
 
@@ -555,10 +563,13 @@ Do not use the `String.repeat` method in your solution.
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | Positive values show + signs after \| | 1 |
-| 2 | Negative values show - signs before \| | 1 |
-| 3 | Zero shows only \| | 1 |
-| | **Total** | **3** |
+| 1 | Output has 5 lines (one per input value) | 1 |
+| 2 | Value 3 produces exact output `   \|+++` | 1 |
+| 3 | Value -3 produces exact output `---\|` | 1 |
+| 4 | Value -1 produces exact output `  -\|` | 1 |
+| 5 | Value 4 produces exact output `   \|++++` | 1 |
+| 6 | Value 0 produces exact output `   \|` | 1 |
+| | **Total** | **6** |
 
 ---
 
@@ -585,9 +596,11 @@ Use only the concepts introduced in classroom sessions.
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | Output has same length as input | 1 |
-| 2 | Shuffled output contains same characters as input | 1 |
-| | **Total** | **2** |
+| 1 | Output has same length as input (5 chars for "seppo") | 1 |
+| 2 | Shuffled output contains same characters as "seppo" | 1 |
+| 3 | Multiple runs produce different shuffles (not hardcoded) | 1 |
+| 4 | Shuffled output contains same characters as "hello" | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -625,9 +638,11 @@ The program ends when all letters are guessed.
 | # | Test | Points |
 |---|------|--------|
 | 1 | Game ends with "Correct!" when all letters guessed | 1 |
-| 2 | Initial state shows dashes | 1 |
-| 3 | After guessing "k", shows "k----" | 1 |
-| | **Total** | **3** |
+| 2 | Displays "Guess the word" prompt | 1 |
+| 3 | Initial state shows a line of only dashes | 1 |
+| 4 | Shows partially revealed word during game | 1 |
+| 5 | Fully revealed word shown before "Correct!" | 1 |
+| | **Total** | **5** |
 
 ---
 
@@ -667,7 +682,9 @@ Correct!
 |---|------|--------|
 | 1 | Game ends with "Correct!" | 1 |
 | 2 | Displays "Guess the word" prompt | 1 |
-| | **Total** | **2** |
+| 3 | Initial state shows a line of only dashes | 1 |
+| 4 | Shows partially revealed word during game | 1 |
+| | **Total** | **4** |
 
 ---
 

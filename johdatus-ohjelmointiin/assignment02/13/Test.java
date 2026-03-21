@@ -14,12 +14,48 @@ void main() throws Exception {
     }
 
     total++;
+    output = run("8\n");
+    if (output.contains("improbatur")) {
+        IO.println("  PASS: score 8 outputs 'improbatur'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'improbatur' for score 8, got: " + output.trim());
+    }
+
+    total++;
+    output = run("9\n");
+    if (output.contains("approbatur")) {
+        IO.println("  PASS: score 9 outputs 'approbatur'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'approbatur' for score 9, got: " + output.trim());
+    }
+
+    total++;
     output = run("20\n");
     if (output.contains("lubenter")) {
         IO.println("  PASS: score 20 outputs 'lubenter'");
         passed++;
     } else {
         IO.println("  FAIL: expected 'lubenter' for score 20, got: " + output.trim());
+    }
+
+    total++;
+    output = run("36\n");
+    if (output.contains("magna")) {
+        IO.println("  PASS: score 36 outputs 'magna'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'magna' for score 36, got: " + output.trim());
+    }
+
+    total++;
+    output = run("45\n");
+    if (output.contains("eximia")) {
+        IO.println("  PASS: score 45 outputs 'eximia'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'eximia' for score 45, got: " + output.trim());
     }
 
     total++;

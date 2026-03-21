@@ -31,6 +31,15 @@ void main() throws Exception {
         IO.println("  FAIL: expected '21' in output, got: " + output.trim());
     }
 
+    total++;
+    output = run("10\n-\n3\n");
+    if (output.contains("7")) {
+        IO.println("  PASS: 10 - 3 = 7");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '7' in output, got: " + output.trim());
+    }
+
     IO.println("Exercise 11: " + passed + "/" + total + " passed");
 }
 

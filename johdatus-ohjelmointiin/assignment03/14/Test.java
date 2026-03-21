@@ -40,6 +40,24 @@ void main() throws Exception {
         IO.println("  FAIL: expected rejection for 'ABCDEFG1'");
     }
 
+    total++;
+    output = run("Abcdefgh\n");
+    if (!output.contains("accepted")) {
+        IO.println("  PASS: 'Abcdefgh' is rejected (no digit)");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected rejection for 'Abcdefgh'");
+    }
+
+    total++;
+    output = run("12345678A\n");
+    if (!output.contains("accepted")) {
+        IO.println("  PASS: '12345678A' is rejected (no lowercase)");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected rejection for '12345678A'");
+    }
+
     IO.println("Exercise 14: " + passed + "/" + total + " passed");
 }
 

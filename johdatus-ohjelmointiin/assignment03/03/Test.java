@@ -1,4 +1,5 @@
 import java.util.concurrent.TimeUnit;
+import java.util.List;
 
 void main() throws Exception {
     int passed = 0;
@@ -6,33 +7,28 @@ void main() throws Exception {
 
     total++;
     var output = run("Otto\n");
-    var lines = output.lines()
+    var singleChars = output.lines()
         .map(String::trim)
-        .filter(line -> !line.isEmpty())
+        .filter(line -> line.length() == 1)
         .toList();
-    boolean hasO = false;
-    boolean hasT = false;
-    boolean hasSmallO = false;
-    int singleCharLines = 0;
-    for (var line : lines) {
-        if (line.equals("O")) { hasO = true; singleCharLines++; }
-        if (line.equals("t")) { hasT = true; singleCharLines++; }
-        if (line.equals("o")) { hasSmallO = true; singleCharLines++; }
-    }
-    if (singleCharLines >= 3 && hasT && hasSmallO) {
-        IO.println("  PASS: 'Otto' prints characters on separate lines");
+    if (singleChars.equals(List.of("O", "t", "t", "o"))) {
+        IO.println("  PASS: 'Otto' prints O, t, t, o on separate lines");
         passed++;
     } else {
-        IO.println("  FAIL: expected O, t, t, o on separate lines, got: " + lines);
+        IO.println("  FAIL: expected [O, t, t, o], got: " + singleChars);
     }
 
     total++;
     output = run("AB\n");
-    if (output.contains("\nB") || output.lines().anyMatch(line -> line.trim().equals("B"))) {
-        IO.println("  PASS: 'AB' prints characters on separate lines");
+    singleChars = output.lines()
+        .map(String::trim)
+        .filter(line -> line.length() == 1)
+        .toList();
+    if (singleChars.equals(List.of("A", "B"))) {
+        IO.println("  PASS: 'AB' prints A, B on separate lines");
         passed++;
     } else {
-        IO.println("  FAIL: expected characters on separate lines, got: " + output.trim());
+        IO.println("  FAIL: expected [A, B], got: " + singleChars);
     }
 
     IO.println("Exercise 03: " + passed + "/" + total + " passed");

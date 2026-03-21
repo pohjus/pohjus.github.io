@@ -6,32 +6,54 @@ void main() throws Exception {
 
     total++;
     var output = run("3\n7\n");
-    if (output.contains("7")) {
+    var lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("7")) {
         IO.println("  PASS: prints 7 as larger of 3 and 7");
         passed++;
     } else {
-        IO.println("  FAIL: expected '7' as larger of 3 and 7, got: " + output.trim());
+        IO.println("  FAIL: expected '7' as larger of 3 and 7, got: " + lastLine);
     }
 
     total++;
     output = run("9\n2\n");
-    if (output.contains("9")) {
+    lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("9")) {
         IO.println("  PASS: prints 9 as larger of 9 and 2");
         passed++;
     } else {
-        IO.println("  FAIL: expected '9' as larger of 9 and 2, got: " + output.trim());
+        IO.println("  FAIL: expected '9' as larger of 9 and 2, got: " + lastLine);
     }
 
     total++;
     output = run("100\n200\n");
-    if (output.contains("200")) {
+    lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("200")) {
         IO.println("  PASS: prints 200 as larger of 100 and 200");
         passed++;
     } else {
-        IO.println("  FAIL: expected '200' as larger of 100 and 200, got: " + output.trim());
+        IO.println("  FAIL: expected '200' as larger of 100 and 200, got: " + lastLine);
+    }
+
+    total++;
+    output = run("5\n5\n");
+    lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("5")) {
+        IO.println("  PASS: prints 5 for equal inputs 5 and 5");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '5' for equal inputs 5 and 5, got: " + lastLine);
     }
 
     IO.println("Exercise 06: " + passed + "/" + total + " passed");
+}
+
+String getLastNonPromptLine(String output) {
+    var lines = output.lines()
+        .map(String::trim)
+        .filter(line -> !line.isEmpty())
+        .filter(line -> !line.startsWith("Enter"))
+        .toList();
+    return lines.isEmpty() ? "(empty)" : lines.get(lines.size() - 1);
 }
 
 String run(String input) throws Exception {

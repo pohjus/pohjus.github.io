@@ -1,40 +1,61 @@
 import java.util.concurrent.TimeUnit;
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.charset.Charset;
 
 void main() throws Exception {
     int passed = 0;
     int total = 0;
 
-    total++;
     var output = run(null);
-    if (output.contains("|+++") && output.contains("|++++")) {
-        IO.println("  PASS: positive values show + signs after |");
-        passed++;
-    } else {
-        IO.println("  FAIL: expected + signs for positive values, got: " + output.trim());
-    }
-
-    total++;
-    if (output.contains("---|") && output.contains("-|")) {
-        IO.println("  PASS: negative values show - signs before |");
-        passed++;
-    } else {
-        IO.println("  FAIL: expected - signs for negative values, got: " + output.trim());
-    }
-
-    total++;
     var lines = output.lines().toList();
-    boolean hasZeroLine = false;
-    for (var line : lines) {
-        if (line.trim().equals("|")) {
-            hasZeroLine = true;
-            break;
-        }
-    }
-    if (hasZeroLine) {
-        IO.println("  PASS: zero shows only |");
+
+    total++;
+    if (lines.size() == 5) {
+        IO.println("  PASS: output has 5 lines (one per input value)");
         passed++;
     } else {
-        IO.println("  FAIL: expected '|' for zero value");
+        IO.println("  FAIL: expected 5 lines, got " + lines.size());
+    }
+
+    total++;
+    if (lines.size() >= 1 && lines.get(0).equals("   |+++")) {
+        IO.println("  PASS: value 3 produces '   |+++'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '   |+++' for value 3, got: " + (lines.size() >= 1 ? lines.get(0) : "(no output)"));
+    }
+
+    total++;
+    if (lines.size() >= 2 && lines.get(1).equals("---|")) {
+        IO.println("  PASS: value -3 produces '---|'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '---|' for value -3, got: " + (lines.size() >= 2 ? lines.get(1) : "(no output)"));
+    }
+
+    total++;
+    if (lines.size() >= 3 && lines.get(2).equals("  -|")) {
+        IO.println("  PASS: value -1 produces '  -|'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '  -|' for value -1, got: " + (lines.size() >= 3 ? lines.get(2) : "(no output)"));
+    }
+
+    total++;
+    if (lines.size() >= 4 && lines.get(3).equals("   |++++")) {
+        IO.println("  PASS: value 4 produces '   |++++'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '   |++++' for value 4, got: " + (lines.size() >= 4 ? lines.get(3) : "(no output)"));
+    }
+
+    total++;
+    if (lines.size() >= 5 && lines.get(4).equals("   |")) {
+        IO.println("  PASS: value 0 produces '   |'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected '   |' for value 0, got: " + (lines.size() >= 5 ? lines.get(4) : "(no output)"));
     }
 
     IO.println("Exercise 15: " + passed + "/" + total + " passed");

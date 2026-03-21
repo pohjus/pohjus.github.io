@@ -4,9 +4,9 @@
 
 | Exercise | Description | Points |
 |----------|-------------|--------|
-| 01 | Christmas Eve Greeting | 2 |
-| 02 | Dog's Exceptional Age | 2 |
-| 03 | Working Hours | 2 |
+| 01 | Christmas Eve Greeting | 4 |
+| 02 | Dog's Exceptional Age | 4 |
+| 03 | Working Hours | 5 |
 | 04 | Variables | 1 |
 | 05 | Casting | 1 |
 | 06 | Division | 2 |
@@ -15,16 +15,16 @@
 | 09 | Do-While Loops | 5 |
 | 10 | Multiplication by Addition | 2 |
 | 11 | Input Validation | 2 |
-| 12 | Weekday Switch-Case | 2 |
-| 13 | Grade from Score | 3 |
+| 12 | Weekday Switch-Case | 5 |
+| 13 | Grade from Score | 7 |
 | 14 | Pattern Width | 2 |
 | 15 | Square Pattern | 2 |
 | 16 | Diagonal Left to Right | 2 |
 | 17 | Diagonal Right to Left | 2 |
-| 18 | Rock-Paper-Scissors | 3 |
+| 18 | Rock-Paper-Scissors | 5 |
 | 19 | RPS vs Computer | 2 |
 | 20 | Best of Three | 2 |
-| **Total** | | **47** |
+| **Total** | | **63** |
 
 ## Directory Structure
 
@@ -128,7 +128,9 @@ Enter month:
 |---|------|--------|
 | 1 | Prints "Merry Christmas!" for day 24, month 12 | 1 |
 | 2 | Prints nothing for day 3, month 3 | 1 |
-| | **Total** | **2** |
+| 3 | Prints nothing for day 24, month 6 | 1 |
+| 4 | Prints nothing for day 25, month 12 | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -157,7 +159,9 @@ Enter dog's age:
 |---|------|--------|
 | 1 | Age 2 prints "The dog is of exceptional age." | 1 |
 | 2 | Age 5 prints nothing | 1 |
-| | **Total** | **2** |
+| 3 | Age 11 prints "The dog is of exceptional age." | 1 |
+| 4 | Age 3 prints nothing | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -186,7 +190,10 @@ Enter hour:
 |---|------|--------|
 | 1 | Hour 10 prints "Working hours are in progress!" | 1 |
 | 2 | Hour 20 prints nothing | 1 |
-| | **Total** | **2** |
+| 3 | Hour 9 prints "Working hours are in progress!" | 1 |
+| 4 | Hour 17 prints "Working hours are in progress!" | 1 |
+| 5 | Hour 8 prints nothing | 1 |
+| | **Total** | **5** |
 
 ---
 
@@ -266,7 +273,7 @@ Enter second number:
 | # | Test | Points |
 |---|------|--------|
 | 1 | Inputs 5 and 2 produce output 2.5 | 1 |
-| 2 | Inputs 10 and 4 produce output 2.5 | 1 |
+| 2 | Inputs 7 and 2 produce output 3.5 | 1 |
 | | **Total** | **2** |
 
 ---
@@ -506,8 +513,11 @@ Friday
 | # | Test | Points |
 |---|------|--------|
 | 1 | Input 1 prints "Monday" | 1 |
-| 2 | Input 5 prints "Friday" | 1 |
-| | **Total** | **2** |
+| 2 | Input 3 prints "Wednesday" | 1 |
+| 3 | Input 5 prints "Friday" | 1 |
+| 4 | Input 6 prints "Saturday" | 1 |
+| 5 | Input 7 prints "Sunday" | 1 |
+| | **Total** | **5** |
 
 ---
 
@@ -542,9 +552,13 @@ laudatur
 | # | Test | Points |
 |---|------|--------|
 | 1 | Score 5 outputs "improbatur" | 1 |
-| 2 | Score 20 outputs "lubenter" | 1 |
-| 3 | Score 55 outputs "laudatur" | 1 |
-| | **Total** | **3** |
+| 2 | Score 8 outputs "improbatur" | 1 |
+| 3 | Score 9 outputs "approbatur" | 1 |
+| 4 | Score 20 outputs "lubenter" | 1 |
+| 5 | Score 36 outputs "magna" | 1 |
+| 6 | Score 45 outputs "eximia" | 1 |
+| 7 | Score 55 outputs "laudatur" | 1 |
+| | **Total** | **7** |
 
 ---
 
@@ -710,7 +724,9 @@ It's a tie!
 | 1 | Rock beats scissors | 1 |
 | 2 | Paper beats rock | 1 |
 | 3 | Scissors beats paper | 1 |
-| | **Total** | **3** |
+| 4 | Rock vs rock is a tie | 1 |
+| 5 | Scissors vs rock, Player 2 wins | 1 |
+| | **Total** | **5** |
 
 ---
 

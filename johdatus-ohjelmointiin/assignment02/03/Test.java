@@ -22,6 +22,33 @@ void main() throws Exception {
         IO.println("  FAIL: should not print for hour 20, got: " + output.trim());
     }
 
+    total++;
+    output = run("9\n");
+    if (output.contains("Working hours are in progress!")) {
+        IO.println("  PASS: hour 9 prints 'Working hours are in progress!'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'Working hours are in progress!' for hour 9, got: " + output.trim());
+    }
+
+    total++;
+    output = run("17\n");
+    if (output.contains("Working hours are in progress!")) {
+        IO.println("  PASS: hour 17 prints 'Working hours are in progress!'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'Working hours are in progress!' for hour 17, got: " + output.trim());
+    }
+
+    total++;
+    output = run("8\n");
+    if (!output.contains("Working hours are in progress!")) {
+        IO.println("  PASS: hour 8 prints nothing");
+        passed++;
+    } else {
+        IO.println("  FAIL: should not print for hour 8, got: " + output.trim());
+    }
+
     IO.println("Exercise 03: " + passed + "/" + total + " passed");
 }
 

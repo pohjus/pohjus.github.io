@@ -8,15 +8,15 @@
 | 02 | Hello World | 1 |
 | 03 | User Input and Output | 2 |
 | 04 | Two Integers and If | 3 |
-| 05 | Summation | 3 |
-| 06 | Larger Number | 3 |
+| 05 | Summation | 5 |
+| 06 | Larger Number | 4 |
 | 07 | Age Check | 4 |
 | 08 | Repeat Message | 1 |
 | 09 | Repeat User-Defined Times | 3 |
 | 10 | Count 1 to 10 | 4 |
 | 11 | Count 10 to 1 | 4 |
 | 12 | Find the Largest Number | 4 |
-| **Total** | | **33** |
+| **Total** | | **36** |
 
 ## Directory Structure
 
@@ -208,8 +208,8 @@ void main() {
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | Output contains user-provided name (test 1) | 1 |
-| 2 | Output contains user-provided name (test 2) | 1 |
+| 1 | Output contains "Hello, Alice!" for input "Alice" | 1 |
+| 2 | Output contains "Hello, Bob!" for input "Bob" | 1 |
 | | **Total** | **2** |
 
 ---
@@ -284,10 +284,12 @@ hellurei
 
 | # | Test | Points |
 |---|------|--------|
-| 1 | Prints correct sum for inputs 3 and 4 | 1 |
-| 2 | Prints correct sum for inputs 10 and 20 | 1 |
-| 3 | Prints "hellurei" when first > second (7 > 2) | 1 |
-| | **Total** | **3** |
+| 1 | Last line is "7" (sum) for inputs 3 and 4 | 1 |
+| 2 | Does not print "hellurei" when first < second (3 < 4) | 1 |
+| 3 | Last line is "30" (sum) for inputs 10 and 20 | 1 |
+| 4 | Prints "hellurei" when first > second (7 > 2) | 1 |
+| 5 | Last line is "9" (sum) for inputs 7 and 2 | 1 |
+| | **Total** | **5** |
 
 ---
 
@@ -318,7 +320,8 @@ Enter second number: 2
 | 1 | Prints 7 as larger of 3 and 7 | 1 |
 | 2 | Prints 9 as larger of 9 and 2 | 1 |
 | 3 | Prints 200 as larger of 100 and 200 | 1 |
-| | **Total** | **3** |
+| 4 | Prints 5 for equal inputs 5 and 5 | 1 |
+| | **Total** | **4** |
 
 ---
 

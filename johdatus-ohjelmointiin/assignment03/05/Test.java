@@ -1,4 +1,5 @@
 import java.util.concurrent.TimeUnit;
+import java.util.List;
 
 void main() throws Exception {
     int passed = 0;
@@ -6,20 +7,36 @@ void main() throws Exception {
 
     total++;
     var output = run("Otto\n");
-    if (output.contains("o") && output.contains("t")) {
-        IO.println("  PASS: 'Otto' reversed every other contains o and t");
+    var singleChars = output.lines()
+        .map(String::trim)
+        .filter(line -> line.length() == 1)
+        .toList();
+    if (singleChars.equals(List.of("o", "t"))) {
+        IO.println("  PASS: 'Otto' reversed every other prints o, t");
         passed++;
     } else {
-        IO.println("  FAIL: expected o and t in output, got: " + output.trim());
+        IO.println("  FAIL: expected [o, t], got: " + singleChars);
     }
 
     total++;
     output = run("ABCDE\n");
-    if (output.contains("E") && output.contains("C") && output.contains("A")) {
-        IO.println("  PASS: 'ABCDE' reversed every other contains E, C, A");
+    singleChars = output.lines()
+        .map(String::trim)
+        .filter(line -> line.length() == 1)
+        .toList();
+    if (singleChars.equals(List.of("E", "C", "A"))) {
+        IO.println("  PASS: 'ABCDE' reversed every other prints E, C, A");
         passed++;
     } else {
-        IO.println("  FAIL: expected E, C, A in output, got: " + output.trim());
+        IO.println("  FAIL: expected [E, C, A], got: " + singleChars);
+    }
+
+    total++;
+    if (singleChars.size() == 3) {
+        IO.println("  PASS: 'ABCDE' produces exactly 3 character lines");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 3 character lines, got " + singleChars.size());
     }
 
     IO.println("Exercise 05: " + passed + "/" + total + " passed");

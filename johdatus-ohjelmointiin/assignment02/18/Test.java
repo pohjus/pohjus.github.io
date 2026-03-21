@@ -31,6 +31,24 @@ void main() throws Exception {
         IO.println("  FAIL: expected 'Player 1 wins' for scissors vs paper, got: " + output.trim());
     }
 
+    total++;
+    output = run("rock\nrock\n");
+    if (output.toLowerCase().contains("tie")) {
+        IO.println("  PASS: rock vs rock is a tie");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'tie' for rock vs rock, got: " + output.trim());
+    }
+
+    total++;
+    output = run("scissors\nrock\n");
+    if (output.contains("Player 2 wins")) {
+        IO.println("  PASS: rock beats scissors (Player 2 wins)");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'Player 2 wins' for scissors vs rock, got: " + output.trim());
+    }
+
     IO.println("Exercise 18: " + passed + "/" + total + " passed");
 }
 

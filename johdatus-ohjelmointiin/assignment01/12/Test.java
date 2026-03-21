@@ -6,8 +6,8 @@ void main() throws Exception {
 
     total++;
     var output = run("5\n3\n8\n2\n0\n");
-    var lastLine = getLastLine(output);
-    if (lastLine.endsWith("8") && !lastLine.endsWith("18") && !lastLine.endsWith("28")) {
+    var lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("8")) {
         IO.println("  PASS: largest is 8 for input [5, 3, 8, 2, 0]");
         passed++;
     } else {
@@ -16,8 +16,8 @@ void main() throws Exception {
 
     total++;
     output = run("1\n0\n");
-    lastLine = getLastLine(output);
-    if (lastLine.endsWith("1") && !lastLine.endsWith("11") && !lastLine.endsWith("21")) {
+    lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("1")) {
         IO.println("  PASS: largest is 1 for input [1, 0]");
         passed++;
     } else {
@@ -26,8 +26,8 @@ void main() throws Exception {
 
     total++;
     output = run("10\n20\n5\n-1\n");
-    lastLine = getLastLine(output);
-    if (lastLine.endsWith("20")) {
+    lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("20")) {
         IO.println("  PASS: largest is 20 for input [10, 20, 5, -1]");
         passed++;
     } else {
@@ -36,8 +36,8 @@ void main() throws Exception {
 
     total++;
     output = run("100\n0\n");
-    lastLine = getLastLine(output);
-    if (lastLine.endsWith("100")) {
+    lastLine = getLastNonPromptLine(output);
+    if (lastLine.equals("100")) {
         IO.println("  PASS: largest is 100 for input [100, 0]");
         passed++;
     } else {
@@ -47,10 +47,11 @@ void main() throws Exception {
     IO.println("Exercise 12: " + passed + "/" + total + " passed");
 }
 
-String getLastLine(String output) {
+String getLastNonPromptLine(String output) {
     var lines = output.lines()
         .map(String::trim)
         .filter(line -> !line.isEmpty())
+        .filter(line -> !line.startsWith("Enter"))
         .toList();
     return lines.isEmpty() ? "(empty)" : lines.get(lines.size() - 1);
 }

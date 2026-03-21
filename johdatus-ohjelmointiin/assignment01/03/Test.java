@@ -6,20 +6,20 @@ void main() throws Exception {
 
     total++;
     var output = run("Alice\n");
-    if (output.contains("Alice")) {
-        IO.println("  PASS: output contains user input 'Alice'");
+    if (output.contains("Hello, Alice!")) {
+        IO.println("  PASS: output contains 'Hello, Alice!'");
         passed++;
     } else {
-        IO.println("  FAIL: expected output to contain 'Alice', got: " + output.trim());
+        IO.println("  FAIL: expected output to contain 'Hello, Alice!', got: " + output.trim());
     }
 
     total++;
     output = run("Bob\n");
-    if (output.contains("Bob")) {
-        IO.println("  PASS: output contains user input 'Bob'");
+    if (output.contains("Hello, Bob!")) {
+        IO.println("  PASS: output contains 'Hello, Bob!'");
         passed++;
     } else {
-        IO.println("  FAIL: expected output to contain 'Bob', got: " + output.trim());
+        IO.println("  FAIL: expected output to contain 'Hello, Bob!', got: " + output.trim());
     }
 
     IO.println("Exercise 03: " + passed + "/" + total + " passed");

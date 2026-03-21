@@ -38,6 +38,30 @@ void main() throws Exception {
         IO.println("  FAIL: expected integers 0-4, got: " + lines);
     }
 
+    total++;
+    var output2 = run(null);
+    var lines2 = output2.lines()
+        .map(String::trim)
+        .filter(line -> !line.isEmpty())
+        .toList();
+    boolean differs = false;
+    if (lines.size() == lines2.size()) {
+        for (int i = 0; i < lines.size(); i++) {
+            if (!lines.get(i).equals(lines2.get(i))) {
+                differs = true;
+                break;
+            }
+        }
+    } else {
+        differs = true;
+    }
+    if (differs) {
+        IO.println("  PASS: two runs produce different output (not hardcoded)");
+        passed++;
+    } else {
+        IO.println("  FAIL: two runs produced identical output, may be hardcoded");
+    }
+
     IO.println("Exercise 13: " + passed + "/" + total + " passed");
 }
 

@@ -22,6 +22,20 @@ void main() throws Exception {
         IO.println("  FAIL: expected no greeting for 'Ville', got: " + output.trim());
     }
 
+    total++;
+    output = run("matti\n");
+    var lines = output.lines()
+        .map(String::trim)
+        .filter(line -> !line.isEmpty())
+        .filter(line -> !line.toLowerCase().contains("enter") && !line.toLowerCase().contains("name"))
+        .toList();
+    if (lines.isEmpty()) {
+        IO.println("  PASS: prints nothing for input 'matti' (case sensitive)");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected no output for 'matti', got: " + lines);
+    }
+
     IO.println("Exercise 01: " + passed + "/" + total + " passed");
 }
 

@@ -22,6 +22,24 @@ void main() throws Exception {
         IO.println("  FAIL: should not print for age 5, got: " + output.trim());
     }
 
+    total++;
+    output = run("11\n");
+    if (output.contains("The dog is of exceptional age.")) {
+        IO.println("  PASS: age 11 prints 'The dog is of exceptional age.'");
+        passed++;
+    } else {
+        IO.println("  FAIL: expected 'The dog is of exceptional age.' for age 11, got: " + output.trim());
+    }
+
+    total++;
+    output = run("3\n");
+    if (!output.contains("The dog is of exceptional age.")) {
+        IO.println("  PASS: age 3 prints nothing");
+        passed++;
+    } else {
+        IO.println("  FAIL: should not print for age 3, got: " + output.trim());
+    }
+
     IO.println("Exercise 02: " + passed + "/" + total + " passed");
 }
 
