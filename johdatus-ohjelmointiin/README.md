@@ -35,12 +35,12 @@ assignment0X/
   03/..
 ```
 
-- Each test equals 1 point. Minimum 50% of total points required.
-- Course period: 2026-05-01 to 2026-08-31
-- Deadline: 2026-08-15
+- Each test equals 1 point. **Minimum 50%** of total points required.
+- Course period: `2026-05-01` to `2026-08-31`
+- **Deadline:** `2026-08-15`
 - Late penalties:
-  - 2026-08-16 to 2026-08-31: automatic grade 1
-  - After 2026-08-31: course failed, no exceptions
+  - `2026-08-16` to `2026-08-31`: automatic grade 1
+  - After `2026-08-31`: **course failed, no exceptions**
 
 ## Grading
 
@@ -106,7 +106,7 @@ You need a text editor to write Java code. Here are some options:
 - **[Notepad++](https://notepad-plus-plus.org/)**: Lightweight editor for Windows. Simple and easy to use.
 - **[Zed](https://zed.dev/)**: Fast, modern editor available for macOS, Windows, and Linux.
 - **[micro](https://micro-editor.github.io/)**: Simple terminal-based editor. Easy to use, works on all platforms.
-- **[IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)**: Full-featured Java IDE, free community version available.
+- **[IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/)**: Full-featured Java IDE, free community version available. **Not recommended for beginners:** it hides the compile/run process, its autocomplete does too much of the thinking for you, and its project structure adds unnecessary complexity for simple single-file exercises.
 
 Any plain text editor will work. Do **not** use a word processor like Microsoft Word.
 
