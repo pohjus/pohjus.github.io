@@ -1,12 +1,13 @@
 # Introduction to Java
 
-
 ## Preliminary Agenda and Assignments
 
-| Topics | Assignment |
-|--------|------------|
-| Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) |
-| Boolean algebra, variables, control structures, ASCII graphics | [Assignment 02](assignment02/) |
+| Topics | Assignment | Points |
+|--------|------------|--------|
+| Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) | 36 |
+| Boolean algebra, control structures, ASCII graphics | [Assignment 02](assignment02/) | 63 |
+| Strings, palindromes, file I/O, randomness, hangman | [Assignment 03](assignment03/) | 59 |
+| **Total** | | **158** |
 
 ## Course Requirements
 
@@ -16,15 +17,15 @@
 ### Handwritten Notes
 
 - Handwritten notes must be on pen and paper (not digital).
-- Must include main topics
+- Must include main topics.
 - Submit as PDFs with images of handwritten notes.
-- File format: `studentnumber-assignmentXX-lectureYY.pdf`
+- File format: `studentnumber-lectureYY.pdf` (e.g., `12345-lecture01.pdf`)
 - Language: Finnish or English.
 - Incorrect filenames result in automatic rejection.
 
 ### Assignment Submission
 
-- Zip format: `studentnumber-assignment0X.zip`
+- Zip format: `studentnumber-assignment0X.zip` (e.g., `12345-assignment01.zip`)
 - Structure:
 
 ```text
@@ -35,7 +36,7 @@ assignment0X/
 ```
 
 - Each test equals 1 point. Minimum 50% of total points required.
-- Course period: 2026-05-01 to 2026-08-31.
+- Course period: 2026-05-01 to 2026-08-31
 - Deadline: 2026-08-15
 - Late penalties:
   - 2026-08-16 to 2026-08-31: automatic grade 1
@@ -79,6 +80,18 @@ javac --version
 3. Run the installer.
 4. Open **Terminal**: press `Cmd + Space`, type `Terminal`, and press Enter.
 5. Verify the installation by running:
+
+```bash
+java --version
+javac --version
+```
+
+#### Linux
+
+1. Go to [https://adoptium.net/](https://adoptium.net/).
+2. Download the **Linux x64** `.tar.gz` archive for **Temurin 25**.
+3. Extract and add to your PATH, or use your distribution's package manager. See the [Adoptium installation guide](https://adoptium.net/installation/linux/) for details.
+4. Verify the installation by running:
 
 ```bash
 java --version
