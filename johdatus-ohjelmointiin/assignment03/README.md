@@ -39,6 +39,19 @@ Use the concepts we've covered in class: **don't use advanced features**, even i
 
 See the [course README](../README.md) for tool setup, AI policy, and installation instructions.
 
+## Testing
+
+Each exercise has a `Test.java` file that verifies your solution.
+To run the tests:
+
+1. Navigate to the exercise folder (e.g., `assignment03/01/`)
+2. Make sure your `Main.java` is in the same folder
+3. Run:
+
+```bash
+java Test.java
+```
+
 ---
 
 ## 1. Name Check
@@ -58,7 +71,9 @@ Hello Matti!
 Enter your name: Ville
 ```
 
-### Test Points
+### Test
+
+- [Test.java](01/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -80,7 +95,9 @@ Implement an application in which you test (what do these do?) the following ser
 
 Hint for the last one: _create a String that has spaces at the beginning and end._
 
-### Test Points
+### Test
+
+- [Test.java](02/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -103,7 +120,9 @@ t
 o
 ```
 
-### Test Points
+### Test
+
+- [Test.java](03/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -127,7 +146,9 @@ t
 O
 ```
 
-### Test Points
+### Test
+
+- [Test.java](04/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -149,7 +170,9 @@ o
 t
 ```
 
-### Test Points
+### Test
+
+- [Test.java](05/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -175,7 +198,9 @@ Try it out and explain in comments.
 'a' + 'b'
 ```
 
-### Test Points
+### Test
+
+- [Test.java](06/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -207,7 +232,9 @@ Enter name:
 lopeta
 ```
 
-### Test Points
+### Test
+
+- [Test.java](07/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -233,7 +260,9 @@ Enter a string: hello
 Not a palindrome
 ```
 
-### Test Points
+### Test
+
+- [Test.java](08/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -267,7 +296,9 @@ Enter a string: hello world
 Not a palindrome
 ```
 
-### Test Points
+### Test
+
+- [Test.java](09/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -306,7 +337,9 @@ Enter number 2: -3
 2
 ```
 
-### Test Points
+### Test
+
+- [Test.java](10/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -343,7 +376,9 @@ Enter number 2:
 10 + 2 = 12
 ```
 
-### Test Points
+### Test
+
+- [Test.java](11/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -374,7 +409,9 @@ Implement a Java application that prints 5 random numbers between `[0, 1[`.
 0.983233
 ```
 
-### Test Points
+### Test
+
+- [Test.java](12/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -408,7 +445,9 @@ Use `Math.random()` and type casting.
 1
 ```
 
-### Test Points
+### Test
+
+- [Test.java](13/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -446,7 +485,9 @@ Enter password: short
 Password must be at least 8 characters long
 ```
 
-### Test Points
+### Test
+
+- [Test.java](14/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -507,7 +548,10 @@ Implement an application that reads the file and prints the following pattern ba
 
 Do not use the `String.repeat` method in your solution.
 
-### Test Points
+### Test
+
+- [Test.java](15/Test.java)
+- [input.txt](15/input.txt)
 
 | # | Test | Points |
 |---|------|--------|
@@ -535,7 +579,9 @@ oepps
 
 Use only the concepts introduced in classroom sessions.
 
-### Test Points
+### Test
+
+- [Test.java](16/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -572,7 +618,9 @@ Correct!
 
 The program ends when all letters are guessed.
 
-### Test Points
+### Test
+
+- [Test.java](17/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -610,7 +658,10 @@ koira
 Correct!
 ```
 
-### Test Points
+### Test
+
+- [Test.java](18/Test.java)
+- [words.txt](18/words.txt)
 
 | # | Test | Points |
 |---|------|--------|

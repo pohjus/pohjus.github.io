@@ -41,6 +41,19 @@ Use the concepts we've covered in class: **don't use advanced features**, even i
 
 See the [course README](../README.md) for tool setup, AI policy, and installation instructions.
 
+## Testing
+
+Each exercise has a `Test.java` file that verifies your solution.
+To run the tests:
+
+1. Navigate to the exercise folder (e.g., `assignment02/01/`)
+2. Make sure your `Main.java` is in the same folder
+3. Run:
+
+```bash
+java Test.java
+```
+
 ---
 
 ## Theory: Boolean Algebra
@@ -107,7 +120,9 @@ Enter month:
 3
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](01/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -134,7 +149,9 @@ Enter dog's age:
 5
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](02/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -161,7 +178,9 @@ Enter hour:
 20
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](03/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -177,7 +196,9 @@ Enter hour:
 
 Write a Java program that **declares** three variables: `int age`, `double number`, `char someChar`. Try to print their values without initializing them. What compiler error do you get? Fix it by initializing the variables. Answer the question in your code comments.
 
-#### Test Points
+#### Test
+
+- [Test.java](04/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -198,7 +219,9 @@ When converting from a larger range (e.g., `int`) to a smaller range (`byte`), a
 
 Then create a `byte` variable and assign it to an `int` variable. Is a cast required in this direction? Answer in your code comments.
 
-#### Test Points
+#### Test
+
+- [Test.java](05/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -236,7 +259,9 @@ Enter second number:
 2.5
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](06/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -302,7 +327,9 @@ d) every second number from 10 → 0
 0
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](07/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -318,7 +345,9 @@ d) every second number from 10 → 0
 
 Implement the previous loops with a [**for**](https://www.w3schools.com/java/java_for_loop.asp) loop. Expected output is the same as exercise 7.
 
-#### Test Points
+#### Test
+
+- [Test.java](08/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -349,7 +378,9 @@ do {
 
 Answer in a text file `while-vs-dowhile.txt` in folder `assignment02/09/`.
 
-#### Test Points
+#### Test
+
+- [Test.java](09/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -410,7 +441,9 @@ IO.println(product);      // 25
 
 Use a loop in your solution.
 
-#### Test Points
+#### Test
+
+- [Test.java](10/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -436,7 +469,9 @@ Enter a number (1-7):
 You entered: 3
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](11/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -464,7 +499,9 @@ Enter a number (1-7):
 Friday
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](12/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -498,7 +535,9 @@ Enter score:
 laudatur
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](13/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -525,7 +564,9 @@ XXXX
 
 **Tip:** `IO.print("X")` outputs `X` without a trailing newline. `IO.println("X")` outputs `X` with a trailing newline.
 
-#### Test Points
+#### Test
+
+- [Test.java](14/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -548,7 +589,9 @@ XXXX
 XXXX
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](15/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -572,7 +615,9 @@ X
     X
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](16/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -596,7 +641,9 @@ Enter height:
 X
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](17/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -654,7 +701,9 @@ paper
 It's a tie!
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](18/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -690,7 +739,9 @@ Computer chose: paper
 It's a tie!
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](19/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -726,7 +777,9 @@ Final score - You: 2, Computer: 0
 You win the game!
 ```
 
-#### Test Points
+#### Test
+
+- [Test.java](20/Test.java)
 
 | # | Test | Points |
 |---|------|--------|

@@ -33,6 +33,62 @@ Use the concepts we've covered in class: **don't use advanced features**, even i
 
 See the [course README](../README.md) for tool setup, AI policy, and installation instructions.
 
+## Testing
+
+Each exercise has a `Test.java` file that automatically checks your solution.
+The test file runs your `Main.java` as a separate process and verifies its output.
+
+### Step-by-step
+
+1. Write your solution in `Main.java` and place it in the correct exercise folder (e.g., `assignment01/02/Main.java`).
+2. Download the `Test.java` file from the link in each exercise section below and place it in the **same folder** as your `Main.java`.
+3. Open a terminal and navigate to the exercise folder:
+
+**Windows (Command Prompt):**
+
+```bash
+cd C:\Users\YourName\path\to\assignment01\02
+```
+
+**macOS / Linux (Terminal):**
+
+```bash
+cd /Users/YourName/path/to/assignment01/02
+```
+
+4. Verify that both files are in the folder:
+
+**Windows:**
+
+```bash
+dir
+```
+
+**macOS / Linux:**
+
+```bash
+ls
+```
+
+You should see both `Main.java` and `Test.java` listed.
+
+5. Run the test:
+
+```bash
+java Test.java
+```
+
+6. Check the output.
+Each test prints `PASS` or `FAIL` for every check, followed by a summary line:
+
+```text
+  PASS: output contains 'Hello World!'
+Exercise 02: 1/1 passed
+```
+
+If a test fails, the output shows what was expected and what your program produced.
+Fix your `Main.java` and run the test again.
+
 ---
 
 ## 1. Install Java
@@ -43,7 +99,9 @@ Follow the [installation instructions](../README.md#installing-java) in the cour
 
 Take a **screenshot** showing both `java --version` and `javac --version` producing output in your terminal. Save the screenshot as `screenshot.png` (or `.jpg`) in folder `assignment01/01/`.
 
-### Test Points
+### Test
+
+- [Test.java](01/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -99,7 +157,9 @@ Hello World!
 
 - [Java in VS Code (tutorial)](https://code.visualstudio.com/docs/java/java-tutorial)
 
-### Test Points
+### Test
+
+- [Test.java](02/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -142,7 +202,9 @@ void main() {
 }
 ```
 
-### Test Points
+### Test
+
+- [Test.java](03/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -182,7 +244,9 @@ Enter second number: 7
 - [If statement (video)](https://www.youtube.com/watch?v=HQ3dCWjfRZ4)
 - [If statement (tutorial)](https://www.w3schools.com/java/java_conditions.asp)
 
-### Test Points
+### Test
+
+- [Test.java](04/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -214,7 +278,9 @@ hellurei
 9
 ```
 
-### Test Points
+### Test
+
+- [Test.java](05/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -243,7 +309,9 @@ Enter second number: 2
 9
 ```
 
-### Test Points
+### Test
+
+- [Test.java](06/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -275,7 +343,9 @@ Enter your age: 25
 you're old
 ```
 
-### Test Points
+### Test
+
+- [Test.java](07/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -302,7 +372,9 @@ Batman
 - [While loop (video)](https://www.youtube.com/watch?v=v-K-4KuA8mQ)
 - [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
 
-### Test Points
+### Test
+
+- [Test.java](08/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -335,7 +407,9 @@ Batman
 Enter a number: 0
 ```
 
-### Test Points
+### Test
+
+- [Test.java](09/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -365,7 +439,9 @@ Print numbers from 1 to 10 using a `while` loop.
 10
 ```
 
-### Test Points
+### Test
+
+- [Test.java](10/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -396,7 +472,9 @@ Print numbers from 10 to 1 using a `while` loop.
 1
 ```
 
-### Test Points
+### Test
+
+- [Test.java](11/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -431,7 +509,9 @@ Enter a number: -1
 20
 ```
 
-### Test Points
+### Test
+
+- [Test.java](12/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
