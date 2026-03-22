@@ -207,9 +207,11 @@ void shuffle(int[] array) {
 
 Implement a program that contains the following 2D array:
 
+{% raw %}
 ```java
 int[][] array = {{1, 2, 3, 4}, {5, 6, 7, 8}};
 ```
+{% endraw %}
 
 Print all values of the array and the sum of each row.
 

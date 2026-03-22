@@ -97,6 +97,7 @@ java Test.java
 A **2D array** is an array of arrays. You can think of it as a table
 with rows and columns.
 
+{% raw %}
 ```java
 void main() {
     // Create a 2x3 array (2 rows, 3 columns).
@@ -120,6 +121,7 @@ void main() {
     }
 }
 ```
+{% endraw %}
 
 Output:
 
@@ -165,9 +167,11 @@ xxxxx
 
 Implement a program that contains the following 2D array:
 
+{% raw %}
 ```java
 int[][] array = {{1, 3, 9}, {2, 7, 3}};
 ```
+{% endraw %}
 
 Print the second row's second element (`7`).
 
