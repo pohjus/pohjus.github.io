@@ -9,7 +9,8 @@
 | Strings, palindromes, file I/O, randomness, hangman | [Assignment 03](assignment03/) | 59 |
 | Arrays, command-line arguments, file I/O, exceptions | [Assignment 04](assignment04/) | 55 |
 | Methods | [Assignment 05](assignment05/) | 15 |
-| **Total** | | **228** |
+| 2D arrays + Robin (review) or Batman (lottery app) | [Assignment 06](assignment06/) | 47 |
+| **Total** | | **275** |
 
 ## Course Requirements
 
