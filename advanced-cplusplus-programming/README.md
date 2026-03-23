@@ -116,7 +116,7 @@ Where `X` is 1, 2, 3, or 4.
 ### Exam
 
 - Conducted via [exam.tuni.fi](https://exam.tuni.fi), see [instructions](https://sites.tuni.fi/exam-en/instructions/).
-- Exam window 2026-04-20 - 2026-05-20 in exam.tuni.fi
+- Exam window 2026-03-23 - 2026-05-20 in exam.tuni.fi
   - All exams, including retakes, must be done within this exam window.
 - Exam consists of **multiple-choice questions** and some small **essay** questions.
 - Questions are **randomized** - each student receives a unique set.
