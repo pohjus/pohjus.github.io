@@ -65,6 +65,29 @@ studentnumber-assignmentXX-lectureYY.pdf
 
 Notes may be written in **Finnish** or **English**.
 
+| PDF file                     | Video                                                                   | PDF required |
+| ---------------------------- | ----------------------------------------------------------------------- | ------------ |
+| `assignment01-lecture01.pdf` | Assignment 01 Lecture 01: Intro to OO and Circle Class                  | Yes          |
+| `assignment01-lecture02.pdf` | Assignment 01 Lecture 02: Splitting Circle Class                        | Yes          |
+| `assignment01-lecture03.pdf` | Assignment 01 Lecture 03: Stack and Heap                                | Yes          |
+| `assignment01-lecture04.pdf` | Assignment 01 Lecture 04: Encapsulation                                 | Yes          |
+| `assignment01-lecture05.pdf` | Assignment 01 Lecture 05: Using const                                   | Yes          |
+| `assignment01-lecture06.pdf` | Assignment 01 Lecture 06: Using Constructors                            | Yes          |
+| `assignment01-lecture07.pdf` | Assignment 01 Lecture 07: Operation overload                            | Yes          |
+| `assignment02-lecture01.pdf` | Assignment 02 Lecture 01: Aggregation and Composition                   | Yes          |
+| `assignment02-lecture02.pdf` | Assignment 02 Lecture 02: Implementing Composition: Book and (Cover)    | Yes          |
+| `assignment02-lecture03.pdf` | Assignment 02 Lecture 03: Implementing Composition: Cover and App ready | Yes          |
+| `assignment02-lecture04.pdf` | Assignment 02 Lecture 04: Aggregation                                   | Yes          |
+| `assignment02-lecture05.pdf` | Assignment 02 Lecture 05: Implementing School - class                   | Yes          |
+| `assignment02-lecture06.pdf` | Assignment 02 Lecture 06: Implementing Student - class and test the App | Yes          |
+| `assignment02-lecture07.pdf` | Assignment 02 Lecture 07: Heap Ownership                                | Yes          |
+|                              | Assignment 02: Implementation of Book class (NO PDF)                    | No           |
+|                              | Assignment 02: Running the App (NO PDF)                                 | No           |
+| `assignment03-lecture01.pdf` | Assignment 03 Lecture 01: Inheritance - Main Idea                       | Yes          |
+| `assignment03-lecture02.pdf` | Assignment 03 Lecture 02: Inheritance - Using const                     | Yes          |
+| `assignment03-lecture03.pdf` | Assignment 03 Lecture 03: Access Specifiers                             | Yes          |
+| `assignment03-lecture04.pdf` | Assignment 03 Lecture 04: Virtual Functions and Override                | Yes          |
+
 ---
 
 ### Submitting Assignments
