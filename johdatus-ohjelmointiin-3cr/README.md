@@ -1,5 +1,19 @@
 # Introduction to Java
 
+This course introduces programming fundamentals using Java.
+You will learn variables, control structures, methods, arrays, and object-oriented programming.
+No prior programming experience is required.
+
+The course consists of 8 assignments with automated tests and video notes.
+Each assignment builds on the previous one.
+
+## Prerequisites
+
+Basic computer skills are expected.
+Command line usage is especially beneficial, as all exercises are compiled and run from the terminal.
+See the [Command Line Basics](CLI.md) guide for a quick introduction.
+If you want a more thorough course, the University of Helsinki offers a free one: [Computing tools for CS studies](https://tkt-lapio.github.io/en/).
+
 ## Agenda
 
 ### Time Usage
@@ -27,9 +41,7 @@
 
 ### Handwritten Video Notes
 
-Each assignment includes links to short YouTube videos (from the [Bro Code Java playlist](https://www.youtube.com/playlist?list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc)).
-For every video, write handwritten notes on pen and paper, then submit as a PDF.
-
+- Each assignment includes links to short YouTube videos - write handwritten notes about these.
 - Handwritten notes must be on pen and paper (not digital).
 - Must include main topics from the video.
 - Submit as PDFs with images of handwritten notes.
@@ -37,45 +49,6 @@ For every video, write handwritten notes on pen and paper, then submit as a PDF.
 - Language: Finnish or English.
 - Incorrect filenames result in automatic rejection.
 - Submit video notes together with the assignment zip.
-
-#### Required video notes
-
-| File           | Video title                                           | Assignment |
-| -------------- | ----------------------------------------------------- | ---------- |
-| `notes/video01.pdf`  | Using Java from CLI                                   | 01         |
-| `notes/video02.pdf`  | Java variables are easy!                              | 01         |
-| `notes/video03.pdf`  | User input in Java is easy!                           | 01         |
-| `notes/video04.pdf`  | Java if statements are easy!                          | 01         |
-| `notes/video05.pdf`  | Learn Java while loops in 12 minutes!                 | 01         |
-| `notes/video01.pdf`  | Java LOGICAL OPERATORS are easy!                      | 02         |
-| `notes/video02.pdf`  | Java arithmetic is easy!                              | 02         |
-| `notes/video03.pdf`  | Java for loops are easy!                              | 02         |
-| `notes/video04.pdf`  | Learn Java enhanced switches in 8 minutes!            | 02         |
-| `notes/video05.pdf`  | Nested if statements are easy!                        | 02         |
-| `notes/video06.pdf`  | Useful string methods in Java!                        | 02         |
-| `notes/video07.pdf`  | Code a rock paper scissors game with Java!            | 02         |
-| `notes/video01.pdf`  | Java substrings are easy!                             | 03         |
-| `notes/video02.pdf`  | Let's code a simple calculator with Java!             | 03         |
-| `notes/video03.pdf`  | Generate random numbers using Java!                   | 03         |
-| `notes/video01.pdf`  | Learn Java arrays in 9 minutes!                       | 04         |
-| `notes/video02.pdf`  | Enter USER INPUT into an ARRAY!                       | 04         |
-| `notes/video03.pdf`  | How to SEARCH an ARRAY easy!                          | 04         |
-| `notes/video04.pdf`  | How to READ FILES with Java in 8 minutes!             | 04         |
-| `notes/video05.pdf`  | Learn EXCEPTION HANDLING in 8 minutes!                | 04         |
-| `notes/video01.pdf`  | METHODS in Java are easy!                             | 05         |
-| `notes/video02.pdf`  | Learn Java overloaded methods in 6 minutes!           | 05         |
-| `notes/video03.pdf`  | Learn VARIABLE SCOPE in 4 minutes!                    | 05         |
-| `notes/video01.pdf`  | Learn Java 2D arrays in 9 minutes!                    | 06         |
-| `notes/video01.pdf`  | Learn Java Object Oriented Programming in 10 minutes! | 07         |
-| `notes/video02.pdf`  | Learn Java getters and setters in 10 minutes!         | 07         |
-| `notes/video03.pdf`  | Learn CONSTRUCTORS in 10 minutes!                     | 07         |
-| `notes/video04.pdf`  | Learn the toString() method in 5 minutes!             | 07         |
-| `notes/video05.pdf`  | Learn Java ARRAY OF OBJECTS in 5 minutes!             | 07         |
-| `notes/video01.pdf`  | Learn Java inheritance in 9 minutes!                  | 08         |
-| `notes/video02.pdf`  | Learn the Java super keyword in 10 minutes!           | 08         |
-| `notes/video03.pdf`  | Learn Java METHOD OVERRIDING in 4 minutes!            | 08         |
-| `notes/video04.pdf`  | Learn Java abstraction in 9 minutes!                  | 08         |
-| `notes/video05.pdf`  | Learn INTERFACES in 6 minutes!                        | 08         |
 
 ### Assignment Submission
 
@@ -317,10 +290,12 @@ Follow [Arene AI Traffic Light Model](https://sites.tuni.fi/vinkkipankki/tekoaly
 
 ## License
 
-> This work is licensed under the
-> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**
+> Copyright (c) 2026. All rights reserved.
 >
-> **Additional Restriction:**
-> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system**, except for the author.
-
-[Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+> Permission is granted to use, copy, and share this material for non-commercial educational purposes, provided that:
+>
+> 1. Attribution is given to the original author.
+> 2. Modified versions are shared under the same terms.
+> 3. The material is **not** used, in whole or in part, to **train, fine-tune, or otherwise feed into any generative AI or machine learning system**.
+>
+> Commercial use requires written permission from the author.

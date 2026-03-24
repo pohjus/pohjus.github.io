@@ -1,3 +1,5 @@
+[< Back to course home](../README.md)
+
 # Assignment 01
 
 ## Points Overview
@@ -510,10 +512,12 @@ Enter a number: -1
 
 ## License
 
-> This work is licensed under the
-> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**
+> Copyright (c) 2026. All rights reserved.
 >
-> **Additional Restriction:**
-> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system**, except for the author.
-
-[Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+> Permission is granted to use, copy, and share this material for non-commercial educational purposes, provided that:
+>
+> 1. Attribution is given to the original author.
+> 2. Modified versions are shared under the same terms.
+> 3. The material is **not** used, in whole or in part, to **train, fine-tune, or otherwise feed into any generative AI or machine learning system**.
+>
+> Commercial use requires written permission from the author.

@@ -1,3 +1,5 @@
+[< Back to course home](../README.md)
+
 # Assignment 04
 
 ## Points Overview
@@ -535,3 +537,17 @@ try {
 `IO.println` is enough for this course. In more advanced Java programs,
 you will also see `System.out.println` for normal output and
 `System.err.println` for error messages.
+
+---
+
+## License
+
+> Copyright (c) 2026. All rights reserved.
+>
+> Permission is granted to use, copy, and share this material for non-commercial educational purposes, provided that:
+>
+> 1. Attribution is given to the original author.
+> 2. Modified versions are shared under the same terms.
+> 3. The material is **not** used, in whole or in part, to **train, fine-tune, or otherwise feed into any generative AI or machine learning system**.
+>
+> Commercial use requires written permission from the author.

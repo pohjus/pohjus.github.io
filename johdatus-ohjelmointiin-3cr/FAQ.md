@@ -1,3 +1,5 @@
+[< Back to course home](README.md)
+
 # FAQ: Java Installation and Setup
 
 If you run into problems installing or running Java, check this page first.
@@ -368,3 +370,17 @@ java Main.java
 rm *.class
 java Main.java
 ```
+
+---
+
+## License
+
+> Copyright (c) 2026. All rights reserved.
+>
+> Permission is granted to use, copy, and share this material for non-commercial educational purposes, provided that:
+>
+> 1. Attribution is given to the original author.
+> 2. Modified versions are shared under the same terms.
+> 3. The material is **not** used, in whole or in part, to **train, fine-tune, or otherwise feed into any generative AI or machine learning system**.
+>
+> Commercial use requires written permission from the author.
