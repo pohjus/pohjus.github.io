@@ -10,7 +10,17 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Skill(update-config)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(sed -i '' 's/Exercise 04:/Exercise 02:/' 02/Test.java)",
+      "Bash(sed -i '' 's/Exercise 06:/Exercise 03:/' 03/Test.java)",
+      "Bash(sed -i '' 's/Exercise 10:/Exercise 04:/' 04/Test.java)",
+      "Bash(sed -i '' 's/Exercise 11:/Exercise 05:/' 05/Test.java)",
+      "Bash(sed -i '' 's/Exercise 13:/Exercise 06:/' 06/Test.java)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/pohjus/Documents/course-material/cplusplus/new/pohjus.github.io/johdatus-ohjelmointiin/assignment01/**)",
+      "Bash(yt-dlp:*)",
+      "Bash(python3:*)"
     ]
   }
 }

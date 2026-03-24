@@ -1,0 +1,585 @@
+# Assignment 08
+
+## Points Overview
+
+| Exercise | Description | Points |
+|----------|-------------|--------|
+| 01 | Human class with basic methods | 3 |
+| 02 | Programmer extends Human | 3 |
+| 03 | Name field with getters and setters | 3 |
+| 04 | Constructors and `super` | 3 |
+| 05 | Programmer salary validation | 3 |
+| 06 | Programmer constructor with salary | 2 |
+| 07 | `printInfo()` in Human and Programmer | 2 |
+| 08 | Programmer-specific `reproduce()` | 2 |
+| 09 | `attendCyberGothDanceParty()` calls `reproduce()` | 2 |
+| 10 | Abstract class `Mammal` | 2 |
+| 11 | Human and Dog inherit from Mammal | 2 |
+| 12 | Abstract method `makeSound()` | 2 |
+| 13 | Method parameters: `Dog`, `Human`, `Mammal`, `Object` | 3 |
+| 14 | Method parameter typed as `Mammal` | 2 |
+| 15 | Interface `Sellable` | 2 |
+| 16 | Method parameter typed as `Sellable` | 2 |
+| 17 | Swing listener exercise | 4 |
+| **Total** | | **42** |
+
+This assignment focuses on inheritance, constructors, overriding,
+abstract classes, interfaces, and a small Swing event-handling example.
+
+## Directory Structure
+
+Create each exercise in its own folder:
+
+```text
+assignment08/01/Main.java
+assignment08/01/Human.java
+assignment08/02/Main.java
+assignment08/02/Human.java
+assignment08/02/Programmer.java
+...
+assignment08/nn/Main.java
+```
+
+Use the concepts we've covered in class: **don't use advanced
+features**, even if you already know them.
+
+See the [course README](../README.md) for tool setup, AI policy, and
+installation instructions.
+
+## Testing
+
+Each exercise has a `Test.java` file that automatically checks your
+solution.
+The test file runs your program as a separate process and verifies
+its behavior.
+
+### Step-by-step
+
+1. Write your solution and place it in the correct exercise folder
+   (for example `assignment08/01/`).
+2. Keep the `Test.java` file in the same folder as the source files.
+3. Open a terminal and navigate to the exercise folder.
+4. Run the test:
+
+```bash
+java Test.java
+```
+
+---
+
+## Inheritance
+
+### Example
+
+```java
+class Shape {
+    public int xPos;
+    public int yPos;
+}
+
+// Circle now has xPos, yPos and radius
+class Circle extends Shape {
+    public int radius;
+}
+```
+
+### 1. Human Class with Basic Methods
+
+Implement a class `Human`. The `Human` class has the methods:
+
+```java
+public void sleep();
+public void eat();
+public void drink();
+public void reproduce();
+```
+
+The methods print to the screen:
+`Human drinks`, `Human eats`, `Human sleeps`, and
+`Human reproduces`.
+
+Create another class `Main`, whose `main` method creates a couple of
+`Human` objects and calls these methods.
+
+Submit `Human.java` and `Main.java`.
+
+---
+
+### 2. Programmer Extends Human
+
+Create a class `Programmer` that extends `Human`.
+Add the methods:
+
+```java
+public void attendCyberGothDanceParty();
+public void code();
+```
+
+The methods print simple text such as `Programmer codes`.
+
+Now create a `Programmer` object in `Main` and call its methods:
+`sleep`, `eat`, `drink`, `reproduce`, `code`, and
+`attendCyberGothDanceParty`.
+
+Submit `Human.java`, `Programmer.java`, and `Main.java`.
+
+---
+
+### 3. Name Field with Getters and Setters
+
+Add the attribute `private String name` to the `Human` class.
+Implement setter and getter methods:
+
+```java
+public void setName(String n);
+public String getName();
+```
+
+Set names for humans and programmers.
+
+Modify the `Human` class so that its methods always print the person's
+name.
+
+Example:
+
+```text
+Human drinks
+```
+
+becomes:
+
+```text
+Tapani drinks
+```
+
+Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+---
+
+## Constructors
+
+### 4. Constructors and `super`
+
+Add a constructor to `Human`:
+
+```java
+public Human(String n)
+```
+
+The constructor receives the person's name and initializes the
+`name` attribute.
+
+Think about:
+
+- Why does the `Programmer` class not compile now?
+
+Note that Java adds a default constructor to a class if you do not
+create one yourself.
+
+Add a constructor to `Programmer`:
+
+```java
+public Programmer(String n)
+```
+
+Pass `n` to the superclass constructor using `super`.
+
+Test now by creating `Human` and `Programmer` objects while giving names
+directly to the constructor:
+
+```java
+Human tiina = new Human("Tiina");
+Programmer hanna = new Programmer("Hanna");
+```
+
+Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+---
+
+### 5. Programmer Salary Validation
+
+Add the attribute `int salary` to the `Programmer` class.
+Implement getter and setter:
+
+```java
+public void setSalary(int s);
+public int getSalary();
+```
+
+Ensure the salary must be between `1000` and `10000`.
+Otherwise throw `IllegalArgumentException`.
+
+Test the method.
+
+Submit updated `Programmer.java` and `Main.java`.
+
+---
+
+### 6. Programmer Constructor with Salary
+
+Modify the `Programmer` constructor so that it takes name and salary:
+
+```java
+public Programmer(String n, int s)
+```
+
+Pass `n` to the superclass and initialize the `salary` attribute with
+`s`.
+
+Example:
+
+```java
+Programmer hanna = new Programmer("Tapani", 3000);
+System.out.println(hanna.getSalary());
+```
+
+Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+---
+
+## Overriding
+
+### 7. `printInfo()` in Human and Programmer
+
+Add the method `printInfo()` to the `Human` class.
+The method prints the person's name.
+
+Add the same method to `Programmer`.
+The method prints the programmer's name and salary.
+Use superclass functionality with `super.printInfo()`.
+
+Example:
+
+```java
+hanna.printInfo();  // name + salary, hanna is a programmer
+tiina.printInfo();  // name, tiina is a human
+```
+
+Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+---
+
+### 8. Programmer-Specific `reproduce()`
+
+Implement `reproduce()` for `Programmer`.
+
+The method prints:
+
+- `Programmer reproduces` if salary is above `5000`
+- `Programmer attempts to reproduce` otherwise
+
+Print also the programmer's name by using `getName()`.
+
+Example:
+
+```java
+Programmer tapani = new Programmer("Tapani", 3000);
+tapani.reproduce();
+// Tapani - programmer attempts to reproduce
+
+Programmer tiina = new Programmer("Tiina", 7000);
+tiina.reproduce();
+// Tiina - programmer reproduces
+```
+
+Submit updated `Programmer.java` and `Main.java`.
+
+---
+
+### 9. Dance Party Calls `reproduce()`
+
+Call `reproduce()` from inside `attendCyberGothDanceParty()`.
+If a programmer participates in the party, reproduction or the attempt
+is inevitable.
+
+Example:
+
+```java
+Programmer jaska = new Programmer("Jaska", 7000);
+
+// Jaska - programmer attends the cyber goth dance party!
+// Jaska - programmer reproduces
+jaska.attendCyberGothDanceParty();
+```
+
+Submit updated `Programmer.java` and `Main.java`.
+
+---
+
+## Abstract Classes
+
+### 10. Abstract Class `Mammal`
+
+Implement the abstract class `Mammal`:
+
+```java
+abstract class Mammal {
+
+}
+```
+
+Try to create an object from this class.
+
+Think about:
+
+- Why does it not compile?
+
+Add the method `giveBirth()` to the class.
+The method prints:
+
+```text
+gives birth to a child.
+```
+
+Create class `Dog`, which extends `Mammal`.
+Create a `Dog` object and call its `giveBirth()` method.
+
+Submit `Mammal.java`, `Dog.java`, and `Main.java`.
+
+---
+
+### 11. Human and Dog Inherit from Mammal
+
+Implement class `Human` so that it extends `Mammal`.
+`Human` has method `createArt()` that prints:
+
+```text
+creates art
+```
+
+Implement for `Dog` method `sniffButt()` that prints:
+
+```text
+sniffs another dog's butt
+```
+
+Test by creating `Human` and `Dog` objects and calling their methods.
+
+Submit updated `Mammal.java`, `Human.java`, `Dog.java`, and `Main.java`.
+
+---
+
+### 12. Abstract Method `makeSound()`
+
+Add the abstract method `makeSound()` to `Mammal`:
+
+```java
+abstract class Mammal {
+    abstract void makeSound();
+}
+```
+
+Think about:
+
+- Why does it no longer compile?
+
+Implement the abstract method in subclasses.
+
+Test.
+
+Submit updated `Mammal.java`, `Human.java`, `Dog.java`, and `Main.java`.
+
+---
+
+### 13. Method Parameters: `Dog`, `Human`, `Mammal`, `Object`
+
+Use the following structure:
+
+```java
+class Main {
+    public static void main(String[] args) {
+
+    }
+
+    public static void method1(Dog a) {
+
+    }
+
+    public static void method2(Human a) {
+
+    }
+
+    public static void method3(Mammal a) {
+
+    }
+
+    public static void method4(Object a) {
+
+    }
+}
+```
+
+Call methods `method1`, `method2`, `method3`, and `method4` from
+`main`.
+What objects can you pass?
+
+Try passing `String` objects and `JFrame` objects to `method4`.
+
+Note that if you write:
+
+```java
+class Circle {}
+```
+
+Java adds default inheritance:
+
+```java
+class Circle extends Object {
+    public Circle() {
+        super();
+    }
+}
+```
+
+Submit a `Main.java` that demonstrates the allowed calls.
+
+---
+
+### 14. Method Parameter Typed as `Mammal`
+
+Use the following structure:
+
+```java
+class Main {
+    public static void main(String[] args) {
+
+    }
+
+    public static void method(Mammal a) {
+
+    }
+}
+```
+
+Call the method with `Dog` and `Human` objects.
+What methods can you call from the object `a`?
+
+Submit a `Main.java` that demonstrates the method calls.
+
+---
+
+## Interfaces
+
+### Template
+
+```java
+interface Flyable {
+    public void fly();
+}
+
+class Bird implements Flyable {
+    public void fly() {
+        System.out.println("bird flies");
+    }
+}
+```
+
+### 15. Interface `Sellable`
+
+Implement the interface `Sellable`, which has one method `sell()`.
+Create class `EnergyDrink` that implements `Sellable`.
+Print `energy drink sold` in the method.
+
+Example:
+
+```java
+EnergyDrink ed = new EnergyDrink();
+ed.sell(); // energy drink sold
+```
+
+Also make `Dog` implement `Sellable` and print `dog sold`.
+
+Submit `Sellable.java`, `EnergyDrink.java`, updated `Dog.java`, and
+`Main.java`.
+
+---
+
+### 16. Method Parameter Typed as `Sellable`
+
+Use the following structure:
+
+```java
+class Main {
+    public static void main(String[] args) {
+
+    }
+
+    public static void method(Sellable a) {
+
+    }
+}
+```
+
+Which objects can you pass?
+Test.
+
+Submit a `Main.java` that demonstrates the allowed calls.
+
+---
+
+## Swing
+
+### 17. Swing Listener Exercise
+
+Use the following:
+
+```java
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+class Window extends JFrame {
+    private JButton ok;
+
+    public Window() {
+        ok = new JButton("ok");
+        add(ok);
+
+        setSize(500, 500);
+        setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        new Window();
+    }
+}
+```
+
+Compile and run.
+
+Look up `JButton` documentation.
+Locate method `addActionListener` and call it:
+
+```java
+ok.addActionListener(...);
+```
+
+Implement a class `Listener` that implements the required interface.
+Print `click` in the method.
+Pass a `Listener` object to `addActionListener`:
+
+```java
+Listener obj = new Listener();
+ok.addActionListener(obj);
+```
+
+What if you pass `this` instead?
+
+Implement the application so that clicking the button changes the window
+title.
+
+Submit the source code files for the exercise folder.
+
+## License
+
+> This work is licensed under the
+> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+> International License (CC BY-NC-SA 4.0)**
+>
+> **Additional Restriction:**
+> The material may **not** be used, in whole or in part, to **train,
+> fine-tune, prompt, or otherwise feed into any generative artificial
+> intelligence (AI) or machine learning (ML) system**, except for the
+> author.
+
+[Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)

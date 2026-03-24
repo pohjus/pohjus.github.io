@@ -4,7 +4,19 @@
       "Bash(git -C /Users/pohjus/Documents/cplusplus/advanced-cplusplus-programming add assignment01/README.md)",
       "Bash(git -C:*)",
       "Bash(git -C /Users/pohjus/Documents/cplusplus/advanced-cplusplus-programming push)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(curl -s -L \"https://www.youtube.com/watch?v=jRj-5L1PXqM&list=PLYj1b5TVaHQPPCTUvIB13WiNFKD_eV85Q\" -H \"User-Agent: Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" -H \"Accept-Language: en-US,en;q=0.9\")",
+      "Bash(for i:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/pohjus/Documents/course-material/cplusplus/new/pohjus.github.io/advanced-cplusplus-programming/**)",
+      "Bash(done)",
+      "Bash(curl -s -L -H \"Accept-Language: en-US,en;q=0.9\" -H 'Cookie: CONSENT=YES+1' https://www.youtube.com/playlist?list=PLYj1b5TVaHQPPCTUvIB13WiNFKD_eV85Q)",
+      "Bash(curl -s -L \"https://www.youtube.com/watch?v=jRj-5L1PXqM&list=PLYj1b5TVaHQPPCTUvIB13WiNFKD_eV85Q\")",
+      "Bash(pip3 install:*)",
+      "Bash(brew list:*)",
+      "Bash(brew install:*)",
+      "Bash(yt-dlp:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

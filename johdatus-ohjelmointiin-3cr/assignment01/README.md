@@ -11,12 +11,20 @@
 | 05 | Summation | 5 |
 | 06 | Larger Number | 4 |
 | 07 | Age Check | 4 |
-| 08 | Repeat Message | 1 |
-| 09 | Repeat User-Defined Times | 3 |
-| 10 | Count 1 to 10 | 4 |
-| 11 | Count 10 to 1 | 4 |
-| 12 | Find the Largest Number | 4 |
-| **Total** | | **36** |
+| 08 | Repeat User-Defined Times | 3 |
+| 09 | Count 1 to 10 | 4 |
+| 10 | Find the Largest Number | 4 |
+| **Total** | | **31** |
+
+## Required Video Notes
+
+Submit the following handwritten video notes with this assignment:
+
+- `studentnumber-assignment01-video01.pdf`
+- `studentnumber-assignment01-video02.pdf`
+- `studentnumber-assignment01-video03.pdf`
+- `studentnumber-assignment01-video04.pdf`
+- `studentnumber-assignment01-video05.pdf`
 
 ## Directory Structure
 
@@ -32,6 +40,80 @@ assignment01/nn/Main.java
 Use the concepts we've covered in class: **don't use advanced features**, even if you already know them.
 
 See the [course README](../README.md) for tool setup, AI policy, and installation instructions.
+
+## Java Version and Video Note
+
+The videos in this assignment show older Java style. In those videos,
+programs are often written with a class and
+`public static void main(String[] args)`.
+
+Our exercises will use **Java 25**. Java 25 allows a simpler beginner
+syntax for small programs, so the code in this course is easier to read
+and write.
+
+The main ideas are still the same:
+
+- print output
+- read input
+- store values in variables
+- use `if` statements and loops
+
+Only the program structure looks a little different.
+
+### Old Java vs. New Java
+
+Older Java style:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+```
+
+Java 25 style used in these exercises:
+
+```java
+void main() {
+    IO.println("Hello World!");
+}
+```
+
+Another example with input.
+
+Older Java style:
+
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Hello, " + name + "!");
+    }
+}
+```
+
+Java 25 style used in these exercises:
+
+```java
+void main() {
+    String name = IO.readln("Enter your name: ");
+    IO.println("Hello, " + name + "!");
+}
+```
+
+### Plan
+
+When watching the videos:
+
+1. Focus on the programming idea being taught.
+2. If the video shows a class or `public static void main`, convert it to
+   the simpler Java 25 style used here.
+3. Write your solutions using the syntax shown in this README.
 
 ## Testing
 
@@ -93,6 +175,8 @@ Fix your `Main.java` and run the test again.
 
 ## 1. Install Java
 
+- [Start coding with JAVA in 10 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=1) - submit `studentnumber-assignment01-video01.pdf`
+
 Follow the [installation instructions](../README.md#installing-java) in the course README.
 
 ### Deliverable
@@ -121,33 +205,6 @@ void main() {
 ```
 
 Notice: no class declaration is needed. Java 25 supports writing simple programs without wrapping code in a class.
-
-The YouTube videos for this course may show slightly different Java
-code because they use an older Java version. The idea is the same, but
-the syntax in these exercises is simpler.
-
-**Old Java style (shown in many videos):**
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
-```
-
-**New Java style used in these exercises:**
-
-```java
-void main() {
-    IO.println("Hello World!");
-}
-```
-
-We use the new Java 25 style in this course because it has much easier
-syntax for beginners. You can focus first on the core ideas such as
-output, variables, input, conditions, and loops without needing extra
-ceremony like a class declaration or `public static void main(...)`.
 
 ### Compiling and Running
 
@@ -197,35 +254,10 @@ Hello World!
 
 ## 3. User Input and Output
 
+- [Java variables are easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) - submit `studentnumber-assignment01-video02.pdf`
+- [User input in Java is easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) - submit `studentnumber-assignment01-video03.pdf`
+
 `IO.readln` reads a line of text from the user. It takes a prompt string as a parameter and returns the user's input as a `String`.
-
-The videos may also show user input in an older style using `Scanner`.
-That is still valid Java, but in these exercises we use `IO.readln(...)`
-because it is shorter and easier to read at the beginning.
-
-**Old Java style (common in older tutorials):**
-
-```java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
-        System.out.println("Hello, " + name + "!");
-    }
-}
-```
-
-**New Java style used in these exercises:**
-
-```java
-void main() {
-    String name = IO.readln("Enter your name: ");
-    IO.println("Hello, " + name + "!");
-}
-```
 
 Create the following program in `assignment01/03/` and submit it as your `Main.java`:
 
@@ -296,7 +328,7 @@ Enter first number: 2
 Enter second number: 7
 ```
 
-- [If statement (video)](https://www.youtube.com/watch?v=HQ3dCWjfRZ4)
+- [Java if statements are easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) - submit `studentnumber-assignment01-video04.pdf`
 - [If statement (tutorial)](https://www.w3schools.com/java/java_conditions.asp)
 
 ### Test
@@ -415,35 +447,9 @@ you're old
 
 ---
 
-## 8. Repeat Message
+## 8. Repeat User-Defined Times
 
-Print `"Batman"` three times using a `while` loop.
-
-### Expected Output
-
-```text
-Batman
-Batman
-Batman
-```
-
-- [While loop (video)](https://www.youtube.com/watch?v=v-K-4KuA8mQ)
-- [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
-
-### Test
-
-- [Test.java](08/Test.java)
-
-| # | Test | Points |
-|---|------|--------|
-| 1 | "Batman" printed exactly 3 times | 1 |
-| | **Total** | **1** |
-
----
-
-## 9. Repeat User-Defined Times
-
-Ask the user for a number. Print `"Batman"` that many times.
+Ask the user for a number. Print `"Batman"` that many times using a `while` loop.
 
 ### Example
 
@@ -465,9 +471,12 @@ Batman
 Enter a number: 0
 ```
 
+- [Learn Java while loops in 12 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) - submit `studentnumber-assignment01-video05.pdf`
+- [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
+
 ### Test
 
-- [Test.java](09/Test.java)
+- [Test.java](08/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -478,7 +487,7 @@ Enter a number: 0
 
 ---
 
-## 10. Count 1 to 10
+## 9. Count 1 to 10
 
 Print numbers from 1 to 10 using a `while` loop.
 
@@ -499,7 +508,7 @@ Print numbers from 1 to 10 using a `while` loop.
 
 ### Test
 
-- [Test.java](10/Test.java)
+- [Test.java](09/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
@@ -511,40 +520,7 @@ Print numbers from 1 to 10 using a `while` loop.
 
 ---
 
-## 11. Count 10 to 1
-
-Print numbers from 10 to 1 using a `while` loop.
-
-### Expected Output
-
-```text
-10
-9
-8
-7
-6
-5
-4
-3
-2
-1
-```
-
-### Test
-
-- [Test.java](11/Test.java)
-
-| # | Test | Points |
-|---|------|--------|
-| 1 | Exactly 10 lines of output | 1 |
-| 2 | Numbers are in descending order | 1 |
-| 3 | First number is 10 | 1 |
-| 4 | Last number is 1 | 1 |
-| | **Total** | **4** |
-
----
-
-## 12. Find the Largest Number
+## 10. Find the Largest Number
 
 Ask the user for positive integers until they input `0` or a negative number. Print the largest number given.
 
@@ -569,7 +545,7 @@ Enter a number: -1
 
 ### Test
 
-- [Test.java](12/Test.java)
+- [Test.java](10/Test.java)
 
 | # | Test | Points |
 |---|------|--------|
