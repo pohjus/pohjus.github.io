@@ -128,6 +128,16 @@ See the shared testing instructions in the
 
 Follow the [installation instructions](../README.md#installing-java) in the course README.
 
+### macOS and Terminal
+
+![](./macOS.gif)
+
+> You can create `Main.java` for example to Desktop. Open terminal and drag the `Main.java` to the terminal to get the full path. Give `cd /path/to/Main.java` command and then compile `javac` and run `java`
+
+### Windows and Command Prompt
+
+![add gif here](./macOS.gif)
+
 ### Deliverable
 
 Take a **screenshot** showing both `java --version` and `javac --version` producing output in your terminal. Save the screenshot as `screenshot.png` (or `.jpg`) in folder `assignment01/01/`.
