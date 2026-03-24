@@ -11,7 +11,10 @@
 | 05 | Calculator Method | 3 |
 | 06 | Print Character Many Times | 2 |
 | 07 | Return Character Many Times | 2 |
-| **Total** | | **15** |
+| 08 | Method Overloading | 3 |
+| 09 | Even or Odd | 3 |
+| 10 | Min, Max, and Range | 4 |
+| **Total** | | **25** |
 
 ## Required Video Notes
 
@@ -29,7 +32,7 @@ Create each exercise in its own folder:
 assignment05/01/Main.java
 assignment05/02/Main.java
 ...
-assignment05/07/Main.java
+assignment05/10/Main.java
 ```
 
 Use the concepts we've covered in class: **don't use advanced
@@ -307,3 +310,191 @@ For example, if the arguments are `'X'` and `3`, the method returns
 XXX
 OOOOO
 ```
+
+---
+
+### 8. Method Overloading
+
+Create three overloaded `greet` methods:
+
+- `void greet()` prints `"Hello!"`
+- `void greet(String name)` prints `"Hello, <name>!"`
+- `void greet(String name, int times)` prints `"Hello, <name>!"` the given number of times
+
+Use the following as a base:
+
+```java
+void main() {
+
+}
+
+void greet() {
+
+}
+
+void greet(String name) {
+
+}
+
+void greet(String name, int times) {
+
+}
+```
+
+Call all three from `main`:
+
+- `greet()`
+- `greet("Matti")`
+- `greet("Anna", 3)`
+
+#### Example output
+
+```text
+Hello!
+Hello, Matti!
+Hello, Anna!
+Hello, Anna!
+Hello, Anna!
+```
+
+#### Test
+
+- [Test.java](08/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "Hello!" on its own line | 1 |
+| 2 | Output contains "Hello, Matti!" | 1 |
+| 3 | "Hello, Anna!" appears at least 3 times | 1 |
+| | **Total** | **3** |
+
+---
+
+### 9. Even or Odd
+
+Implement a method `boolean isEven(int n)` that returns `true` if the number is even, `false` otherwise.
+
+Ask the user for a number in `main`. Use the method to check whether the number is even or odd. Print `"even"` or `"odd"`.
+
+**Tip:** The **modulo operator** (`%`) returns the remainder of a division. For example, `7 % 2` is `1` and `4 % 2` is `0`. A number is even when dividing it by 2 leaves no remainder:
+
+```java
+if (n % 2 == 0) {
+    // n is even
+}
+```
+
+Use the following as a base:
+
+```java
+void main() {
+
+}
+
+boolean isEven(int n) {
+
+}
+```
+
+#### Example
+
+```text
+Enter a number:
+4
+even
+```
+
+```text
+Enter a number:
+7
+odd
+```
+
+#### Test
+
+- [Test.java](09/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains isEven(int) method | 1 |
+| 2 | Input 4 outputs "even" | 1 |
+| 3 | Input 7 outputs "odd" | 1 |
+| | **Total** | **3** |
+
+---
+
+### 10. Min, Max, and Range
+
+Implement three methods:
+
+- `int min(int a, int b)` returns the smaller of the two numbers
+- `int max(int a, int b)` returns the larger of the two numbers
+- `int range(int a, int b)` returns `max(a, b) - min(a, b)` by calling the other two methods
+
+Ask the user for two numbers. Print the minimum, maximum, and range.
+
+Use the following as a base:
+
+```java
+void main() {
+
+}
+
+int min(int a, int b) {
+
+}
+
+int max(int a, int b) {
+
+}
+
+int range(int a, int b) {
+
+}
+```
+
+#### Example
+
+```text
+Enter first number:
+3
+Enter second number:
+7
+min: 3
+max: 7
+range: 4
+```
+
+```text
+Enter first number:
+10
+Enter second number:
+2
+min: 2
+max: 10
+range: 8
+```
+
+#### Test
+
+- [Test.java](10/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Inputs 3, 7 produce "min: 3" | 1 |
+| 2 | Inputs 3, 7 produce "max: 7" | 1 |
+| 3 | Inputs 3, 7 produce "range: 4" | 1 |
+| 4 | Inputs 10, 2 produce min: 2, max: 10, range: 8 | 1 |
+| | **Total** | **4** |
+
+---
+
+## License
+
+> This work is licensed under the
+> **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**
+>
+> **Additional Restriction:**
+> The material may **not** be used, in whole or in part, to **train, fine-tune, prompt, or otherwise feed into any generative artificial intelligence (AI) or machine learning (ML) system**, except for the author.
+
+[Learn more about CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
