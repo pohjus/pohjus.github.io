@@ -10,7 +10,7 @@
 
 | Topics                                              | Assignment                     | Points  | Videos      | Notes       | Videos + notes     | Exercises | Avg/exercise | Total    |
 | --------------------------------------------------- | ------------------------------ | ------- | ----------- | ----------- | ------------------ | --------- | ------------ | -------- |
-| Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) | 31      | 73 min      | 73 min      | 146 min            | ~7h       | ~42 min      | ~9h      |
+| Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) | 31      | 68 min      | 68 min      | 136 min            | ~7h       | ~42 min      | ~9h      |
 | Boolean algebra, control structures, switch         | [Assignment 02](assignment02/) | 38      | 69 min      | 69 min      | 138 min            | ~9h       | ~60 min      | ~11h     |
 | Strings                                             | [Assignment 03](assignment03/) | 26      | 25 min      | 25 min      | 50 min             | ~9h       | ~68 min      | ~10h     |
 | Arrays and Exceptions                               | [Assignment 04](assignment04/) | 37      | 40 min      | 40 min      | 80 min             | ~10h      | ~67 min      | ~11h     |
@@ -18,7 +18,7 @@
 | 2D arrays and Recap                                 | [Assignment 06](assignment06/) | 33      | 10 min      | 10 min      | 20 min             | ~9h       | ~54 min      | ~9h      |
 | Object Oriented Programming - part 1                | [Assignment 07](assignment07/) | 40      | 42 min      | 42 min      | 84 min             | ~10h      | ~60 min      | ~11h     |
 | Object Oriented Programming - part 2                | [Assignment 08](assignment08/) | 29      | 40 min      | 40 min      | 80 min             | ~11h      | ~55 min      | ~12h     |
-| **Total**                                           |                                | **249** | **326 min** | **326 min** | **652 min (~11h)** | **~70h**  | **~56 min**  | **~81h** |
+| **Total**                                           |                                | **249** | **321 min** | **321 min** | **642 min (~11h)** | **~70h**  | **~56 min**  | **~81h** |
 
 ## Course Requirements
 
@@ -42,7 +42,7 @@ For every video, write handwritten notes on pen and paper, then submit as a PDF.
 
 | File                                     | Video title                                           | Assignment |
 | ---------------------------------------- | ----------------------------------------------------- | ---------- |
-| `studentnumber-assignment01-video01.pdf` | Start coding with JAVA in 10 minutes!                 | 01         |
+| `studentnumber-assignment01-video01.pdf` | Using Java from CLI                                   | 01         |
 | `studentnumber-assignment01-video02.pdf` | Java variables are easy!                              | 01         |
 | `studentnumber-assignment01-video03.pdf` | User input in Java is easy!                           | 01         |
 | `studentnumber-assignment01-video04.pdf` | Java if statements are easy!                          | 01         |
