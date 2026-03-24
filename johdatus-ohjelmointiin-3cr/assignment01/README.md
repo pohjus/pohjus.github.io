@@ -20,11 +20,11 @@
 
 Submit the following handwritten video notes with this assignment:
 
-- `studentnumber-assignment01-video01.pdf`
-- `studentnumber-assignment01-video02.pdf`
-- `studentnumber-assignment01-video03.pdf`
-- `studentnumber-assignment01-video04.pdf`
-- `studentnumber-assignment01-video05.pdf`
+- `notes/video01.pdf`
+- `notes/video02.pdf`
+- `notes/video03.pdf`
+- `notes/video04.pdf`
+- `notes/video05.pdf`
 
 ## Directory Structure
 
@@ -124,7 +124,7 @@ See the shared testing instructions in the
 
 ## 1. Install Java
 
-- 📺 [Using Java from CLI (video)](https://www.youtube.com/watch?v=uA4eQbC3JgA) (length: 5:43) - submit 📝 `studentnumber-assignment01-video01.pdf`
+- 📺 [Using Java from CLI (video)](https://www.youtube.com/watch?v=uA4eQbC3JgA) (length: 5:43) - submit 📝 `notes/video01.pdf`
 
 Follow the [installation instructions](../README.md#installing-java) in the course README.
 
@@ -205,8 +205,8 @@ Hello World!
 
 ## 3. User Input and Output
 
-- 📺 [Java variables are easy! (video)](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) (length: 20:32) - submit 📝 `studentnumber-assignment01-video02.pdf`
-- 📺 [User input in Java is easy! (video)](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) (length: 15:55) - submit 📝 `studentnumber-assignment01-video03.pdf`
+- 📺 [Java variables are easy! (video)](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) (length: 20:32) - submit 📝 `notes/video02.pdf`
+- 📺 [User input in Java is easy! (video)](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) (length: 15:55) - submit 📝 `notes/video03.pdf`
 
 `IO.readln` reads a line of text from the user. It takes a prompt string as a parameter and returns the user's input as a `String`.
 
@@ -279,7 +279,7 @@ Enter first number: 2
 Enter second number: 7
 ```
 
-- 📺 [Java if statements are easy! (video)](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) (length: 13:29) - submit 📝 `studentnumber-assignment01-video04.pdf`
+- 📺 [Java if statements are easy! (video)](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) (length: 13:29) - submit 📝 `notes/video04.pdf`
 - [If statement (tutorial)](https://www.w3schools.com/java/java_conditions.asp)
 
 ### Test
@@ -422,7 +422,7 @@ Batman
 Enter a number: 0
 ```
 
-- 📺 [Learn Java while loops in 12 minutes! (video)](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) (length: 12:24) - submit 📝 `studentnumber-assignment01-video05.pdf`
+- 📺 [Learn Java while loops in 12 minutes! (video)](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) (length: 12:24) - submit 📝 `notes/video05.pdf`
 - [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
 
 ### Test

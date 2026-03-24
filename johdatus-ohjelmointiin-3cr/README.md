@@ -4,9 +4,9 @@
 
 ### Time Usage
 
-- Course is three (3) credits, where one (2) credit is ~27h work, total work amount 3 x 27h = 81h
-- The total work amount is for _average student_, so it may that one student will do this quicker when some other student it may take more time
-- Notice that the time is calculated if you do ALL assignments and video notes, you can pass the course doing part of the assignments
+- Course is three (3) credits, where one (1) credit is ~27h work, total work amount 3 x 27h = 81h
+- The total work amount is for an _average student_, so one student may finish quicker while for another it may take more time
+- The time estimate assumes you complete ALL assignments and video notes. You can pass the course by doing part of the assignments.
 
 | Topics                                              | Assignment                     | Points  | Videos      | Notes       | Videos + notes     | Exercises | Avg/exercise | Total    |
 | --------------------------------------------------- | ------------------------------ | ------- | ----------- | ----------- | ------------------ | --------- | ------------ | -------- |
@@ -33,61 +33,117 @@ For every video, write handwritten notes on pen and paper, then submit as a PDF.
 - Handwritten notes must be on pen and paper (not digital).
 - Must include main topics from the video.
 - Submit as PDFs with images of handwritten notes.
-- File format: `studentnumber-assignment0N-video0M.pdf` where N is the assignment number and M is the video number within that assignment (e.g., `12345-assignment01-video01.pdf`)
+- File format: `notes/video01.pdf`, `notes/video02.pdf`, etc. Place all video note PDFs in a `notes/` subfolder inside the assignment folder.
 - Language: Finnish or English.
 - Incorrect filenames result in automatic rejection.
 - Submit video notes together with the assignment zip.
 
 #### Required video notes
 
-| File                                     | Video title                                           | Assignment |
-| ---------------------------------------- | ----------------------------------------------------- | ---------- |
-| `studentnumber-assignment01-video01.pdf` | Using Java from CLI                                   | 01         |
-| `studentnumber-assignment01-video02.pdf` | Java variables are easy!                              | 01         |
-| `studentnumber-assignment01-video03.pdf` | User input in Java is easy!                           | 01         |
-| `studentnumber-assignment01-video04.pdf` | Java if statements are easy!                          | 01         |
-| `studentnumber-assignment01-video05.pdf` | Learn Java while loops in 12 minutes!                 | 01         |
-| `studentnumber-assignment02-video01.pdf` | Java LOGICAL OPERATORS are easy!                      | 02         |
-| `studentnumber-assignment02-video02.pdf` | Java arithmetic is easy!                              | 02         |
-| `studentnumber-assignment02-video03.pdf` | Java for loops are easy!                              | 02         |
-| `studentnumber-assignment02-video04.pdf` | Learn Java enhanced switches in 8 minutes!            | 02         |
-| `studentnumber-assignment02-video05.pdf` | Nested if statements are easy!                        | 02         |
-| `studentnumber-assignment02-video06.pdf` | Useful string methods in Java!                        | 02         |
-| `studentnumber-assignment02-video07.pdf` | Code a rock paper scissors game with Java!            | 02         |
-| `studentnumber-assignment03-video01.pdf` | Java substrings are easy!                             | 03         |
-| `studentnumber-assignment03-video02.pdf` | Let's code a simple calculator with Java!             | 03         |
-| `studentnumber-assignment03-video03.pdf` | Generate random numbers using Java!                   | 03         |
-| `studentnumber-assignment04-video01.pdf` | Learn Java arrays in 9 minutes!                       | 04         |
-| `studentnumber-assignment04-video02.pdf` | Enter USER INPUT into an ARRAY!                       | 04         |
-| `studentnumber-assignment04-video03.pdf` | How to SEARCH an ARRAY easy!                          | 04         |
-| `studentnumber-assignment04-video04.pdf` | How to READ FILES with Java in 8 minutes!             | 04         |
-| `studentnumber-assignment04-video05.pdf` | Learn EXCEPTION HANDLING in 8 minutes!                | 04         |
-| `studentnumber-assignment05-video01.pdf` | METHODS in Java are easy!                             | 05         |
-| `studentnumber-assignment05-video02.pdf` | Learn Java overloaded methods in 6 minutes!           | 05         |
-| `studentnumber-assignment05-video03.pdf` | Learn VARIABLE SCOPE in 4 minutes!                    | 05         |
-| `studentnumber-assignment06-video01.pdf` | Learn Java 2D arrays in 9 minutes!                    | 06         |
-| `studentnumber-assignment07-video01.pdf` | Learn Java Object Oriented Programming in 10 minutes! | 07         |
-| `studentnumber-assignment07-video02.pdf` | Learn Java getters and setters in 10 minutes!         | 07         |
-| `studentnumber-assignment07-video03.pdf` | Learn CONSTRUCTORS in 10 minutes!                     | 07         |
-| `studentnumber-assignment07-video04.pdf` | Learn the toString() method in 5 minutes!             | 07         |
-| `studentnumber-assignment07-video05.pdf` | Learn Java ARRAY OF OBJECTS in 5 minutes!             | 07         |
-| `studentnumber-assignment08-video01.pdf` | Learn Java inheritance in 9 minutes!                  | 08         |
-| `studentnumber-assignment08-video02.pdf` | Learn the Java super keyword in 10 minutes!           | 08         |
-| `studentnumber-assignment08-video03.pdf` | Learn Java METHOD OVERRIDING in 4 minutes!            | 08         |
-| `studentnumber-assignment08-video04.pdf` | Learn Java abstraction in 9 minutes!                  | 08         |
-| `studentnumber-assignment08-video05.pdf` | Learn INTERFACES in 6 minutes!                        | 08         |
+| File           | Video title                                           | Assignment |
+| -------------- | ----------------------------------------------------- | ---------- |
+| `notes/video01.pdf`  | Using Java from CLI                                   | 01         |
+| `notes/video02.pdf`  | Java variables are easy!                              | 01         |
+| `notes/video03.pdf`  | User input in Java is easy!                           | 01         |
+| `notes/video04.pdf`  | Java if statements are easy!                          | 01         |
+| `notes/video05.pdf`  | Learn Java while loops in 12 minutes!                 | 01         |
+| `notes/video01.pdf`  | Java LOGICAL OPERATORS are easy!                      | 02         |
+| `notes/video02.pdf`  | Java arithmetic is easy!                              | 02         |
+| `notes/video03.pdf`  | Java for loops are easy!                              | 02         |
+| `notes/video04.pdf`  | Learn Java enhanced switches in 8 minutes!            | 02         |
+| `notes/video05.pdf`  | Nested if statements are easy!                        | 02         |
+| `notes/video06.pdf`  | Useful string methods in Java!                        | 02         |
+| `notes/video07.pdf`  | Code a rock paper scissors game with Java!            | 02         |
+| `notes/video01.pdf`  | Java substrings are easy!                             | 03         |
+| `notes/video02.pdf`  | Let's code a simple calculator with Java!             | 03         |
+| `notes/video03.pdf`  | Generate random numbers using Java!                   | 03         |
+| `notes/video01.pdf`  | Learn Java arrays in 9 minutes!                       | 04         |
+| `notes/video02.pdf`  | Enter USER INPUT into an ARRAY!                       | 04         |
+| `notes/video03.pdf`  | How to SEARCH an ARRAY easy!                          | 04         |
+| `notes/video04.pdf`  | How to READ FILES with Java in 8 minutes!             | 04         |
+| `notes/video05.pdf`  | Learn EXCEPTION HANDLING in 8 minutes!                | 04         |
+| `notes/video01.pdf`  | METHODS in Java are easy!                             | 05         |
+| `notes/video02.pdf`  | Learn Java overloaded methods in 6 minutes!           | 05         |
+| `notes/video03.pdf`  | Learn VARIABLE SCOPE in 4 minutes!                    | 05         |
+| `notes/video01.pdf`  | Learn Java 2D arrays in 9 minutes!                    | 06         |
+| `notes/video01.pdf`  | Learn Java Object Oriented Programming in 10 minutes! | 07         |
+| `notes/video02.pdf`  | Learn Java getters and setters in 10 minutes!         | 07         |
+| `notes/video03.pdf`  | Learn CONSTRUCTORS in 10 minutes!                     | 07         |
+| `notes/video04.pdf`  | Learn the toString() method in 5 minutes!             | 07         |
+| `notes/video05.pdf`  | Learn Java ARRAY OF OBJECTS in 5 minutes!             | 07         |
+| `notes/video01.pdf`  | Learn Java inheritance in 9 minutes!                  | 08         |
+| `notes/video02.pdf`  | Learn the Java super keyword in 10 minutes!           | 08         |
+| `notes/video03.pdf`  | Learn Java METHOD OVERRIDING in 4 minutes!            | 08         |
+| `notes/video04.pdf`  | Learn Java abstraction in 9 minutes!                  | 08         |
+| `notes/video05.pdf`  | Learn INTERFACES in 6 minutes!                        | 08         |
 
 ### Assignment Submission
 
-- Zip format: `studentnumber-assignment0X.zip` (e.g., `12345-assignment01.zip`)
-- Structure:
+Submit **one zip file per assignment** (8 zips total over the course).
+Each zip contains both the exercise source files and the video note PDFs for that assignment.
+
+- Zip filename: `studentnumber-assignment0X.zip` (e.g. `12345-assignment01.zip`)
+- The zip must contain a single root folder named `assignment0X/`
+
+#### Example: assignment 01
 
 ```text
-assignment0X/
-  01/..
-  02/..
-  03/..
+12345-assignment01.zip
+  assignment01/
+    01/Main.java
+    01/screenshot.png
+    02/Main.java
+    03/Main.java
+    04/Main.java
+    05/Main.java
+    06/Main.java
+    07/Main.java
+    08/Main.java
+    09/Main.java
+    10/Main.java
+    notes/video01.pdf
+    notes/video02.pdf
+    notes/video03.pdf
+    notes/video04.pdf
+    notes/video05.pdf
 ```
+
+#### Example: assignment 07
+
+In later assignments you may have multiple `.java` files per exercise:
+
+```text
+12345-assignment07.zip
+  assignment07/
+    01/Rectangle.java
+    01/Main.java
+    02/Rectangle.java
+    02/Main.java
+    ...
+    notes/video01.pdf
+    notes/video02.pdf
+    notes/video03.pdf
+    notes/video04.pdf
+    notes/video05.pdf
+```
+
+#### Common mistakes
+
+- Do **not** include `Test.java` files in your zip.
+- Do **not** include `.class` files. Only submit `.java` source files and `.pdf` video notes.
+- Do **not** zip individual files without the `assignment0X/` root folder.
+
+#### Incorrect submission
+
+If you notice an error after submitting (wrong files, missing exercises, incorrect filenames):
+
+1. Fix the problem locally.
+2. Re-create the zip with the correct contents.
+3. Upload the corrected zip before the deadline. The latest upload replaces the previous one.
+
+If the deadline has already passed, contact the instructor immediately.
+
+#### Grading
 
 - Each test equals 1 point. **Minimum 50%** of total points required.
 - Course period: `2026-05-01` to `2026-08-31`
@@ -141,7 +197,7 @@ For most exercises:
 java Test.java
 ```
 
-If the exercise contains multiple `.java` files and this is needed:
+If the exercise contains multiple `.java` files, compile first:
 
 ```bash
 javac *.java
@@ -161,7 +217,7 @@ Exercise 02: 1/1 passed
 
 ## Grading
 
-The grade is determined by the assignment score. You must have returned 70% of video notes.
+The grade is determined by the percentage of total assignment points. You must have returned 70% of video notes.
 
 | Grade | Percentage |
 | ----- | ---------- |
@@ -205,6 +261,8 @@ Open a terminal and run:
 java --version
 javac --version
 ```
+
+If something goes wrong, see the [FAQ: Java Installation and Setup](FAQ.md).
 
 ### Text Editors
 

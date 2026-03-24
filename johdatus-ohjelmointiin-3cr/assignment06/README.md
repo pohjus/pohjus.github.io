@@ -20,7 +20,7 @@
 
 Submit the following handwritten video notes with this assignment:
 
-- `studentnumber-assignment06-video01.pdf`
+- `notes/video01.pdf`
 
 ## Directory Structure
 
@@ -48,7 +48,7 @@ See the shared testing instructions in the
 
 ## 2D Arrays
 
-- 📺 [Learn Java 2D arrays in 9 minutes! (video)](https://www.youtube.com/watch?v=Qf3Nczxm2AY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=35) (length: 9:38) - submit 📝 `studentnumber-assignment06-video01.pdf`
+- 📺 [Learn Java 2D arrays in 9 minutes! (video)](https://www.youtube.com/watch?v=Qf3Nczxm2AY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=35) (length: 9:38) - submit 📝 `notes/video01.pdf`
 
 A **2D array** is an array of arrays. You can think of it as a table
 with rows and columns.

@@ -20,9 +20,9 @@
 
 Submit the following handwritten video notes with this assignment:
 
-- `studentnumber-assignment05-video01.pdf`
-- `studentnumber-assignment05-video02.pdf`
-- `studentnumber-assignment05-video03.pdf`
+- `notes/video01.pdf`
+- `notes/video02.pdf`
+- `notes/video03.pdf`
 
 ## Directory Structure
 
@@ -52,9 +52,9 @@ See the shared testing instructions in the
 
 See:
 
-- 📺 [METHODS in Java are easy! (video)](https://www.youtube.com/watch?v=JKecvKiNX2I&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=26) (length: 15:24) - submit 📝 `studentnumber-assignment05-video01.pdf`
-- 📺 [Learn Java overloaded methods in 6 minutes! (video)](https://www.youtube.com/watch?v=nhnAx79gxCM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=27) (length: 6:08) - submit 📝 `studentnumber-assignment05-video02.pdf`
-- 📺 [Learn VARIABLE SCOPE in 4 minutes! (video)](https://www.youtube.com/watch?v=eVCK1jlopmY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=28) (length: 4:58) - submit 📝 `studentnumber-assignment05-video03.pdf`
+- 📺 [METHODS in Java are easy! (video)](https://www.youtube.com/watch?v=JKecvKiNX2I&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=26) (length: 15:24) - submit 📝 `notes/video01.pdf`
+- 📺 [Learn Java overloaded methods in 6 minutes! (video)](https://www.youtube.com/watch?v=nhnAx79gxCM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=27) (length: 6:08) - submit 📝 `notes/video02.pdf`
+- 📺 [Learn VARIABLE SCOPE in 4 minutes! (video)](https://www.youtube.com/watch?v=eVCK1jlopmY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=28) (length: 4:58) - submit 📝 `notes/video03.pdf`
 - [Java Methods (W3Schools)](https://www.w3schools.com/java/java_methods.asp)
 - [Methods (MOOC.fi)](https://ohjelmointi-20.mooc.fi/osa-2/4-metodit)
 
