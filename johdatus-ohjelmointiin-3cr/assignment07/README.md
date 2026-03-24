@@ -113,7 +113,9 @@ class Main {
 
 ### 1. Class Rectangle and Object Creation
 
-- 📺 [Learn Java Object Oriented Programming in 10 minutes! (video)](https://www.youtube.com/watch?v=DYbi93vuSaU&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=39) (length: 9:51) - submit 📝 `notes/video01.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java Object Oriented Programming in 10 minutes!](https://www.youtube.com/watch?v=DYbi93vuSaU&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=39) | 9:51 | `notes/video01.pdf` |
 
 Create a class `Rectangle` with two **public** fields: `int width` and `int height`.
 
@@ -210,7 +212,9 @@ System.out.println(r.countSurfaceArea());
 
 ### 5. Encapsulation: Getters and Setters
 
-- 📺 [Learn Java getters and setters in 10 minutes! (video)](https://www.youtube.com/watch?v=OjrR_C_UPjc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=52) (length: 10:06) - submit 📝 `notes/video02.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java getters and setters in 10 minutes!](https://www.youtube.com/watch?v=OjrR_C_UPjc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=52) | 10:06 | `notes/video02.pdf` |
 
 Copy your previous exercise to a new folder `05/`.
 
@@ -261,7 +265,9 @@ try {
 
 ### 7. Constructor
 
-- 📺 [Learn CONSTRUCTORS in 10 minutes! (video)](https://www.youtube.com/watch?v=ZD7CB6wKg8A&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=40) (length: 10:07) - submit 📝 `notes/video03.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn CONSTRUCTORS in 10 minutes!](https://www.youtube.com/watch?v=ZD7CB6wKg8A&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=40) | 10:07 | `notes/video03.pdf` |
 
 Copy your previous exercise to a new folder `07/`.
 
@@ -277,7 +283,9 @@ Validate parameters (must be > 0). If an invalid value is given, throw `IllegalA
 
 ### 8. toString() Override
 
-- 📺 [Learn the toString() method in 5 minutes! (video)](https://www.youtube.com/watch?v=u3BGdOunOTI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=47) (length: 5:52) - submit 📝 `notes/video04.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn the toString() method in 5 minutes!](https://www.youtube.com/watch?v=u3BGdOunOTI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=47) | 5:52 | `notes/video04.pdf` |
 
 Copy your previous exercise to a new folder `08/`.
 
@@ -325,7 +333,9 @@ true
 
 ### 10. Array of Rectangles + User Input
 
-- 📺 [Learn Java ARRAY OF OBJECTS in 5 minutes! (video)](https://www.youtube.com/watch?v=cMJeCs0n6BY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=42) (length: 5:46) - submit 📝 `notes/video05.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java ARRAY OF OBJECTS in 5 minutes!](https://www.youtube.com/watch?v=cMJeCs0n6BY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=42) | 5:46 | `notes/video05.pdf` |
 
 Copy your previous exercise to a new folder `10/`.
 

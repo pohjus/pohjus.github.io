@@ -78,7 +78,9 @@ Enter your name: Ville
 
 ## 2. Character Printing
 
-- 📺 [Java substrings are easy! (video)](https://www.youtube.com/watch?v=44iQGNUcik0&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=14) (length: 8:05) - submit 📝 `notes/video01.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Java substrings are easy!](https://www.youtube.com/watch?v=44iQGNUcik0&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=14) | 8:05 | `notes/video01.pdf` |
 
 Implement an application that asks the user for their name and prints each character on its own line.
 
@@ -202,7 +204,9 @@ Enter number 2: -3
 
 ## 6. Calculator
 
-- 📺 [Let's code a simple calculator with Java! (video)](https://www.youtube.com/watch?v=1An1DH79e5Y&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=19) (length: 12:16) - submit 📝 `notes/video02.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Let's code a simple calculator with Java!](https://www.youtube.com/watch?v=1An1DH79e5Y&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=19) | 12:16 | `notes/video02.pdf` |
 
 Implement a calculator application. The program asks for two integers and an operator. It prints the result of the calculation.
 
@@ -244,7 +248,9 @@ Enter number 2:
 
 ## 7. Random Integers
 
-- 📺 [Generate random numbers using Java! (video)](https://www.youtube.com/watch?v=-tt98ICTHtQ&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=8) (length: 5:00) - submit 📝 `notes/video03.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Generate random numbers using Java!](https://www.youtube.com/watch?v=-tt98ICTHtQ&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=8) | 5:00 | `notes/video03.pdf` |
 
 You can generate a random double between `[0, 1[` like this:
 

@@ -96,7 +96,9 @@ void main() {
 
 ### 1. Christmas Eve Greeting
 
-- 📺 [Java LOGICAL OPERATORS are easy! (video)](https://www.youtube.com/watch?v=4ezfRdg6Z7E&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=20) (length: 11:26) - submit 📝 `notes/video01.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Java LOGICAL OPERATORS are easy!](https://www.youtube.com/watch?v=4ezfRdg6Z7E&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=20) | 11:26 | `notes/video01.pdf` |
 
 Create a Java program that prints _"Merry Christmas!"_ on Christmas Eve. The program uses two variables, `day` and `month`. You may ask the user for the day and month. If the date is not Christmas Eve, the program prints nothing.
 
@@ -198,7 +200,9 @@ Enter hour:
 
 ### 4. Division
 
-- 📺 [Java arithmetic is easy! (video)](https://www.youtube.com/watch?v=QAD5unRlCyo&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=5) (length: 8:22) - submit 📝 `notes/video02.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Java arithmetic is easy!](https://www.youtube.com/watch?v=QAD5unRlCyo&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=5) | 8:22 | `notes/video02.pdf` |
 
 Converting **class types** to **primitive types** is not as straightforward as converting one primitive type to another. The most common class-to-primitive conversion is turning a string into a number:
 
@@ -241,7 +245,9 @@ Enter second number:
 
 ### 5. For Loops
 
-- 📺 [Java for loops are easy! (video)](https://www.youtube.com/watch?v=vOmZ4JFhRds&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=23) (length: 10:01) - submit 📝 `notes/video03.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Java for loops are easy!](https://www.youtube.com/watch?v=vOmZ4JFhRds&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=23) | 10:01 | `notes/video03.pdf` |
 
 Using a [**for**](https://www.w3schools.com/java/java_for_loop.asp) loop, write an application that prints the following integer ranges. Create four separate for loops (parts a-d).
 
@@ -349,7 +355,9 @@ You entered: 3
 
 Copy your exercise 6 code and extend it. Once the number is accepted, print the corresponding weekday (1 = Monday, 2 = Tuesday, ..., 7 = Sunday). Use [**switch-case**](https://www.w3schools.com/java/java_switch.asp).
 
-- 📺 [Learn Java enhanced switches in 8 minutes! (video)](https://www.youtube.com/watch?v=6q2JKiynteM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=18) (length: 8:37) - submit 📝 `notes/video04.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java enhanced switches in 8 minutes!](https://www.youtube.com/watch?v=6q2JKiynteM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=18) | 8:37 | `notes/video04.pdf` |
 
 #### Example
 
@@ -382,7 +390,9 @@ Friday
 
 ### 8. Grade from Score
 
-- 📺 [Nested if statements are easy! (video)](https://www.youtube.com/watch?v=23VT2wh3BG4&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=12) (length: 6:33) - submit 📝 `notes/video05.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Nested if statements are easy!](https://www.youtube.com/watch?v=23VT2wh3BG4&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=12) | 6:33 | `notes/video05.pdf` |
 
 Write a program that asks for a score and outputs a grade according to the table:
 
@@ -451,8 +461,10 @@ if (mj1 == mj2) {
 
 ### 9. Rock-Paper-Scissors
 
-- 📺 [Useful string methods in Java! (video)](https://www.youtube.com/watch?v=Ntl3DxhyrQQ&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=13) (length: 8:35) - submit 📝 `notes/video06.pdf`
-- 📺 [Code a rock paper scissors game with Java! (video)](https://www.youtube.com/watch?v=GsuEJ9QOPgk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=37) (length: 15:48) - submit 📝 `notes/video07.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Useful string methods in Java!](https://www.youtube.com/watch?v=Ntl3DxhyrQQ&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=13) | 8:35 | `notes/video06.pdf` |
+| [Code a rock paper scissors game with Java!](https://www.youtube.com/watch?v=GsuEJ9QOPgk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=37) | 15:48 | `notes/video07.pdf` |
 
 Implement the classic **Rock-Paper-Scissors** game in Java. The game is two-player: Player 1 chooses rock, paper, or scissors, then Player 2 does the same. The program announces the winner.
 

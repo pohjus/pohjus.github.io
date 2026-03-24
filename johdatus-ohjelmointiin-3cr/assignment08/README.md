@@ -62,7 +62,9 @@ See the shared testing instructions in the
 
 ## Inheritance
 
-- 📺 [Learn Java inheritance in 9 minutes! (video)](https://www.youtube.com/watch?v=GTP5lVEKXaU&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=44) (length: 9:07) - submit 📝 `notes/video01.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java inheritance in 9 minutes!](https://www.youtube.com/watch?v=GTP5lVEKXaU&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=44) | 9:07 | `notes/video01.pdf` |
 
 ### Example
 
@@ -155,7 +157,9 @@ Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
 ### 4. Constructors and `super`
 
-- 📺 [Learn the Java super keyword in 10 minutes! (video)](https://www.youtube.com/watch?v=LN45TyPWAAg&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=45) (length: 10:30) - submit 📝 `notes/video02.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn the Java super keyword in 10 minutes!](https://www.youtube.com/watch?v=LN45TyPWAAg&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=45) | 10:30 | `notes/video02.pdf` |
 
 Add a constructor to `Human`:
 
@@ -238,7 +242,9 @@ Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
 ### 7. `printInfo()` in Human and Programmer
 
-- 📺 [Learn Java METHOD OVERRIDING in 4 minutes! (video)](https://www.youtube.com/watch?v=hx_DRanBRRM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=46) (length: 4:33) - submit 📝 `notes/video03.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java METHOD OVERRIDING in 4 minutes!](https://www.youtube.com/watch?v=hx_DRanBRRM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=46) | 4:33 | `notes/video03.pdf` |
 
 Add the method `printInfo()` to the `Human` class.
 The method prints the person's name.
@@ -262,7 +268,9 @@ Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
 ### 8. Abstract Class `Mammal`
 
-- 📺 [Learn Java abstraction in 9 minutes! (video)](https://www.youtube.com/watch?v=4B8XKEORJss&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=48) (length: 9:34) - submit 📝 `notes/video04.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn Java abstraction in 9 minutes!](https://www.youtube.com/watch?v=4B8XKEORJss&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=48) | 9:34 | `notes/video04.pdf` |
 
 Implement the abstract class `Mammal`:
 
@@ -353,7 +361,9 @@ class Bird implements Flyable {
 
 ### 11. Interface `Sellable`
 
-- 📺 [Learn INTERFACES in 6 minutes! (video)](https://www.youtube.com/watch?v=c2sTQk9opO8&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=49) (length: 6:16) - submit 📝 `notes/video05.pdf`
+| Video | Length | Notes |
+|-------|--------|-------|
+| [Learn INTERFACES in 6 minutes!](https://www.youtube.com/watch?v=c2sTQk9opO8&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=49) | 6:16 | `notes/video05.pdf` |
 
 Implement the interface `Sellable`, which has one method `sell()`.
 Create class `EnergyDrink` that implements `Sellable`.
