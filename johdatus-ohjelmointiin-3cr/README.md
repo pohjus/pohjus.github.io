@@ -92,6 +92,69 @@ assignment0X/
   - `2026-08-16` to `2026-08-31`: automatic grade 1
   - After `2026-08-31`: **course failed, no exceptions**
 
+## Testing Assignments
+
+Each exercise has a `Test.java` file that checks your solution.
+Keep `Test.java` in the same folder as your own source files.
+
+### Step-by-step
+
+1. Write your solution in the correct exercise folder.
+2. Make sure `Test.java` is in the same folder as your solution files.
+3. Open a terminal and navigate to that exercise folder.
+
+**Windows (Command Prompt):**
+
+```bash
+cd C:\Users\YourName\path\to\assignment01\01
+```
+
+**macOS / Linux (Terminal):**
+
+```bash
+cd /Users/YourName/path/to/assignment01/01
+```
+
+4. Verify that your files are in the folder.
+
+**Windows:**
+
+```bash
+dir
+```
+
+**macOS / Linux:**
+
+```bash
+ls
+```
+
+5. Run the test.
+
+For most exercises:
+
+```bash
+java Test.java
+```
+
+If the exercise contains multiple `.java` files and this is needed:
+
+```bash
+javac *.java
+java Test
+```
+
+6. Check the output.
+Each test prints `PASS` or `FAIL` for each check, followed by a summary
+line.
+
+Example:
+
+```text
+  PASS: output contains 'Hello World!'
+Exercise 02: 1/1 passed
+```
+
 ## Grading
 
 The grade is determined by the assignment score. You must have returned 70% of video notes.

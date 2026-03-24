@@ -46,53 +46,46 @@ installation instructions.
 
 ## Testing
 
-Each exercise has a `Test.java` file that automatically checks your
-solution.
-The test file runs your program as a separate process and verifies
-its output.
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
-### Step-by-step
+---
 
-1. Write your solution and place it in the correct
-   exercise folder (e.g., `assignment07/01/`).
-2. Download the `Test.java` file from the repository and place it in the
-   **same folder** as your source files.
-3. Open a terminal and navigate to the exercise folder:
+## From `void main()` to Classes
 
-**Windows (Command Prompt):**
+In earlier assignments, you used the simpler Java 25 beginner syntax:
 
-```bash
-cd C:\Users\YourName\path\to\assignment07\01
+```java
+void main() {
+    IO.println("Hello");
+}
 ```
 
-**macOS / Linux (Terminal):**
+That syntax hides some of the usual Java structure. In traditional
+Java, the same idea is written like this:
 
-```bash
-cd /Users/YourName/path/to/assignment07/01
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
 ```
 
-4. Verify that all files are in the folder:
+So when you wrote `void main() { ... }`, Java was hiding the surrounding
+`public class Main { ... }` structure for you.
 
-**Windows:**
+In this assignment, that hidden structure becomes visible because you
+are now learning **classes** and **objects**. From this point on, you
+will often write your own classes such as `Rectangle`, and you may have
+more than one `.java` file in the same exercise.
 
-```bash
-dir
-```
+Short version:
 
-**macOS / Linux:**
-
-```bash
-ls
-```
-
-You should see `Rectangle.java`, `Main.java`, and `Test.java` listed.
-
-5. Compile and run the test:
-
-```bash
-javac *.java
-java Test
-```
+- earlier assignments used simplified beginner syntax
+- this assignment uses the full class-based Java syntax
+- `Main` is the class that contains the starting point of the program
+- other classes such as `Rectangle` define your own objects
 
 ---
 
@@ -118,7 +111,7 @@ class Main {
 
 ### 1. Class Rectangle and Object Creation
 
-- [Learn Java Object Oriented Programming in 10 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=39) - submit `studentnumber-assignment07-video01.pdf`
+- [Learn Java Object Oriented Programming in 10 minutes! (video)](https://www.youtube.com/watch?v=DYbi93vuSaU&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=39) - submit `studentnumber-assignment07-video01.pdf`
 
 Create a class `Rectangle` with two **public** fields: `int width` and `int height`.
 
@@ -215,7 +208,7 @@ System.out.println(r.countSurfaceArea());
 
 ### 5. Encapsulation: Getters and Setters
 
-- [Learn Java getters and setters in 10 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=52) - submit `studentnumber-assignment07-video02.pdf`
+- [Learn Java getters and setters in 10 minutes! (video)](https://www.youtube.com/watch?v=OjrR_C_UPjc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=52) - submit `studentnumber-assignment07-video02.pdf`
 
 Copy your previous exercise to a new folder `05/`.
 
@@ -266,7 +259,7 @@ try {
 
 ### 7. Constructor
 
-- [Learn CONSTRUCTORS in 10 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=40) - submit `studentnumber-assignment07-video03.pdf`
+- [Learn CONSTRUCTORS in 10 minutes! (video)](https://www.youtube.com/watch?v=ZD7CB6wKg8A&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=40) - submit `studentnumber-assignment07-video03.pdf`
 
 Copy your previous exercise to a new folder `07/`.
 
@@ -282,7 +275,7 @@ Validate parameters (must be > 0). If an invalid value is given, throw `IllegalA
 
 ### 8. toString() Override
 
-- [Learn the toString() method in 5 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=47) - submit `studentnumber-assignment07-video04.pdf`
+- [Learn the toString() method in 5 minutes! (video)](https://www.youtube.com/watch?v=u3BGdOunOTI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=47) - submit `studentnumber-assignment07-video04.pdf`
 
 Copy your previous exercise to a new folder `08/`.
 
@@ -330,7 +323,7 @@ true
 
 ### 10. Array of Rectangles + User Input
 
-- [Learn Java ARRAY OF OBJECTS in 5 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=42) - submit `studentnumber-assignment07-video05.pdf`
+- [Learn Java ARRAY OF OBJECTS in 5 minutes! (video)](https://www.youtube.com/watch?v=cMJeCs0n6BY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=42) - submit `studentnumber-assignment07-video05.pdf`
 
 Copy your previous exercise to a new folder `10/`.
 

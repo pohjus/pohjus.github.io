@@ -44,52 +44,8 @@ installation instructions.
 
 ## Testing
 
-Each exercise has a `Test.java` file that automatically checks your
-solution.
-The test file runs your `Main.java` as a separate process and verifies
-its output.
-
-### Step-by-step
-
-1. Write your solution in `Main.java` and place it in the correct
-   exercise folder (e.g., `assignment04/01/Main.java`).
-2. Download the `Test.java` file from the repository and place it in the
-   **same folder** as your `Main.java`.
-3. Open a terminal and navigate to the exercise folder:
-
-**Windows (Command Prompt):**
-
-```bash
-cd C:\Users\YourName\path\to\assignment04\01
-```
-
-**macOS / Linux (Terminal):**
-
-```bash
-cd /Users/YourName/path/to/assignment04/01
-```
-
-4. Verify that both files are in the folder:
-
-**Windows:**
-
-```bash
-dir
-```
-
-**macOS / Linux:**
-
-```bash
-ls
-```
-
-You should see both `Main.java` and `Test.java` listed.
-
-5. Run the test:
-
-```bash
-java Test.java
-```
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
 ---
 
@@ -97,7 +53,7 @@ java Test.java
 
 See:
 
-- [Learn Java arrays in 9 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=31) - submit `studentnumber-assignment04-video01.pdf`
+- [Learn Java arrays in 9 minutes! (video)](https://www.youtube.com/watch?v=9dr2mHYYoug&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=31) - submit `studentnumber-assignment04-video01.pdf`
 - [Java Arrays (W3Schools)](https://www.w3schools.com/java/java_arrays.asp)
 
 Example of an array:
@@ -188,7 +144,7 @@ Pekka
 
 ### 4. Ten Integers and Sum
 
-- [Enter USER INPUT into an ARRAY! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=32) - submit `studentnumber-assignment04-video02.pdf`
+- [Enter USER INPUT into an ARRAY! (video)](https://www.youtube.com/watch?v=ah5bAnGpmKY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=32) - submit `studentnumber-assignment04-video02.pdf`
 
 Implement a program that asks the user for ten integers and stores them
 in an array using a `for` loop. Finally, print the sum of the values in
@@ -320,7 +276,7 @@ java Main.java 3 --% * 3
 
 ### 7. Count Occurrences
 
-- [How to SEARCH an ARRAY easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=33) - submit `studentnumber-assignment04-video03.pdf`
+- [How to SEARCH an ARRAY easy! (video)](https://www.youtube.com/watch?v=EB9-OOnCthg&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=33) - submit `studentnumber-assignment04-video03.pdf`
 
 Implement a program that counts how many times a value appears in
 an array.
@@ -349,7 +305,7 @@ parsing exceptions.
 
 ## File I/O
 
-- [How to READ FILES with Java in 8 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=59) - submit `studentnumber-assignment04-video04.pdf`
+- [How to READ FILES with Java in 8 minutes! (video)](https://www.youtube.com/watch?v=eHjbvgw4hsI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=59) - submit `studentnumber-assignment04-video04.pdf`
 
 You can read a text file into an array using `Files.readAllLines`:
 
@@ -439,7 +395,7 @@ Convert the file contents to a `String[]` before processing them.
 
 ## Exception Handling
 
-- [Learn EXCEPTION HANDLING in 8 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=57) - submit `studentnumber-assignment04-video05.pdf`
+- [Learn EXCEPTION HANDLING in 8 minutes! (video)](https://www.youtube.com/watch?v=u1PROb-aRUI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=57) - submit `studentnumber-assignment04-video05.pdf`
 
 Sometimes code can fail while running, for example because:
 

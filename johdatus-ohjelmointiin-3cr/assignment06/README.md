@@ -41,58 +41,14 @@ installation instructions.
 
 ## Testing
 
-Each exercise has a `Test.java` file that automatically checks your
-solution.
-The test file runs your `Main.java` as a separate process and verifies
-its output.
-
-### Step-by-step
-
-1. Write your solution in `Main.java` and place it in the correct
-   exercise folder (e.g., `assignment06/01/Main.java`).
-2. Download the `Test.java` file from the repository and place it in the
-   **same folder** as your `Main.java`.
-3. Open a terminal and navigate to the exercise folder:
-
-**Windows (Command Prompt):**
-
-```bash
-cd C:\Users\YourName\path\to\assignment06\01
-```
-
-**macOS / Linux (Terminal):**
-
-```bash
-cd /Users/YourName/path/to/assignment06/01
-```
-
-4. Verify that both files are in the folder:
-
-**Windows:**
-
-```bash
-dir
-```
-
-**macOS / Linux:**
-
-```bash
-ls
-```
-
-You should see both `Main.java` and `Test.java` listed.
-
-5. Run the test:
-
-```bash
-java Test.java
-```
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
 ---
 
 ## 2D Arrays
 
-- [Learn Java 2D arrays in 9 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=35) - submit `studentnumber-assignment06-video01.pdf`
+- [Learn Java 2D arrays in 9 minutes! (video)](https://www.youtube.com/watch?v=Qf3Nczxm2AY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=35) - submit `studentnumber-assignment06-video01.pdf`
 
 A **2D array** is an array of arrays. You can think of it as a table
 with rows and columns.

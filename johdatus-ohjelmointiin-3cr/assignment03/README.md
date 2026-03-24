@@ -39,16 +39,8 @@ See the [course README](../README.md) for tool setup, AI policy, and installatio
 
 ## Testing
 
-Each exercise has a `Test.java` file that verifies your solution.
-To run the tests:
-
-1. Navigate to the exercise folder (e.g., `assignment03/01/`)
-2. Make sure your `Main.java` is in the same folder
-3. Run:
-
-```bash
-java Test.java
-```
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
 ---
 
@@ -84,7 +76,7 @@ Enter your name: Ville
 
 ## 2. Character Printing
 
-- [Java substrings are easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=14) - submit `studentnumber-assignment03-video01.pdf`
+- [Java substrings are easy! (video)](https://www.youtube.com/watch?v=44iQGNUcik0&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=14) - submit `studentnumber-assignment03-video01.pdf`
 
 Implement an application that asks the user for their name and prints each character on its own line.
 
@@ -208,7 +200,7 @@ Enter number 2: -3
 
 ## 6. Calculator
 
-- [Let's code a simple calculator with Java! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=19) - submit `studentnumber-assignment03-video02.pdf`
+- [Let's code a simple calculator with Java! (video)](https://www.youtube.com/watch?v=1An1DH79e5Y&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=19) - submit `studentnumber-assignment03-video02.pdf`
 
 Implement a calculator application. The program asks for two integers and an operator. It prints the result of the calculation.
 
@@ -250,7 +242,7 @@ Enter number 2:
 
 ## 7. Random Integers
 
-- [Generate random numbers using Java! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=8) - submit `studentnumber-assignment03-video03.pdf`
+- [Generate random numbers using Java! (video)](https://www.youtube.com/watch?v=-tt98ICTHtQ&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=8) - submit `studentnumber-assignment03-video03.pdf`
 
 You can generate a random double between `[0, 1[` like this:
 

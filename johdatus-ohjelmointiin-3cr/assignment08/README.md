@@ -53,28 +53,14 @@ installation instructions.
 
 ## Testing
 
-Each exercise has a `Test.java` file that automatically checks your
-solution.
-The test file runs your program as a separate process and verifies
-its behavior.
-
-### Step-by-step
-
-1. Write your solution and place it in the correct exercise folder
-   (for example `assignment08/01/`).
-2. Keep the `Test.java` file in the same folder as the source files.
-3. Open a terminal and navigate to the exercise folder.
-4. Run the test:
-
-```bash
-java Test.java
-```
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
 ---
 
 ## Inheritance
 
-- [Learn Java inheritance in 9 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=44) - submit `studentnumber-assignment08-video01.pdf`
+- [Learn Java inheritance in 9 minutes! (video)](https://www.youtube.com/watch?v=GTP5lVEKXaU&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=44) - submit `studentnumber-assignment08-video01.pdf`
 
 ### Example
 
@@ -167,7 +153,7 @@ Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
 ### 4. Constructors and `super`
 
-- [Learn the Java super keyword in 10 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=45) - submit `studentnumber-assignment08-video02.pdf`
+- [Learn the Java super keyword in 10 minutes! (video)](https://www.youtube.com/watch?v=LN45TyPWAAg&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=45) - submit `studentnumber-assignment08-video02.pdf`
 
 Add a constructor to `Human`:
 
@@ -250,7 +236,7 @@ Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
 ### 7. `printInfo()` in Human and Programmer
 
-- [Learn Java METHOD OVERRIDING in 4 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=46) - submit `studentnumber-assignment08-video03.pdf`
+- [Learn Java METHOD OVERRIDING in 4 minutes! (video)](https://www.youtube.com/watch?v=hx_DRanBRRM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=46) - submit `studentnumber-assignment08-video03.pdf`
 
 Add the method `printInfo()` to the `Human` class.
 The method prints the person's name.
@@ -274,7 +260,7 @@ Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
 ### 8. Abstract Class `Mammal`
 
-- [Learn Java abstraction in 9 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=48) - submit `studentnumber-assignment08-video04.pdf`
+- [Learn Java abstraction in 9 minutes! (video)](https://www.youtube.com/watch?v=4B8XKEORJss&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=48) - submit `studentnumber-assignment08-video04.pdf`
 
 Implement the abstract class `Mammal`:
 
@@ -365,7 +351,7 @@ class Bird implements Flyable {
 
 ### 11. Interface `Sellable`
 
-- [Learn INTERFACES in 6 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=49) - submit `studentnumber-assignment08-video05.pdf`
+- [Learn INTERFACES in 6 minutes! (video)](https://www.youtube.com/watch?v=c2sTQk9opO8&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=49) - submit `studentnumber-assignment08-video05.pdf`
 
 Implement the interface `Sellable`, which has one method `sell()`.
 Create class `EnergyDrink` that implements `Sellable`.

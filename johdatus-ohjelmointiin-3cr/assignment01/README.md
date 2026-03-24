@@ -2,19 +2,19 @@
 
 ## Points Overview
 
-| Exercise | Description | Points |
-|----------|-------------|--------|
-| 01 | Install Java | 1 |
-| 02 | Hello World | 1 |
-| 03 | User Input and Output | 2 |
-| 04 | Two Integers and If | 3 |
-| 05 | Summation | 5 |
-| 06 | Larger Number | 4 |
-| 07 | Age Check | 4 |
-| 08 | Repeat User-Defined Times | 3 |
-| 09 | Count 1 to 10 | 4 |
-| 10 | Find the Largest Number | 4 |
-| **Total** | | **31** |
+| Exercise  | Description               | Points |
+| --------- | ------------------------- | ------ |
+| 01        | Install Java              | 1      |
+| 02        | Hello World               | 1      |
+| 03        | User Input and Output     | 2      |
+| 04        | Two Integers and If       | 3      |
+| 05        | Summation                 | 5      |
+| 06        | Larger Number             | 4      |
+| 07        | Age Check                 | 4      |
+| 08        | Repeat User-Defined Times | 3      |
+| 09        | Count 1 to 10             | 4      |
+| 10        | Find the Largest Number   | 4      |
+| **Total** |                           | **31** |
 
 ## Required Video Notes
 
@@ -117,65 +117,14 @@ When watching the videos:
 
 ## Testing
 
-Each exercise has a `Test.java` file that automatically checks your solution.
-The test file runs your `Main.java` as a separate process and verifies its output.
-
-### Step-by-step
-
-1. Write your solution in `Main.java` and place it in the correct exercise folder (e.g., `assignment01/02/Main.java`).
-2. Download the `Test.java` file from the link in each exercise section below and place it in the **same folder** as your `Main.java`.
-3. Open a terminal and navigate to the exercise folder:
-
-**Windows (Command Prompt):**
-
-```bash
-cd C:\Users\YourName\path\to\assignment01\02
-```
-
-**macOS / Linux (Terminal):**
-
-```bash
-cd /Users/YourName/path/to/assignment01/02
-```
-
-4. Verify that both files are in the folder:
-
-**Windows:**
-
-```bash
-dir
-```
-
-**macOS / Linux:**
-
-```bash
-ls
-```
-
-You should see both `Main.java` and `Test.java` listed.
-
-5. Run the test:
-
-```bash
-java Test.java
-```
-
-6. Check the output.
-Each test prints `PASS` or `FAIL` for every check, followed by a summary line:
-
-```text
-  PASS: output contains 'Hello World!'
-Exercise 02: 1/1 passed
-```
-
-If a test fails, the output shows what was expected and what your program produced.
-Fix your `Main.java` and run the test again.
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
 ---
 
 ## 1. Install Java
 
-- [Start coding with JAVA in 10 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=1) - submit `studentnumber-assignment01-video01.pdf`
+- [Using Java from CLI (video)](https://www.youtube.com/watch?v=uA4eQbC3JgA) - submit `studentnumber-assignment01-video01.pdf`
 
 Follow the [installation instructions](../README.md#installing-java) in the course README.
 
@@ -187,10 +136,10 @@ Take a **screenshot** showing both `java --version` and `javac --version` produc
 
 - [Test.java](01/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Screenshot file exists | 1 |
-| | **Total** | **1** |
+| #   | Test                   | Points |
+| --- | ---------------------- | ------ |
+| 1   | Screenshot file exists | 1      |
+|     | **Total**              | **1**  |
 
 ---
 
@@ -245,17 +194,17 @@ Hello World!
 
 - [Test.java](02/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Output contains "Hello World!" | 1 |
-| | **Total** | **1** |
+| #   | Test                           | Points |
+| --- | ------------------------------ | ------ |
+| 1   | Output contains "Hello World!" | 1      |
+|     | **Total**                      | **1**  |
 
 ---
 
 ## 3. User Input and Output
 
-- [Java variables are easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) - submit `studentnumber-assignment01-video02.pdf`
-- [User input in Java is easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) - submit `studentnumber-assignment01-video03.pdf`
+- [Java variables are easy! (video)](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) - submit `studentnumber-assignment01-video02.pdf`
+- [User input in Java is easy! (video)](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) - submit `studentnumber-assignment01-video03.pdf`
 
 `IO.readln` reads a line of text from the user. It takes a prompt string as a parameter and returns the user's input as a `String`.
 
@@ -293,11 +242,11 @@ void main() {
 
 - [Test.java](03/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Output contains "Hello, Alice!" for input "Alice" | 1 |
-| 2 | Output contains "Hello, Bob!" for input "Bob" | 1 |
-| | **Total** | **2** |
+| #   | Test                                              | Points |
+| --- | ------------------------------------------------- | ------ |
+| 1   | Output contains "Hello, Alice!" for input "Alice" | 1      |
+| 2   | Output contains "Hello, Bob!" for input "Bob"     | 1      |
+|     | **Total**                                         | **2**  |
 
 ---
 
@@ -328,19 +277,19 @@ Enter first number: 2
 Enter second number: 7
 ```
 
-- [Java if statements are easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) - submit `studentnumber-assignment01-video04.pdf`
+- [Java if statements are easy! (video)](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) - submit `studentnumber-assignment01-video04.pdf`
 - [If statement (tutorial)](https://www.w3schools.com/java/java_conditions.asp)
 
 ### Test
 
 - [Test.java](04/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Prints "hellurei" when first > second (7 > 2) | 1 |
-| 2 | Does not print "hellurei" when first < second (2 < 7) | 1 |
-| 3 | Does not print "hellurei" when numbers are equal (5 = 5) | 1 |
-| | **Total** | **3** |
+| #   | Test                                                     | Points |
+| --- | -------------------------------------------------------- | ------ |
+| 1   | Prints "hellurei" when first > second (7 > 2)            | 1      |
+| 2   | Does not print "hellurei" when first < second (2 < 7)    | 1      |
+| 3   | Does not print "hellurei" when numbers are equal (5 = 5) | 1      |
+|     | **Total**                                                | **3**  |
 
 ---
 
@@ -369,14 +318,14 @@ hellurei
 
 - [Test.java](05/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Last line is "7" (sum) for inputs 3 and 4 | 1 |
-| 2 | Does not print "hellurei" when first < second (3 < 4) | 1 |
-| 3 | Last line is "30" (sum) for inputs 10 and 20 | 1 |
-| 4 | Prints "hellurei" when first > second (7 > 2) | 1 |
-| 5 | Last line is "9" (sum) for inputs 7 and 2 | 1 |
-| | **Total** | **5** |
+| #   | Test                                                  | Points |
+| --- | ----------------------------------------------------- | ------ |
+| 1   | Last line is "7" (sum) for inputs 3 and 4             | 1      |
+| 2   | Does not print "hellurei" when first < second (3 < 4) | 1      |
+| 3   | Last line is "30" (sum) for inputs 10 and 20          | 1      |
+| 4   | Prints "hellurei" when first > second (7 > 2)         | 1      |
+| 5   | Last line is "9" (sum) for inputs 7 and 2             | 1      |
+|     | **Total**                                             | **5**  |
 
 ---
 
@@ -402,13 +351,13 @@ Enter second number: 2
 
 - [Test.java](06/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Prints 7 as larger of 3 and 7 | 1 |
-| 2 | Prints 9 as larger of 9 and 2 | 1 |
-| 3 | Prints 200 as larger of 100 and 200 | 1 |
-| 4 | Prints 5 for equal inputs 5 and 5 | 1 |
-| | **Total** | **4** |
+| #   | Test                                | Points |
+| --- | ----------------------------------- | ------ |
+| 1   | Prints 7 as larger of 3 and 7       | 1      |
+| 2   | Prints 9 as larger of 9 and 2       | 1      |
+| 3   | Prints 200 as larger of 100 and 200 | 1      |
+| 4   | Prints 5 for equal inputs 5 and 5   | 1      |
+|     | **Total**                           | **4**  |
 
 ---
 
@@ -437,13 +386,13 @@ you're old
 
 - [Test.java](07/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Age 20 outputs "you're young" | 1 |
-| 2 | Age 30 outputs "you're old" | 1 |
-| 3 | Age 25 outputs "you're old" (boundary) | 1 |
-| 4 | Age 1 outputs "you're young" | 1 |
-| | **Total** | **4** |
+| #   | Test                                   | Points |
+| --- | -------------------------------------- | ------ |
+| 1   | Age 20 outputs "you're young"          | 1      |
+| 2   | Age 30 outputs "you're old"            | 1      |
+| 3   | Age 25 outputs "you're old" (boundary) | 1      |
+| 4   | Age 1 outputs "you're young"           | 1      |
+|     | **Total**                              | **4**  |
 
 ---
 
@@ -471,19 +420,19 @@ Batman
 Enter a number: 0
 ```
 
-- [Learn Java while loops in 12 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) - submit `studentnumber-assignment01-video05.pdf`
+- [Learn Java while loops in 12 minutes! (video)](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) - submit `studentnumber-assignment01-video05.pdf`
 - [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
 
 ### Test
 
 - [Test.java](08/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | "Batman" printed 5 times for input 5 | 1 |
-| 2 | "Batman" printed 1 time for input 1 | 1 |
-| 3 | "Batman" printed 0 times for input 0 | 1 |
-| | **Total** | **3** |
+| #   | Test                                 | Points |
+| --- | ------------------------------------ | ------ |
+| 1   | "Batman" printed 5 times for input 5 | 1      |
+| 2   | "Batman" printed 1 time for input 1  | 1      |
+| 3   | "Batman" printed 0 times for input 0 | 1      |
+|     | **Total**                            | **3**  |
 
 ---
 
@@ -510,13 +459,13 @@ Print numbers from 1 to 10 using a `while` loop.
 
 - [Test.java](09/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Exactly 10 lines of output | 1 |
-| 2 | Numbers are in ascending order | 1 |
-| 3 | First number is 1 | 1 |
-| 4 | Last number is 10 | 1 |
-| | **Total** | **4** |
+| #   | Test                           | Points |
+| --- | ------------------------------ | ------ |
+| 1   | Exactly 10 lines of output     | 1      |
+| 2   | Numbers are in ascending order | 1      |
+| 3   | First number is 1              | 1      |
+| 4   | Last number is 10              | 1      |
+|     | **Total**                      | **4**  |
 
 ---
 
@@ -547,13 +496,13 @@ Enter a number: -1
 
 - [Test.java](10/Test.java)
 
-| # | Test | Points |
-|---|------|--------|
-| 1 | Largest is 8 for input [5, 3, 8, 2, 0] | 1 |
-| 2 | Largest is 1 for input [1, 0] | 1 |
-| 3 | Largest is 20 for input [10, 20, 5, -1] | 1 |
-| 4 | Largest is 100 for input [100, 0] | 1 |
-| | **Total** | **4** |
+| #   | Test                                    | Points |
+| --- | --------------------------------------- | ------ |
+| 1   | Largest is 8 for input [5, 3, 8, 2, 0]  | 1      |
+| 2   | Largest is 1 for input [1, 0]           | 1      |
+| 3   | Largest is 20 for input [10, 20, 5, -1] | 1      |
+| 4   | Largest is 100 for input [100, 0]       | 1      |
+|     | **Total**                               | **4**  |
 
 ---
 

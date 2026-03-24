@@ -40,54 +40,8 @@ installation instructions.
 
 ## Testing
 
-Each exercise has a `Test.java` file that automatically checks your
-solution.
-The test file runs your `Main.java` as a separate process and verifies
-its output.
-
-### Step-by-step
-
-1. Write your solution in `Main.java` and place it in the correct
-   exercise folder (e.g., `assignment05/01/Main.java`).
-2. Download the `Test.java` file from the repository and place it in the
-   **same folder** as your `Main.java`.
-3. Open a terminal and navigate to the exercise folder:
-
-**Windows (Command Prompt):**
-
-```text
-cd C:\Users\YourName\path\to\assignment05\01
-```
-
-**macOS / Linux (Terminal):**
-
-```bash
-cd /Users/YourName/path/to/assignment05/01
-```
-
-4. Verify that both files are in the folder:
-
-**Windows:**
-
-```text
-dir
-```
-
-**macOS / Linux:**
-
-```bash
-ls
-```
-
-You should see both `Main.java` and `Test.java` listed.
-
-5. Run the test:
-
-```bash
-java Test.java
-```
-
----
+See the shared testing instructions in the
+[course README](../README.md#testing-assignments).
 
 ---
 
@@ -95,9 +49,9 @@ java Test.java
 
 See:
 
-- [METHODS in Java are easy! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=26) - submit `studentnumber-assignment05-video01.pdf`
-- [Learn Java overloaded methods in 6 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=27) - submit `studentnumber-assignment05-video02.pdf`
-- [Learn VARIABLE SCOPE in 4 minutes! (video)](https://www.youtube.com/watch?v=23HFxAPyJ9U&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=28) - submit `studentnumber-assignment05-video03.pdf`
+- [METHODS in Java are easy! (video)](https://www.youtube.com/watch?v=JKecvKiNX2I&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=26) - submit `studentnumber-assignment05-video01.pdf`
+- [Learn Java overloaded methods in 6 minutes! (video)](https://www.youtube.com/watch?v=nhnAx79gxCM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=27) - submit `studentnumber-assignment05-video02.pdf`
+- [Learn VARIABLE SCOPE in 4 minutes! (video)](https://www.youtube.com/watch?v=eVCK1jlopmY&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=28) - submit `studentnumber-assignment05-video03.pdf`
 - [Java Methods (W3Schools)](https://www.w3schools.com/java/java_methods.asp)
 - [Methods (MOOC.fi)](https://ohjelmointi-20.mooc.fi/osa-2/4-metodit)
 
