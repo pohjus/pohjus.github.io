@@ -27,6 +27,7 @@ Submit the following handwritten video notes with this assignment:
 - `notes/video03.pdf`
 - `notes/video04.pdf`
 - `notes/video05.pdf`
+- `notes/video06.pdf`
 
 ## Directory Structure
 
@@ -128,7 +129,8 @@ See the shared testing instructions in the
 
 | Video | Length | Notes |
 |-------|--------|-------|
-| [Using Java from CLI](https://www.youtube.com/watch?v=uA4eQbC3JgA) | 5:43 | `notes/video01.pdf` |
+| [What is the Command Line Interface (CLI)?](https://www.youtube.com/watch?v=UMHnKXbukHU) | 5:27 | `notes/video01.pdf` |
+| [Using Java from CLI](https://www.youtube.com/watch?v=uA4eQbC3JgA) | 5:43 | `notes/video02.pdf` |
 
 Follow the [installation instructions](../README.md#installing-java) in the course README.
 
@@ -211,8 +213,8 @@ Hello World!
 
 | Video | Length | Notes |
 |-------|--------|-------|
-| [Java variables are easy!](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) | 20:32 | `notes/video02.pdf` |
-| [User input in Java is easy!](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) | 15:55 | `notes/video03.pdf` |
+| [Java variables are easy!](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) | 20:32 | `notes/video03.pdf` |
+| [User input in Java is easy!](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) | 15:55 | `notes/video04.pdf` |
 
 `IO.readln` reads a line of text from the user. It takes a prompt string as a parameter and returns the user's input as a `String`.
 
@@ -287,7 +289,7 @@ Enter second number: 7
 
 | Video | Length | Notes |
 |-------|--------|-------|
-| [Java if statements are easy!](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) | 13:29 | `notes/video04.pdf` |
+| [Java if statements are easy!](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) | 13:29 | `notes/video05.pdf` |
 
 - [If statement (tutorial)](https://www.w3schools.com/java/java_conditions.asp)
 
@@ -433,7 +435,7 @@ Enter a number: 0
 
 | Video | Length | Notes |
 |-------|--------|-------|
-| [Learn Java while loops in 12 minutes!](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) | 12:24 | `notes/video05.pdf` |
+| [Learn Java while loops in 12 minutes!](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) | 12:24 | `notes/video06.pdf` |
 
 - [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
 
