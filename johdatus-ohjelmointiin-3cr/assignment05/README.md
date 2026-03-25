@@ -6,17 +6,17 @@
 
 | Exercise | Description | Points |
 |----------|-------------|--------|
-| 01 | Print Your Name | 2 |
-| 02 | Print Greeting and Name | 2 |
-| 03 | Print Given Name | 2 |
-| 04 | Return Date | 2 |
-| 05 | Calculator Method | 3 |
-| 06 | Print Character Many Times | 2 |
-| 07 | Return Character Many Times | 2 |
+| 01 | Print Your Name | 5 |
+| 02 | Print Greeting and Name | 5 |
+| 03 | Print Given Name | 5 |
+| 04 | Return Date | 4 |
+| 05 | Calculator Method | 7 |
+| 06 | Print Character Many Times | 6 |
+| 07 | Return Character Many Times | 6 |
 | 08 | Method Overloading | 3 |
 | 09 | Even or Odd | 3 |
 | 10 | Min, Max, and Range | 4 |
-| **Total** | | **25** |
+| **Total** | | **48** |
 
 ## Required Video Notes
 
@@ -51,8 +51,6 @@ See the shared testing instructions in the
 ---
 
 ## Methods
-
-See:
 
 | Video | Length | Notes |
 |-------|--------|-------|

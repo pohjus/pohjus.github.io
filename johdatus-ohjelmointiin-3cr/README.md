@@ -28,11 +28,11 @@ If you want a more thorough course, the University of Helsinki offers a free one
 | Boolean algebra, control structures, switch         | [Assignment 02](assignment02/) | 38      | 69 min      | 69 min      | 138 min            | ~9h       | ~60 min      | ~11h     |
 | Strings                                             | [Assignment 03](assignment03/) | 26      | 25 min      | 25 min      | 50 min             | ~8h       | ~60 min      | ~9h      |
 | Arrays and Exceptions                               | [Assignment 04](assignment04/) | 37      | 40 min      | 40 min      | 80 min             | ~10h      | ~67 min      | ~11h     |
-| Methods                                             | [Assignment 05](assignment05/) | 25      | 27 min      | 27 min      | 54 min             | ~6h       | ~36 min      | ~7h      |
+| Methods                                             | [Assignment 05](assignment05/) | 48      | 27 min      | 27 min      | 54 min             | ~6h       | ~36 min      | ~7h      |
 | 2D arrays and Recap                                 | [Assignment 06](assignment06/) | 33      | 10 min      | 10 min      | 20 min             | ~9h       | ~54 min      | ~9h      |
 | Object Oriented Programming - part 1                | [Assignment 07](assignment07/) | 40      | 42 min      | 42 min      | 84 min             | ~10h      | ~60 min      | ~11h     |
 | Object Oriented Programming - part 2                | [Assignment 08](assignment08/) | 29      | 40 min      | 40 min      | 80 min             | ~11h      | ~55 min      | ~12h     |
-| **Total**                                           |                                | **259** | **326 min** | **326 min** | **652 min (~11h)** | **~70h**  | **~54 min**  | **~81h** |
+| **Total**                                           |                                | **282** | **326 min** | **326 min** | **652 min (~11h)** | **~70h**  | **~54 min**  | **~81h** |
 
 ## Course Requirements
 
