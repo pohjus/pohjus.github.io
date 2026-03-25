@@ -100,7 +100,7 @@ void main() {
 |-------|--------|-------|
 | [Java LOGICAL OPERATORS are easy!](https://www.youtube.com/watch?v=4ezfRdg6Z7E&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=20) | 11:26 | `notes/video01.pdf` |
 
-Create a Java program that prints _"Merry Christmas!"_ on Christmas Eve. The program uses two variables, `day` and `month`. You may ask the user for the day and month. If the date is not Christmas Eve, the program prints nothing.
+Create a Java program that prints _"Merry Christmas!"_ on Christmas Eve. Ask the user for the day and month. If the date is not Christmas Eve, the program prints nothing.
 
 #### Example
 
@@ -353,11 +353,11 @@ You entered: 3
 
 ### 7. Weekday Switch-Case
 
-Copy your exercise 6 code and extend it. Once the number is accepted, print the corresponding weekday (1 = Monday, 2 = Tuesday, ..., 7 = Sunday). Use [**switch-case**](https://www.w3schools.com/java/java_switch.asp).
-
 | Video | Length | Notes |
 |-------|--------|-------|
 | [Learn Java enhanced switches in 8 minutes!](https://www.youtube.com/watch?v=6q2JKiynteM&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=18) | 8:37 | `notes/video04.pdf` |
+
+Copy your exercise 6 code and extend it. Once the number is accepted, print the corresponding weekday (1 = Monday, 2 = Tuesday, ..., 7 = Sunday). Use [**switch-case**](https://www.w3schools.com/java/java_switch.asp).
 
 #### Example
 
@@ -396,7 +396,7 @@ Friday
 
 Write a program that asks for a score and outputs a grade according to the table:
 
-| Grade (Latin) | Points |
+| Grade (Latin) | Score  |
 |---------------|--------|
 | _improbatur_  | 0-8    |
 | _approbatur_  | 9-16   |
@@ -440,9 +440,9 @@ laudatur
 **Correct way:**
 
 ```java
-String mj1 = "hello";
-String mj2 = "hello";
-if (mj1.equals(mj2)) {
+String s1 = "hello";
+String s2 = "hello";
+if (s1.equals(s2)) {
     ...
 }
 ```
@@ -450,9 +450,9 @@ if (mj1.equals(mj2)) {
 **Incorrect way:**
 
 ```java
-String mj1 = "hello";
-String mj2 = "hello";
-if (mj1 == mj2) {
+String s1 = "hello";
+String s2 = "hello";
+if (s1 == s2) {
     ...
 }
 ```
