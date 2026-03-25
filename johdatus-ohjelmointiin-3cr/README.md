@@ -18,7 +18,7 @@ If you want a more thorough course, the University of Helsinki offers a free one
 
 ### Time Usage
 
-- Course is three (3) credits, where one (1) credit is ~27h work, total work amount 3 x 27h = 81h
+- Course is three (3) credits, where one (1) credit is ~27h of work. Total: 3 x 27h = 81h
 - The total work amount is for an _average student_, so one student may finish quicker while for another it may take more time
 - The time estimate assumes you complete ALL assignments and video notes. You can pass the course by doing part of the assignments.
 

@@ -135,7 +135,7 @@ cd ..
 cd ..
 ```
 
-The `..` means "parent folder", the folder that contains the current one.
+The `..` means "parent folder": the folder that contains the current one.
 
 ### Go to a specific folder
 

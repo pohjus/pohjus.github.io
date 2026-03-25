@@ -44,7 +44,7 @@ Use the concepts we've covered in class: **don't use advanced features**, even i
 
 See the [course README](../README.md) for tool setup, AI policy, and installation instructions.
 
-## Java Version and Video Note
+## Java Version and Video Notes
 
 The videos in this assignment show older Java style. In those videos,
 programs are often written with a class and

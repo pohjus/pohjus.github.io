@@ -108,7 +108,7 @@ o
 
 ## 3. Reverse Order
 
-Previous task, but print the characters in reverse order.
+Same as the previous exercise, but print the characters in reverse order.
 
 ### Example
 
@@ -266,7 +266,7 @@ int b = (int) a;
 IO.println(b); // 5
 ```
 
-In type casting, the decimal part is discarded, i.e., rounding happens downwards.
+In type casting, the decimal part is discarded, i.e., the value is truncated toward zero.
 
 Now implement an application that prints five random integers between 0 and 4.
 Use `Math.random()` and type casting.

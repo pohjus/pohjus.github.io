@@ -309,7 +309,7 @@ Implement class `Human` so that it extends `Mammal`.
 creates art
 ```
 
-Implement for `Dog` method `sniffButt()` that prints:
+Add a `sniffButt()` method to `Dog` that prints:
 
 ```text
 sniffs another dog's butt
