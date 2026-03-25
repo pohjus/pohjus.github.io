@@ -10,7 +10,7 @@
 | 02 | Character Printing | 2 |
 | 03 | Reverse Order | 2 |
 | 04 | Palindrome | 3 |
-| 05 | Loop | 3 |
+| 05 | Number Range | 3 |
 | 06 | Calculator | 4 |
 | 07 | Random Integers | 3 |
 | 08 | Password Check | 6 |
@@ -161,7 +161,7 @@ Not a palindrome
 
 ---
 
-## 5. Loop
+## 5. Number Range
 
 Implement an application that asks the user for two integers. The program prints all the numbers between the two values, from smallest to largest.
 
@@ -267,6 +267,7 @@ IO.println(b); // 5
 ```
 
 In type casting, the decimal part is discarded, i.e., rounding happens downwards.
+
 Now implement an application that prints five random integers between 0 and 4.
 Use `Math.random()` and type casting.
 
