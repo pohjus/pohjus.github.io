@@ -53,8 +53,6 @@ See the shared testing instructions in the
 
 ## Arrays
 
-See:
-
 | Video | Length | Notes |
 |-------|--------|-------|
 | [Learn Java arrays in 9 minutes!](https://www.youtube.com/watch?v=9dr2mHYYoug&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=31) | 9:09 | `notes/video01.pdf` |
@@ -252,6 +250,7 @@ result = 3
 ```
 
 Support operations: `-`, `+`, `/`, and `x` for multiplication.
+Division is **integer division** (no decimals), so `7 / 2` produces `3`.
 
 If the user gives the wrong number of arguments, print a short error
 message.
