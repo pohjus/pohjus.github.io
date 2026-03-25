@@ -58,7 +58,8 @@ See:
 | Video | Length | Notes |
 |-------|--------|-------|
 | [Learn Java arrays in 9 minutes!](https://www.youtube.com/watch?v=9dr2mHYYoug&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=31) | 9:09 | `notes/video01.pdf` |
-- [Java Arrays (W3Schools)](https://www.w3schools.com/java/java_arrays.asp)
+
+See also: [Java Arrays (W3Schools)](https://www.w3schools.com/java/java_arrays.asp)
 
 Example of an array:
 

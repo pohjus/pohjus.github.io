@@ -230,8 +230,8 @@ Pass `n` to the superclass and initialize the `salary` attribute with
 Example:
 
 ```java
-Programmer hanna = new Programmer("Tapani", 3000);
-System.out.println(hanna.getSalary());
+Programmer tapani = new Programmer("Tapani", 3000);
+System.out.println(tapani.getSalary());
 ```
 
 Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
