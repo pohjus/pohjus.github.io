@@ -159,6 +159,7 @@ To run commands and tests, you need to open a terminal and navigate to the corre
 3. Type `cd ` in Terminal (with a space after `cd`).
 4. Drag the folder from Finder into the Terminal window.
 5. Press Enter.
+6. Write `java Test.java` and press enter ([Test.java](01/Test.java) must be inside of this directory)
 
 Example, although here Ghostty is used instead of Terminal:
 
@@ -169,6 +170,7 @@ Example, although here Ghostty is used instead of Terminal:
 1. Open your folder `assignment01/01/` in File Explorer.
 2. Type `cmd` in the address bar and press Enter.
 3. Command Prompt opens in that folder.
+4. Write `java Test.java` and press enter ([Test.java](01/Test.java) must be inside of this directory)
 
 ![](./running-test-windows.gif)
 
