@@ -61,7 +61,7 @@ The main ideas are still the same:
 - store values in variables
 - use `if` statements and loops
 
-Only the program structure looks a little different.
+Only the program structure looks a little different. Unfortunately Java 25 is so new that proper videos about this do not exist yet.
 
 ### Old Java vs. New Java
 
@@ -127,10 +127,10 @@ See the shared testing instructions in the
 
 ## 1. Install Java
 
-| Video | Length | Notes |
-|-------|--------|-------|
-| [What is the Command Line Interface (CLI)?](https://www.youtube.com/watch?v=UMHnKXbukHU) | 5:27 | `notes/video01.pdf` |
-| [Using Java from CLI](https://www.youtube.com/watch?v=uA4eQbC3JgA) | 5:43 | `notes/video02.pdf` |
+| Video                                                                                    | Length | Notes               |
+| ---------------------------------------------------------------------------------------- | ------ | ------------------- |
+| [What is the Command Line Interface (CLI)?](https://www.youtube.com/watch?v=UMHnKXbukHU) | 5:27   | `notes/video01.pdf` |
+| [Using Java from CLI](https://www.youtube.com/watch?v=uA4eQbC3JgA)                       | 5:43   | `notes/video02.pdf` |
 
 Follow the [installation instructions](../README.md#installing-java) in the course README.
 
@@ -138,11 +138,48 @@ Follow the [installation instructions](../README.md#installing-java) in the cour
 
 Take a **screenshot** showing both `java --version` and `javac --version` producing output in your terminal. Save the screenshot as `screenshot.png` (or `.jpg`) in folder `assignment01/01/`.
 
-![](./macOS.gif)
+macOS Terminal:
+
+![](./terminal.png)
+
+Windows Command Prompt:
+
+![](./cmd.png)
+
+Problems? see the [FAQ: Java Installation and Setup](../FAQ.md).
+
+### Running Tests and Opening a Terminal in the Right Folder
+
+To run commands and tests, you need to open a terminal and navigate to the correct folder.
+
+#### macOS
+
+1. Open Terminal.
+2. Open your folder `assignment01/01/` in Finder.
+3. Type `cd ` in Terminal (with a space after `cd`).
+4. Drag the folder from Finder into the Terminal window.
+5. Press Enter.
+
+Example, although here Ghostty is used instead of Terminal:
+
+![](./running-test-macos.gif)
+
+#### Windows
+
+1. Open your folder `assignment01/01/` in File Explorer.
+2. Type `cmd` in the address bar and press Enter.
+3. Command Prompt opens in that folder.
+
+![](./running-test-windows.gif)
 
 ### Test
 
-- [Test.java](01/Test.java)
+Save the [Test.java](01/Test.java) file to `assignment01/01/`.
+Open a terminal in that folder and run:
+
+```bash
+java Test.java
+```
 
 | #   | Test                   | Points |
 | --- | ---------------------- | ------ |
@@ -186,8 +223,7 @@ cd /Users/YourName/path/to/assignment01/02
 Once you are in the correct directory, compile and run:
 
 ```bash
-javac Main.java
-java Main
+java Main.java
 ```
 
 You should see:
@@ -196,7 +232,11 @@ You should see:
 Hello World!
 ```
 
-![](./macOS-run.gif)
+### Windows Command Prompt:
+
+This example uses [Zed](https://zed.dev) - text editor.
+
+![](./compile-and-run-windows.gif)
 
 ### Test
 
@@ -211,10 +251,10 @@ Hello World!
 
 ## 3. User Input and Output
 
-| Video | Length | Notes |
-|-------|--------|-------|
-| [Java variables are easy!](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2) | 20:32 | `notes/video03.pdf` |
-| [User input in Java is easy!](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) | 15:55 | `notes/video04.pdf` |
+| Video                                                                                                                      | Length | Notes               |
+| -------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------- |
+| [Java variables are easy!](https://www.youtube.com/watch?v=TGVLmr194DI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=2)    | 20:32  | `notes/video03.pdf` |
+| [User input in Java is easy!](https://www.youtube.com/watch?v=RAthlOQUMkc&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=3) | 15:55  | `notes/video04.pdf` |
 
 `IO.readln` reads a line of text from the user. It takes a prompt string as a parameter and returns the user's input as a `String`.
 
@@ -287,9 +327,9 @@ Enter first number: 2
 Enter second number: 7
 ```
 
-| Video | Length | Notes |
-|-------|--------|-------|
-| [Java if statements are easy!](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) | 13:29 | `notes/video05.pdf` |
+| Video                                                                                                                       | Length | Notes               |
+| --------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------- |
+| [Java if statements are easy!](https://www.youtube.com/watch?v=Q_ll-EKocuI&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=7) | 13:29  | `notes/video05.pdf` |
 
 - [If statement (tutorial)](https://www.w3schools.com/java/java_conditions.asp)
 
@@ -433,9 +473,9 @@ Batman
 Enter a number: 0
 ```
 
-| Video | Length | Notes |
-|-------|--------|-------|
-| [Learn Java while loops in 12 minutes!](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) | 12:24 | `notes/video06.pdf` |
+| Video                                                                                                                                 | Length | Notes               |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------- |
+| [Learn Java while loops in 12 minutes!](https://www.youtube.com/watch?v=ZjHJrmYknrk&list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc&index=21) | 12:24  | `notes/video06.pdf` |
 
 - [While loop (tutorial)](https://www.w3schools.com/java/java_while_loop.asp)
 
