@@ -120,11 +120,11 @@ If the deadline has already passed, contact the instructor immediately.
 #### Grading
 
 - Each test equals 1 point. **Minimum 50%** of total points required.
-- Course period: `2026-05-01` to `2026-08-31`
-- **Deadline:** `2026-08-15`
+- Course period: `2026-05-01` to `2026-12-01`
+- **Deadline:** `2026-12-01` for all assignments and notes.
 - Late penalties:
-  - `2026-08-16` to `2026-08-31`: automatic grade 1
-  - After `2026-08-31`: **course failed, no exceptions**
+  - `2026-12-02` to `2026-12-15`: automatic grade 1
+  - `2026-12-16` -> **course failed, no exceptions**
 
 ## Testing Assignments
 
