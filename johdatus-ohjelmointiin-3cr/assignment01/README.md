@@ -109,6 +109,23 @@ void main() {
 }
 ```
 
+Older Java style:
+
+Compiling and running:
+
+```bash
+javac Main.java
+java Main
+```
+
+Java 25 style (if having only one Java file):
+
+Compiling and running:
+
+```bash
+java Main.java
+```
+
 ### Plan
 
 When watching the videos:
