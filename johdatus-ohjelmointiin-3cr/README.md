@@ -1,18 +1,17 @@
-# Introduction to Java
+# NN00GC31-3004 Introduction to Programming: Java
 
-This course introduces programming fundamentals using Java.
+This course introduces **programming fundamentals using Java**.
 You will learn variables, control structures, methods, arrays, and object-oriented programming.
 No prior programming experience is required.
 
-The course consists of 8 assignments with automated tests and video notes.
+The course consists of eight (8) assignments with automated tests and video notes.
 Each assignment builds on the previous one.
 
 ## Prerequisites
 
-Basic computer skills are expected.
-Command line usage is especially beneficial, as all exercises are compiled and run from the terminal.
-See the [Command Line Basics](CLI.md) guide for a quick introduction.
-If you want a more thorough course, the University of Helsinki offers a free one: [Computing tools for CS studies](https://tkt-lapio.github.io/en/).
+- Basic computer skills are expected.
+- [Command line usage](https://tkt-lapio.github.io/en/) is especially beneficial, as all exercises are compiled and run from the terminal.
+- See the [Command Line Basics](CLI.md) guide for a quick introduction.
 
 ## Agenda
 
