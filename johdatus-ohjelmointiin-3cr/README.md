@@ -1,5 +1,7 @@
 # NN00GC31-3004 Introduction to Programming: Java
 
+## ⚠️ Under Construction, do not implement anything yet!
+
 This course introduces **programming fundamentals using Java**.
 You will learn variables, control structures, methods, arrays, and object-oriented programming.
 No prior programming experience is required.
@@ -19,7 +21,7 @@ Each assignment builds on the previous one.
 
 - Course is three (3) credits, where one (1) credit is ~27h of work. Total: 3 x 27h = 81h
 - The total work amount is for an _average student_, so one student may finish quicker while for another it may take more time
-- The time estimate assumes you complete ALL assignments and video notes. You can pass the course by doing part of the assignments.
+- The time estimate assumes you complete ALL assignments and video notes. **You can pass the course by doing part of the assignments.**
 
 | Topics                                              | Assignment                     | Points  | Videos      | Notes       | Videos + notes     | Exercises | Avg/exercise | Total    |
 | --------------------------------------------------- | ------------------------------ | ------- | ----------- | ----------- | ------------------ | --------- | ------------ | -------- |
@@ -41,7 +43,7 @@ Each assignment builds on the previous one.
 ### Handwritten Video Notes
 
 - Each assignment includes links to short YouTube videos - write handwritten notes about these.
-- Handwritten notes must be on pen and paper (not digital).
+- Handwritten notes must be on pen and paper (not digital)
 - Must include main topics from the video.
 - Submit as PDFs with images of handwritten notes.
 - File format: `notes/video01.pdf`, `notes/video02.pdf`, etc. Place all video note PDFs in a `notes/` subfolder inside the assignment folder.
@@ -112,9 +114,7 @@ If you notice an error after submitting (wrong files, missing exercises, incorre
 
 1. Fix the problem locally.
 2. Re-create the zip with the correct contents.
-3. Upload the corrected zip before the deadline. The latest upload replaces the previous one.
-
-If the deadline has already passed, contact the instructor immediately.
+3. Upload the corrected zip before the deadline. **The latest upload replaces the previous one.**
 
 #### Grading
 
@@ -199,6 +199,8 @@ The grade is determined by the percentage of total assignment points. You must h
 | 3     | 70%        |
 | 4     | 80%        |
 | 5     | 90%        |
+
+You can see your evaluation in result page (updated later on).
 
 ## Tools
 
