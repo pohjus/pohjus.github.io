@@ -1,25 +1,25 @@
 | Emoji | Ex 01 | Notes 01 | Ex 02 | Notes 02 | Ex 03 | Notes 03 | Ex 04 | Exercises | Notes | Exercises % | Notes % |
 | -----: | -----: | --------: | -----: | --------: | -----: | --------: | -----: | ---------: | -----: | -----------: | -------: |
-|     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
-|     🐢 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🐛 |  0/43 |      1/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  1/18 |          0% |      6% |
-|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    73/144 | 14/18 |         51% |     78% |
-|     🐎 | 42/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    42/144 |  7/18 |         29% |     39% |
-|     🐠 | 25/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    25/144 |  7/18 |         17% |     39% |
-|     🐪 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🦮 | 30/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    30/144 |  7/18 |         21% |     39% |
-|     🦖 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🐄 | 42/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    42/144 |  7/18 |         29% |     39% |
-|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   112/144 | 18/18 |         78% |    100% |
-|     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐫 |  0/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  7/18 |          0% |     39% |
-|     🐂 | 30/43 |      7/7 | 25/30 |      7/7 | 32/39 |      4/4 |  0/32 |    87/144 | 18/18 |         60% |    100% |
-|     🐨 | 43/43 |      7/7 | 25/30 |      6/7 |  0/39 |      4/4 |  0/32 |    68/144 | 17/18 |         47% |     94% |
 |     🦑 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
+|     🐛 |  0/43 |      1/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  1/18 |          0% |      6% |
+|     🐂 | 30/43 |      7/7 | 25/30 |      7/7 | 32/39 |      4/4 |  0/32 |    87/144 | 18/18 |         60% |    100% |
+|     🐢 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
 |     🐻 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    65/144 | 18/18 |         45% |    100% |
+|     🐫 |  0/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  7/18 |          0% |     39% |
+|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   112/144 | 18/18 |         78% |    100% |
 |    🕷️ |  0/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  7/18 |          0% |     39% |
+|     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐠 | 25/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    25/144 |  7/18 |         17% |     39% |
+|     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦖 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🐪 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    73/144 | 14/18 |         51% |     78% |
+|     🐎 | 38/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    38/144 |  7/18 |         26% |     39% |
+|     🐨 | 43/43 |      7/7 | 25/30 |      6/7 |  0/39 |      4/4 |  0/32 |    68/144 | 17/18 |         47% |     94% |
+|     🦮 | 30/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    30/144 |  7/18 |         21% |     39% |
+|     🐄 | 42/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    42/144 |  7/18 |         29% |     39% |
 
-Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher.
+Last updated at 2026-03-29 19:12 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher.
 
 ## 🐫
 
@@ -114,8 +114,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: test.cpp:6:10: fatal error: 'Heart.h' file not found
-  #include "Heart.h"
-           ^~~~~~~~~
+      6 | #include "Heart.h"
+        |          ^~~~~~~~~
   ```
 
   > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
@@ -274,10 +274,12 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 - 02: 7/7 PASS
 - 03: 5/5 PASS
 - 04: 4/4 PASS
-- 05: 4/5 FAIL
+- 05: 0/5 FAIL
 
   ```
-  FAIL: moveBy throws if final position would be negative
+  PASS: moveBy adds deltas to position
+  PASS: setX throws on negative values
+  PASS: setY throws on negative values
   ```
 
 - 06: 4/4 PASS
@@ -288,7 +290,7 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 - **assignment02 notes**: 0/7 (0%) missing: L01, L02, L03, L04, L05, L06, L07
 - **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
 
-**Overall exercises**: 42/144 (29%)
+**Overall exercises**: 38/144 (26%)
 **Overall notes**: 7/18 (39%)
 
 ## 🐄
@@ -336,8 +338,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: ./Human.cpp:1:10: fatal error: 'human.h' file not found
-  #include "human.h"
-           ^~~~~~~~~
+      1 | #include "human.h"
+        |          ^~~~~~~~~
   ```
 
   > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
@@ -364,8 +366,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: test.cpp:5:10: fatal error: 'Point.h' file not found
-  #include "Point.h"
-           ^~~~~~~~~
+      5 | #include "Point.h"
+        |          ^~~~~~~~~
   ```
 
   > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
@@ -374,8 +376,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: test.cpp:5:10: fatal error: 'Point.h' file not found
-  #include "Point.h"
-           ^~~~~~~~~
+      5 | #include "Point.h"
+        |          ^~~~~~~~~
   ```
 
   > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
@@ -384,8 +386,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: test.cpp:6:10: fatal error: 'Point.h' file not found
-  #include "Point.h"
-           ^~~~~~~~~
+      6 | #include "Point.h"
+        |          ^~~~~~~~~
   ```
 
   > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
@@ -431,8 +433,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: test.cpp:21:7: error: 'x' is a private member of 'Point'
-      p.x = 10;
-        ^
+     21 |     p.x = 10;
+        |       ^
   ```
 
 - 06: 4/4 PASS
@@ -441,8 +443,8 @@ Last updated at 2026-03-28 22:42 - If some notes or exercise missing, please che
 
   ```
   compile error: test.cpp:28:67: error: no member named 'getId' in 'BankAccount'; did you mean 'getID'?
-      check("default constructor values", a.getOwner().empty() && a.getId() == 0 && a.getBalance() == 0.0);
-                                                                    ^~~~~
+     28 |     check("default constructor values", a.getOwner().empty() && a.getId() == 0 && a.getBalance() == 0.0);
+        |                                                                   ^~~~~
   ```
 
 
