@@ -37,8 +37,8 @@ Goal: Learn public inheritance and reuse base fields and methods.
 
 Work in `01/Person.h`, `01/Person.cpp`, `01/Student.h`, `01/Student.cpp`, and `01/main.cpp`.
 
-1. Create `Person` with `name` and `age` plus getters/setters and `toString()`.
-2. Create `Student : public Person` with `studentId` plus getters/setters and `toString()`.
+1. Create `Person` with `name` and `age` plus getters/setters and `toString()` that returns `"Person(Alice, 30)"`.
+2. Create `Student : public Person` with `studentId` plus getters/setters and `toString()` that returns `"Student(Bob, 20, S123)"`.
 3. In `main`, create a `Person` and a `Student`, print both.
 
 ### Deliverable
@@ -176,9 +176,9 @@ Goal: Learn constructor chaining and base initialization.
 
 Work in `03/Person.h`, `03/Person.cpp`, `03/Student.h`, `03/Student.cpp`, `03/Teacher.h`, `03/Teacher.cpp`, and `03/main.cpp`.
 
-1. Create `Person` with a `name` field, a constructor `Person(const std::string& name)`, `getName()`, `toString()`, and `drink()` that returns `"Drinking water"`.
-2. Create `Student : public Person` with `studentId` and a constructor that calls `Person(name)`. Add `getStudentId()`, `toString()`, and `drink()` that returns `"Drinking energy drink"`.
-3. Create `Teacher : public Person` with `subject` and a constructor that calls `Person(name)`. Add `getSubject()`, `toString()`, and `drink()` that returns `"Drinking tea"`.
+1. Create `Person` with a `name` field, a constructor `Person(const std::string& name)`, `getName()`, `toString()` that returns `"Person(Alice)"`, and `drink()` that returns `"Drinking water"`.
+2. Create `Student : public Person` with `studentId` and a constructor that calls `Person(name)`. Add `getStudentId()`, `toString()` that returns `"Student(Bob, S123)"`, and `drink()` that returns `"Drinking energy drink"`.
+3. Create `Teacher : public Person` with `subject` and a constructor that calls `Person(name)`. Add `getSubject()`, `toString()` that returns `"Teacher(Charlie, C++)"`, and `drink()` that returns `"Drinking tea"`.
 4. In `main`, create a person, student, and teacher, print their `toString()` and `drink()`.
 
 ### Deliverable
@@ -216,9 +216,9 @@ Work in `04/Person.h`, `04/Person.cpp`, `04/Student.h`, `04/Student.cpp`, `04/Te
 
 #### A) Constructors and Base Init
 
-1. Create `Person` with a `name` field, a constructor `Person(const std::string& name)`, `getName()`, and `toString()`.
-2. Create `Student : public Person` with `studentId` and a constructor that calls `Person(name)`. Add `getStudentId()` and `toString()`.
-3. Create `Teacher : public Person` with `subject` and a constructor that calls `Person(name)`. Add `getSubject()` and `toString()`.
+1. Create `Person` with a `name` field, a constructor `Person(const std::string& name)`, `getName()`, and `toString()` that returns `"Person(Alice)"`.
+2. Create `Student : public Person` with `studentId` and a constructor that calls `Person(name)`. Add `getStudentId()` and `toString()` that returns `"Student(Bob, S123)"`.
+3. Create `Teacher : public Person` with `subject` and a constructor that calls `Person(name)`. Add `getSubject()` and `toString()` that returns `"Teacher(Charlie, C++)"`.
 
 #### B) Override
 
