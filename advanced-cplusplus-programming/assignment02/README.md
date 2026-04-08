@@ -58,10 +58,13 @@ int main() {
     Point b(3, 4);
 
     Line line(a, b); // notice, will copy a and b, so Line has its own points.
+    // Line(Point(0, 0), Point(3, 4))
     std::cout << line << std::endl;
+    // Length: 5
     std::cout << "Length: " << line.length() << std::endl;
 
     line.moveBy(1, 2);
+    // After move: Line(Point(1, 2), Point(4, 6))
     std::cout << "After move: " << line << std::endl;
     return 0;
 }
@@ -136,7 +139,9 @@ int main() {
     timo.setCar(&volvo);
     teemu.setCar(&bmw);
 
+    // Human(Timo, Heart(60 bpm), Car(Volvo, 240))
     std::cout << timo << std::endl;
+    // Human(Teemu, Heart(62 bpm), Car(BMW, M3))
     std::cout << teemu << std::endl;
     return 0;
 }
@@ -199,13 +204,16 @@ Use the following `main.cpp` template:
 
 int main() {
     Phone* a = new Phone("Nokia", 3000);
+    // Phone(Nokia, Battery(3000 mAh))
     std::cout << *a << std::endl;
 
     Phone* b = new Phone(*a); // copy constructor
+    // Phone(Nokia, Battery(3000 mAh))
     std::cout << *b << std::endl;
 
     Phone* c = new Phone("Samsung", 5000);
     *c = *a; // copy assignment
+    // Phone(Nokia, Battery(3000 mAh))
     std::cout << *c << std::endl;
 
     delete a;
@@ -270,16 +278,22 @@ int main() {
     Studio abbey("Abbey Road", "London");
 
     Musician james("James", "Hetfield", "Guitar", "ESP");
+    // Name(James, Hetfield), Instrument(Guitar, ESP), no studio
+    std::cout << james << std::endl;
+
     james.setStudio(&abbey);
+    // Name(James, Hetfield), Instrument(Guitar, ESP), Studio(Abbey Road, London)
     std::cout << james << std::endl;
 
     // Copy constructor
     Musician copy(james);
+    // Name(James, Hetfield), Instrument(Guitar, ESP), Studio(Abbey Road, London)
     std::cout << copy << std::endl;
 
     // Copy assignment
     Musician lars("Lars", "Ulrich", "Drums", "Tama");
     lars = james;
+    // Name(James, Hetfield), Instrument(Guitar, ESP), Studio(Abbey Road, London)
     std::cout << lars << std::endl;
 
     return 0;
