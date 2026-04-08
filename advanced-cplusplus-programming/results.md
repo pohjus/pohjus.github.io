@@ -1,38 +1,38 @@
 | Emoji | Ex 01 | Notes 01 | Ex 02 | Notes 02 | Ex 03 | Notes 03 | Ex 04 | Exercises | Notes | Exercises % | Notes % |
 | -----: | -----: | --------: | -----: | --------: | -----: | --------: | -----: | ---------: | -----: | -----------: | -------: |
-|     🐄 | 42/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    42/144 | 18/18 |         29% |    100% |
+|     🐨 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🐫 | 22/43 |      7/7 | 17/30 |      7/7 | 25/39 |      4/4 |  0/32 |    64/144 | 18/18 |         44% |    100% |
 |     🦑 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
-|     🐨 | 43/43 |      7/7 | 25/30 |      7/7 | 39/39 |      4/4 | 32/32 |   139/144 | 18/18 |         97% |    100% |
-|     🦖 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🦮 | 30/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    60/144 | 14/18 |         42% |     78% |
-|     🐪 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🐐 | 35/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    35/144 |  0/18 |         24% |      0% |
-|     🐂 | 30/43 |      7/7 | 25/30 |      7/7 | 32/39 |      4/4 |  0/32 |    87/144 | 18/18 |         60% |    100% |
-|     🐫 |  0/43 |      7/7 | 17/30 |      7/7 | 25/39 |      4/4 |  0/32 |    42/144 | 18/18 |         29% |    100% |
-|     🐸 | 43/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  0/18 |         30% |      0% |
-|     🐠 | 25/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    25/144 | 14/18 |         17% |     78% |
-|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   112/144 | 18/18 |         78% |    100% |
-|    🕷️ | 26/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    26/144 | 14/18 |         18% |     78% |
-|     🦞 |  0/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    17/144 | 18/18 |         12% |    100% |
-|     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      0/4 | 32/32 |   144/144 | 14/18 |        100% |     78% |
-|     🐛 |  0/43 |      1/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  1/18 |          0% |      6% |
+|     🐻 | 42/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    64/144 | 18/18 |         44% |    100% |
 |     🐎 | 38/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    38/144 |  7/18 |         26% |     39% |
+|     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   112/144 | 18/18 |         78% |    100% |
+|     🐐 | 35/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    35/144 |  0/18 |         24% |      0% |
+|     🦮 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    73/144 | 14/18 |         51% |     78% |
+|     🐄 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
+|     🐠 | 25/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    25/144 | 14/18 |         17% |     78% |
+|     🐪 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🦖 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
+|     🐸 | 43/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  0/18 |         30% |      0% |
 |     🐢 | 43/43 |      7/7 | 12/30 |      7/7 |  0/39 |      4/4 |  0/32 |    55/144 | 18/18 |         38% |    100% |
+|     🐂 | 30/43 |      7/7 | 30/30 |      7/7 | 32/39 |      4/4 |  0/32 |    92/144 | 18/18 |         64% |    100% |
+|     🐛 |  0/43 |      1/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  1/18 |          0% |      6% |
+|     🦞 | 18/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    35/144 | 18/18 |         24% |    100% |
+|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      0/4 | 32/32 |   144/144 | 14/18 |        100% |     78% |
+|    🕷️ | 26/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    26/144 | 14/18 |         18% |     78% |
 |     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
-|     🐻 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    65/144 | 18/18 |         45% |    100% |
 
-Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher.
+Last updated at 2026-04-08 10:14 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher.
 
 ## 🐫
 
 ### assignment01
 
-- 01: 0/1 SKIP (no directory)
-- 02: 0/7 SKIP (no directory)
-- 03: 0/5 SKIP (no directory)
-- 04: 0/4 SKIP (no directory)
-- 05: 0/5 SKIP (no directory)
+- 01: 1/1 PASS
+- 02: 7/7 PASS
+- 03: 5/5 PASS
+- 04: 4/4 PASS
+- 05: 5/5 PASS
 - 06: 0/4 SKIP (no directory)
 - 07: 0/4 SKIP (no directory)
 - 08: 0/13 SKIP (no directory)
@@ -57,7 +57,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 42/144 (29%)
+**Overall exercises**: 64/144 (44%)
 **Overall notes**: 18/18 (100%)
 
 ## 🦆
@@ -129,16 +129,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 ### assignment02
 
 - 01: 6/6 PASS
-- 02: 0/5 FAIL
-
-  ```
-  compile error: test.cpp:6:10: fatal error: 'Heart.h' file not found
-      6 | #include "Heart.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
+- 02: 5/5 PASS
 - 03: 6/6 PASS
 - 04: 13/13 PASS
 
@@ -155,7 +146,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 87/144 (60%)
+**Overall exercises**: 92/144 (64%)
 **Overall notes**: 18/18 (100%)
 
 ## 🐙
@@ -282,7 +273,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - 02: 7/7 PASS
 - 03: 5/5 PASS
 - 04: 4/4 PASS
-- 05: 5/5 PASS
+- 05: 4/5 FAIL
 - 06: 4/4 PASS
 - 07: 4/4 PASS
 - 08: 13/13 PASS
@@ -298,7 +289,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 65/144 (45%)
+**Overall exercises**: 64/144 (44%)
 **Overall notes**: 18/18 (100%)
 
 ## 🐎
@@ -332,13 +323,31 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 
 ### assignment01
 
-- 01: 0/1 SKIP (no directory)
-- 02: 0/7 SKIP (no directory)
-- 03: 0/5 SKIP (no directory)
-- 04: 0/4 SKIP (no directory)
-- 05: 0/5 SKIP (no directory)
-- 06: 0/4 SKIP (no directory)
-- 07: 0/4 SKIP (no directory)
+- 01: 1/1 PASS
+- 02: 0/7 FAIL
+
+  ```
+  compile error: test.cpp:6:10: fatal error: 'Point.h' file not found
+      6 | #include "Point.h"
+        |          ^~~~~~~~~
+  ```
+
+  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
+
+- 03: 0/5 FAIL
+
+  ```
+  compile error: test.cpp:5:10: fatal error: 'Point.h' file not found
+      5 | #include "Point.h"
+        |          ^~~~~~~~~
+  ```
+
+  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
+
+- 04: 4/4 PASS
+- 05: 5/5 PASS
+- 06: 4/4 PASS
+- 07: 4/4 PASS
 - 08: 0/13 SKIP (no directory)
 
 ### assignment02
@@ -361,19 +370,14 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 17/144 (12%)
+**Overall exercises**: 35/144 (24%)
 **Overall notes**: 18/18 (100%)
 
 ## 🐄
 
 ### assignment01
 
-- 01: 0/1 FAIL
-
-  ```
-  Missing screenshot.png (note: file names are case-sensitive)
-  ```
-
+- 01: 1/1 PASS
 - 02: 7/7 PASS
 - 03: 5/5 PASS
 - 04: 4/4 PASS
@@ -386,7 +390,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 42/144 (29%)
+**Overall exercises**: 43/144 (30%)
 **Overall notes**: 18/18 (100%)
 
 ## 🐨
@@ -405,16 +409,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 ### assignment02
 
 - 01: 6/6 PASS
-- 02: 0/5 FAIL
-
-  ```
-  compile error: ./Human.cpp:1:10: fatal error: 'human.h' file not found
-      1 | #include "human.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
+- 02: 5/5 PASS
 - 03: 6/6 PASS
 - 04: 13/13 PASS
 
@@ -438,7 +433,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 139/144 (97%)
+**Overall exercises**: 144/144 (100%)
 **Overall notes**: 18/18 (100%)
 
 ## 🦮
@@ -449,36 +444,9 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - 02: 7/7 PASS
 - 03: 5/5 PASS
 - 04: 4/4 PASS
-- 05: 0/5 FAIL
-
-  ```
-  compile error: test.cpp:5:10: fatal error: 'Point.h' file not found
-      5 | #include "Point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 06: 0/4 FAIL
-
-  ```
-  compile error: test.cpp:5:10: fatal error: 'Point.h' file not found
-      5 | #include "Point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 07: 0/4 FAIL
-
-  ```
-  compile error: test.cpp:6:10: fatal error: 'Point.h' file not found
-      6 | #include "Point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
+- 05: 5/5 PASS
+- 06: 4/4 PASS
+- 07: 4/4 PASS
 - 08: 13/13 PASS
 
 ### assignment02
@@ -492,7 +460,7 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
 
-**Overall exercises**: 60/144 (42%)
+**Overall exercises**: 73/144 (51%)
 **Overall notes**: 14/18 (78%)
 
 ## 🐸
@@ -517,12 +485,22 @@ Last updated at 2026-04-08 09:57 - If some notes or exercise missing, please che
 
 ## 🦖
 
+### assignment01
+
+- 01: 1/1 PASS
+- 02: 7/7 PASS
+- 03: 5/5 PASS
+- 04: 4/4 PASS
+- 05: 5/5 PASS
+- 06: 4/4 PASS
+- 07: 4/4 PASS
+- 08: 13/13 PASS
 
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 0/144 (0%)
+**Overall exercises**: 43/144 (30%)
 **Overall notes**: 18/18 (100%)
 
 ## 🐢
