@@ -42,10 +42,11 @@ Work in `01/Point.h`, `01/Point.cpp`, `01/Line.h`, `01/Line.cpp`, and `01/main.c
 1. Reuse or re-create a `Point` class with `x`, `y`, getters, setters, and `toString()`.
 2. Create a `Line` class that _contains_ two `Point` members: `start` and `end`.
 3. Add a constructor that takes two `Point`s and stores them by value.
-4. Add `length()` that returns the distance between `start` and `end`.
-5. Add `moveBy(int dx, int dy)` that moves both points.
-6. Add `toString()` and `operator<<` for `Line`.
-7. In `main`, create a few lines, print them, and show that `moveBy` updates both points.
+4. Add `getStart()` and `getEnd()` that return the respective points.
+5. Add `length()` that returns the distance between `start` and `end`.
+6. Add `moveBy(int dx, int dy)` that moves both points.
+7. Add `toString()` and `operator<<` for `Line`.
+8. In `main`, create a few lines, print them, and show that `moveBy` updates both points.
 
 Use the following `main.cpp` template:
 
