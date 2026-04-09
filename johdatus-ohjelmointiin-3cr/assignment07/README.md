@@ -131,6 +131,19 @@ java Main
 Immediately print the `width` and `height` of `a`.
 Add a comment in your code explaining what values you see and why.
 
+#### Test
+
+- [Test.java](01/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Default width is 0 | 1 |
+| 2 | Default height is 0 | 1 |
+| 3 | Rectangle.java contains `public int width` | 1 |
+| 4 | Rectangle.java contains `public int height` | 1 |
+| 5 | Main.java contains a comment | 1 |
+| | **Total** | **5** |
+
 ---
 
 ### 2. Reference Behavior and Printing Objects
@@ -153,6 +166,18 @@ Rectangle b = a;
 
 Print `b`. Modify `a.width` and `a.height`, then print `b.width` and `b.height`.
 Add a comment in your code explaining what happened and why (object reference behavior).
+
+#### Test
+
+- [Test.java](02/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "Rectangle@" (default toString) | 1 |
+| 2 | Output contains "10" (modified width) | 1 |
+| 3 | Output contains "20" (modified height) | 1 |
+| 4 | Main.java contains a comment | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -181,6 +206,17 @@ a.printMe();
 width: 10, height: 5
 ```
 
+#### Test
+
+- [Test.java](03/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Rectangle.java contains `void printMe()` method | 1 |
+| 2 | Output contains "width: 10" and "height: 5" | 1 |
+| 3 | printMe() works with different values (3, 7) | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 4. Method countSurfaceArea()
@@ -208,6 +244,18 @@ System.out.println(r.countSurfaceArea());
 50
 ```
 
+#### Test
+
+- [Test.java](04/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Rectangle.java contains `int countSurfaceArea()` method | 1 |
+| 2 | 10 x 5 returns 50 | 1 |
+| 3 | 3 x 4 returns 12 | 1 |
+| 4 | 7 x 8 returns 56 | 1 |
+| | **Total** | **4** |
+
 ---
 
 ### 5. Encapsulation: Getters and Setters
@@ -226,6 +274,20 @@ Example:
 r.setWidth(30);  // valid
 r.setWidth(-30); // ignored, value stays 30
 ```
+
+#### Test
+
+- [Test.java](05/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | width and height are private | 1 |
+| 2 | setWidth(30) stores value correctly | 1 |
+| 3 | setWidth(-30) is ignored | 1 |
+| 4 | setHeight(20) stores value correctly | 1 |
+| 5 | setHeight(-5) is ignored | 1 |
+| 6 | countSurfaceArea() returns 50 for 10 x 5 | 1 |
+| | **Total** | **6** |
 
 ---
 
@@ -261,6 +323,19 @@ try {
 }
 ```
 
+#### Test
+
+- [Test.java](06/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | setWidth(10) works correctly | 1 |
+| 2 | setWidth(-5) throws IllegalArgumentException | 1 |
+| 3 | setHeight(-1) throws IllegalArgumentException | 1 |
+| 4 | setWidth(0) throws IllegalArgumentException | 1 |
+| 5 | Main.java uses try-catch | 1 |
+| | **Total** | **5** |
+
 ---
 
 ### 7. Constructor
@@ -278,6 +353,18 @@ public Rectangle(int width, int height)
 ```
 
 Validate parameters (must be > 0). If an invalid value is given, throw `IllegalArgumentException`.
+
+#### Test
+
+- [Test.java](07/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Constructor `Rectangle(int, int)` exists | 1 |
+| 2 | Constructor stores valid values (7, 9) | 1 |
+| 3 | Invalid width (-1) throws IllegalArgumentException | 1 |
+| 4 | Invalid height (0) throws IllegalArgumentException | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -302,6 +389,16 @@ System.out.println(r1);
 ```text
 width = 50, height = 50
 ```
+
+#### Test
+
+- [Test.java](08/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Rectangle.java overrides `toString()` | 1 |
+| 2 | Rectangle(12, 8) produces "width = 12, height = 8" | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -329,6 +426,17 @@ System.out.println(r1.equals(r2));
 true
 ```
 
+#### Test
+
+- [Test.java](09/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Rectangle.java contains `boolean equals(Rectangle)` | 1 |
+| 2 | Equal rectangles (50x50 vs 50x50) return true | 1 |
+| 3 | Different rectangles (50x50 vs 50x20) return false | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 10. Array of Rectangles + User Input
@@ -354,6 +462,18 @@ Rectangle 2 - Enter height: 4
 ...
 Total area: 62
 ```
+
+#### Test
+
+- [Test.java](10/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Main.java creates `new Rectangle[10]` | 1 |
+| 2 | Valid input (all 1x1) produces "Total area: 10" | 1 |
+| 3 | Invalid values cause repeated prompts | 1 |
+| 4 | Corrected input after invalid values produces correct total | 1 |
+| | **Total** | **4** |
 
 ---
 

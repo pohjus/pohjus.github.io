@@ -109,6 +109,16 @@ an array.
 32
 ```
 
+#### Test
+
+- [Test.java](01/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output matches expected values (12, 32, 3, 12, 99, 32) | 1 |
+| 2 | Exactly 6 non-empty lines of output | 1 |
+| | **Total** | **2** |
+
 ---
 
 ### 2. Reverse Array Output
@@ -126,6 +136,16 @@ Print one value per line.
 12
 ```
 
+#### Test
+
+- [Test.java](02/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Reverse order is correct (32, 99, 12) | 1 |
+| 2 | Exactly 3 non-empty lines of output | 1 |
+| | **Total** | **2** |
+
 ---
 
 ### 3. Every Other Name
@@ -142,6 +162,16 @@ print names at indexes `0`, `2`, `4`, and so on.
 Matti
 Pekka
 ```
+
+#### Test
+
+- [Test.java](03/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "Matti" and "Pekka" | 1 |
+| 2 | Output does not contain "Liisa" or "Anna" | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -174,6 +204,18 @@ Enter ten numbers:
 Sum of entered numbers: 10
 ```
 
+#### Test
+
+- [Test.java](04/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Sum of ten 1s is 10 | 1 |
+| 2 | Sum of 1 through 10 is 55 | 1 |
+| 3 | Sum with negatives (-5 to 4) is 0 | 1 |
+| 4 | Sum of 10, 20, ..., 100 is 550 | 1 |
+| | **Total** | **4** |
+
 ---
 
 ### 5. Longest Name
@@ -195,6 +237,18 @@ Enter name: Li
 Enter name: Pekka
 Marianne
 ```
+
+#### Test
+
+- [Test.java](05/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Longest of "Ada", "Marianne", "Li" is "Marianne" | 1 |
+| 2 | First wins on tie ("AB" vs "CD", both length 2) | 1 |
+| 3 | Single name "Ada" is returned | 1 |
+| 4 | Longest name when last ("Al", "Bo", "Sam") is "Sam" | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -278,6 +332,21 @@ java Main.java 3 "*" 3
 java Main.java 3 --% * 3
 ```
 
+#### Test
+
+- [Test.java](06/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | `1 + 2` produces "result = 3" | 1 |
+| 2 | `10 - 3` produces "result = 7" | 1 |
+| 3 | `4 x 5` produces "result = 20" | 1 |
+| 4 | `10 / 2` produces "result = 5" | 1 |
+| 5 | `5 - 10` produces "result = -5" | 1 |
+| 6 | `7 / 2` produces "result = 3" (integer division) | 1 |
+| 7 | No arguments prints error message | 1 |
+| | **Total** | **7** |
+
 ---
 
 ### 7. Count Occurrences
@@ -308,6 +377,19 @@ parsing exceptions.
 ```text
 3
 ```
+
+#### Test
+
+- [Test.java](07/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Count of 2 in [1, 2, 3, 2, 2] is 3 | 1 |
+| 2 | Count of 5 in [1, 2, 3] is 0 | 1 |
+| 3 | Count of 3 in [1, 3, 5] is 1 | 1 |
+| 4 | Count of 3 in [3, 3, 3] is 3 | 1 |
+| 5 | No arguments prints error message | 1 |
+| | **Total** | **5** |
 
 ---
 
@@ -400,6 +482,20 @@ The output is:
 
 Use arrays in your solution (`allLines` and `args`).
 Convert the file contents to a `String[]` before processing them.
+
+#### Test
+
+- [Test.java](08/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Bar chart correct for positive numbers (3, 1, 4, 0) | 1 |
+| 2 | Negative number treated as 0 | 1 |
+| 3 | Multiple files processed with headers | 1 |
+| 4 | Empty lines in file are ignored | 1 |
+| 5 | Zero prints "(0)" with no stars | 1 |
+| 6 | Blank line separator between files | 1 |
+| | **Total** | **6** |
 
 ---
 
@@ -547,6 +643,19 @@ try {
 `IO.println` is enough for this course. In more advanced Java programs,
 you will also see `System.out.println` for normal output and
 `System.err.println` for error messages.
+
+#### Test
+
+- [Test.java](09/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Error message when no arguments given | 1 |
+| 2 | "Not found" message for missing file | 1 |
+| 3 | Handles invalid number in file (e.g. "abc") | 1 |
+| 4 | Valid file produces correct bar chart | 1 |
+| 5 | No header printed for missing file | 1 |
+| | **Total** | **5** |
 
 ---
 

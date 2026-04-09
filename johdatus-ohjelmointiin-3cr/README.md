@@ -114,9 +114,8 @@ If you notice an error after submitting (wrong files, missing exercises, incorre
 2. Re-create the zip with the correct contents.
 3. Upload the corrected zip before the deadline. **The latest upload replaces the previous one.**
 
-#### Grading
+#### Deadlines
 
-- Each test equals 1 point. **Minimum 50%** of total points required.
 - Course period: `2026-05-01` to `2026-12-01`
 - **Deadline:** `2026-12-01` for all assignments and notes.
 - Late penalties:
@@ -188,7 +187,10 @@ Exercise 02: 1/1 passed
 
 ## Grading
 
-The grade is determined by the percentage of total assignment points. You must have returned 70% of video notes.
+Each test equals 1 point.
+The grade is determined by the percentage of total assignment points.
+**Minimum 50%** of total points required.
+You must have returned 70% of video notes.
 
 | Grade | Percentage |
 | ----- | ---------- |
@@ -197,8 +199,6 @@ The grade is determined by the percentage of total assignment points. You must h
 | 3     | 70%        |
 | 4     | 80%        |
 | 5     | 90%        |
-
-You can see your evaluation in result page (updated later on).
 
 ## Tools
 

@@ -100,6 +100,17 @@ Create another class `Main`, whose `main` method creates a couple of
 
 Submit `Human.java` and `Main.java`.
 
+#### Test
+
+- [Test.java](01/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "Human sleeps" | 1 |
+| 2 | Output contains "Human eats" | 1 |
+| 3 | Output contains "Human drinks" and "Human reproduces" | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 2. Programmer Extends Human
@@ -119,6 +130,17 @@ Now create a `Programmer` object in `Main` and call its methods:
 `attendCyberGothDanceParty`.
 
 Submit `Human.java`, `Programmer.java`, and `Main.java`.
+
+#### Test
+
+- [Test.java](02/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Programmer uses inherited methods (output contains "Human sleeps", "Human eats", "Human drinks") | 1 |
+| 2 | Output contains "Programmer codes" | 1 |
+| 3 | Output contains "Programmer attends the cyber goth dance party" | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -150,6 +172,17 @@ Tapani drinks
 ```
 
 Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+#### Test
+
+- [Test.java](03/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "Tiina" and "Hanna" | 1 |
+| 2 | Output contains "Tiina drinks" | 1 |
+| 3 | Output contains "Hanna codes" | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -195,6 +228,17 @@ Programmer hanna = new Programmer("Hanna");
 
 Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
 
+#### Test
+
+- [Test.java](04/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Human has constructor `public Human(String n)` | 1 |
+| 2 | Programmer constructor uses `super(n)` | 1 |
+| 3 | Output contains "Tiina drinks" and "Hanna codes" | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 5. Programmer Salary Validation
@@ -213,6 +257,17 @@ Otherwise throw `IllegalArgumentException`.
 Test the method.
 
 Submit updated `Programmer.java` and `Main.java`.
+
+#### Test
+
+- [Test.java](05/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Valid salary 3000 is stored | 1 |
+| 2 | Salary below 1000 throws IllegalArgumentException | 1 |
+| 3 | Salary above 10000 throws IllegalArgumentException | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -235,6 +290,16 @@ System.out.println(tapani.getSalary());
 ```
 
 Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+#### Test
+
+- [Test.java](06/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Constructor `public Programmer(String n, int s)` exists | 1 |
+| 2 | Output contains "Tapani" and "3000" | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -261,6 +326,16 @@ tiina.printInfo();  // name, tiina is a human
 ```
 
 Submit updated `Human.java`, `Programmer.java`, and `Main.java`.
+
+#### Test
+
+- [Test.java](07/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Human.printInfo() prints name | 1 |
+| 2 | Programmer.printInfo() prints name and salary | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -298,6 +373,16 @@ Create a `Dog` object and call its `giveBirth()` method.
 
 Submit `Mammal.java`, `Dog.java`, and `Main.java`.
 
+#### Test
+
+- [Test.java](08/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Mammal is abstract | 1 |
+| 2 | Dog.giveBirth() prints "gives birth to a child." | 1 |
+| | **Total** | **2** |
+
 ---
 
 ### 9. Human and Dog Inherit from Mammal
@@ -318,6 +403,16 @@ sniffs another dog's butt
 Test by creating `Human` and `Dog` objects and calling their methods.
 
 Submit updated `Mammal.java`, `Human.java`, `Dog.java`, and `Main.java`.
+
+#### Test
+
+- [Test.java](09/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "creates art" | 1 |
+| 2 | Output contains "sniffs another dog's butt" | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -340,6 +435,16 @@ Implement the abstract method in subclasses.
 Test.
 
 Submit updated `Mammal.java`, `Human.java`, `Dog.java`, and `Main.java`.
+
+#### Test
+
+- [Test.java](10/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Mammal declares `abstract void makeSound()` | 1 |
+| 2 | Output contains "Human says hello" and "Dog barks" | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -381,6 +486,16 @@ Also make `Dog` implement `Sellable` and print `dog sold`.
 Submit `Sellable.java`, `EnergyDrink.java`, updated `Dog.java`, and
 `Main.java`.
 
+#### Test
+
+- [Test.java](11/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "energy drink sold" | 1 |
+| 2 | Output contains "dog sold" | 1 |
+| | **Total** | **2** |
+
 ---
 
 ### 12. Method Parameter Typed as `Sellable`
@@ -403,6 +518,16 @@ Which objects can you pass?
 Test.
 
 Submit a `Main.java` that demonstrates the allowed calls.
+
+#### Test
+
+- [Test.java](12/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Method accepts EnergyDrink (output contains "energy drink sold") | 1 |
+| 2 | Method accepts Dog (output contains "dog sold") | 1 |
+| | **Total** | **2** |
 
 ---
 

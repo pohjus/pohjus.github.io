@@ -112,6 +112,16 @@ Print the second row's second element (`7`).
 7
 ```
 
+#### Test
+
+- [Test.java](01/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "7" | 1 |
+| 2 | Output is exactly "7" | 1 |
+| | **Total** | **2** |
+
 ---
 
 ### 2. Print First Row
@@ -123,6 +133,16 @@ Use a `for` loop to print the first row of the array from exercise 1.
 ```text
 1 3 9
 ```
+
+#### Test
+
+- [Test.java](02/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "1 3 9" | 1 |
+| 2 | Output does not contain "2 7 3" | 1 |
+| | **Total** | **2** |
 
 ---
 
@@ -137,6 +157,18 @@ loops.
 1 3 9
 2 7 3
 ```
+
+#### Test
+
+- [Test.java](03/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "1 3 9" | 1 |
+| 2 | Output contains "2 7 3" | 1 |
+| 3 | Exactly 2 non-empty lines of output | 1 |
+| 4 | "1 3 9" appears before "2 7 3" | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -160,6 +192,18 @@ Enter values:
 1 4 5
 1 2 3
 ```
+
+#### Test
+
+- [Test.java](04/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Inputs 1,4,5,1,2,3 produce "1 4 5" and "1 2 3" | 1 |
+| 2 | Inputs 9,8,7,6,5,4 produce "9 8 7" and "6 5 4" | 1 |
+| 3 | Output contains "2D array is:" | 1 |
+| 4 | Output contains "Enter values:" | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -191,6 +235,17 @@ Enter values:
 1 2 3
 ```
 
+#### Test
+
+- [Test.java](05/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Inputs 1,4,5,1,2,3 produce "1 4 5" and "1 2 3" | 1 |
+| 2 | Inputs 9,8,7,6,5,4 produce "9 8 7" and "6 5 4" | 1 |
+| 3 | Output contains "2D array is:" | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 6. Dynamic 2D Array
@@ -216,6 +271,20 @@ Enter values:
 4 5 6
 ```
 
+#### Test
+
+- [Test.java](06/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | 2x3 array with 1-6 produces "1 2 3" and "4 5 6" | 1 |
+| 2 | 3x2 array with 1-6 produces "1 2", "3 4", "5 6" | 1 |
+| 3 | Output contains "Number of rows:" | 1 |
+| 4 | Output contains "Number of columns:" | 1 |
+| 5 | Output contains "Enter values:" | 1 |
+| 6 | Output contains "2D array is:" | 1 |
+| | **Total** | **6** |
+
 ---
 
 ## Review Exercises
@@ -237,6 +306,17 @@ Enter second number: 7
 it was ten
 ```
 
+#### Test
+
+- [Test.java](07/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Inputs 3, 7 (sum 10) print "it was ten" | 1 |
+| 2 | Inputs 1, 2 (sum 3) print "it was not ten" | 1 |
+| 3 | Inputs 5, 5 (sum 10) print "it was ten" | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 8. Cumulative Sum
@@ -251,6 +331,17 @@ result.
 Enter number: 5
 15
 ```
+
+#### Test
+
+- [Test.java](08/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Input 5 produces "15" | 1 |
+| 2 | Input 1 produces "1" | 1 |
+| 3 | Input 10 produces "55" | 1 |
+| | **Total** | **3** |
 
 ---
 
@@ -277,6 +368,17 @@ void printRectangle(int width, int height) {
 *******
 ```
 
+#### Test
+
+- [Test.java](09/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains a line of 7 asterisks | 1 |
+| 2 | Exactly 3 lines contain asterisks | 1 |
+| 3 | No line contains 8 or more asterisks | 1 |
+| | **Total** | **3** |
+
 ---
 
 ### 10. Row Sums
@@ -297,6 +399,17 @@ Print all values of the array and the sum of each row.
 1 2 3 4 sum = 10
 5 6 7 8 sum = 26
 ```
+
+#### Test
+
+- [Test.java](10/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Output contains "sum = 10" | 1 |
+| 2 | Output contains "sum = 26" | 1 |
+| 3 | Output contains "1 2 3 4" | 1 |
+| | **Total** | **3** |
 
 ---
 

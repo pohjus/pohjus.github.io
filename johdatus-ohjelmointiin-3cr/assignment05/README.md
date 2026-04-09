@@ -126,6 +126,19 @@ method from `main`.
 Matti
 ```
 
+#### Test
+
+- [Test.java](01/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `printName()` method | 1 |
+| 2 | `main` calls `printName()` | 1 |
+| 3 | Program produces non-empty output | 1 |
+| 4 | Output has exactly one non-empty line | 1 |
+| 5 | Output contains at least 2 characters | 1 |
+| | **Total** | **5** |
+
 ---
 
 ### 2. Print Greeting and Name
@@ -159,6 +172,19 @@ text appears on one line.
 Hello Matti
 ```
 
+#### Test
+
+- [Test.java](02/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `printGreeting()` method | 1 |
+| 2 | Source contains `printName()` method | 1 |
+| 3 | Output contains "Hello" | 1 |
+| 4 | Output contains "Hello" followed by a name | 1 |
+| 5 | Greeting and name appear on a single line | 1 |
+| | **Total** | **5** |
+
 ---
 
 ### 3. Print Given Name
@@ -188,6 +214,19 @@ Jeppe
 Jeppe
 ```
 
+#### Test
+
+- [Test.java](03/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `printGivenName(String)` method | 1 |
+| 2 | Input "Jeppe" appears in output | 1 |
+| 3 | Input "Anna" appears in output | 1 |
+| 4 | Output contains a prompt for the name | 1 |
+| 5 | Different names produce different output | 1 |
+| | **Total** | **5** |
+
 ---
 
 ### 4. Return Date
@@ -212,6 +251,18 @@ Modify the `returnDate` method so that it returns the string
 ```text
 21.3.2026
 ```
+
+#### Test
+
+- [Test.java](04/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `returnDate()` method | 1 |
+| 2 | Output contains "21.3.2026" | 1 |
+| 3 | Output has exactly one non-empty line | 1 |
+| 4 | Output line matches "21.3.2026" exactly | 1 |
+| | **Total** | **4** |
 
 ---
 
@@ -245,6 +296,21 @@ Enter first number:
 Enter second number:
 10
 ```
+
+#### Test
+
+- [Test.java](05/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `calculate(int, int)` method | 1 |
+| 2 | Output prompts for first number | 1 |
+| 3 | Output prompts for second number | 1 |
+| 4 | Inputs 4 and 6 produce "10" | 1 |
+| 5 | Inputs 100 and 200 produce "300" | 1 |
+| 6 | Inputs -5 and 3 produce "-2" | 1 |
+| 7 | Inputs 7 and 7 produce "14" | 1 |
+| | **Total** | **7** |
 
 ---
 
@@ -281,6 +347,20 @@ XXX
 OOOOO
 ```
 
+#### Test
+
+- [Test.java](06/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `printManyTimes(char, int)` method | 1 |
+| 2 | Source contains a for loop | 1 |
+| 3 | Output contains "XXX" | 1 |
+| 4 | Output contains "OOOOO" | 1 |
+| 5 | "XXX" appears on its own line | 1 |
+| 6 | "OOOOO" appears on its own line | 1 |
+| | **Total** | **6** |
+
 ---
 
 ### 7. Return Character Many Times
@@ -316,6 +396,20 @@ For example, if the arguments are `'X'` and `3`, the method returns
 XXX
 OOOOO
 ```
+
+#### Test
+
+- [Test.java](07/Test.java)
+
+| # | Test | Points |
+|---|------|--------|
+| 1 | Source contains `returnManyTimes(char, int)` method | 1 |
+| 2 | Source contains a for loop | 1 |
+| 3 | Output contains "XXX" | 1 |
+| 4 | Output contains "OOOOO" | 1 |
+| 5 | "XXX" appears on its own line | 1 |
+| 6 | "OOOOO" appears on its own line | 1 |
+| | **Total** | **6** |
 
 ---
 
