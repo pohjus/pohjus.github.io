@@ -1,7 +1,5 @@
 # NN00GC31-3004 Introduction to Programming: Java
 
-## ⚠️ Under Construction, do not implement anything yet!
-
 This course introduces **programming fundamentals using Java**.
 You will learn variables, control structures, methods, arrays, and object-oriented programming.
 No prior programming experience is required.
