@@ -48,9 +48,7 @@ Järjestävä yritys luo tilin osoitteessa console.anthropic.com, lataa sille kr
 
 Jokainen osallistuja käyttää omaa **Claude Pro- tai Team-tilaustaan** (Team suositeltavampi suurempien käyttörajojen vuoksi). Huomaa, että Claude Prossa on käyttörajat, jotka nollautuvat muutaman tunnin välein, ja intensiivinen käytännön työ voi kuluttaa rajan loppuun kesken istunnon.
 
----
-
-_Yrityksen API-avaimilla varmistetaan, että harjoitteet etenevät keskeytyksettä koko koulutuspäivän ajan – ilman riskiä kiintiörajojen aiheuttamista katkoksista._
+_Yrityksen API-avaimilla varmistetaan, että harjoitteet etenevät keskeytyksettä koko koulutuspäivien ajan, ilman riskiä kiintiörajojen aiheuttamista katkoksista._
 
 ### GitHub
 
