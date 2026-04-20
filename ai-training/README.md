@@ -1,139 +1,136 @@
-# AI-Assisted Software Development
+# AI-avusteinen ohjelmistokehitys
 
-## Trainer
+## Yleiskatsaus
 
-- Jussi Pohjolainen
-- Pohjolainen Consulting Oy
-- `jussi@pohjolainenconsulting.fi`
-- `040-718 4338`
+Tämä neljän päivän (2 + 2) koulutus käsittelee siirtymää perinteisestä ohjelmistokehityksestä AI-natiiviin kehitysmalliin.
+Koulutus jakautuu kahteen moduuliin:
 
-## Overview
+- **Moduuli 1: AI-avusteinen ohjelmistokehitys käytännössä** (2 pv): tekoälyn käyttö osana päivittäistä kehitystyötä.
+- **Moduuli 2: AI sovelluksissa, agentteina ja tuotannossa** (2 pv): tekoälyn integrointi osaksi sovelluksia, agenttien rakentaminen ja sovellusten vieminen tuotantoon.
 
-This four-day (2 + 2) training covers the transition from traditional software development to an AI-native development model.
-Participants learn how to use AI throughout the entire development process.
+Koulutus on käytännönläheinen.
 
-## Target Audience
+## Kohderyhmä
 
-This training is designed for software developers who want to integrate AI into their daily development workflow.
+Koulutus on suunnattu ohjelmistokehittäjille, jotka haluavat integroida tekoälyn osaksi päivittäistä kehitystyötään.
 
-## Prerequisites
+## Esitiedot
 
-Participants should have **working experience in at least one programming language** (such as Java, Python, or JavaScript) and be comfortable with **version control**, **command-line tools**, and basic software development practices.
+- Osaamista yhdestä ohjelmointikielestä, esim Python, Java, JavaScript tms.
+- Versionhallinnan ja komentoriviympäristön hallintaa
 
-**No prior experience with AI tools is required.**
+**Aiempaa kokemusta tekoälytyökaluista ei vaadita.**
 
-## Required Tooling: Claude Access
+## Oppimistavoitteet
 
-Although most of the AI tools are covered, like Codex, Claude, Gemini etc, the hands-on exercises are built on top of Claude.
-There are two options for providing Claude access to participants:
+Koulutuksen päätyttyä osallistuja:
 
-**Option A: Company-Provided API Keys (Recommended)**
+- Osaa hyödyntää tekoälyä käytännön ohjelmistokehityksessä päivittäisenä työkaluna
+- Ymmärtää eri AI-koodaustyökalujen vahvuudet ja osaa valita tilanteeseen sopivan
+- Osaa tuottaa, testata ja katselmoida koodia AI:n avulla
+- Ymmärtää, miten AI integroidaan osaksi sovelluksia eri integraatiostrategioilla
+- Tuntee agentti- ja MCP-arkkitehtuurin periaatteet ja osaa soveltaa niitä
+- Osaa viedä AI-avusteisen prototyypin hallitusti kohti tuotantoa
 
-The organizing company creates an account at `console.anthropic.com`, loads it with credits (pay-as-you-go), and generates API keys for participants.
-Each participant configures Claude Code to use the provided API key instead of a personal login.
-Usage is billed per token against the company's credit balance with no per-user hourly caps, so participants can work continuously as long as credits remain.
+## Tarvittavat työkalut ja käyttöoikeudet
 
-**Option B: Personal Subscription**
+Koulutus järjestetään etäkoulutuksena. Osallistujalla tulee olla käyttöoikeus seuraaviin työkaluihin ennen koulutuksen alkua.
 
-Each participant uses their own **Claude Pro or Team subscription** (Team preferred for higher usage limits).
-Note that Claude Pro has usage caps that reset every few hours, and intensive hands-on work, especially with Opus, can exhaust the allowance mid-session, leaving the participant unable to continue until the limit resets.
+### Claude
 
-## Training 1: AI-Assisted Software Development in Practice (2 days)
+Vaikka koulutuksessa käsitellään useita AI-työkaluja (Codex, Claude, Gemini jne.), harjoitukset rakentuvat Clauden varaan. Osallistuja tarvitsee koulutuksessa Clauden käyttöoikeuden.
 
-### Day 1
+**Vaihtoehto A: Yrityksen API-avaimet (suositeltu)**
 
-**AI as a Developer's Working Tool**
+Järjestävä yritys luo tilin osoitteessa console.anthropic.com, lataa sille krediittejä (pay-as-you-go) ja luo API-avaimet osallistujille. Osallistujat konfiguroivat Claude Coden käyttämään annettua API-avainta oman kirjautumisen sijaan. Käyttö laskutetaan tokenipohjaisesti yrityksen krediittisaldosta, eikä käyttäjäkohtaisia tuntirajoja ole, joten työskentely jatkuu yhtäjaksoisena niin kauan kuin krediittejä riittää.
 
-- What generative AI and LLMs mean in practical software development
-- How models produce answers and why they make mistakes
-- Developer's role shifts from implementer to director, evaluator, and quality assurer
-- AI-native development model: requirement -> context -> generation -> validation -> iteration
+**Vaihtoehto B: Henkilökohtainen tilaus**
 
-**AI Tools, Models, and Selection Criteria**
+Jokainen osallistuja käyttää omaa **Claude Pro- tai Team-tilaustaan** (Team suositeltavampi suurempien käyttörajojen vuoksi). Huomaa, että Claude Prossa on käyttörajat, jotka nollautuvat muutaman tunnin välein, ja intensiivinen käytännön työ voi kuluttaa rajan loppuun kesken istunnon.
 
-- Chat-based tools, IDE assistants, and agent-style development environments
-- Examples: Claude, ChatGPT/Codex, GitHub Copilot, Cursor, IntelliJ IDEA AI
-- Analysis vs. fast generation, long context vs. lightweight editor assistance, cloud vs. local
-- Choosing the right tool and model for the task
+---
 
-**Prompting and Context Management**
+_Yrityksen API-avaimilla varmistetaan, että harjoitteet etenevät keskeytyksettä koko koulutuspäivän ajan – ilman riskiä kiintiörajojen aiheuttamista katkoksista._
 
-- Structure of a good prompt: role, objective, context, constraints, acceptance criteria, output format
-- Common mistakes: vague requests, missing context, oversized tasks, lack of validation
-- Building project context: codebase, architecture, interfaces, and business rules
+### GitHub
 
-### Day 2
+Osallistujalla tulee olla GitHub-tili – henkilökohtainen tai organisaation tarjoama. Tiliä käytetään harjoitusten versionhallintaan ja CI/CD-harjoituksissa.
 
-**Greenfield and Brownfield Environments**
+### Slack
 
-- Building a new system vs. modernizing an existing one
-- Greenfield: planning, initial implementation, specification interpretation, test scaffolding
-- Brownfield: legacy-code understanding, refactoring, documentation, change-risk identification
-- Making the codebase AI-navigable
+Osa koulutuksen kommunikoinnista tapahtuu Slackin kautta. Osallistujalla tulee olla pääsy koulutuksen Slack-työtilaan. Kirjautumisohjeet toimitetaan ennen koulutuksen alkua.
 
-**Spec-Driven and Test-Driven Development with AI**
+## Moduuli 1: AI-avusteinen ohjelmistokehitys käytännössä
 
-- Prototype vs. production solution
-- Spec-driven flow: requirement -> technical description -> implementation -> tests -> review
-- Generating tests from specifications
-- Using tests as guardrails and validating AI-generated code against acceptance criteria
+### AI kehittäjän työkaluna
 
-**Code Review and Production Hardening**
+- Mitä generatiivinen AI ja LLM:t tarkoittavat käytännön ohjelmistokehityksessä
+- Miten mallit tuottavat vastauksia ja miksi ne tekevät virheitä
+- Kehittäjän roolin muutos: toteuttajasta ohjaajaksi, arvioijaksi ja laadunvarmistajaksi
+- AI-natiivi kehitysmalli
+- Promptauksen periaatteet ja hyvän promptin rakenne
+- Projektikontekstin tekeminen AI:lle ymmärrettäväksi
+- Kontekstin hallinta pitkissä tehtävissä
 
-- Systematic code review with AI: pull requests, bugs, security, design problems
-- Critically assessing AI-generated code instead of accepting it as-is
-- Debugging with AI assistance
-- From working code to production-ready: error handling, edge cases, performance, documentation
+### Nykyiset AI-koodaustyökalut ja niiden valinta
 
-## Training 2: Building AI Solutions and Agent-Based Development (2 days)
+- AI-työkalujen pääkategoriat: chat-pohjaiset, IDE-avustajat, agenttimäiset kehitysympäristöt
+- Esimerkkityökalut: Claude (Code), GitHub Copilot, Cursor, Gemini, ChatGPT/Codex-tyylinen käyttö, IntelliJ IDEA AI
+- Mallien välisistä eroista
+- Claude Coden CLI perusteet
 
-### Day 1
+### Ohjelmakoodin tuottaminen AI:lla
 
-**AI in Applications and Integrations**
+- Erot uuden järjestelmän rakentamisen ja olemassa olevan koodin AI-modernisoinnin välillä
+- Greenfield: AI suunnittelussa, alkutoteutuksessa, spesifikaatioiden tulkinnassa ja testien kerrostamisessa
+- Brownfield: AI legacy-koodin ymmärtämisessä, refaktoroinnissa, dokumentoinnissa ja muutosriskien tunnistamisessa
+- Claude Code: plan mode, muutosten hallinta, debuggaus, feature kehitys
+- AI-avusteinen koodikatselmointi
 
-- Integrating AI into real applications and development processes
-- Request/response thinking and placement of AI components in system architecture
-- Integration with backend systems and external services
-- Roles of Java (production integrations) and Python (prototyping, agent logic)
+### Spesifikaatio- ja testilähtöinen kehitys AI:n kanssa
 
-**AI Tool Use and Workflows**
+- Testien generointi spesifikaatioista AI:n avulla
+- Testit ohjurina AI-avusteisessa toteutuksessa
+- AI:n tuottaman koodin validointi hyväksymiskriteerejä vasten
+- Claude: Test and Evaluate, Develop Tests, Eval Tool
 
-- Driving tools with AI: function calls, APIs, databases, files, external actions
-- Multi-step workflows where the model uses tools and returns structured results
-- Chaining tools and managing workflows in practice
+## Moduuli 2: AI sovelluksissa, agentteina ja tuotannossa
 
-**Retrieval-Based AI Solutions**
+### AI sovelluksissa ja integraatiostrategiat
 
-- Practical RAG thinking with organizational or project knowledge
-- Using documentation, guides, and technical descriptions in answers
-- When to use retrieval, direct context, or both
+- Integraatiostrategioiden vertailu ja valinta: suorat API-kutsut, SDK-pohjainen integrointi, MCP-pohjainen työkaluyhteys.
+- Pilvi- vs. paikalliset mallit ja hybridistrategiat
+- Lokaalin pilvipalvelun asennus ja hyödyntäminen
 
-**Integration Strategies and Model Choices**
+### Tiedonhakuun perustuvat ratkaisut (RAG)
 
-- Direct API calls, SDK integration, MCP-based tool connectivity, embedded model pipelines
-- Cloud services, local models, and hybrid strategies
-- When a local or self-hosted LLM is justified and its limitations
-- Matching model and integration approach to the use case
+- RAG-ajattelu käytännössä
+- Oman dokumentaation ja tietokantojen hyödyntäminen RAG:ssa.
+- Milloin käyttää RAG vs suora konteksti
+- Embeddings ja Files
 
-### Day 2
+### AI Agentit ja työkalujen käyttö
 
-**Reliability, Security, and Moving to Production**
+- Agenttiajattelu kehityksessä
+- Moniagenttimalli
+- LLM Tool Calling
+  - Claude Tools
+  - OpenAI Function Calling
+- MCP (Model Context Protocol)
 
-- Validation, guardrails, and auditing in production environments
-- Secure interfaces and handling failure cases
-- Reducing the impact of hallucinations
-- Controlled path from prototype to production readiness
+### CI/CD ja AI kehitysputkessa
 
-**Agent-Based Operating Models**
+- Perinteinen vs. AI-avusteinen pipeline
+- Työstöstä tuotantoon: virheenkäsittely, reunatapaukset, suorituskyky
+- AI:n rooli jokaisessa vaiheessa
+  - Koodin generointi ja review
+  - Testien automaattinen kirjoitus
+  - Commit-viestit ja PR-kuvaukset
+  - Pipeline-konfiguraatioiden ylläpito
 
-- Agent thinking: plan -> act -> evaluate
-- From simple helpers to task-specific specialized agents
-- Multi-agent roles: planner, implementer, tester, reviewer
-- Shared agent configurations, CI/CD-integrated agents, team-wide prompting standards and governance
+### Workshop
 
-**Applied Workshop: Idea to Prototype to Production**
-
-- Turn an idea into a specification and build a working prototype with AI
-- Harden toward production with tests, error handling, and security checks
-- Create architecture documentation and a testing approach with AI assistance
-- Present the solution with rationale for design choices
+- Osallistujan oman idean jalostaminen prototyypiksi tekoälyn avulla
+- Prototyypin vieminen hallitusti kohti tuotantoa
+  - Testaus, dokumentaatio, arkkitehtuuri
+- Oman prototyypin esittely
