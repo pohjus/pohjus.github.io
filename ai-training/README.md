@@ -58,7 +58,7 @@ Osallistujalla tulee olla GitHub-tili – henkilökohtainen tai organisaation ta
 
 Osa koulutuksen kommunikoinnista tapahtuu Slackin kautta. Osallistujalla tulee olla pääsy koulutuksen Slack-työtilaan. Kirjautumisohjeet toimitetaan ennen koulutuksen alkua.
 
-## Moduuli 1: AI-avusteinen ohjelmistokehitys käytännössä
+## Moduuli 1: AI-avusteinen ohjelmistokehitys käytännössä - 2 pv
 
 ### AI kehittäjän työkaluna
 
@@ -92,7 +92,7 @@ Osa koulutuksen kommunikoinnista tapahtuu Slackin kautta. Osallistujalla tulee o
 - AI:n tuottaman koodin validointi hyväksymiskriteerejä vasten
 - Claude: Test and Evaluate, Develop Tests, Eval Tool
 
-## Moduuli 2: AI sovelluksissa, agentteina ja tuotannossa
+## Moduuli 2: AI sovelluksissa, agentteina ja tuotannossa - 2 pv
 
 ### AI sovelluksissa ja integraatiostrategiat
 
