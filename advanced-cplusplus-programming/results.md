@@ -1,38 +1,38 @@
 | Emoji | Ex 01 | Notes 01 | Ex 02 | Notes 02 | Ex 03 | Notes 03 | Ex 04 | Exercises | Notes | Exercises % | Notes % |
 | -----: | -----: | --------: | -----: | --------: | -----: | --------: | -----: | ---------: | -----: | -----------: | -------: |
-|     🐛 | 43/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  7/18 |         30% |     39% |
-|     🦡 | 43/43 |      7/7 | 25/30 |      7/7 | 16/39 |      3/4 |  0/32 |    84/144 | 17/18 |         58% |     94% |
-|     🦏 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
-|     🐻 | 42/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    64/144 | 18/18 |         44% |    100% |
-|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
-|     🦐 | 43/43 |      0/7 | 30/30 |      0/7 | 25/39 |      0/4 |  0/32 |    98/144 |  0/18 |         68% |      0% |
-|     🦖 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
-|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
 |     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🦮 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    73/144 | 14/18 |         51% |     78% |
-|     🦑 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
-|     🐫 | 22/43 |      7/7 | 17/30 |      7/7 | 25/39 |      4/4 |  0/32 |    64/144 | 18/18 |         44% |    100% |
-|     🦟 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
-|     🐃 | 30/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    30/144 |  7/18 |         21% |     39% |
-|     🐄 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
-|     🐟 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐢 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
-|     🐪 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
+|     🦮 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   112/144 | 18/18 |         78% |    100% |
 |     🐂 | 30/43 |      7/7 | 30/30 |      7/7 | 32/39 |      4/4 | 32/32 |   124/144 | 18/18 |         86% |    100% |
+|     🐊 | 43/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  0/18 |         30% |      0% |
+|     🦖 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
+|     🦑 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
+|     🦞 | 30/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 | 22/32 |    69/144 | 18/18 |         48% |    100% |
+|     🐸 | 39/43 |      7/7 | 25/30 |      7/7 | 39/39 |      4/4 |  0/32 |   103/144 | 18/18 |         72% |    100% |
+|    🕷️ | 26/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    26/144 | 14/18 |         18% |     78% |
+|     🐛 | 43/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  7/18 |         30% |     39% |
+|     🐢 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
+|     🐻 | 42/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    64/144 | 18/18 |         44% |    100% |
+|     🐡 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🐃 | 30/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    30/144 |  7/18 |         21% |     39% |
+|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦏 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
 |     🐨 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
-|     🐎 | 38/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    68/144 | 14/18 |         47% |     78% |
+|     🦐 | 43/43 |      0/7 | 30/30 |      0/7 | 25/39 |      0/4 |  0/32 |    98/144 |  0/18 |         68% |      0% |
+|     🦡 | 43/43 |      7/7 | 25/30 |      7/7 | 16/39 |      3/4 |  0/32 |    84/144 | 17/18 |         58% |     94% |
 |     🐐 | 35/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    35/144 |  0/18 |         24% |      0% |
 |     🐶 | 12/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    12/144 | 18/18 |          8% |    100% |
-|     🐸 | 39/43 |      7/7 | 25/30 |      7/7 | 39/39 |      4/4 |  0/32 |   103/144 | 18/18 |         72% |    100% |
-|     🐡 |  1/43 |      7/7 | 13/30 |      0/7 |  0/39 |      0/4 |  0/32 |    14/144 |  7/18 |         10% |     39% |
-|     🐘 | 13/43 |      3/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    13/144 |  3/18 |          9% |     17% |
-|     🦞 | 30/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 | 22/32 |    69/144 | 18/18 |         48% |    100% |
-|    🕷️ | 26/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    26/144 | 14/18 |         18% |     78% |
-|     🐊 | 43/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  0/18 |         30% |      0% |
-|     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🐘 | 13/43 |      6/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    13/144 |  6/18 |          9% |     33% |
+|     🐎 | 38/43 |      7/7 | 30/30 |      7/7 |  0/39 |      0/4 |  0/32 |    68/144 | 14/18 |         47% |     78% |
+|     🐫 | 22/43 |      7/7 | 17/30 |      7/7 | 25/39 |      4/4 |  0/32 |    64/144 | 18/18 |         44% |    100% |
 |     🐠 | 25/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    25/144 | 18/18 |         17% |    100% |
+|     🐪 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
+|     🐄 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
+|     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🐟 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🦟 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
 
-Last updated at 2026-04-25 13:19 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher.
+Last updated at 2026-04-25 17:52 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher.
 
 ## 🦡
 
@@ -223,118 +223,28 @@ Last updated at 2026-04-25 13:19 - If some notes or exercise missing, please che
 
 ### assignment01
 
-- 01: 1/1 PASS
-- 02: 0/7 FAIL
-
-  ```
-  compile error: ./Point.cpp:1:10: fatal error: 'point.h' file not found
-      1 | #include "point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 03: 0/5 FAIL
-
-  ```
-  compile error: ./Point.cpp:1:10: fatal error: 'point.h' file not found
-      1 | #include "point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 04: 0/4 FAIL
-
-  ```
-  compile error: ./Point.cpp:1:10: fatal error: 'point.h' file not found
-      1 | #include "point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 05: 0/5 FAIL
-
-  ```
-  compile error: ./Point.cpp:1:10: fatal error: 'point.h' file not found
-      1 | #include "point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 06: 0/4 FAIL
-
-  ```
-  compile error: ./Point.cpp:1:10: fatal error: 'point.h' file not found
-      1 | #include "point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 07: 0/4 FAIL
-
-  ```
-  compile error: ./Point.cpp:1:10: fatal error: 'point.h' file not found
-      1 | #include "point.h"
-        |          ^~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 08: 0/13 FAIL
-
-  ```
-  compile error: test.cpp:6:10: fatal error: 'BankAccount.h' file not found
-      6 | #include "BankAccount.h"
-        |          ^~~~~~~~~~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
+- 01: 0/1 SKIP (no directory)
+- 02: 0/7 SKIP (no directory)
+- 03: 0/5 SKIP (no directory)
+- 04: 0/4 SKIP (no directory)
+- 05: 0/5 SKIP (no directory)
+- 06: 0/4 SKIP (no directory)
+- 07: 0/4 SKIP (no directory)
+- 08: 0/13 SKIP (no directory)
 
 ### assignment02
 
-- 01: 0/6 FAIL
-
-  ```
-  compile error: In file included from test.cpp:6:
-  ./Line.h:3:10: fatal error: 'point.h' file not found
-      3 | #include "point.h"
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 02: 0/5 FAIL
-
-  ```
-  compile error: test.cpp:5:10: fatal error: 'car.h' file not found
-      5 | #include "car.h"
-        |          ^~~~~~~
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 03: 0/6 FAIL
-
-  ```
-  compile error: In file included from test.cpp:7:
-  ./Phone.h:3:10: fatal error: 'battery.h' file not found
-      3 | #include "battery.h"
-  ```
-
-  > **Note**: Make sure you are compiling and testing inside the Docker environment. File names are case-sensitive on Linux.
-
-- 04: 13/13 PASS
+- 01: 0/6 SKIP (no directory)
+- 02: 0/5 SKIP (no directory)
+- 03: 0/6 SKIP (no directory)
+- 04: 0/13 SKIP (no directory)
 
 - **assignment01 notes**: 7/7 (100%) (OK)
-- **assignment02 notes**: 0/7 (0%) missing: L01, L02, L03, L04, L05, L06, L07
-- **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
+- **assignment02 notes**: 7/7 (100%) (OK)
+- **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 14/144 (10%)
-**Overall notes**: 7/18 (39%)
+**Overall exercises**: 0/144 (0%)
+**Overall notes**: 18/18 (100%)
 
 ## 🐙
 
@@ -802,12 +712,21 @@ Last updated at 2026-04-25 13:19 - If some notes or exercise missing, please che
 - 03: 6/6 PASS
 - 04: 13/13 PASS
 
+### assignment03
+
+- 01: 4/4 PASS
+- 02: 7/7 PASS
+- 03: 5/5 PASS
+- 04: 9/9 PASS
+- 05: 7/7 PASS
+- 06: 7/7 PASS
+
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
-- **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
+- **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 73/144 (51%)
-**Overall notes**: 14/18 (78%)
+**Overall exercises**: 112/144 (78%)
+**Overall notes**: 18/18 (100%)
 
 ## 🐘
 
@@ -822,12 +741,12 @@ Last updated at 2026-04-25 13:19 - If some notes or exercise missing, please che
 - 07: 0/4 SKIP (no directory)
 - 08: 0/13 SKIP (no directory)
 
-- **assignment01 notes**: 3/7 (43%) missing: L04, L05, L06, L07
+- **assignment01 notes**: 6/7 (86%) missing: L07
 - **assignment02 notes**: 0/7 (0%) missing: L01, L02, L03, L04, L05, L06, L07
 - **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
 
 **Overall exercises**: 13/144 (9%)
-**Overall notes**: 3/18 (17%)
+**Overall notes**: 6/18 (33%)
 
 ## 🐸
 
@@ -842,7 +761,7 @@ Last updated at 2026-04-25 13:19 - If some notes or exercise missing, please che
 - 07: 0/4 FAIL
 
   ```
-  compile error: /usr/bin/ld: /tmp/test-e7cbb0.o: in function `main':
+  compile error: /usr/bin/ld: /tmp/test-96794c.o: in function `main':
   test.cpp:(.text+0xe0): undefined reference to `operator<<(std::ostream&, Point const&)'
   /usr/bin/ld: test.cpp:(.text+0x1a4): undefined reference to `operator==(Point const&, Point const&)'
   ```
