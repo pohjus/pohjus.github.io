@@ -15,23 +15,17 @@ Each assignment builds on the previous one.
 
 ## Agenda
 
-### Time Usage
-
-- Course is three (3) credits, where one (1) credit is ~27h of work. Total: 3 x 27h = 81h
-- The total work amount is for an _average student_, so one student may finish quicker while for another it may take more time
-- The time estimate assumes you complete ALL assignments and video notes. **You can pass the course by doing part of the assignments.**
-
-| Topics                                              | Assignment                     | Points  | Videos      | Notes       | Videos + notes     | Exercises | Avg/exercise | Total    |
-| --------------------------------------------------- | ------------------------------ | ------- | ----------- | ----------- | ------------------ | --------- | ------------ | -------- |
-| Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) | 31      | 73 min      | 73 min      | 146 min            | ~7h       | ~42 min      | ~9h      |
-| Boolean algebra, control structures, switch         | [Assignment 02](assignment02/) | 38      | 69 min      | 69 min      | 138 min            | ~9h       | ~60 min      | ~11h     |
-| Strings                                             | [Assignment 03](assignment03/) | 26      | 25 min      | 25 min      | 50 min             | ~8h       | ~60 min      | ~9h      |
-| Arrays and Exceptions                               | [Assignment 04](assignment04/) | 37      | 40 min      | 40 min      | 80 min             | ~10h      | ~67 min      | ~11h     |
-| Methods                                             | [Assignment 05](assignment05/) | 48      | 27 min      | 27 min      | 54 min             | ~6h       | ~36 min      | ~7h      |
-| 2D arrays and Recap                                 | [Assignment 06](assignment06/) | 33      | 10 min      | 10 min      | 20 min             | ~9h       | ~54 min      | ~9h      |
-| Object Oriented Programming - part 1                | [Assignment 07](assignment07/) | 40      | 42 min      | 42 min      | 84 min             | ~10h      | ~60 min      | ~11h     |
-| Object Oriented Programming - part 2                | [Assignment 08](assignment08/) | 29      | 40 min      | 40 min      | 80 min             | ~11h      | ~55 min      | ~12h     |
-| **Total**                                           |                                | **282** | **326 min** | **326 min** | **652 min (~11h)** | **~70h**  | **~54 min**  | **~81h** |
+| Topics                                              | Assignment                     | Points  |
+| --------------------------------------------------- | ------------------------------ | ------- |
+| Variables, input/output, if statements, while loops | [Assignment 01](assignment01/) | 31      |
+| Boolean algebra, control structures, switch         | [Assignment 02](assignment02/) | 38      |
+| Strings                                             | [Assignment 03](assignment03/) | 26      |
+| Arrays and Exceptions                               | [Assignment 04](assignment04/) | 37      |
+| Methods                                             | [Assignment 05](assignment05/) | 48      |
+| 2D arrays and Recap                                 | [Assignment 06](assignment06/) | 33      |
+| Object Oriented Programming - part 1                | [Assignment 07](assignment07/) | 40      |
+| Object Oriented Programming - part 2                | [Assignment 08](assignment08/) | 29      |
+| **Total**                                           |                                | **282** |
 
 ## Course Requirements
 
