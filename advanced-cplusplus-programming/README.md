@@ -16,6 +16,9 @@
 | Inheritance, access control, virtual functions, polymorphism | [Assignment 03](assignment03/README.md) |
 | Recap                                                        | [Assignment 04](assignment04/README.md) |
 
+
+
+Download templates for all assignments: [`assignments.zip`](zips/assignments.zip)
 ## Course Requirements
 
 To successfully complete the course, you must:
