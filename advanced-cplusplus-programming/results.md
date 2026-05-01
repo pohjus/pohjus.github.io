@@ -1,61 +1,61 @@
 | Emoji | Ex 01 | Notes 01 | Ex 02 | Notes 02 | Ex 03 | Notes 03 | Ex 04 | Exercises | Notes | Exercises % | Notes % |
 | -----: | -----: | --------: | -----: | --------: | -----: | --------: | -----: | ---------: | -----: | -----------: | -------: |
-|     🐠 | 25/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    25/144 | 18/18 |         17% |    100% |
-|     🦕 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
-|     🐻 | 42/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    64/144 | 18/18 |         44% |    100% |
-|     🦐 | 43/43 |      0/7 | 30/30 |      0/7 | 25/39 |      0/4 |  0/32 |    98/144 |  0/18 |         68% |      0% |
-|     🐓 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🦮 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦘 |  0/43 |      5/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  5/18 |          0% |     28% |
+|     🐪 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
 |     🐕 | 43/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    43/144 |  7/18 |         30% |     39% |
-|     🐸 | 39/43 |      7/7 | 25/30 |      7/7 | 39/39 |      4/4 |  0/32 |   103/144 | 18/18 |         72% |    100% |
-|     🐢 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
-|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
-|     🐮 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🦋 | 29/43 |      7/7 | 30/30 |      7/7 | 32/39 |      4/4 | 22/32 |   113/144 | 18/18 |         78% |    100% |
-|     🐨 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦚 | 30/43 |      7/7 | 30/30 |      7/7 | 35/39 |      4/4 |  0/32 |    95/144 | 18/18 |         66% |    100% |
+|     🐖 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐟 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐴 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      0/4 |  0/32 |    60/144 | 14/18 |         42% |     78% |
+|     🦟 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
+|     🦈 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   112/144 | 18/18 |         78% |    100% |
 |     🦉 |  0/43 |      7/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  7/18 |          0% |     39% |
+|     🐨 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦋 | 29/43 |      7/7 | 30/30 |      7/7 | 32/39 |      4/4 | 22/32 |   113/144 | 18/18 |         78% |    100% |
+|     🐛 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐊 | 43/43 |      7/7 | 24/30 |      7/7 |  0/39 |      4/4 |  0/32 |    67/144 | 18/18 |         47% |    100% |
+|     🐫 | 22/43 |      7/7 | 17/30 |      7/7 | 25/39 |      4/4 |  0/32 |    64/144 | 18/18 |         44% |    100% |
+|     🦍 | 43/43 |      7/7 | 30/30 |      7/7 | 11/39 |      4/4 |  0/32 |    84/144 | 18/18 |         58% |    100% |
+|     🦐 | 43/43 |      0/7 | 30/30 |      0/7 | 25/39 |      0/4 |  0/32 |    98/144 |  0/18 |         68% |      0% |
+|     🐯 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
 |     🐜 | 36/43 |      7/7 | 24/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
-|     🦏 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🦢 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🐠 | 25/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    25/144 | 18/18 |         17% |    100% |
+|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🐘 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |    43/144 | 18/18 |         30% |    100% |
 |     🐗 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🦕 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
 |    🕷️ | 26/43 |      7/7 |  0/30 |      7/7 | 39/39 |      4/4 |  0/32 |    65/144 | 18/18 |         45% |    100% |
 |     🦡 | 43/43 |      7/7 | 25/30 |      7/7 | 16/39 |      3/4 |  0/32 |    84/144 | 17/18 |         58% |     94% |
-|     🦞 | 30/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 | 22/32 |    69/144 | 18/18 |         48% |    100% |
-|     🦆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
 |     🐎 | 38/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |   107/144 | 18/18 |         74% |    100% |
 |     🦨 |  8/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     8/144 |  0/18 |          6% |      0% |
-|     🐛 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐡 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐖 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🦢 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🐟 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🦧 | 43/43 |      7/7 | 12/30 |      7/7 |  4/39 |      4/4 |  0/32 |    59/144 | 18/18 |         41% |    100% |
-|     🐊 | 43/43 |      7/7 | 24/30 |      7/7 |  0/39 |      4/4 |  0/32 |    67/144 | 18/18 |         47% |    100% |
-|     🐐 | 35/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    35/144 |  0/18 |         24% |      0% |
-|     🦈 | 29/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  0/32 |    98/144 | 18/18 |         68% |    100% |
-|     🐪 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
-|     🐷 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
-|     🦚 | 30/43 |      7/7 | 30/30 |      7/7 | 35/39 |      4/4 |  0/32 |    95/144 | 18/18 |         66% |    100% |
-|     🐅 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    43/144 | 14/18 |         30% |     78% |
-|     🐃 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
-|     🦇 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
-|     🦘 |  0/43 |      3/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  3/18 |          0% |     17% |
-|     🦍 | 43/43 |      7/7 | 30/30 |      7/7 | 11/39 |      4/4 |  0/32 |    84/144 | 18/18 |         58% |    100% |
-|     🦟 |  0/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |     0/144 |  0/18 |          0% |      0% |
-|     🐫 | 22/43 |      7/7 | 17/30 |      7/7 | 25/39 |      4/4 |  0/32 |    64/144 | 18/18 |         44% |    100% |
-|     🐞 | 43/43 |      7/7 |  0/30 |      7/7 | 16/39 |      4/4 |  0/32 |    59/144 | 18/18 |         41% |    100% |
-|     🐶 | 12/43 |      7/7 |  0/30 |      7/7 | 35/39 |      4/4 | 16/32 |    63/144 | 18/18 |         44% |    100% |
-|     🦖 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
-|     🐯 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
-|     🦑 | 29/43 |      0/7 |  0/30 |      0/7 | 14/39 |      0/4 | 22/32 |    65/144 |  0/18 |         45% |      0% |
-|     🐴 | 43/43 |      7/7 |  0/30 |      7/7 |  0/39 |      0/4 |  0/32 |    43/144 | 14/18 |         30% |     78% |
+|     🐅 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
 |     🐼 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 |  6/32 |   118/144 | 18/18 |         82% |    100% |
-|     🐋 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦖 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐸 | 39/43 |      7/7 | 25/30 |      7/7 | 39/39 |      4/4 |  0/32 |   103/144 | 18/18 |         72% |    100% |
 |     🐄 | 43/43 |      7/7 | 24/30 |      7/7 |  0/39 |      4/4 |  0/32 |    67/144 | 18/18 |         47% |    100% |
-|     🐘 | 22/43 |      7/7 |  0/30 |      7/7 |  0/39 |      1/4 |  0/32 |    22/144 | 15/18 |         15% |     83% |
+|     🐆 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🦇 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
+|     🐮 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🦏 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🐶 | 12/43 |      7/7 |  0/30 |      7/7 | 35/39 |      4/4 | 16/32 |    63/144 | 18/18 |         44% |    100% |
+|     🦑 | 29/43 |      0/7 |  0/30 |      0/7 | 14/39 |      0/4 | 22/32 |    65/144 |  0/18 |         45% |      0% |
+|     🦞 | 30/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 | 22/32 |    69/144 | 18/18 |         48% |    100% |
+|     🐃 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
+|     🐞 | 43/43 |      7/7 |  0/30 |      7/7 | 16/39 |      4/4 |  0/32 |    59/144 | 18/18 |         41% |    100% |
+|     🐙 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🦧 | 43/43 |      7/7 | 12/30 |      7/7 |  4/39 |      4/4 |  0/32 |    59/144 | 18/18 |         41% |    100% |
+|     🦮 | 43/43 |      7/7 | 30/30 |      7/7 | 39/39 |      4/4 | 32/32 |   144/144 | 18/18 |        100% |    100% |
+|     🐓 |  0/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 |  0/32 |     0/144 | 18/18 |          0% |    100% |
+|     🐷 |  0/43 |      0/7 | 30/30 |      0/7 |  0/39 |      0/4 |  0/32 |    30/144 |  0/18 |         21% |      0% |
 |     🐂 | 30/43 |      7/7 | 30/30 |      7/7 | 32/39 |      4/4 | 32/32 |   124/144 | 18/18 |         86% |    100% |
+|     🐻 | 42/43 |      7/7 |  0/30 |      7/7 |  0/39 |      4/4 | 22/32 |    64/144 | 18/18 |         44% |    100% |
+|     🐐 | 35/43 |      0/7 |  0/30 |      0/7 |  0/39 |      0/4 |  0/32 |    35/144 |  0/18 |         24% |      0% |
+|     🐡 | 43/43 |      7/7 | 30/30 |      7/7 |  0/39 |      4/4 |  0/32 |    73/144 | 18/18 |         51% |    100% |
+|     🐢 | 43/43 |      7/7 | 17/30 |      7/7 |  0/39 |      4/4 |  0/32 |    60/144 | 18/18 |         42% |    100% |
 
-Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher. This page is updated manually by the teacher, not automatically. May take some time, for example during weekends or holidays.
+Last updated at 2026-05-01 17:10 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme before contacting the teacher. This page is updated manually by the teacher, not automatically. May take some time, for example during weekends or holidays.
 
 ## 🦡
 
@@ -219,11 +219,18 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 07: 4/4 PASS
 - 08: 13/13 PASS
 
+### assignment02
+
+- 01: 6/6 PASS
+- 02: 5/5 PASS
+- 03: 6/6 PASS
+- 04: 0/13 SKIP (no directory)
+
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 43/144 (30%)
+**Overall exercises**: 60/144 (42%)
 **Overall notes**: 18/18 (100%)
 
 ## 🐂
@@ -389,21 +396,14 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 
 ### assignment01
 
-- 01: 0/1 SKIP (no directory)
+- 01: 1/1 PASS
 - 02: 7/7 PASS
 - 03: 5/5 PASS
 - 04: 4/4 PASS
 - 05: 5/5 PASS
 - 06: 4/4 PASS
 - 07: 4/4 PASS
-- 08: 0/13 FAIL
-
-  ```
-  PASS: default constructor values
-  PASS: toString for empty owner
-  PASS: parameterized constructor values
-  ```
-
+- 08: 13/13 PASS
 
 ### assignment02
 
@@ -425,7 +425,7 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 98/144 (68%)
+**Overall exercises**: 112/144 (78%)
 **Overall notes**: 18/18 (100%)
 
 ## 🦟
@@ -479,8 +479,8 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 02: 0/7 FAIL
 
   ```
-  compile error: /usr/bin/ld: /tmp/Main-286bb6.o: in function `main':
-  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-013df8.o:test.cpp:(.text+0x0): first defined here
+  compile error: /usr/bin/ld: /tmp/Main-aab735.o: in function `main':
+  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-f30ec2.o:test.cpp:(.text+0x0): first defined here
   clang++: error: linker command failed with exit code 1 (use -v to see invocation)
   ```
 
@@ -549,30 +549,9 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 
 ### assignment02
 
-- 01: 0/6 FAIL
-
-  ```
-  compile error: /usr/bin/ld: /tmp/Main-84ace9.o: in function `main':
-  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-8c1c16.o:test.cpp:(.text+0x0): first defined here
-  clang++: error: linker command failed with exit code 1 (use -v to see invocation)
-  ```
-
-- 02: 0/5 FAIL
-
-  ```
-  compile error: /usr/bin/ld: /tmp/Main-8b6c37.o: in function `main':
-  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-e1edb9.o:test.cpp:(.text+0x0): first defined here
-  clang++: error: linker command failed with exit code 1 (use -v to see invocation)
-  ```
-
-- 03: 0/6 FAIL
-
-  ```
-  compile error: /usr/bin/ld: /tmp/Main-167f84.o: in function `main':
-  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-6d0efa.o:test.cpp:(.text+0x0): first defined here
-  clang++: error: linker command failed with exit code 1 (use -v to see invocation)
-  ```
-
+- 01: 6/6 PASS
+- 02: 5/5 PASS
+- 03: 6/6 PASS
 - 04: 0/13 FAIL
 
   ```
@@ -586,10 +565,10 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
-- **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
+- **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 43/144 (30%)
-**Overall notes**: 14/18 (78%)
+**Overall exercises**: 60/144 (42%)
+**Overall notes**: 18/18 (100%)
 
 ## 🐊
 
@@ -702,6 +681,13 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 06: 0/4 SKIP (no directory)
 - 07: 0/4 SKIP (no directory)
 - 08: 0/13 SKIP (no directory)
+
+### assignment02
+
+- 01: 0/6 SKIP (no directory)
+- 02: 0/5 SKIP (no directory)
+- 03: 0/6 SKIP (no directory)
+- 04: 0/13 SKIP (no directory)
 
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
@@ -853,12 +839,12 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 ## 🦘
 
 
-- **assignment01 notes**: 3/7 (43%) missing: L04, L05, L06, L07
+- **assignment01 notes**: 5/7 (71%) missing: L06, L07
 - **assignment02 notes**: 0/7 (0%) missing: L01, L02, L03, L04, L05, L06, L07
 - **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
 
 **Overall exercises**: 0/144 (0%)
-**Overall notes**: 3/18 (17%)
+**Overall notes**: 5/18 (28%)
 
 ## 🐎
 
@@ -1377,16 +1363,16 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 03: 5/5 PASS
 - 04: 4/4 PASS
 - 05: 5/5 PASS
-- 06: 0/4 SKIP (no directory)
-- 07: 0/4 SKIP (no directory)
-- 08: 0/13 SKIP (no directory)
+- 06: 4/4 PASS
+- 07: 4/4 PASS
+- 08: 13/13 PASS
 
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
-- **assignment03 notes**: 1/4 (25%) missing: L02, L03, L04
+- **assignment03 notes**: 4/4 (100%) (OK)
 
-**Overall exercises**: 22/144 (15%)
-**Overall notes**: 15/18 (83%)
+**Overall exercises**: 43/144 (30%)
+**Overall notes**: 18/18 (100%)
 
 ## 🐸
 
@@ -1401,7 +1387,7 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 07: 0/4 FAIL
 
   ```
-  compile error: /usr/bin/ld: /tmp/test-ac8f59.o: in function `main':
+  compile error: /usr/bin/ld: /tmp/test-50e58c.o: in function `main':
   test.cpp:(.text+0xe0): undefined reference to `operator<<(std::ostream&, Point const&)'
   /usr/bin/ld: test.cpp:(.text+0x1a4): undefined reference to `operator==(Point const&, Point const&)'
   ```
@@ -1497,11 +1483,18 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 07: 0/4 SKIP (no directory)
 - 08: 0/13 SKIP (no directory)
 
+### assignment02
+
+- 01: 6/6 PASS
+- 02: 5/5 PASS
+- 03: 6/6 PASS
+- 04: 13/13 PASS
+
 - **assignment01 notes**: 0/7 (0%) missing: L01, L02, L03, L04, L05, L06, L07
 - **assignment02 notes**: 0/7 (0%) missing: L01, L02, L03, L04, L05, L06, L07
 - **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
 
-**Overall exercises**: 0/144 (0%)
+**Overall exercises**: 30/144 (21%)
 **Overall notes**: 0/18 (0%)
 
 ## 🦧
@@ -1625,11 +1618,18 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 07: 4/4 PASS
 - 08: 13/13 PASS
 
+### assignment02
+
+- 01: 6/6 PASS
+- 02: 5/5 PASS
+- 03: 6/6 PASS
+- 04: 0/13 SKIP (no directory)
+
 - **assignment01 notes**: 7/7 (100%) (OK)
 - **assignment02 notes**: 7/7 (100%) (OK)
 - **assignment03 notes**: 0/4 (0%) missing: L01, L02, L03, L04
 
-**Overall exercises**: 43/144 (30%)
+**Overall exercises**: 60/144 (42%)
 **Overall notes**: 14/18 (78%)
 
 ## 🐟
@@ -2029,8 +2029,8 @@ Last updated at 2026-05-01 10:30 - If some notes or exercise missing, please che
 - 04: 0/10 FAIL
 
   ```
-  compile error: /usr/bin/ld: /tmp/Main-94725a.o: in function `main':
-  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-43227b.o:test.cpp:(.text+0x0): first defined here
+  compile error: /usr/bin/ld: /tmp/Main-c9ae92.o: in function `main':
+  Main.cpp:(.text+0x0): multiple definition of `main'; /tmp/test-c27f64.o:test.cpp:(.text+0x0): first defined here
   clang++: error: linker command failed with exit code 1 (use -v to see invocation)
   ```
 
