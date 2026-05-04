@@ -6,7 +6,7 @@ void main() throws Exception {
 
     total++;
     var output = run("5\n");
-    var count = output.lines()
+    var count = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .filter(line -> line.trim().equals("Batman"))
         .count();
     if (count == 5) {
@@ -18,7 +18,7 @@ void main() throws Exception {
 
     total++;
     output = run("1\n");
-    count = output.lines()
+    count = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .filter(line -> line.trim().equals("Batman"))
         .count();
     if (count == 1) {
@@ -30,7 +30,7 @@ void main() throws Exception {
 
     total++;
     output = run("0\n");
-    count = output.lines()
+    count = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .filter(line -> line.trim().equals("Batman"))
         .count();
     if (count == 0) {

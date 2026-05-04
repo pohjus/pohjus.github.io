@@ -54,10 +54,10 @@ void main() throws Exception {
 }
 
 String getLastNonPromptLine(String output) {
-    var lines = output.lines()
+    var cleaned = output.replaceAll("Enter[^:]*:\\s*", "");
+    var lines = cleaned.lines()
         .map(String::trim)
         .filter(line -> !line.isEmpty())
-        .filter(line -> !line.startsWith("Enter"))
         .toList();
     return lines.isEmpty() ? "(empty)" : lines.get(lines.size() - 1);
 }
