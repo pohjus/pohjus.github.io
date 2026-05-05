@@ -7,7 +7,7 @@ void main() throws Exception {
 
     total++;
     var output = run("5\n10\n");
-    var numLines = output.lines()
+    var numLines = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .map(String::trim)
         .filter(line -> line.matches("-?\\d+"))
         .toList();
@@ -20,7 +20,7 @@ void main() throws Exception {
 
     total++;
     output = run("2\n-3\n");
-    numLines = output.lines()
+    numLines = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .map(String::trim)
         .filter(line -> line.matches("-?\\d+"))
         .toList();
@@ -33,7 +33,7 @@ void main() throws Exception {
 
     total++;
     output = run("3\n3\n");
-    numLines = output.lines()
+    numLines = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .map(String::trim)
         .filter(line -> line.matches("-?\\d+"))
         .toList();

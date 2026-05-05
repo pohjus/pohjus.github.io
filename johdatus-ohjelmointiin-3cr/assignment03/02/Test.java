@@ -7,7 +7,7 @@ void main() throws Exception {
 
     total++;
     var output = run("Otto\n");
-    var singleChars = output.lines()
+    var singleChars = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .map(String::trim)
         .filter(line -> line.length() == 1)
         .toList();
@@ -20,7 +20,7 @@ void main() throws Exception {
 
     total++;
     output = run("AB\n");
-    singleChars = output.lines()
+    singleChars = output.replaceAll("Enter[^:]*:\\s*", "").lines()
         .map(String::trim)
         .filter(line -> line.length() == 1)
         .toList();
