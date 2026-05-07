@@ -311,6 +311,8 @@ Never share your student ID, email, credentials, or confidential information on 
 
 Follow [Arene AI Traffic Light Model](https://sites.tuni.fi/vinkkipankki/tekoaly/liikennevalomalli-nain-ohjeistat-opiskelijoita-tekoalyn-kaytossa/) "Yellow Rule": "The use of AI is allowed, but it must be disclosed."
 
+_Last updated: 2026-05-07 10:53_
+
 ## License
 
 > Copyright (c) 2026. All rights reserved.
