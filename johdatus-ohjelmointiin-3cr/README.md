@@ -43,6 +43,20 @@ Each assignment builds on the previous one.
 - Incorrect filenames result in automatic rejection.
 - Submit video notes together with the assignment zip.
 
+### Required Notes per Assignment
+
+| Assignment | Count | Files |
+| ---------- | ----- | ----- |
+| Assignment 01 | 6 | `notes/video01.pdf` – `notes/video06.pdf` |
+| Assignment 02 | 7 | `notes/video01.pdf` – `notes/video07.pdf` |
+| Assignment 03 | 3 | `notes/video01.pdf` – `notes/video03.pdf` |
+| Assignment 04 | 5 | `notes/video01.pdf` – `notes/video05.pdf` |
+| Assignment 05 | 3 | `notes/video01.pdf` – `notes/video03.pdf` |
+| Assignment 06 | 1 | `notes/video01.pdf` |
+| Assignment 07 | 5 | `notes/video01.pdf` – `notes/video05.pdf` |
+| Assignment 08 | 5 | `notes/video01.pdf` – `notes/video05.pdf` |
+| **Total** | **35** | |
+
 ### Assignment Submission
 
 Submit **one zip file per assignment** (8 zips total over the course).
