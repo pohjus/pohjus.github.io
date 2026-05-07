@@ -35,7 +35,7 @@ Each assignment builds on the previous one.
 ### Handwritten Video Notes
 
 - Each assignment includes links to short YouTube videos - write handwritten notes about these.
-- Handwritten notes must be on pen and paper (not digital)
+- Handwritten notes must be written by hand: pen and paper, or a tablet with a stylus. Handwriting must be clearly visible. Typed notes are not accepted.
 - Must include main topics from the video.
 - Submit as PDFs with images of handwritten notes.
 - File format: `notes/video01.pdf`, `notes/video02.pdf`, etc. Place all video note PDFs in a `notes/` subfolder inside the assignment folder.
