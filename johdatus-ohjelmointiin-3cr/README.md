@@ -208,6 +208,16 @@ You must have returned 70% of video notes.
 | 4     | 80%        |
 | 5     | 90%        |
 
+## Results
+
+After your first assignment is graded, you will receive an email containing:
+
+- a unique emoji that identifies you on the results page
+- a link to the results page
+
+The results page is updated manually, so updates may be delayed, especially during teacher holidays.
+You are required to check it yourself to track your accumulated points.
+
 ## Tools
 
 ### Installing Java
