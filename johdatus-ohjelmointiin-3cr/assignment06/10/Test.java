@@ -1,20 +1,16 @@
 import java.util.concurrent.TimeUnit;
 
 void main() throws Exception {
-    int passed = 0;
-    int total = 0;
+    String out = run(null);
 
-    total++;
-    String out1 = run(null);
-    if (out1.contains("sum = 10")) passed++;
+    if (out.contains("sum = 10")) IO.println("PASS: contains sum = 10");
+    else IO.println("FAIL: contains sum = 10");
 
-    total++;
-    if (out1.contains("sum = 26")) passed++;
+    if (out.contains("sum = 26")) IO.println("PASS: contains sum = 26");
+    else IO.println("FAIL: contains sum = 26");
 
-    total++;
-    if (out1.contains("1 2 3 4")) passed++;
-
-    IO.println("Exercise 10: " + passed + "/" + total + " passed");
+    if (out.contains("1 2 3 4")) IO.println("PASS: contains 1 2 3 4");
+    else IO.println("FAIL: contains 1 2 3 4");
 }
 
 String run(String input) throws Exception {

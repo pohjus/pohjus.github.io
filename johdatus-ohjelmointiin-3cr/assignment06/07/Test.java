@@ -1,22 +1,17 @@
 import java.util.concurrent.TimeUnit;
 
 void main() throws Exception {
-    int passed = 0;
-    int total = 0;
-
-    total++;
     String out1 = run("3\n7\n");
-    if (out1.contains("it was ten") && !out1.contains("not")) passed++;
+    if (out1.contains("it was ten") && !out1.contains("not")) IO.println("PASS: 3+7=10 recognized as ten");
+    else IO.println("FAIL: 3+7=10 recognized as ten");
 
-    total++;
     String out2 = run("1\n2\n");
-    if (out2.contains("it was not ten")) passed++;
+    if (out2.contains("it was not ten")) IO.println("PASS: 1+2=3 recognized as not ten");
+    else IO.println("FAIL: 1+2=3 recognized as not ten");
 
-    total++;
     String out3 = run("5\n5\n");
-    if (out3.contains("it was ten") && !out3.contains("not")) passed++;
-
-    IO.println("Exercise 07: " + passed + "/" + total + " passed");
+    if (out3.contains("it was ten") && !out3.contains("not")) IO.println("PASS: 5+5=10 recognized as ten");
+    else IO.println("FAIL: 5+5=10 recognized as ten");
 }
 
 String run(String input) throws Exception {

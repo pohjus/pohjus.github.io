@@ -1,30 +1,25 @@
 import java.util.concurrent.TimeUnit;
 
 void main() throws Exception {
-    int passed = 0;
-    int total = 0;
-
     String out = run(null);
-
-    total++;
-    if (out.contains("*******")) passed++;
-
-    total++;
     String[] lines = out.strip().split("\n");
+
+    if (out.contains("*******")) IO.println("PASS: output contains a 7-star line");
+    else IO.println("FAIL: output contains a 7-star line");
+
     int count = 0;
     for (String line : lines) {
         if (line.contains("*******")) count++;
     }
-    if (count == 3) passed++;
+    if (count == 3) IO.println("PASS: exactly 3 lines with 7 stars");
+    else IO.println("FAIL: exactly 3 lines with 7 stars");
 
-    total++;
     boolean hasEight = false;
     for (String line : lines) {
         if (line.contains("********")) hasEight = true;
     }
-    if (!hasEight) passed++;
-
-    IO.println("Exercise 09: " + passed + "/" + total + " passed");
+    if (!hasEight) IO.println("PASS: no line exceeds 7 stars");
+    else IO.println("FAIL: no line exceeds 7 stars");
 }
 
 String run(String input) throws Exception {
