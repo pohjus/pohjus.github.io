@@ -20,13 +20,7 @@
 
 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (4/4) | ❎ 2/4 | ✅ (5/5) | ✅ (2/2) | ✅ (4/4) | ✅ (2/2) | ✅ (5/5) | ✅ (7/7) | ✅ (5/5) | **36/38** |
-
-**02** — 2/4 passed
-```
-FAIL: expected 'The dog is of exceptional age.' for age 2, got: Enter dog's age: The dog is of exceptional age
-FAIL: expected 'The dog is of exceptional age.' for age 11, got: Enter dog's age: The dog is of exceptional age
-```
+| ✅ (4/4) | ✅ (4/4) | ✅ (5/5) | ✅ (2/2) | ✅ (4/4) | ✅ (2/2) | ✅ (5/5) | ✅ (7/7) | ✅ (5/5) | **38/38** |
 
 #### Notes
 
@@ -68,16 +62,7 @@ FAIL: expected 'The dog is of exceptional age.' for age 11, got: Enter dog's age
 
 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (5/5) | ❎ 0/5 | ✅ (5/5) | ✅ (4/4) | ✅ (7/7) | ✅ (6/6) | ✅ (6/6) | ✅ (3/3) | ✅ (3/3) | ✅ (4/4) | **43/48** |
-
-**02** — 0/5 passed
-```
-FAIL: expected a 'void printGreeting()' method in Main.java
-FAIL: expected a 'void printName()' method in Main.java
-FAIL: expected 'Hello' in output, got 'Enter name: null'
-FAIL: no line matches 'Hello <name>', got 'Enter name: null'
-FAIL: expected greeting and name on one line
-```
+| ✅ (5/5) | ✅ (5/5) | ✅ (5/5) | ✅ (4/4) | ✅ (7/7) | ✅ (6/6) | ✅ (6/6) | ✅ (3/3) | ✅ (3/3) | ✅ (4/4) | **48/48** |
 
 #### Notes
 
@@ -105,12 +90,7 @@ FAIL: expected greeting and name on one line
 
 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (5/5) | ✅ (4/4) | ✅ (3/3) | ✅ (4/4) | ✅ (6/6) | ✅ (5/5) | ✅ (4/4) | ✅ (2/2) | ✅ (3/3) | ❎ 3/4 | **39/40** |
-
-**10** — 3/4 passed
-```
-FAIL: expected 'Total area: 15', got: Rectangle 1 - Enter width: Rectangle 1 - Enter height: Rectangle 1 - Enter width: Rectangle 1 - Enter height: Rectangle 2 - Enter width: Rectangle 2 - Enter height: Rectangle 3 - Enter width: Rectangle 3 - Enter height: Rectangle 4 - Enter width: Rectangle 4 - Enter height: Rectangle 5 - Enter width: Rectangle 5 - Enter height: Rectangle 6 - Enter width: Rectangle 6 - Enter height: Rectangle 7 - Enter width: Rectangle 7 - Enter height: Rectangle 8 - Enter width: Rectangle 8 - Enter height: Rectangle 9 - Enter width: Rectangle 9 - Enter height: Rectangle 10 - Enter width: Rectangle 10 - Enter height: Total area: 9
-```
+| ✅ (5/5) | ✅ (4/4) | ✅ (3/3) | ✅ (4/4) | ✅ (6/6) | ✅ (5/5) | ✅ (4/4) | ✅ (2/2) | ✅ (3/3) | ✅ (4/4) | **40/40** |
 
 #### Notes
 
