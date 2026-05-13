@@ -3,13 +3,12 @@
 ## **Attendance and Punctuality**
 
 - Arrive **on time** for lectures.
-- Training sessions starts 15 minutes earlier than in calendar. For example if reservation is in calendar `09:00`, session starts at `08:45`.
-- **Within the first 15 minutes** of the lecture (for example 8.45-9.00):
+- **Within the first 10 minutes** of the lecture (for example 9.00-9.15):
   - Mark your physical presence in the provided **Google Sheet**.
   - **Important:** Only mark yourself present if you are physically in class.
-- After **15 minutes**, for example at 9.00, the **Google Sheet will be locked**, and attendance cannot be marked.
+- After **15 minutes**, for example at 9.15, the **Google Sheet will be locked**, and attendance cannot be marked.
 - **Latecomers** will not be able to register their attendance. For example, if you come
-  to class at 9.01, you are 16 minutes late and not entitled to points.
+  to class at 9.16, you are 16 minutes late and not entitled to points.
 - **Push exercises** to **GitHub** before the deadline.
 
 ---
