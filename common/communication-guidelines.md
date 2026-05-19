@@ -1,6 +1,6 @@
 # 💬 Communication
 
-- **Preferred method:** Use **Slack** for communication.
+- **Preferred method:** Use **Teams / slack / teams** for communication.
 - **For security-sensitive matters:** Use **email** instead.
 
 ## Best Practices for Asking Programming Questions on Email
@@ -100,7 +100,7 @@ Ryhmä: 25TIKOOT1
 
 ## Best Practices for informing absence from Lecture
 
-If possible, try to inform this via Slack. 
+If possible, try to inform this via slack / teams. 
 
 If using e-mail, please use `[course identifier]` in your subject line! Lack of course name or code means that teacher does not know what course does student belong to.
 
@@ -142,19 +142,19 @@ Ryhmä: 25TIKOOT1
 
 
 
-## Best Practices for Asking Programming Questions on Slack
+## Best Practices for Asking Programming Questions on slack / teams
 
 > Helping you get faster, better answers by asking smart questions.
 
-To facilitate effective and efficient communication on Slack, especially regarding programming questions, follow these guidelines when seeking assistance.
+To facilitate effective and efficient communication on slack / teams, especially regarding programming questions, follow these guidelines when seeking assistance.
 
-### Good Example of Slack usage:
+### Good Example of slack / teams usage:
 
-![](images/good-example-slack.png)
+![](images/good-example-slack / teams.png)
 
-### Bad Example of Slack usage:
+### Bad Example of slack / teams usage:
 
-![](images/bad-example-slack.png)
+![](images/bad-example-slack / teams.png)
 
 ---
 
@@ -174,7 +174,7 @@ To facilitate effective and efficient communication on Slack, especially regardi
 
 ### 3️⃣ Format Your Question Properly
 
-- **Code Blocks:** Use Slack's code block (triple backticks ```) for sharing code or error messages to improve readability.
+- **Code Blocks:** Use slack / teams's code block (triple backticks ```) for sharing code or error messages to improve readability.
 - **Screenshots:** Include screenshots when necessary, but prefer text for logs and code snippets so they can be copied and searched.
 
 ### 4️⃣ Tag People and Use Channels Wisely
@@ -209,4 +209,4 @@ To facilitate effective and efficient communication on Slack, especially regardi
 - [ ] Did I format everything clearly using code blocks?
 - [ ] Did I include commands how to reproduce the error?
 
-By following these best practices, you'll make it easier for others to understand and help with your programming questions, leading to more effective problem-solving on Slack.
+By following these best practices, you'll make it easier for others to understand and help with your programming questions, leading to more effective problem-solving on slack / teams.
