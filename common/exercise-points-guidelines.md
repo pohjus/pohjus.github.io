@@ -3,7 +3,7 @@
 ## **Attendance and Punctuality**
 
 - Arrive **on time** for lectures.
-- **Within the first 10 minutes** of the lecture (for example 9.00-9.15):
+- **Within the first 15 minutes** of the lecture (for example 9.00-9.15):
   - Mark your physical presence in the provided **Google Sheet**.
   - **Important:** Only mark yourself present if you are physically in class.
 - After **15 minutes**, for example at 9.15, the **Google Sheet will be locked**, and attendance cannot be marked.
