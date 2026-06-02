@@ -1,8 +1,9 @@
 | Emoji | A1 | A2 | A3 | A4 | A5 | A6 | A7 | A8 | N1 | N2 | N3 | N4 | N5 | N6 | N7 | N8 | Assignments | Notes | Pass | Grade |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: | ---: |
+| 🐰 | 31/31 | 0/38 | 0/26 | 0/37 | 0/48 | 0/33 | 0/40 | 0/29 | 0/6 | 0/7 | 0/3 | 0/5 | 0/3 | 0/1 | 0/5 | 0/5 | 11% | 0% | ❎ | 0 |
 | 🐝 | 31/31 | 38/38 | 26/26 | 37/37 | 48/48 | 33/33 | 40/40 | 3/29 | 6/6 | 7/7 | 3/3 | 4/5 | 3/3 | 1/1 | 5/5 | 3/5 | 91% | 91% | ✅ | 5 |
-| 🐼 | 31/31 | 0/38 | 0/26 | 0/37 | 0/48 | 0/33 | 0/40 | 0/29 | 6/6 | 0/7 | 0/3 | 0/5 | 0/3 | 0/1 | 0/5 | 0/5 | 11% | 17% | ❎ | 0 |
+| 🐼 | 31/31 | 38/38 | 0/26 | 0/37 | 0/48 | 0/33 | 0/40 | 0/29 | 6/6 | 7/7 | 0/3 | 0/5 | 0/3 | 0/1 | 0/5 | 0/5 | 24% | 37% | ❎ | 0 |
 
-Last updated at 2026-05-13 11:09 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme.
+Last updated at 2026-06-02 10:26 - If some notes or exercise missing, please check first that you have uploaded with a correct naming scheme.
 
 [Detailed results](detailed.md)
