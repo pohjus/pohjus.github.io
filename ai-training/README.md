@@ -9,6 +9,7 @@ Koulutus jakautuu kahteen moduuliin:
 - **Moduuli 2: AI sovelluksissa, agentteina ja tuotannossa** (2 pv): tekoälyn integrointi osaksi sovelluksia, agenttien rakentaminen ja sovellusten vieminen tuotantoon.
 
 Koulutus on käytännönläheinen.
+Ohjelma on alustava ja saattaa muuttua jonkin verran osallistujien tarpeiden mukaan.
 
 ## Kohderyhmä
 
