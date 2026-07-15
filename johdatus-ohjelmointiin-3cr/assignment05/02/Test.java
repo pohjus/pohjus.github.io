@@ -42,7 +42,7 @@ void main() throws Exception {
     String[] lines = out1.split("\n");
     boolean found = false;
     for (var line : lines) {
-        if (line.matches(".*Hello \\w+.*")) {
+        if (line.trim().matches(".*Hello \\w+.*")) {
             found = true;
             break;
         }
