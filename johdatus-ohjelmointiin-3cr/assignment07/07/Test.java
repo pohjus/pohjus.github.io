@@ -30,7 +30,7 @@ void main() throws Exception {
         }
         """;
     String out2 = compileAndRun(testCode2);
-    if (out2.trim().equals("7\n9")) {
+    if (out2.trim().replace("\r\n", "\n").equals("7\n9")) {
         IO.println("  PASS: constructor stores width and height");
         passed++;
     } else {
