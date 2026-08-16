@@ -1,5 +1,8 @@
 # Tekoälyavusteisen ohjelmistokehityksen opintojaksokokonaisuus
 
+Opintojaksokokonaisuuden esitietovaatimuksena on ICT-alan
+ammattikorkeakoulututkinto (AMK).
+
 Opintojaksokokonaisuudessa opiskelija oppii hyödyntämään generatiivista
 tekoälyä ohjelmistokehityksen eri vaiheissa. Hän harjoittelee kehitystehtävien
 määrittelyä ja rajaamista, kontekstin hallintaa, tekoälyavusteista toteutusta,
