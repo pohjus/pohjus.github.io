@@ -1,8 +1,18 @@
 # Tekoälyavusteisen ohjelmistokehityksen opintojaksokokonaisuus
 
-Kokonaisuus etenee tekoälyä hyödyntävästä ohjelmistokehityksestä
-tekoälyominaisuuksien rakentamiseen ja edelleen agenttisten järjestelmien
-suunnitteluun. Opintojaksojen välinen työnjako on seuraava:
+Opintojaksokokonaisuudessa opiskelija oppii hyödyntämään generatiivista
+tekoälyä ohjelmistokehityksen eri vaiheissa. Hän harjoittelee kehitystehtävien
+määrittelyä ja rajaamista, kontekstin hallintaa, tekoälyavusteista toteutusta,
+testausta ja koodikatselmointia sekä tuotosten järjestelmällistä validointia.
+Samalla hän oppii tunnistamaan kielimallien rajoitukset ja ottamaan huomioon
+tietoturvan, tietosuojan, jäljitettävyyden ja ohjelmistokehittäjän vastuun.
+
+Kokonaisuuden edetessä opiskelija siirtyy tekoälyn käytöstä kehittäjän
+työvälineenä tekoälyominaisuuksien ja rajattujen agenttisten järjestelmien
+rakentamiseen. Hän oppii yhdistämään kielimallin sovelluksen tietoon ja
+työkaluihin, arvioimaan ratkaisujen laatua, kustannuksia ja luotettavuutta sekä
+suunnittelemaan agenttien autonomiaa, käyttöoikeuksia, tilaa ja jäljitettävyyttä.
+Alla oleva taulukko tiivistää opintojaksojen välisen työnjaon.
 
 | Näkökulma | AI-Assisted Software Engineering | Engineering AI-Enabled Applications | Agentic and Reliable AI Systems |
 | --- | --- | --- | --- |
