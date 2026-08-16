@@ -10,7 +10,7 @@ suunnitteluun. Opintojaksojen välinen työnjako on seuraava:
 | Työkalujen käyttö | Ohjelmointiagentti käyttää kehitystyökaluja kehittäjän valvonnassa | Sovellus kutsuu ennalta määriteltyjä toimintoja ja säilyttää työnkulun hallinnan | Agentti valitsee työkaluja, ylläpitää tilaa ja etenee rajatussa toimintasilmukassa |
 | Testaus ja arviointi | Lähdekoodin muutos validoidaan määrittelyillä, testeillä ja katselmoinnilla | Yksittäisen tekoälyominaisuuden vastauksia arvioidaan toistettavalla aineistolla | Sekä lopputulos että siihen johtanut monivaiheinen toimintaketju arvioidaan |
 | Turvallisuus ja vastuullisuus | Suojataan lähdekoodi ja data sekä tarkistetaan tuotosten oikeellisuus, alkuperä ja käyttöehdot | Validoidaan syötteet ja vastaukset sekä hallitaan yhden ominaisuuden tietolähteet ja häiriötilanteet | Rajataan käyttöoikeudet ja autonomia sekä jäljitetään järjestelmän toimet ja hyväksynnät |
-| Tuotantovalmiuden rajaus | Hyväksyttävä ja versionhallittu ohjelmistomuutos | Yksittäisen tekoälyominaisuuden luotettava käyttö osana sovellusta | Koko agenttisen järjestelmän hallittu tuotantokäyttö |
+| Tuotantovalmiuden rajaus | Hyväksyttävä ja versionhallittu ohjelmistomuutos | Yksittäisen tekoälyominaisuuden luotettava käyttö osana sovellusta | Koko agenttisen järjestelmän tuotantovalmiuden arviointi ja valitut kontrollit |
 | Osaamisen osoittava tuotos | Tekoälyavusteisesti toteutettu ja validoitu ohjelmistomuutos | Sovellus, jossa on arvioitu tekoälyominaisuus | Havainnoitava ja rajattu agenttinen järjestelmä |
 
 ---
@@ -31,14 +31,14 @@ Opintojakson suoritettuaan opiskelija:
   valinnan ohjelmistokehitystehtävän perusteella
 - määrittelee tehtävän vaatimukset, rajaukset ja hyväksymiskriteerit sekä
   valitsee ja rajaa tekoälylle annettavan kontekstin
-- hyödyntää tekoälyä ohjelmiston suunnittelussa, toteutuksessa,
-  ymmärtämisessä, muuttamisessa, testauksessa, virheiden etsinnässä,
-  refaktoroinnissa ja koodikatselmoinnissa
+- hyödyntää tekoälyä ohjelmiston toteutuksessa, testauksessa ja
+  koodikatselmoinnissa sekä soveltaa samoja periaatteita olemassa olevan
+  ohjelmiston ymmärtämiseen ja muuttamiseen
 - arvioi ja validoi tekoälyn tuottamat ratkaisut määrittelyjen, testien,
   katselmoinnin ja versionhallinnan avulla
 - perustelee, mistä ohjelmistokehittäjä vastaa, ja soveltaa tietoturvaa,
-  tietosuojaa, tekijänoikeuksia, lisenssiehtoja, jäljitettävyyttä,
-  saavutettavuutta ja vinoumien tunnistamista koskevia käytäntöjä.
+  tietosuojaa, tekijänoikeuksia, lisenssiehtoja ja jäljitettävyyttä koskevia
+  käytäntöjä sekä tunnistaa saavutettavuuteen ja vinoumiin liittyviä riskejä.
 
 ### Sisältö
 
@@ -105,7 +105,8 @@ tekoälypalveluille annettavaa dataa, ohjelmointiagenttien käyttöoikeuksia ja
 komentojen suorittamista sekä generoitujen riippuvuuksien ja ulkoisten
 kirjastojen tarkistamista. Opiskelija tarkistaa generoidun koodin alkuperän,
 tekijänoikeudet ja lisenssiehdot, dokumentoi käytetyt lähteet ja muutokset sekä
-arvioi tuotoksia saavutettavuuden ja vinoumien kannalta. Lisäksi tarkastellaan
+tunnistaa tuotoksista saavutettavuuteen ja vinoumiin liittyviä riskejä. Lisäksi
+tarkastellaan
 **ihmisen vastuuta tekoälyn tuottamien muutosten hyväksymisessä** ja sitä,
 miten tekoälyn autonomiaa voidaan rajata ohjelmistokehitysprosessissa.
 
@@ -119,7 +120,7 @@ Keskeinen punainen lanka on:
 
 **integroi malli → hallitse kontekstia → yhdistä tietoon → käytä työkaluja → arvioi toimintaa → rakenna luotettavasti**
 
-Kurssi keskittyy tekoälyominaisuuksia sisältävien sovellusten suunnitteluun ja toteuttamiseen. Varsinaiset agenttiarkkitehtuurit, laajempi MCP:n hyödyntäminen, agenttien orkestrointi ja tuotantotason agenttijärjestelmät kuuluvat seuraavaan opintojaksoon.
+Kurssi keskittyy tekoälyominaisuuksia sisältävien sovellusten suunnitteluun ja toteuttamiseen. Luotettavuutta, tietoturvaa ja arviointia käsitellään yhden mallikutsun tai yksittäisen tekoälyominaisuuden tasolla. Varsinaiset agenttiarkkitehtuurit, laajempi MCP:n hyödyntäminen, agenttien orkestrointi ja agenttijärjestelmien tuotantovalmiuden arviointi kuuluvat seuraavaan opintojaksoon.
 
 ### Tavoite
 
@@ -141,8 +142,9 @@ Opintojakson suoritettuaan opiskelija:
 - analysoi generatiiviseen tekoälyyn perustuvan ominaisuuden
   ei-determinististä toimintaa sekä toteuttaa mekanismit sen testaamiseen,
   rajaamiseen ja valvontaan
-- validoi ratkaisun syötteet ja vastaukset sekä arvioi ominaisuuden
-  tietoturvaa, tietosuojaa, jäljitettävyyttä, saavutettavuutta ja vinoumia.
+- validoi ratkaisun syötteet ja vastaukset, soveltaa tietoturvaa, tietosuojaa
+  ja jäljitettävyyttä koskevia käytäntöjä sekä tunnistaa saavutettavuuteen ja
+  vinoumiin liittyviä riskejä.
 
 ### Sisältö
 
@@ -193,6 +195,10 @@ ohjelmointirajapintaan. Samalla opiskelija perustelee **kielimallin ja
 deterministisen ohjelmakoodin työnjaon** sekä sen, mitkä päätökset voidaan
 antaa mallille ja mitkä säilytetään sovelluslogiikan hallinnassa.
 
+Opiskelija toteuttaa sekä rajatun tiedonhakua hyödyntävän generointiratkaisun
+että rajatun työkalukutsuratkaisun. Opintojakson projektissa opiskelija
+syventää valintansa mukaan yhtä näistä kahdesta aiheesta.
+
 #### Tekoälysovellusten testaus ja arviointi
 
 Opiskelija arvioi systemaattisesti **yksittäisen tekoälyominaisuuden tuottamia
@@ -209,14 +215,17 @@ toistettavaan ja mitattavaan tekoälysovellusten arviointiin.
 
 Opiskelija suunnittelee **yksittäisille tekoälyominaisuuksille** luotettavuus-
 ja tietoturvakontrollit. Sisältö käsittelee syötteiden ja mallin tuottamien
-vastausten validointia, kehoteinjektiohyökkäyksiä (prompt injection),
-luottamuksellisen tiedon käsittelyä, käyttöoikeuksia, virheenkäsittelyä,
-aikakatkaisuja, uudelleenyrityksiä ja vaihtoehtoisia toimintatapoja
-tekoälypalvelun epäonnistuessa. Opiskelija seuraa syöteyksiköiden käyttöä,
-kustannuksia ja vasteaikaa sekä määrittelee lokituksen, lähteiden
-jäljitettävyyden ja muut tuotantoympäristön hallintamekanismit. Lisäksi
-opiskelija arvioi käyttäjälle näkyviä vastauksia saavutettavuuden ja vinoumien
-kannalta. Keskeisenä lähtökohtana on, että kielimallia käsitellään epävarmana
+vastausten validointia sekä käyttäjän syötteessä tai haetussa aineistossa
+olevia kehoteinjektiohyökkäyksiä (prompt injection), jotka voivat vaikuttaa
+yksittäiseen vastaukseen. Lisäksi käsitellään luottamuksellisen tiedon
+käsittelyä, käyttöoikeuksia sekä yhden mallikutsun tai tekoälyominaisuuden
+virheenkäsittelyä, aikakatkaisuja, uudelleenyrityksiä ja vaihtoehtoisia
+toimintatapoja tekoälypalvelun epäonnistuessa. Opiskelija seuraa
+syöteyksiköiden käyttöä, kustannuksia ja vasteaikaa yksittäisen ominaisuuden
+tasolla sekä määrittelee lokituksen, lähteiden jäljitettävyyden ja muut
+tuotantoympäristön hallintamekanismit. Lisäksi opiskelija tunnistaa käyttäjälle
+näkyvistä vastauksista saavutettavuuteen ja vinoumiin liittyviä riskejä.
+Keskeisenä lähtökohtana on, että kielimallia käsitellään epävarmana
 ohjelmistokomponenttina, jonka ympärille rakennetaan tarvittavat kontrollit ja
 laadunvarmistus.
 
@@ -224,15 +233,17 @@ laadunvarmistus.
 
 ## Agentic and Reliable AI Systems, 5 op
 
-Opintojakso jatkaa Engineering AI-Enabled Applications -opintojaksoa siirtämällä näkökulman yksittäisistä tekoälyominaisuuksista kohti agenttisia, monivaiheisia ja tuotantokäyttöön soveltuvia tekoälyjärjestelmiä. Painopiste on siinä, miten kielimalleja, työkaluja, tilaa, muistia ja ohjelmiston omaa logiikkaa yhdistetään hallituiksi kokonaisuuksiksi.
+Opintojakso jatkaa Engineering AI-Enabled Applications -opintojaksoa siirtämällä näkökulman yksittäisistä tekoälyominaisuuksista kohti agenttisia ja monivaiheisia tekoälyjärjestelmiä sekä niiden tuotantovalmiuden arviointia. Painopiste on siinä, miten kielimalleja, työkaluja, tilaa, muistia ja ohjelmiston omaa logiikkaa yhdistetään hallituiksi kokonaisuuksiksi.
 
 Keskeinen punainen lanka on:
 
-**suunnittele agentin rooli → yhdistä työkalut ja tila → hallitse autonomiaa → integroi järjestelmiin → havainnoi ja arvioi → vie kohti tuotantokäyttöä**
+**suunnittele agentin rooli → yhdistä työkalut ja tila → hallitse autonomiaa → integroi järjestelmiin → havainnoi ja arvioi → arvioi tuotantovalmius**
 
 Kurssi keskittyy erityisesti agenttisten järjestelmien arkkitehtuuriin,
 MCP-pohjaisiin integraatioihin, agenttien turvallisuuteen, havainnoitavuuteen,
-arviointiin ja tuotantokelpoisuuteen.
+arviointiin ja tuotantokelpoisuuteen. Edellisen opintojakson luotettavuus-,
+tietoturva- ja arviointikäytännöt laajennetaan yksittäisestä mallikutsusta tai
+tekoälyominaisuudesta koko monivaiheiseen toimintaketjuun.
 
 ### Tavoite
 
@@ -255,8 +266,9 @@ Opintojakson suoritettuaan opiskelija:
   hyväksyntäpisteet ja muut autonomiaa rajaavat kontrollit
 - toteuttaa järjestelmälle lokituksen ja jäljityksen sekä arvioi agentin
   toimintaa lopputuloksen ja toimintaketjun perusteella
-- mittaa järjestelmän laatua, kustannuksia ja suorituskykyä sekä validoi sen
-  tietoturvan, jäljitettävyyden ja luotettavuuden tuotantokäyttöä varten.
+- mittaa järjestelmän laatua, kustannuksia ja suorituskykyä sekä arvioi, mitä
+  sen tietoturvalta, jäljitettävyydeltä ja luotettavuudelta vaaditaan
+  tuotantokäytössä, ja toteuttaa arvioinnin perusteella valitut kontrollit.
 
 ### Sisältö
 
@@ -292,7 +304,9 @@ työkaluina, tehtävien välittämistä agentilta toiselle sekä
 moniagenttiratkaisuja. Opiskelija arvioi arkkitehtuurien hyötyjä, kustannuksia
 ja monimutkaisuutta sekä tunnistaa tilanteet, joissa yksi hyvin suunniteltu
 agentti tai deterministinen työnkulku on tarkoituksenmukaisempi kuin useiden
-agenttien muodostama järjestelmä.
+agenttien muodostama järjestelmä. Moniagenttiarkkitehtuureja käsitellään
+vertailun ja perustellun arkkitehtuurivalinnan tasolla, eikä niiden
+toteuttaminen ole pakollinen osa osaamisen näyttöä.
 
 #### MCP ja tekoälyjärjestelmien integraatiot
 
@@ -309,10 +323,12 @@ hallitulla ja uudelleenkäytettävällä tavalla.
 
 Opiskelija analysoi agenttisten tekoälyjärjestelmien tietoturva- ja
 hallintariskejä. Sisältö käsittelee työkalujen käyttöoikeuksia, vähimpien
-oikeuksien periaatetta (least privilege), ulkoisista lähteistä tulevan
-epäluotettavan sisällön käsittelyä, kehoteinjektiohyökkäyksiä, haitallisia tai
-virheellisiä työkalukutsuja sekä agentin toiminnan rajoittamista. Opiskelija
-toteuttaa **ihmisen osallistumiseen (human in the loop) ja hyväksyntäpisteisiin
+oikeuksien periaatetta (least privilege) sekä työkalun tai ulkoisen palvelun
+palauttaman epäluotettavan sisällön käsittelyä. Tarkasteltaviin uhkiin kuuluvat
+kehoteinjektiohyökkäykset, joissa epäluotettava sisältö ohjaa agentin seuraavaa
+päätöstä tai työkalukutsua, sekä haitalliset tai virheelliset työkalukutsut.
+Opiskelija rajaa agentin toimintaa ja toteuttaa **ihmisen osallistumiseen
+(human in the loop) ja hyväksyntäpisteisiin
 (approval gates) perustuvan ratkaisun**, jossa merkittävät tai
 peruuttamattomat toiminnot edellyttävät ihmisen hyväksyntää. Opiskelija
 perustelee agentin autonomian järjestelmän käyttötarkoituksen ja riskitason
@@ -331,13 +347,16 @@ valintaa, tehtävän etenemistä ja virheistä palautumista. Opiskelija rakentaa
 agentille testitapauksia ja arviointeja, joiden avulla järjestelmän muutoksia
 voidaan arvioida ja regressioita havaita.
 
-#### Agenttiset tekoälyjärjestelmät tuotannossa
+#### Agenttisten tekoälyjärjestelmien tuotantovalmius
 
-Opiskelija vie **koko agenttisen järjestelmän, ei enää yksittäistä ominaisuutta**,
-prototyypistä kohti hallittua tuotantokäyttöä. Sisältö käsittelee
-virheenkäsittelyä, aikakatkaisuja, uudelleenyrityksiä, varajärjestelyjä
-(fallback), mallien ja palveluiden vaihtamista, suorituskykyä, vasteaikaa,
-kustannusten hallintaa sekä tuotantojärjestelmän jatkuvaa seurantaa. Opiskelija
-liittää tekoälyjärjestelmän versioinnin ja arvioinnit kehitys- ja
-julkaisuprosessiin sekä hyödyntää tuotannosta saatavaa tietoa järjestelmän
-laadun parantamisessa.
+Opiskelija arvioi **koko agenttisen järjestelmän, ei enää yksittäisen
+ominaisuuden**, tuotantovalmiutta ja tunnistaa prototyypin puutteet. Sisältö
+käsittelee monivaiheisen toimintaketjun virheistä palautumista, osittain
+suoritettujen toimintojen käsittelyä, aikakatkaisuja, uudelleenyrityksiä,
+varajärjestelyjä (fallback), mallien ja palveluiden vaihtamista, suorituskykyä
+ja vasteaikaa sekä kustannusten kertymistä työkalukutsujen ja
+iteraatiokierrosten aikana. Opiskelija toteuttaa arvioinnin perusteella valitut
+kontrollit. Lisäksi tarkastellaan tekoälyjärjestelmän versioinnin ja arviointien
+liittämistä kehitys- ja julkaisuprosessiin, tuotantojärjestelmän jatkuvaa
+seurantaa sekä tuotannosta saatavan tiedon hyödyntämistä järjestelmän laadun
+parantamisessa.
