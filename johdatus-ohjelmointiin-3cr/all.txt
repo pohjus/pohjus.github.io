@@ -1,6 +1,6 @@
 ﻿══════════════════════════════════════════════════════════════════════
   🎓  GRADING REPORT
-  Generated: 2026-08-23 13:24
+  Generated: 2026-08-24 10:40
 ══════════════════════════════════════════════════════════════════════
 
 📊 SUMMARY
@@ -11,7 +11,7 @@
   🐼       282/282 (100%)           35/35 (100%)         ✅      5
   🐰       254/282 (90%)            25/35 (71%)          ✅      5
   🐨       253/282 (90%)            25/35 (71%)          ✅      5
-  🐙       0/282 (0%)               25/35 (71%)          ❌      0
+  🐙       86/282 (30%)             25/35 (71%)          ❌      0
 ──────────────────────────────────────────────────────────────────────
   🎓 4/5 students passed
 ──────────────────────────────────────────────────────────────────────
@@ -249,75 +249,6 @@
   Grade: 5  ·  Exercises: 90%  ·  Notes: 71%  ·  Pass: ✅
 
 ══════════════════════════════════════════════════════════════════════
-  🐙  STUDENT
-══════════════════════════════════════════════════════════════════════
-
-  ⚠️  Multiple ZIPs for assignment01: 3 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment02: 3 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment03: 3 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment04: 3 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment05: 3 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment06: 3 found, selected copy 1
-  ⚠️  ZIP not readable for assignment04 (file may not be downloaded from cloud storage): zip entry too large: assignment04/notes/video04.pdf
-  ⚠️  ZIP not readable for assignment03 (file may not be downloaded from cloud storage): zip entry too large: assignment03/notes/video01.pdf
-  ⚠️  ZIP not readable for assignment06 (file may not be downloaded from cloud storage): zip entry too large: assignment06/notes/video01.pdf
-  ⚠️  ZIP not readable for assignment05 (file may not be downloaded from cloud storage): zip entry too large: assignment05/notes/video01.pdf
-  ⚠️  ZIP not readable for assignment02 (file may not be downloaded from cloud storage): zip entry too large: assignment02/notes/video07.pdf
-  ⚠️  ZIP not readable for assignment01 (file may not be downloaded from cloud storage): zip entry too large: assignment01/notes/video06.pdf
-
-  ⚠️  Submissions not found: 01, 02, 03, 04, 05, 06, 07, 08
-
-  Notes (Assignment 01)
-
-    Video       06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
-
-  Notes (Assignment 02)
-
-    Video       07     06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      ✅      7/7
-
-  Notes (Assignment 03)
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  Notes (Assignment 04)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
-
-  Notes (Assignment 05)
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  Notes (Assignment 06)
-
-    Video       01     Total
-    ──────────  ─────  ───
-    Submitted   ✅      1/1
-
-  Notes (Assignment 07)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  Notes (Assignment 08)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  Grade: 0  ·  Exercises: 0%  ·  Notes: 71%  ·  Pass: ❌
-
-══════════════════════════════════════════════════════════════════════
   🐼  STUDENT
 ══════════════════════════════════════════════════════════════════════
 
@@ -530,198 +461,6 @@
     Submitted   ✅      ✅      ✅      ✅      ✅      5/5
 
   Grade: 5  ·  Exercises: 100%  ·  Notes: 100%  ·  Pass: ✅
-
-══════════════════════════════════════════════════════════════════════
-  🐨  STUDENT
-══════════════════════════════════════════════════════════════════════
-
-  📁  Assignment 01
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  1/1
-    02        ✅  1/1
-    03        ✅  2/2
-    04        ✅  3/3
-    05        ✅  5/5
-    06        ✅  4/4
-    07        ✅  4/4
-    08        ✅  3/3
-    09        ✅  4/4
-    10        ✅  4/4
-    ────────  ────────────
-    Total     31/31
-
-  Notes
-
-    Video       06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
-
-  📁  Assignment 02
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  4/4
-    02        ✅  4/4
-    03        ✅  5/5
-    04        ✅  2/2
-    05        ✅  4/4
-    06        ✅  2/2
-    07        ✅  5/5
-    08        ✅  7/7
-    09        ✅  5/5
-    ────────  ────────────
-    Total     38/38
-
-  Notes
-
-    Video       07     06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      ✅      7/7
-
-  📁  Assignment 03
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  3/3
-    02        ✅  2/2
-    03        ✅  2/2
-    04        ✅  3/3
-    05        ✅  3/3
-    06        ✅  4/4
-    07        ✅  3/3
-    08        ✅  6/6
-    ────────  ────────────
-    Total     26/26
-
-  Notes
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  📁  Assignment 04
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  2/2
-    02        ✅  2/2
-    03        ✅  2/2
-    04        ✅  4/4
-    05        ✅  4/4
-    06        ✅  7/7
-    07        ✅  5/5
-    08        ✅  6/6
-    09        ✅  5/5
-    ────────  ────────────
-    Total     37/37
-
-  Notes
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
-
-  📁  Assignment 05
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  5/5
-    02        ✅  5/5
-    03        ✅  5/5
-    04        ✅  4/4
-    05        ✅  7/7
-    06        ✅  6/6
-    07        ✅  6/6
-    08        ✅  3/3
-    09        ✅  3/3
-    10        ✅  4/4
-    ────────  ────────────
-    Total     48/48
-
-  Notes
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  📁  Assignment 06
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  2/2
-    02        ✅  2/2
-    03        ✅  4/4
-    04        ✅  4/4
-    05        ✅  3/3
-    06        ✅  6/6
-    07        ✅  3/3
-    08        ✅  3/3
-    09        ✅  3/3
-    10        ✅  3/3
-    ────────  ────────────
-    Total     33/33
-
-  Notes
-
-    Video       01     Total
-    ──────────  ─────  ───
-    Submitted   ✅      1/1
-
-  📁  Assignment 07
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  5/5
-    02        ✅  4/4
-    03        ✅  3/3
-    04        ✅  4/4
-    05        ✅  6/6
-    06        ✅  5/5
-    07        ✅  4/4
-    08        ✅  2/2
-    09        ✅  3/3
-    10        ✅  4/4
-    ────────  ────────────
-    Total     40/40
-
-  Notes
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  ⚠️  Submissions not found: 08
-
-  Notes (Assignment 08)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  Grade: 5  ·  Exercises: 90%  ·  Notes: 71%  ·  Pass: ✅
 
 ══════════════════════════════════════════════════════════════════════
   🐝  STUDENT
@@ -970,4 +709,366 @@
     Submitted   ❎      ❎      ✅      ✅      ✅      3/5
 
   Grade: 5  ·  Exercises: 91%  ·  Notes: 91%  ·  Pass: ✅
+
+══════════════════════════════════════════════════════════════════════
+  🐨  STUDENT
+══════════════════════════════════════════════════════════════════════
+
+  📁  Assignment 01
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  1/1
+    02        ✅  1/1
+    03        ✅  2/2
+    04        ✅  3/3
+    05        ✅  5/5
+    06        ✅  4/4
+    07        ✅  4/4
+    08        ✅  3/3
+    09        ✅  4/4
+    10        ✅  4/4
+    ────────  ────────────
+    Total     31/31
+
+  Notes
+
+    Video       06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
+
+  📁  Assignment 02
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  4/4
+    02        ✅  4/4
+    03        ✅  5/5
+    04        ✅  2/2
+    05        ✅  4/4
+    06        ✅  2/2
+    07        ✅  5/5
+    08        ✅  7/7
+    09        ✅  5/5
+    ────────  ────────────
+    Total     38/38
+
+  Notes
+
+    Video       07     06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      ✅      7/7
+
+  📁  Assignment 03
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  3/3
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  3/3
+    05        ✅  3/3
+    06        ✅  4/4
+    07        ✅  3/3
+    08        ✅  6/6
+    ────────  ────────────
+    Total     26/26
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 04
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  2/2
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  4/4
+    05        ✅  4/4
+    06        ✅  7/7
+    07        ✅  5/5
+    08        ✅  6/6
+    09        ✅  5/5
+    ────────  ────────────
+    Total     37/37
+
+  Notes
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
+
+  📁  Assignment 05
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  5/5
+    02        ✅  5/5
+    03        ✅  5/5
+    04        ✅  4/4
+    05        ✅  7/7
+    06        ✅  6/6
+    07        ✅  6/6
+    08        ✅  3/3
+    09        ✅  3/3
+    10        ✅  4/4
+    ────────  ────────────
+    Total     48/48
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 06
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  2/2
+    02        ✅  2/2
+    03        ✅  4/4
+    04        ✅  4/4
+    05        ✅  3/3
+    06        ✅  6/6
+    07        ✅  3/3
+    08        ✅  3/3
+    09        ✅  3/3
+    10        ✅  3/3
+    ────────  ────────────
+    Total     33/33
+
+  Notes
+
+    Video       01     Total
+    ──────────  ─────  ───
+    Submitted   ✅      1/1
+
+  📁  Assignment 07
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  5/5
+    02        ✅  4/4
+    03        ✅  3/3
+    04        ✅  4/4
+    05        ✅  6/6
+    06        ✅  5/5
+    07        ✅  4/4
+    08        ✅  2/2
+    09        ✅  3/3
+    10        ✅  4/4
+    ────────  ────────────
+    Total     40/40
+
+  Notes
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  ⚠️  Submissions not found: 08
+
+  Notes (Assignment 08)
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  Grade: 5  ·  Exercises: 90%  ·  Notes: 71%  ·  Pass: ✅
+
+══════════════════════════════════════════════════════════════════════
+  🐙  STUDENT
+══════════════════════════════════════════════════════════════════════
+
+  ⚠️  Multiple ZIPs for assignment01: 4 found, selected copy 2
+  ⚠️  Multiple ZIPs for assignment02: 3 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment03: 3 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment04: 3 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment05: 3 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment06: 3 found, selected copy 1
+  ⚠️  ZIP not readable for assignment02: No space left on device
+  ⚠️  ZIP not readable for assignment01: No space left on device
+
+  📁  Assignment 03
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ❎  2/3
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  3/3
+    05        ✅  3/3
+    06        ✅  4/4
+    07        ❎  1/3
+    08        ✅  6/6
+    ────────  ────────────
+    Total     23/26
+
+    ❎ 01 — 2/3 passed
+      FAIL: expected no output for 'matti', got: [OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/776]
+
+    ❎ 07 — 1/3 passed
+      FAIL: expected 5 lines, got 6
+      FAIL: expected integers 0-4, got: [OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/249, 0, 4, 3, 2, 4]
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 04
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ❎  0/2
+    02        ❎  0/2
+    03        ✅  2/2
+    04        ✅  4/4
+    05        ✅  4/4
+    06        ✅  7/7
+    07        ❎  1/5
+    08        —
+    09        —
+    ────────  ────────────
+    Total     18/37
+
+    ❎ 01 — 0/2 passed
+      FAIL: expected 12,32,3,12,99,32 on six lines, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/686
+      FAIL: expected 6 non-empty lines, got: 7
+
+    ❎ 02 — 0/2 passed
+      FAIL: expected 32,99,12, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/774
+      FAIL: expected 3 non-empty lines, got: 4
+
+    ❎ 07 — 1/5 passed
+      FAIL: expected 3, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1084
+      FAIL: expected 0, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1279
+      FAIL: expected 1, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1499
+      FAIL: expected 3, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1713
+
+  Notes
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
+
+  📁  Assignment 05
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ❎  4/5
+    02        ✅  5/5
+    03        ✅  5/5
+    04        ❎  2/4
+    05        ✅  7/7
+    06        ✅  6/6
+    07        ✅  6/6
+    08        ✅  3/3
+    09        ✅  3/3
+    10        ✅  4/4
+    ────────  ────────────
+    Total     45/48
+
+    ❎ 01 — 4/5 passed
+      FAIL: expected exactly one non-empty line, got 2
+
+    ❎ 04 — 2/4 passed
+      FAIL: expected exactly one line of output, got 2
+      FAIL: expected exactly '21.3.2026', got 'OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1636
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 06
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        —
+    02        —
+    03        —
+    04        —
+    05        —
+    06        —
+    07        —
+    08        —
+    09        —
+    10        —
+    ────────  ────────────
+    Total     0/33
+
+  Notes
+
+    Video       01     Total
+    ──────────  ─────  ───
+    Submitted   ✅      1/1
+
+  ⚠️  Submissions not found: 01, 02, 07, 08
+
+  Notes (Assignment 01)
+
+    Video       06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
+
+  Notes (Assignment 02)
+
+    Video       07     06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      ✅      7/7
+
+  Notes (Assignment 07)
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  Notes (Assignment 08)
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  Grade: 0  ·  Exercises: 30%  ·  Notes: 71%  ·  Pass: ❌
 
