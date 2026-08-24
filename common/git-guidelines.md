@@ -18,13 +18,13 @@ When the original repository (often referred to as the _"upstream"_ -repository)
 
 So basically when teacher adds new assignment to the original github repo, you can pull those to your forked repo.
 
-- Change the repository name to reflect your course and name, for example:
+- **If** the given repo has "lastname" and "firstname" in the name, then change the repository name to reflect your course and name, for example:
   - `https://github.com/pohjus/4A00HB30-300X-introduction-to-programming-lastname-firstname`
     - Notice `lastname-firstname`, not
       - `firstname-lastname` or
       - `Lastname-Firstname` or
       - `Firstname-Lastname`
-    - Notice to change the number `300X` to reflect your course.
+    - Notice to change the number `300X` to reflect your course if this is in the repo name
     - If you make a mistake, you can change this later on in repo settings.
 - Click _Create fork_
 
