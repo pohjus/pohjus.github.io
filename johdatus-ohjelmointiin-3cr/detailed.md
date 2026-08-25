@@ -1,4 +1,4 @@
-## 🐰 Student
+## 🐙 Student
 
 ### Assignment 01
 
@@ -12,7 +12,7 @@
 
 | 06 | 04 | 05 | 01 | 02 | 03 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ | ❎ | ❎ | ❎ | ❎ | ❎ | **0/6** |
+| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **6/6** |
 
 ### Assignment 02
 
@@ -26,7 +26,7 @@
 
 | 07 | 06 | 04 | 05 | 01 | 02 | 03 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **6/7** |
+| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **7/7** |
 
 ### Assignment 03
 
@@ -40,7 +40,7 @@
 
 | 01 | 02 | 03 | Total |
 | :---: | :---: | :---: | :---: |
-| ✅ | ❎ | ✅ | **2/3** |
+| ✅ | ✅ | ✅ | **3/3** |
 
 ### Assignment 04
 
@@ -48,20 +48,7 @@
 
 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (2/2) | ✅ (2/2) | ✅ (2/2) | ✅ (4/4) | ✅ (4/4) | ✅ (7/7) | ✅ (5/5) | ❎ 3/6 | ❎ 3/5 | **32/37** |
-
-**08** — 3/6 passed
-```
-FAIL: output was '=== numbers1.txt ===
-FAIL: expected both file headers and bars, got: === numbers1.txt ===
-FAIL: expected blank line between file sections, got: === numbers1.txt ===
-```
-
-**09** — 3/5 passed
-```
-FAIL: expected error message, got 'Exception in thread "main" java.lang.IllegalArgumentException
-FAIL: expected bars for 3, error for abc, no bars for 2, got: === numbers1.txt ===
-```
+| ✅ (2/2) | ✅ (2/2) | ✅ (2/2) | ✅ (4/4) | ✅ (4/4) | ✅ (7/7) | ✅ (5/5) | ✅ (6/6) | ✅ (5/5) | **37/37** |
 
 #### Notes
 
@@ -89,7 +76,7 @@ FAIL: expected bars for 3, error for abc, no bars for 2, got: === numbers1.txt =
 
 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (2/2) | ✅ (2/2) | ✅ (4/4) | ✅ (4/4) | ✅ (3/3) | ✅ (6/6) | ✅ (3/3) | ✅ (3/3) | ✅ (3/3) | ✅ (3/3) | **33/33** |
+| — | — | — | — | — | — | — | — | — | — | **0/33** |
 
 #### Notes
 
@@ -97,48 +84,19 @@ FAIL: expected bars for 3, error for abc, no bars for 2, got: === numbers1.txt =
 | :---: | :---: |
 | ✅ | **1/1** |
 
-### Assignment 07
+*Submissions not found: 07, 08*
 
-#### Java Exercises
-
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (5/5) | ✅ (4/4) | ✅ (3/3) | ✅ (4/4) | ✅ (6/6) | ❎ 4/5 | ❎ 3/4 | ✅ (2/2) | ✅ (3/3) | ❎ 3/4 | **37/40** |
-
-**06** — 4/5 passed
-```
-FAIL: expected try-catch in Main.java
-```
-
-**07** — 3/4 passed
-```
-FAIL: expected constructor Rectangle(int, int)
-```
-
-**10** — 3/4 passed
-```
-FAIL: expected repeated prompts for rectangle 1
-```
-
-#### Notes
+#### Notes (Assignment 07)
 
 | 04 | 05 | 01 | 02 | 03 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+| ❎ | ❎ | ❎ | ❎ | ❎ | **0/5** |
 
-### Assignment 08
-
-#### Java Exercises
-
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ (3/3) | ✅ (3/3) | ✅ (3/3) | — | — | — | — | — | — | — | — | — | **9/29** |
-
-#### Notes
+#### Notes (Assignment 08)
 
 | 04 | 05 | 01 | 02 | 03 | Total |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ | ❎ | ✅ | ✅ | ✅ | **3/5** |
+| ❎ | ❎ | ❎ | ❎ | ❎ | **0/5** |
 
 ## 🐼 Student
 
@@ -413,6 +371,148 @@ FAIL: expected dog sold
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | ❎ | ❎ | ✅ | ✅ | ✅ | **3/5** |
 
+## 🐰 Student
+
+### Assignment 01
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (1/1) | ✅ (1/1) | ✅ (2/2) | ✅ (3/3) | ✅ (5/5) | ✅ (4/4) | ✅ (4/4) | ✅ (3/3) | ✅ (4/4) | ✅ (4/4) | **31/31** |
+
+#### Notes
+
+| 06 | 04 | 05 | 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ❎ | ❎ | ❎ | ❎ | ❎ | ❎ | **0/6** |
+
+### Assignment 02
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (4/4) | ✅ (4/4) | ✅ (5/5) | ✅ (2/2) | ✅ (4/4) | ✅ (2/2) | ✅ (5/5) | ✅ (7/7) | ✅ (5/5) | **38/38** |
+
+#### Notes
+
+| 07 | 06 | 04 | 05 | 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ❎ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **6/7** |
+
+### Assignment 03
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (3/3) | ✅ (2/2) | ✅ (2/2) | ✅ (3/3) | ✅ (3/3) | ✅ (4/4) | ✅ (3/3) | ✅ (6/6) | **26/26** |
+
+#### Notes
+
+| 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: |
+| ✅ | ❎ | ✅ | **2/3** |
+
+### Assignment 04
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (2/2) | ✅ (2/2) | ✅ (2/2) | ✅ (4/4) | ✅ (4/4) | ✅ (7/7) | ✅ (5/5) | ❎ 3/6 | ❎ 3/5 | **32/37** |
+
+**08** — 3/6 passed
+```
+FAIL: output was '=== numbers1.txt ===
+FAIL: expected both file headers and bars, got: === numbers1.txt ===
+FAIL: expected blank line between file sections, got: === numbers1.txt ===
+```
+
+**09** — 3/5 passed
+```
+FAIL: expected error message, got 'Exception in thread "main" java.lang.IllegalArgumentException
+FAIL: expected bars for 3, error for abc, no bars for 2, got: === numbers1.txt ===
+```
+
+#### Notes
+
+| 04 | 05 | 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+
+### Assignment 05
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (5/5) | ✅ (5/5) | ✅ (5/5) | ✅ (4/4) | ✅ (7/7) | ✅ (6/6) | ✅ (6/6) | ✅ (3/3) | ✅ (3/3) | ✅ (4/4) | **48/48** |
+
+#### Notes
+
+| 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: |
+| ✅ | ✅ | ✅ | **3/3** |
+
+### Assignment 06
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (2/2) | ✅ (2/2) | ✅ (4/4) | ✅ (4/4) | ✅ (3/3) | ✅ (6/6) | ✅ (3/3) | ✅ (3/3) | ✅ (3/3) | ✅ (3/3) | **33/33** |
+
+#### Notes
+
+| 01 | Total |
+| :---: | :---: |
+| ✅ | **1/1** |
+
+### Assignment 07
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (5/5) | ✅ (4/4) | ✅ (3/3) | ✅ (4/4) | ✅ (6/6) | ❎ 4/5 | ❎ 3/4 | ✅ (2/2) | ✅ (3/3) | ❎ 3/4 | **37/40** |
+
+**06** — 4/5 passed
+```
+FAIL: expected try-catch in Main.java
+```
+
+**07** — 3/4 passed
+```
+FAIL: expected constructor Rectangle(int, int)
+```
+
+**10** — 3/4 passed
+```
+FAIL: expected repeated prompts for rectangle 1
+```
+
+#### Notes
+
+| 04 | 05 | 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
+
+### Assignment 08
+
+#### Java Exercises
+
+| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | 11 | 12 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| ✅ (3/3) | ✅ (3/3) | ✅ (3/3) | — | — | — | — | — | — | — | — | — | **9/29** |
+
+#### Notes
+
+| 04 | 05 | 01 | 02 | 03 | Total |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| ❎ | ❎ | ✅ | ✅ | ✅ | **3/5** |
+
 ## 🐨 Student
 
 ### Assignment 01
@@ -514,132 +614,6 @@ FAIL: expected dog sold
 | ❎ | ❎ | ❎ | ❎ | ❎ | **0/5** |
 
 *Submissions not found: 08*
-
-#### Notes (Assignment 08)
-
-| 04 | 05 | 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ | ❎ | ❎ | ❎ | ❎ | **0/5** |
-
-## 🐙 Student
-
-### Assignment 03
-
-#### Java Exercises
-
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ 2/3 | ✅ (2/2) | ✅ (2/2) | ✅ (3/3) | ✅ (3/3) | ✅ (4/4) | ❎ 1/3 | ✅ (6/6) | **23/26** |
-
-**01** — 2/3 passed
-```
-FAIL: expected no output for 'matti', got: [OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/776]
-```
-
-**07** — 1/3 passed
-```
-FAIL: expected 5 lines, got 6
-FAIL: expected integers 0-4, got: [OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/249, 0, 4, 3, 2, 4]
-```
-
-#### Notes
-
-| 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: |
-| ✅ | ✅ | ✅ | **3/3** |
-
-### Assignment 04
-
-#### Java Exercises
-
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ 0/2 | ❎ 0/2 | ✅ (2/2) | ✅ (4/4) | ✅ (4/4) | ✅ (7/7) | ❎ 1/5 | — | — | **18/37** |
-
-**01** — 0/2 passed
-```
-FAIL: expected 12,32,3,12,99,32 on six lines, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/686
-FAIL: expected 6 non-empty lines, got: 7
-```
-
-**02** — 0/2 passed
-```
-FAIL: expected 32,99,12, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/774
-FAIL: expected 3 non-empty lines, got: 4
-```
-
-**07** — 1/5 passed
-```
-FAIL: expected 3, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1084
-FAIL: expected 0, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1279
-FAIL: expected 1, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1499
-FAIL: expected 3, got: OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1713
-```
-
-#### Notes
-
-| 04 | 05 | 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ | ✅ | ✅ | ✅ | ✅ | **5/5** |
-
-### Assignment 05
-
-#### Java Exercises
-
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ 4/5 | ✅ (5/5) | ✅ (5/5) | ❎ 2/4 | ✅ (7/7) | ✅ (6/6) | ✅ (6/6) | ✅ (3/3) | ✅ (3/3) | ✅ (4/4) | **45/48** |
-
-**01** — 4/5 passed
-```
-FAIL: expected exactly one non-empty line, got 2
-```
-
-**04** — 2/4 passed
-```
-FAIL: expected exactly one line of output, got 2
-FAIL: expected exactly '21.3.2026', got 'OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file: /tmp/hsperfdata_root/1636
-```
-
-#### Notes
-
-| 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: |
-| ✅ | ✅ | ✅ | **3/3** |
-
-### Assignment 06
-
-#### Java Exercises
-
-| 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 10 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| — | — | — | — | — | — | — | — | — | — | **0/33** |
-
-#### Notes
-
-| 01 | Total |
-| :---: | :---: |
-| ✅ | **1/1** |
-
-*Submissions not found: 01, 02, 07, 08*
-
-#### Notes (Assignment 01)
-
-| 06 | 04 | 05 | 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **6/6** |
-
-#### Notes (Assignment 02)
-
-| 07 | 06 | 04 | 05 | 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | **7/7** |
-
-#### Notes (Assignment 07)
-
-| 04 | 05 | 01 | 02 | 03 | Total |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| ❎ | ❎ | ❎ | ❎ | ❎ | **0/5** |
 
 #### Notes (Assignment 08)
 
