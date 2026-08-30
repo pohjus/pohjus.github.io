@@ -5,7 +5,6 @@ Each course is self-paced and delivered as a MOOC.
 There is no teacher-led instruction.
 All lectures, labs, and knowledge checks are completed inside the AWS Academy platform.
 
-
 ## Which AWS Academy courses give which credits
 
 | TAMK course | AWS Academy course(s) | Credits |
@@ -13,7 +12,8 @@ All lectures, labs, and knowledge checks are completed inside the AWS Academy pl
 | 4A00HK44-3002 Johdatus pilvipalveluihin ja arkkitehtuuriin | AWS Cloud Foundations + AWS Cloud Architecting | 5 op |
 | 4A00HK45-3002 Pilvipohjainen ohjelmistokehitys ja käyttöönottoprosessit | AWS Cloud Developing + AWS Cloud Operations | 5 op |
 
-Take the courses in this order: Foundations, Architecting, Developing, Operations. These can overlap.
+Take the courses in this order: Foundations, Architecting, Developing, Operations.
+These can overlap.
 
 ## Timetable (2026-2027)
 
