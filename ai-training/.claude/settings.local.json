@@ -3,7 +3,10 @@
     "allow": [
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git -C /Users/pohjus/Documents/course-material/pohjus.github.io/ai-training status)",
+      "Bash(git -C /Users/pohjus/Documents/course-material/pohjus.github.io/ai-training diff)",
+      "Bash(git *)"
     ]
   }
 }
