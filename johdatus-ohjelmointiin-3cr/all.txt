@@ -1,6 +1,6 @@
 ﻿══════════════════════════════════════════════════════════════════════
   🎓  GRADING REPORT
-  Generated: 2026-09-07 11:41
+  Generated: 2026-09-19 19:34
 ══════════════════════════════════════════════════════════════════════
 
 📊 SUMMARY
@@ -265,6 +265,198 @@
     Submitted   ❎      ❎      ✅      ✅      ✅      3/5
 
   Exercises: 91%  ·  Notes: 91%  ·  Pass: ✅
+
+══════════════════════════════════════════════════════════════════════
+  🐨  STUDENT
+══════════════════════════════════════════════════════════════════════
+
+  📁  Assignment 01
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  1/1
+    02        ✅  1/1
+    03        ✅  2/2
+    04        ✅  3/3
+    05        ✅  5/5
+    06        ✅  4/4
+    07        ✅  4/4
+    08        ✅  3/3
+    09        ✅  4/4
+    10        ✅  4/4
+    ────────  ────────────
+    Total     31/31
+
+  Notes
+
+    Video       06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
+
+  📁  Assignment 02
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  4/4
+    02        ✅  4/4
+    03        ✅  5/5
+    04        ✅  2/2
+    05        ✅  4/4
+    06        ✅  2/2
+    07        ✅  5/5
+    08        ✅  7/7
+    09        ✅  5/5
+    ────────  ────────────
+    Total     38/38
+
+  Notes
+
+    Video       07     06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      ✅      7/7
+
+  📁  Assignment 03
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  3/3
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  3/3
+    05        ✅  3/3
+    06        ✅  4/4
+    07        ✅  3/3
+    08        ✅  6/6
+    ────────  ────────────
+    Total     26/26
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 04
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  2/2
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  4/4
+    05        ✅  4/4
+    06        ✅  7/7
+    07        ✅  5/5
+    08        ✅  6/6
+    09        ✅  5/5
+    ────────  ────────────
+    Total     37/37
+
+  Notes
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
+
+  📁  Assignment 05
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  5/5
+    02        ✅  5/5
+    03        ✅  5/5
+    04        ✅  4/4
+    05        ✅  7/7
+    06        ✅  6/6
+    07        ✅  6/6
+    08        ✅  3/3
+    09        ✅  3/3
+    10        ✅  4/4
+    ────────  ────────────
+    Total     48/48
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 06
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  2/2
+    02        ✅  2/2
+    03        ✅  4/4
+    04        ✅  4/4
+    05        ✅  3/3
+    06        ✅  6/6
+    07        ✅  3/3
+    08        ✅  3/3
+    09        ✅  3/3
+    10        ✅  3/3
+    ────────  ────────────
+    Total     33/33
+
+  Notes
+
+    Video       01     Total
+    ──────────  ─────  ───
+    Submitted   ✅      1/1
+
+  📁  Assignment 07
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  5/5
+    02        ✅  4/4
+    03        ✅  3/3
+    04        ✅  4/4
+    05        ✅  6/6
+    06        ✅  5/5
+    07        ✅  4/4
+    08        ✅  2/2
+    09        ✅  3/3
+    10        ✅  4/4
+    ────────  ────────────
+    Total     40/40
+
+  Notes
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  ⚠️  Submissions not found: 08
+
+  Notes (Assignment 08)
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  Exercises: 90%  ·  Notes: 71%  ·  Pass: ✅
 
 ══════════════════════════════════════════════════════════════════════
   🐙  STUDENT
@@ -676,6 +868,184 @@
     Submitted   ❎      ❎      ✅      ✅      ✅      3/5
 
   Exercises: 90%  ·  Notes: 71%  ·  Pass: ✅
+
+══════════════════════════════════════════════════════════════════════
+  🦀  STUDENT
+══════════════════════════════════════════════════════════════════════
+
+  ⚠️  Multiple ZIPs for assignment01: 2 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment02: 2 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment03: 2 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment04: 2 found, selected copy 1
+  ⚠️  Multiple ZIPs for assignment05: 2 found, selected copy 1
+
+  📁  Assignment 01
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  1/1
+    02        ❎  0/1
+    03        ❎  0/2
+    04        ✅  3/3
+    05        ✅  5/5
+    06        ❎  0/4
+    07        ✅  4/4
+    08        ✅  3/3
+    09        —
+    10        ✅  4/4
+    ────────  ────────────
+    Total     20/31
+
+    ❎ 02 — 0/1 passed
+      FAIL: expected output to contain 'Hello World!', got: Enter your name: Hello, null!
+
+    ❎ 03 — 0/2 passed
+      FAIL: expected output to contain 'Hello, Alice!', got: Enter first number: Exception in thread "main" java.lang.NumberFormatException: For input string: "Alice"
+      FAIL: expected output to contain 'Hello, Bob!', got: Enter first number: Exception in thread "main" java.lang.NumberFormatException: For input string: "Bob"
+
+    ❎ 06 — 0/4 passed
+      FAIL: expected '7' as larger of 3 and 7, got: you're young
+      FAIL: expected '9' as larger of 9 and 2, got: you're young
+      FAIL: expected '200' as larger of 100 and 200, got: you're old
+      FAIL: expected '5' for equal inputs 5 and 5, got: you're young
+
+  Notes
+
+    Video       06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
+
+  📁  Assignment 02
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  4/4
+    02        ✅  4/4
+    03        ✅  5/5
+    04        ❎  0/2
+    05        ✅  4/4
+    06        ✅  2/2
+    07        ✅  5/5
+    08        ✅  7/7
+    09        ✅  5/5
+    ────────  ────────────
+    Total     36/38
+
+    ❎ 04 — 0/2 passed
+      FAIL: expected '2.5' for inputs 5 and 2, got: 1
+      FAIL: expected '3.5' for inputs 7 and 2, got: 1
+
+  Notes
+
+    Video       07     06     04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ✅      ✅      ✅      ✅      ✅      ✅      6/7
+
+  📁  Assignment 03
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  3/3
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  3/3
+    05        ✅  3/3
+    06        ✅  4/4
+    07        ✅  3/3
+    08        ✅  6/6
+    ────────  ────────────
+    Total     26/26
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  📁  Assignment 04
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  2/2
+    02        ✅  2/2
+    03        ✅  2/2
+    04        ✅  4/4
+    05        ✅  4/4
+    06        ✅  7/7
+    07        ✅  5/5
+    08        ✅  6/6
+    09        ❎  4/5
+    ────────  ────────────
+    Total     36/37
+
+    ❎ 09 — 4/5 passed
+      FAIL: expected no header for missing file, got: === missing_xyz.txt ===
+
+  Notes
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
+
+  📁  Assignment 05
+  ──────────────────────────────────────────────────
+
+  Java Exercises
+
+    Exercise  Result
+    ────────  ────────────
+    01        ✅  5/5
+    02        ✅  5/5
+    03        ✅  5/5
+    04        ✅  4/4
+    05        ✅  7/7
+    06        ✅  6/6
+    07        ✅  6/6
+    08        ✅  3/3
+    09        ✅  3/3
+    10        —
+    ────────  ────────────
+    Total     44/48
+
+  Notes
+
+    Video       01     02     03     Total
+    ──────────  ─────  ─────  ─────  ───
+    Submitted   ✅      ✅      ✅      3/3
+
+  ⚠️  Submissions not found: 06, 07, 08
+
+  Notes (Assignment 06)
+
+    Video       01     Total
+    ──────────  ─────  ───
+    Submitted   ❎      0/1
+
+  Notes (Assignment 07)
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  Notes (Assignment 08)
+
+    Video       04     05     01     02     03     Total
+    ──────────  ─────  ─────  ─────  ─────  ─────  ───
+    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
+
+  Exercises: 57%  ·  Notes: 66%  ·  Pass: ❌
 
 ══════════════════════════════════════════════════════════════════════
   🐼  STUDENT
@@ -1146,374 +1516,4 @@
     Submitted   ❎      ❎      ❎      ❎      ❎      0/5
 
   Exercises: 88%  ·  Notes: 71%  ·  Pass: ✅
-
-══════════════════════════════════════════════════════════════════════
-  🐨  STUDENT
-══════════════════════════════════════════════════════════════════════
-
-  📁  Assignment 01
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  1/1
-    02        ✅  1/1
-    03        ✅  2/2
-    04        ✅  3/3
-    05        ✅  5/5
-    06        ✅  4/4
-    07        ✅  4/4
-    08        ✅  3/3
-    09        ✅  4/4
-    10        ✅  4/4
-    ────────  ────────────
-    Total     31/31
-
-  Notes
-
-    Video       06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
-
-  📁  Assignment 02
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  4/4
-    02        ✅  4/4
-    03        ✅  5/5
-    04        ✅  2/2
-    05        ✅  4/4
-    06        ✅  2/2
-    07        ✅  5/5
-    08        ✅  7/7
-    09        ✅  5/5
-    ────────  ────────────
-    Total     38/38
-
-  Notes
-
-    Video       07     06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      ✅      7/7
-
-  📁  Assignment 03
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  3/3
-    02        ✅  2/2
-    03        ✅  2/2
-    04        ✅  3/3
-    05        ✅  3/3
-    06        ✅  4/4
-    07        ✅  3/3
-    08        ✅  6/6
-    ────────  ────────────
-    Total     26/26
-
-  Notes
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  📁  Assignment 04
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  2/2
-    02        ✅  2/2
-    03        ✅  2/2
-    04        ✅  4/4
-    05        ✅  4/4
-    06        ✅  7/7
-    07        ✅  5/5
-    08        ✅  6/6
-    09        ✅  5/5
-    ────────  ────────────
-    Total     37/37
-
-  Notes
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
-
-  📁  Assignment 05
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  5/5
-    02        ✅  5/5
-    03        ✅  5/5
-    04        ✅  4/4
-    05        ✅  7/7
-    06        ✅  6/6
-    07        ✅  6/6
-    08        ✅  3/3
-    09        ✅  3/3
-    10        ✅  4/4
-    ────────  ────────────
-    Total     48/48
-
-  Notes
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  📁  Assignment 06
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  2/2
-    02        ✅  2/2
-    03        ✅  4/4
-    04        ✅  4/4
-    05        ✅  3/3
-    06        ✅  6/6
-    07        ✅  3/3
-    08        ✅  3/3
-    09        ✅  3/3
-    10        ✅  3/3
-    ────────  ────────────
-    Total     33/33
-
-  Notes
-
-    Video       01     Total
-    ──────────  ─────  ───
-    Submitted   ✅      1/1
-
-  📁  Assignment 07
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  5/5
-    02        ✅  4/4
-    03        ✅  3/3
-    04        ✅  4/4
-    05        ✅  6/6
-    06        ✅  5/5
-    07        ✅  4/4
-    08        ✅  2/2
-    09        ✅  3/3
-    10        ✅  4/4
-    ────────  ────────────
-    Total     40/40
-
-  Notes
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  ⚠️  Submissions not found: 08
-
-  Notes (Assignment 08)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  Exercises: 90%  ·  Notes: 71%  ·  Pass: ✅
-
-══════════════════════════════════════════════════════════════════════
-  🦀  STUDENT
-══════════════════════════════════════════════════════════════════════
-
-  ⚠️  Multiple ZIPs for assignment01: 2 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment02: 2 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment03: 2 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment04: 2 found, selected copy 1
-  ⚠️  Multiple ZIPs for assignment05: 2 found, selected copy 1
-
-  📁  Assignment 01
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  1/1
-    02        ❎  0/1
-    03        ❎  0/2
-    04        ✅  3/3
-    05        ✅  5/5
-    06        ❎  0/4
-    07        ✅  4/4
-    08        ✅  3/3
-    09        —
-    10        ✅  4/4
-    ────────  ────────────
-    Total     20/31
-
-    ❎ 02 — 0/1 passed
-      FAIL: expected output to contain 'Hello World!', got: Enter your name: Hello, null!
-
-    ❎ 03 — 0/2 passed
-      FAIL: expected output to contain 'Hello, Alice!', got: Enter first number: Exception in thread "main" java.lang.NumberFormatException: For input string: "Alice"
-      FAIL: expected output to contain 'Hello, Bob!', got: Enter first number: Exception in thread "main" java.lang.NumberFormatException: For input string: "Bob"
-
-    ❎ 06 — 0/4 passed
-      FAIL: expected '7' as larger of 3 and 7, got: you're young
-      FAIL: expected '9' as larger of 9 and 2, got: you're young
-      FAIL: expected '200' as larger of 100 and 200, got: you're old
-      FAIL: expected '5' for equal inputs 5 and 5, got: you're young
-
-  Notes
-
-    Video       06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      ✅      6/6
-
-  📁  Assignment 02
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  4/4
-    02        ✅  4/4
-    03        ✅  5/5
-    04        ❎  0/2
-    05        ✅  4/4
-    06        ✅  2/2
-    07        ✅  5/5
-    08        ✅  7/7
-    09        ✅  5/5
-    ────────  ────────────
-    Total     36/38
-
-    ❎ 04 — 0/2 passed
-      FAIL: expected '2.5' for inputs 5 and 2, got: 1
-      FAIL: expected '3.5' for inputs 7 and 2, got: 1
-
-  Notes
-
-    Video       07     06     04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ✅      ✅      ✅      ✅      ✅      ✅      6/7
-
-  📁  Assignment 03
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  3/3
-    02        ✅  2/2
-    03        ✅  2/2
-    04        ✅  3/3
-    05        ✅  3/3
-    06        ✅  4/4
-    07        ✅  3/3
-    08        ✅  6/6
-    ────────  ────────────
-    Total     26/26
-
-  Notes
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  📁  Assignment 04
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  2/2
-    02        ✅  2/2
-    03        ✅  2/2
-    04        ✅  4/4
-    05        ✅  4/4
-    06        ✅  7/7
-    07        ✅  5/5
-    08        ✅  6/6
-    09        ❎  4/5
-    ────────  ────────────
-    Total     36/37
-
-    ❎ 09 — 4/5 passed
-      FAIL: expected no header for missing file, got: === missing_xyz.txt ===
-
-  Notes
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      ✅      ✅      5/5
-
-  📁  Assignment 05
-  ──────────────────────────────────────────────────
-
-  Java Exercises
-
-    Exercise  Result
-    ────────  ────────────
-    01        ✅  5/5
-    02        ✅  5/5
-    03        ✅  5/5
-    04        ✅  4/4
-    05        ✅  7/7
-    06        ✅  6/6
-    07        ✅  6/6
-    08        ✅  3/3
-    09        ✅  3/3
-    10        —
-    ────────  ────────────
-    Total     44/48
-
-  Notes
-
-    Video       01     02     03     Total
-    ──────────  ─────  ─────  ─────  ───
-    Submitted   ✅      ✅      ✅      3/3
-
-  ⚠️  Submissions not found: 06, 07, 08
-
-  Notes (Assignment 06)
-
-    Video       01     Total
-    ──────────  ─────  ───
-    Submitted   ❎      0/1
-
-  Notes (Assignment 07)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  Notes (Assignment 08)
-
-    Video       04     05     01     02     03     Total
-    ──────────  ─────  ─────  ─────  ─────  ─────  ───
-    Submitted   ❎      ❎      ❎      ❎      ❎      0/5
-
-  Exercises: 57%  ·  Notes: 66%  ·  Pass: ❌
 
