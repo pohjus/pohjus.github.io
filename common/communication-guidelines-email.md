@@ -3,17 +3,17 @@
 - ⚠️ **Preferred method:** Use **Teams** for communication if it's available.
 - ⚠️ **For security-sensitive matters:** Use **email** instead.
 
-## Best Practices for Asking Programming Questions on Slack
+## Best Practices for Asking Programming Questions on Teams
 
 > Helping you get faster, better answers by asking smart questions.
 
-To facilitate effective and efficient communication on Slack, especially regarding programming questions, follow these guidelines when seeking assistance.
+To facilitate effective and efficient communication on Teams, especially regarding programming questions, follow these guidelines when seeking assistance.
 
-### Good Example of Slack usage:
+### Good Example of Teams usage:
 
 ![](images/good-example-slack.png)
 
-### Bad Example of Slack usage:
+### Bad Example of Teams usage:
 
 ![](images/bad-example-slack.png)
 
@@ -84,7 +84,7 @@ Group: 25TIKOOT1
 
 ### 3️⃣ Format Your Question Properly
 
-- **Code Blocks:** Use Slack's code block (triple backticks ```) for sharing code or error messages to improve readability.
+- **Code Blocks:** Use Teams's code block (triple backticks ```) for sharing code or error messages to improve readability.
 - **Screenshots:** Include screenshots when necessary, but prefer text for logs and code snippets so they can be copied and searched.
 
 ### 4️⃣ Tag People and Use Channels Wisely
