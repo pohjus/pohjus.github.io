@@ -1,7 +1,6 @@
 # 💬 Communication
 
-- **Preferred method:** Use **Teams / slack / teams** for communication.
-- **For security-sensitive matters:** Use **email** instead.
+- **Preferred method:** Use **Teams** for communication.
 
 ## Best Practices for Asking Programming Questions on Email
 
@@ -100,47 +99,7 @@ Ryhmä: 25TIKOOT1
 
 ## Best Practices for informing absence from Lecture
 
-If possible, try to inform this via slack / teams. 
-
-If using e-mail, please use `[course identifier]` in your subject line! Lack of course name or code means that teacher does not know what course does student belong to.
-
-```
-Subject: [4A00HB30-2002] Absence from Lecture on 10.9.2025
-
-Hello,
-
-I wanted to let you know that I won't be able to attend the lecture on 
-Tuesday, 10 September, in the course 4A00HB30-2002 Java Fundamentals, because 
-I have a doctor's appointment at that time. Is this okay?
-
-Thank you for your understanding.
-
-Best regards,
-Max Power
-Student number: 123245
-Group: 25TIKOOT1
-```
-
-And in Finnish:
-
-```
-Subject: [4A00HB30-2002] Poissaolo luennolta 10.9.2025
-
-Hei,
-
-En valitettavasti pääse osallistumaan tiistaina 10. syyskuuta kurssin 
-4A00HB30-2002 Java Fundamentals luennolle, koska minulla on tuolloin lääkäriaika.
-Onkohan tämä ok?
-
-Ystävällisin terveisin,
-
-Max Power
-Opiskelijanumero: 123245
-Ryhmä: 25TIKOOT1
-```
-
-
-
+Use [form](https://forms.cloud.microsoft/pages/responsepage.aspx?id=r0Rp-nzM2EyRVMARMnmJELTaXhmZ3l1Al4wTyiKl20lUMFk4UjMxODRGWkRHSkQzWU0wUkZSTUlFSS4u&route=shorturl) for this.
 
 ## Best Practices for Asking Programming Questions on slack / teams
 
