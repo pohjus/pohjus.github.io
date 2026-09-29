@@ -1,6 +1,6 @@
 # Communication
 
-- ⚠️ **Preferred method:** Use **Slack** for communication if it's available.
+- ⚠️ **Preferred method:** Use **Teams** for communication if it's available.
 - ⚠️ **For security-sensitive matters:** Use **email** instead.
 
 ## Best Practices for Asking Programming Questions on Slack
