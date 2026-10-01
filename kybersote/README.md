@@ -8,7 +8,7 @@ Hankkeen ydin tiivistyy kolmeen tavoitteeseen:
 
 - **Asiakas- ja potilasturvallisuus sekä jatkuvuus:** [KyberSoTe](https://www.jamk.fi/fi/projekti/kybersote) vahvistaa sote-organisaatioiden kybervarautumista arjen toimintatavoissa.
 - **Osaaminen ja yhteistyö:** Tavoitteena on sekä osaamisen kehittäminen että soten ja tietohallinnon yhteistyön parantaminen
-- **Laaja käyttöönotto:** Projektin tuotokset on tehty yhteistyössä viiden hyvinvointialueen kanssa, ja tavoitteena on, että ne otetaan laajasti käyttöön eri hyvinvointialueilla.
+- **Laaja käyttöönotto:** Projektin tuotokset on tehty yhteistyössä viiden hyvinvointialueen kanssa, ja tavoitteena on, että ne otetaan laajasti käyttöön.
 
 ### Mitä KyberSoTe tekee käytännössä
 
@@ -44,7 +44,7 @@ KyberSoTen arvo näkyy siinä, että se muuttaa kyberturvan sanoista teoiksi:
 
 - **Tunnistetaan kehityskohteet** osaamisen ja toimintamallien tasolla (esimerkiksi osaamiskartoituksen avulla)
 - **Käynnistetään yhteinen ymmärrys** soten ja tietohallinnon välille (esimerkiksi havainnekuvien avulla)
-- **Otetaan valmiit työkalut käyttöön** omassa organisaatiossa, sillä tuotokset ovat maksuttomia
+- **Otetaan valmiit maksuttomat työkalut käyttöön** omassa organisaatiossa.
 
 ### Lopuksi
 
