@@ -1,16 +1,36 @@
 import java.util.concurrent.TimeUnit;
 
 void main() throws Exception {
+    int passed = 0;
+    int total = 0;
+
     String out = run(null);
 
-    if (out.contains("sum = 10")) IO.println("PASS: contains sum = 10");
-    else IO.println("FAIL: contains sum = 10");
+    total++;
+    if (out.contains("sum = 10")) {
+        IO.println("  PASS: contains sum = 10");
+        passed++;
+    } else {
+        IO.println("  FAIL: contains sum = 10");
+    }
 
-    if (out.contains("sum = 26")) IO.println("PASS: contains sum = 26");
-    else IO.println("FAIL: contains sum = 26");
+    total++;
+    if (out.contains("sum = 26")) {
+        IO.println("  PASS: contains sum = 26");
+        passed++;
+    } else {
+        IO.println("  FAIL: contains sum = 26");
+    }
 
-    if (out.contains("1 2 3 4")) IO.println("PASS: contains 1 2 3 4");
-    else IO.println("FAIL: contains 1 2 3 4");
+    total++;
+    if (out.contains("1 2 3 4")) {
+        IO.println("  PASS: contains 1 2 3 4");
+        passed++;
+    } else {
+        IO.println("  FAIL: contains 1 2 3 4");
+    }
+
+    IO.println("Exercise 10: " + passed + "/" + total + " passed");
 }
 
 String run(String input) throws Exception {
@@ -21,8 +41,8 @@ String run(String input) throws Exception {
         process.getOutputStream().write(input.getBytes());
     }
     process.getOutputStream().close();
-    var output = new String(process.getInputStream().readAllBytes());
     boolean exited = process.waitFor(10, TimeUnit.SECONDS);
     if (!exited) { process.destroyForcibly(); return ""; }
+    var output = new String(process.getInputStream().readAllBytes());
     return output;
 }
