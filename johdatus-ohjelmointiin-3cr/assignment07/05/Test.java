@@ -121,8 +121,12 @@ String compile() throws Exception {
     var pb = new ProcessBuilder("javac", "Rectangle.java", "Main.java");
     pb.redirectErrorStream(true);
     var process = pb.start();
-    var output = new String(process.getInputStream().readAllBytes());
-    process.waitFor(10, TimeUnit.SECONDS);
+    var output = "";
+    if (process.waitFor(10, TimeUnit.SECONDS)) {
+        output = new String(process.getInputStream().readAllBytes());
+    } else {
+        process.destroyForcibly().waitFor();
+    }
     if (process.exitValue() != 0) {
         return output;
     }
@@ -134,8 +138,12 @@ String compileAndRun(String code) throws Exception {
     var pb = new ProcessBuilder("javac", "Rectangle.java", "TestTemp.java");
     pb.redirectErrorStream(true);
     var process = pb.start();
-    var output = new String(process.getInputStream().readAllBytes());
-    process.waitFor(10, TimeUnit.SECONDS);
+    var output = "";
+    if (process.waitFor(10, TimeUnit.SECONDS)) {
+        output = new String(process.getInputStream().readAllBytes());
+    } else {
+        process.destroyForcibly().waitFor();
+    }
     if (process.exitValue() != 0) {
         return "COMPILE_ERROR: " + output;
     }
@@ -143,12 +151,12 @@ String compileAndRun(String code) throws Exception {
     pb2.redirectErrorStream(true);
     var process2 = pb2.start();
     process2.getOutputStream().close();
-    var result = new String(process2.getInputStream().readAllBytes());
     boolean exited = process2.waitFor(10, TimeUnit.SECONDS);
     if (!exited) {
         process2.destroyForcibly();
         return "";
     }
+    var result = new String(process2.getInputStream().readAllBytes());
     Files.deleteIfExists(Path.of("TestTemp.java"));
     Files.deleteIfExists(Path.of("TestTemp.class"));
     return result;

@@ -29,11 +29,11 @@ String run() throws Exception {
     pb.redirectErrorStream(true);
     var process = pb.start();
     process.getOutputStream().close();
-    var output = new String(process.getInputStream().readAllBytes());
     boolean exited = process.waitFor(10, TimeUnit.SECONDS);
     if (!exited) {
         process.destroyForcibly();
         return "";
     }
+    var output = new String(process.getInputStream().readAllBytes());
     return output;
 }

@@ -35,11 +35,11 @@ String run(String input) throws Exception {
         process.getOutputStream().write(input.getBytes());
     }
     process.getOutputStream().close();
-    var output = new String(process.getInputStream().readAllBytes());
     boolean exited = process.waitFor(10, TimeUnit.SECONDS);
     if (!exited) {
         process.destroyForcibly();
         return "";
     }
+    var output = new String(process.getInputStream().readAllBytes());
     return output;
 }

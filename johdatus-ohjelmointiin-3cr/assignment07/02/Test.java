@@ -56,8 +56,12 @@ String compile() throws Exception {
     var pb = new ProcessBuilder("javac", "Rectangle.java", "Main.java");
     pb.redirectErrorStream(true);
     var process = pb.start();
-    var output = new String(process.getInputStream().readAllBytes());
-    process.waitFor(10, TimeUnit.SECONDS);
+    var output = "";
+    if (process.waitFor(10, TimeUnit.SECONDS)) {
+        output = new String(process.getInputStream().readAllBytes());
+    } else {
+        process.destroyForcibly().waitFor();
+    }
     if (process.exitValue() != 0) {
         return output;
     }
@@ -73,11 +77,11 @@ String run(String input) throws Exception {
         process.getOutputStream().write(input.getBytes());
     }
     process.getOutputStream().close();
-    var output = new String(process.getInputStream().readAllBytes());
     boolean exited = process.waitFor(10, TimeUnit.SECONDS);
     if (!exited) {
         process.destroyForcibly();
         return "";
     }
+    var output = new String(process.getInputStream().readAllBytes());
     return output;
 }

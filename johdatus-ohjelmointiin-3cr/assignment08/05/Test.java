@@ -66,8 +66,12 @@ String run() throws Exception {
     pb.redirectErrorStream(true);
     var process = pb.start();
     process.getOutputStream().close();
-    var output = new String(process.getInputStream().readAllBytes());
-    process.waitFor(10, TimeUnit.SECONDS);
+    var output = "";
+    if (process.waitFor(10, TimeUnit.SECONDS)) {
+        output = new String(process.getInputStream().readAllBytes());
+    } else {
+        process.destroyForcibly().waitFor();
+    }
     return output;
 }
 
@@ -89,8 +93,12 @@ String compileAndRun(String code) throws Exception {
     pb2.redirectErrorStream(true);
     var process2 = pb2.start();
     process2.getOutputStream().close();
-    var output = new String(process2.getInputStream().readAllBytes());
-    process2.waitFor(10, TimeUnit.SECONDS);
+    var output = "";
+    if (process2.waitFor(10, TimeUnit.SECONDS)) {
+        output = new String(process2.getInputStream().readAllBytes());
+    } else {
+        process2.destroyForcibly().waitFor();
+    }
     java.nio.file.Files.deleteIfExists(java.nio.file.Path.of("TestTemp.java"));
     java.nio.file.Files.deleteIfExists(java.nio.file.Path.of("TestTemp.class"));
     return output;

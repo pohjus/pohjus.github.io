@@ -43,7 +43,11 @@ String run() throws Exception {
     pb.redirectErrorStream(true);
     var process = pb.start();
     process.getOutputStream().close();
-    var output = new String(process.getInputStream().readAllBytes());
-    process.waitFor(10, TimeUnit.SECONDS);
+    var output = "";
+    if (process.waitFor(10, TimeUnit.SECONDS)) {
+        output = new String(process.getInputStream().readAllBytes());
+    } else {
+        process.destroyForcibly().waitFor();
+    }
     return output;
 }
