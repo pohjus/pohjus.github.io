@@ -193,6 +193,13 @@ Example:
 Exercise 02: 1/1 passed
 ```
 
+### Checking Your Grade Before Submitting
+
+Before you submit, you can check all your assignment zips at once with `Grade.java`.
+It runs the same tests that are used for grading, counts your video notes and shows an estimated grade.
+Everything runs on your own computer; your files are not sent anywhere.
+The [Grade.java guide](GRADE.md) explains how to download and run it, how to read its output and what each warning means.
+
 ## Grading
 
 Each test equals 1 point.
