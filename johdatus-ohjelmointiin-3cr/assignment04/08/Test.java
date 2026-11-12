@@ -129,6 +129,7 @@ String run(String input, String[] args) throws Exception {
         process.destroyForcibly();
         return "";
     }
-    var output = new String(process.getInputStream().readAllBytes());
+    var output = new String(process.getInputStream().readAllBytes())
+        .replace("\r\n", "\n");
     return output;
 }
